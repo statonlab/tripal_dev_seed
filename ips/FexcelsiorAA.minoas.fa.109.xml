@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="74299798eb96492d860155c11c9b567e">MFIKLISLSSMDSDSVSTQNESGQDEVGKSIGVSTASIIANNTCSKPKVVQLISLVRPDFGGGDCTVGRGGGNFDVGGGEEIGGGDPHMLTGFGVSGNYASALYIVEGKELKIGEVVKKVDWL</sequence>
+        <xref id="Gene.142::FRAEX38873_v2_000001200.1::g.142::m.142" name="Gene.142::FRAEX38873_v2_000001200.1::g.142  ORF type:complete len:124 (+) FRAEX38873_v2_000001200.1:1-372(+)"/>
+        <matches/>
+    </protein>
+</protein-matches>

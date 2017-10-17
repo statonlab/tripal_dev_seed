@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="2f83c944f0ee270af5af86a3c0b31b7d">MGKAKKTPKFAVMKKMVTHKALKHHKQEVLNPIKKDLSKLKLPRNVPQVSSALYFKHNTALGPPYRVLVDTNFINFSIQNKLDLETGMMNCLYAKCTPCITDCVMAELEKLGQKYRVALRIAKDPRFERLPCTHKGTYADDCLVDRVTQHKCYIVATCDRDLKRRIRKIPGVPIMYITQHKYSIERLPEATIGGAPRT</sequence>
+        <xref id="Gene.75::FRAEX38873_v2_000000640.1::g.75::m.75" name="Gene.75::FRAEX38873_v2_000000640.1::g.75  ORF type:complete len:199 (+) FRAEX38873_v2_000000640.1:1-597(+)"/>
+        <matches>
+            <hmmer2-match evalue="2.0E-14" score="63.9">
+                <signature ac="SM00670" desc="Large family of predicted nucleotide-binding domains" name="PINc">
+                    <entry ac="IPR002716" desc="PIN domain" name="PIN_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="SM00670" desc="Large family of predicted nucleotide-binding domains" name="PINc"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="63.9" evalue="2.0E-14" hmm-start="1" hmm-end="146" hmm-length="0" start="65" end="164"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="4.5E-40" score="135.8">
+                <signature ac="G3DSA:3.40.50.1010">
+                    <entry ac="IPR029060" desc="PIN domain-like" name="PIN_domain-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="1a76A01"/>
+                        <model ac="1w8iA00"/>
+                        <model ac="1v8pF00"/>
+                        <model ac="2qipA00"/>
+                        <model ac="1taqA01"/>
+                        <model ac="1o4wA00"/>
+                        <model ac="1xo1A02"/>
+                        <model ac="1v96A00"/>
+                        <model ac="1cmwA01"/>
+                        <model ac="1tfrA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="189" env-start="63" score="135.4" evalue="6.1E-40" hmm-start="2" hmm-end="125" hmm-length="0" start="64" end="188"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.2E-42" score="143.9">
+                <signature ac="PF04900" desc="Fcf1" name="Fcf1">
+                    <entry ac="IPR006984" desc="rRNA-processing protein Fcf1/Utp23" name="Fcf1/Utp23" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0032040" name="small-subunit processome"/>
+                    </entry>
+                    <models>
+                        <model ac="PF04900" desc="Fcf1" name="Fcf1"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="187" env-start="89" score="143.0" evalue="2.4E-42" hmm-start="1" hmm-end="100" hmm-length="0" start="89" end="186"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.1E-34">
+                <signature ac="SSF88723" name="PIN domain-like">
+                    <entry ac="IPR029060" desc="PIN domain-like" name="PIN_domain-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="0052984" name="PIN domain-like"/>
+                        <model ac="0045876" name="PIN domain-like"/>
+                        <model ac="0049935" name="PIN domain-like"/>
+                        <model ac="0049265" name="PIN domain-like"/>
+                        <model ac="0049616" name="PIN domain-like"/>
+                        <model ac="0050096" name="PIN domain-like"/>
+                        <model ac="0041679" name="PIN domain-like"/>
+                        <model ac="0050100" name="PIN domain-like"/>
+                        <model ac="0035546" name="PIN domain-like"/>
+                        <model ac="0040885" name="PIN domain-like"/>
+                        <model ac="0034922" name="PIN domain-like"/>
+                        <model ac="0045055" name="PIN domain-like"/>
+                        <model ac="0050398" name="PIN domain-like"/>
+                        <model ac="0052662" name="PIN domain-like"/>
+                        <model ac="0051236" name="PIN domain-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="63" end="187"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

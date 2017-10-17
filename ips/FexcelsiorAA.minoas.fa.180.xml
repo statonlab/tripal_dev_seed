@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="07ba1095de5a82acaafb72a7372a7b13">MSNSELLQIEPLELQFPFELKKQISCSLQLTNKSDNSVAFKVKTTNPKKYCVRPNTGVVLPHSTCDVTVTMQAQKEAPPDLQCKDKFLLQSVVVSPGVTTENIKPDMFNKESGNRVEECKLRVSYVPPPQPPSPVREGSEEGSSPRASLSENGTVNQIPDYNSMSRAYVDSLENTPEVKALISKLSEEKNTAIQQNNKLMQELEFLRRQGNPSRGGIPFMYVVIVGLIGILLGYLLKRT</sequence>
+        <xref id="Gene.231::FRAEX38873_v2_000001970.1::g.231::m.231" name="Gene.231::FRAEX38873_v2_000001970.1::g.231  ORF type:complete len:240 (+) FRAEX38873_v2_000001970.1:1-720(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="182" end="210"/>
+                </locations>
+            </coils-match>
+            <hmmer2-match evalue="4.6E-90" score="308.4">
+                <signature ac="PIRSF019693" name="VAMP_assoc_prot">
+                    <entry ac="IPR016763" desc="Vesicle-associated membrane protein" name="Vesicle-associated_membrane" type="FAMILY">
+                        <pathway-xref db="Reactome" id="REACT_22258" name="Metabolism of lipids and lipoproteins"/>
+                    </entry>
+                    <models>
+                        <model ac="PIRSF019693" name="VAMP_assoc_prot"/>
+                    </models>
+                    <signature-library-release library="PIRSF" version="2.84"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="308.4" evalue="4.6E-90" hmm-start="1" hmm-end="321" hmm-length="0" start="1" end="237"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="2.7E-31" score="107.3">
+                <signature ac="PF00635" desc="MSP (Major sperm protein) domain" name="Motile_Sperm">
+                    <entry ac="IPR000535" desc="MSP domain" name="MSP_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005198" name="structural molecule activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00635" desc="MSP (Major sperm protein) domain" name="Motile_Sperm"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="114" env-start="6" score="106.4" evalue="5.1E-31" hmm-start="2" hmm-end="105" hmm-length="0" start="7" end="110"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.5E-41" score="138.5">
+                <signature ac="G3DSA:2.60.40.360">
+                    <entry ac="IPR008962" desc="PapD-like" name="PapD-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="1ze3C01"/>
+                        <model ac="1m1sA00"/>
+                        <model ac="1wicA01"/>
+                        <model ac="2qsvA01"/>
+                        <model ac="3me0A01"/>
+                        <model ac="2qsvA02"/>
+                        <model ac="1mspB00"/>
+                        <model ac="3gfuA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="127" env-start="1" score="137.9" evalue="9.8E-41" hmm-start="5" hmm-end="125" hmm-length="0" start="3" end="126"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50202" desc="Major sperm protein (MSP) domain profile." name="MSP">
+                    <entry ac="IPR000535" desc="MSP domain" name="MSP_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005198" name="structural molecule activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50202" desc="Major sperm protein (MSP) domain profile." name="MSP"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="30.296" start="6" end="126">
+                        <alignment>LLQIEP-LELQFPFELKKQISCSLQLTNKSDNSVAFKVKTTNPKKYCVRPNTGVVLPHSTCDVTVTMQAQKEAPPDLQcKDKFLLQSVVVSPGVTTEnIKPDMFNKESGNRVEECKLRVSYV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="6.28E-45">
+                <signature ac="SSF49354" name="PapD-like">
+                    <entry ac="IPR008962" desc="PapD-like" name="PapD-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="0047045" name="PapD-like"/>
+                        <model ac="0049045" name="PapD-like"/>
+                        <model ac="0050581" name="PapD-like"/>
+                        <model ac="0048701" name="PapD-like"/>
+                        <model ac="0053784" name="PapD-like"/>
+                        <model ac="0042924" name="PapD-like"/>
+                        <model ac="0048218" name="PapD-like"/>
+                        <model ac="0049221" name="PapD-like"/>
+                        <model ac="0048065" name="PapD-like"/>
+                        <model ac="0047932" name="PapD-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="2" end="141"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

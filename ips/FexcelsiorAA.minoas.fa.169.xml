@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="4d6485fb4995de537ff1bf6bc8ac7b51">IQEFVDARRTAGLGNAPHCSWSPSPPQELKGAPAEALLANAGFVSFVISPRHVEGRKLDRTVWSLSTFHAYVSYHVKCSEGFMHTRMRRRVESLIEALDRAKPDWKKVKKAVQTRSFKRLSINDGRATSNSRN</sequence>
+        <xref id="Gene.215::FRAEX38873_v2_000001860.1::g.215::m.215" name="Gene.215::FRAEX38873_v2_000001860.1::g.215  ORF type:5prime_partial len:134 (+) FRAEX38873_v2_000001860.1:1-402(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.9E-36" score="124.1">
+                <signature ac="G3DSA:3.30.1460.20">
+                    <models>
+                        <model ac="1k8kF00"/>
+                        <model ac="1k8kD01"/>
+                        <model ac="1k8kD02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="104" env-start="1" score="123.9" evalue="3.5E-36" hmm-start="50" hmm-end="151" hmm-length="0" start="1" end="104"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.3E-38" score="130.8">
+                <signature ac="PF04045" desc="Arp2/3 complex, 34 kD subunit p34-Arc" name="P34-Arc">
+                    <entry ac="IPR007188" desc="ARP2/3 complex, 34kDa subunit (p34-Arc)" name="P34-arc" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0030833" name="regulation of actin filament polymerization"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005856" name="cytoskeleton"/>
+                    </entry>
+                    <models>
+                        <model ac="PF04045" desc="Arp2/3 complex, 34 kD subunit p34-Arc" name="P34-Arc"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="107" env-start="1" score="130.6" evalue="5.1E-38" hmm-start="134" hmm-end="241" hmm-length="0" start="1" end="106"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.37E-37">
+                <signature ac="SSF69645" name="Arp2/3 complex subunits">
+                    <models>
+                        <model ac="0039969" name="Arp2/3 complex subunits"/>
+                        <model ac="0039966" name="Arp2/3 complex subunits"/>
+                        <model ac="0039967" name="Arp2/3 complex subunits"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="1" end="104"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e0d6b5e7fa6b9fed49e47da0aaed7802">MDDKINDVMLPGFRFHPTDEELVGFYLKRKLLKRTLPIELIQQVDIYKYDPWDLPMLASSGDKEWYFYCPRDRKYRNSTRPNRVTGSGFWKATGTDRPIYSSNDTKCIGLKKSLVFYRGRAAKGIKTDWMMHEFRLPSTPESGLPKKLSDKNIPPNDSWAICRIFKKTNSMAQRALTHSWVASLSETSPDSITQGVHYAQFSSENISSTTDTKSSIQLCSRNELPQGSSANFSNLNYPSYKPVINNLSISTTSNGDFLNNIMFLSPDEESGPMNKSALDVTSTIFNSSPALTSKTLDSIDFERPQHQFNSFPIISSLEMQESISMEDDEWGLRRIVAFPFNLPSTVPDEWKSNLPCESPPCPSEISTTYSTNNCYT</sequence>
+        <xref id="Gene.204::FRAEX38873_v2_000001740.1::g.204::m.204" name="Gene.204::FRAEX38873_v2_000001740.1::g.204  ORF type:complete len:377 (+) FRAEX38873_v2_000001740.1:1-1131(+)"/>
+        <matches>
+            <hmmer3-match evalue="3.3E-50" score="169.4">
+                <signature ac="PF02365" desc="No apical meristem (NAM) protein" name="NAM">
+                    <entry ac="IPR003441" desc="NAC domain" name="NAC-dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF02365" desc="No apical meristem (NAM) protein" name="NAM"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="137" env-start="9" score="168.8" evalue="5.1E-50" hmm-start="1" hmm-end="128" hmm-length="0" start="9" end="136"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51005" desc="NAC domain profile." name="NAC">
+                    <entry ac="IPR003441" desc="NAC domain" name="NAC-dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51005" desc="NAC domain profile." name="NAC"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="57.01" start="9" end="167">
+                        <alignment>MLPGFRFHPTDEELVGFYLKRKLLKR-TLPIELIQQVDIYKYDPWDLPMLASS-GDKEWYFYCPRDRKYRNSTRPNRVTGSGFWKATGTDRPIYSSNDTKCIGLKKSLVFYRGRAAKGIKTDWMMHEFRLPSTPESglpkklsdkNIPPNDSWAICRIFKK</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="2.09E-58">
+                <signature ac="SSF101941" name="NAC domain">
+                    <entry ac="IPR003441" desc="NAC domain" name="NAC-dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003677" name="DNA binding"/>
+                    </entry>
+                    <models>
+                        <model ac="0044514" name="NAC domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="8" end="167"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

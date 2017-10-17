@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="a9d414f4ab9507359e8681e4a1d7df67">MEKEMKILEINLISAQGLKTVSTNLRRMQAYAIAWVDPSAKLRTRVDRIGGENPTWNDKFLFRVSEDFISGETSAVSVEIFAVGYLRDFLIGTVRLLLSTCVCADETLTGTPAFTAVQIRRPSGSFHGVLNIAAAVYDSSDFAILKKTPAVSFRDMMGKEKREPKPRRSKISRDGSKRSEQSSGGESCDLSSLDLSDGADSTTSSSSAASTALKEWNFVREIAGKKKSSKSDCGGGLLCGLMMQRKIPFCPSDQNLQFWADAFDEN</sequence>
+        <xref id="Gene.74::FRAEX38873_v2_000000630.1::g.74::m.74" name="Gene.74::FRAEX38873_v2_000000630.1::g.74  ORF type:complete len:267 (+) FRAEX38873_v2_000000630.1:1-801(+)"/>
+        <matches>
+            <hmmer2-match evalue="1.2E-7" score="41.4">
+                <signature ac="SM00239" desc="Protein kinase C conserved region 2 (CalB)" name="C2">
+                    <entry ac="IPR000008" desc="C2 domain" name="C2_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00239" desc="Protein kinase C conserved region 2 (CalB)" name="C2"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="41.4" evalue="1.2E-7" hmm-start="1" hmm-end="92" hmm-length="0" start="7" end="110"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="8.8E-9" score="34.8">
+                <signature ac="G3DSA:2.60.40.150">
+                    <entry ac="IPR000008" desc="C2 domain" name="C2_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="3gpeA00"/>
+                        <model ac="2chdA00"/>
+                        <model ac="2bwqA00"/>
+                        <model ac="2q0zX03"/>
+                        <model ac="3fdwA00"/>
+                        <model ac="3n5aA00"/>
+                        <model ac="1yrkA00"/>
+                        <model ac="1djxA03"/>
+                        <model ac="1gmiA00"/>
+                        <model ac="2cm5A00"/>
+                        <model ac="3f04A00"/>
+                        <model ac="2nsqA00"/>
+                        <model ac="1e8yA02"/>
+                        <model ac="1rlwA00"/>
+                        <model ac="2wxkA03"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="209" env-start="4" score="34.6" evalue="1.0E-8" hmm-start="3" hmm-end="98" hmm-length="0" start="6" end="102"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.4E-7" score="31.1">
+                <signature ac="PF00168" desc="C2 domain" name="C2">
+                    <entry ac="IPR000008" desc="C2 domain" name="C2_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00168" desc="C2 domain" name="C2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="95" env-start="8" score="30.4" evalue="2.3E-7" hmm-start="1" hmm-end="84" hmm-length="0" start="8" end="94"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50004" desc="C2 domain profile." name="C2">
+                    <entry ac="IPR000008" desc="C2 domain" name="C2_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50004" desc="C2 domain profile." name="C2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.45" start="8" end="95">
+                        <alignment>---------------LEINLISAQGLKTVSTNlrRMQAYAIAWVDPSAkLR-------TRVDRiGGENPTWNDKFLFR-VSEDFISGetSAVSVEIFAV---GYlRDfLIGTVR</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.11E-15">
+                <signature ac="SSF49562" name="C2 domain (Calcium/lipid-binding domain, CaLB)">
+                    <entry ac="IPR000008" desc="C2 domain" name="C2_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="0049647" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0036566" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0044352" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0053890" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0036823" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0044929" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0035482" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0038166" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0052179" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0036281" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0048916" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0049239" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0050495" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0044591" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0045699" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0054742" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0049161" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0036844" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0036565" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0053207" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0050498" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0046160" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0046395" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0053329" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                        <model ac="0054798" name="C2 domain (Calcium/lipid-binding domain, CaLB)"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="7" end="143"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

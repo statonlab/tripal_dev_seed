@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="fee42bc704b3bd2e263fca789407fb38">MKIQCDVCGKEEAYIFCTADEAALCEACDCRVHRANKLASKHPRFSLLHPSSKDLPRCDICRERRALLFCQEDRALLCRECDIPIHKANEYTKNHNRFLLTGIKLSPFAASYQASTSFSNTVSNNTNKNLQTNSNVNTSESTSTTLCRVHNNGSDQSGSQEGSVSTSSISEYLFETLPGWHVEELLDPSSPPCVLCKVNLQCISL</sequence>
+        <xref id="Gene.44::FRAEX38873_v2_000000380.1::g.44::m.44" name="Gene.44::FRAEX38873_v2_000000380.1::g.44  ORF type:complete len:206 (+) FRAEX38873_v2_000000380.1:1-618(+)"/>
+        <matches>
+            <hmmer2-match evalue="2.4E-28" score="110.2">
+                <signature ac="SM00336" desc="B-Box-type zinc finger" name="BBOX">
+                    <entry ac="IPR000315" desc="Zinc finger, B-box" name="Znf_B-box" type="DOMAIN">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00336" desc="B-Box-type zinc finger" name="BBOX"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="42.9" evalue="4.3E-8" hmm-start="1" hmm-end="51" hmm-length="0" start="4" end="47"/>
+                    <hmmer2-location score="67.3" evalue="2.0E-15" hmm-start="1" hmm-end="51" hmm-length="0" start="53" end="100"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="3.9E-11" score="42.5">
+                <signature ac="PF00643" desc="B-box zinc finger" name="zf-B_box">
+                    <entry ac="IPR000315" desc="Zinc finger, B-box" name="Znf_B-box" type="DOMAIN">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00643" desc="B-box zinc finger" name="zf-B_box"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="100" env-start="53" score="32.0" evalue="7.6E-8" hmm-start="3" hmm-end="37" hmm-length="0" start="55" end="95"/>
+                    <hmmer3-location env-end="47" env-start="2" score="22.9" evalue="5.2E-5" hmm-start="5" hmm-end="37" hmm-length="0" start="4" end="42"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50119" desc="Zinc finger B-box type profile." name="ZF_BBOX">
+                    <entry ac="IPR000315" desc="Zinc finger, B-box" name="Znf_B-box" type="DOMAIN">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50119" desc="Zinc finger B-box type profile." name="ZF_BBOX"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.968" start="1" end="47">
+                        <alignment>-MKIQCDVCGKEEAYIFCTADEAALCEACDCR-VHranKLASKHPRFSL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50119" desc="Zinc finger B-box type profile." name="ZF_BBOX">
+                    <entry ac="IPR000315" desc="Zinc finger, B-box" name="Znf_B-box" type="DOMAIN">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50119" desc="Zinc finger B-box type profile." name="ZF_BBOX"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.153" start="53" end="100">
+                        <alignment>KDLPRCDICRERRALLFCQEDRALLCRECDIP-IHkanEYTKNHNRFLL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="6.04E-5">
+                <signature ac="SSF57845" name="B-box zinc-binding domain">
+                    <models>
+                        <model ac="0037745" name="B-box zinc-binding domain"/>
+                        <model ac="0053806" name="B-box zinc-binding domain"/>
+                        <model ac="0053788" name="B-box zinc-binding domain"/>
+                        <model ac="0053822" name="B-box zinc-binding domain"/>
+                        <model ac="0053840" name="B-box zinc-binding domain"/>
+                        <model ac="0053807" name="B-box zinc-binding domain"/>
+                        <model ac="0053819" name="B-box zinc-binding domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="50" end="92"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

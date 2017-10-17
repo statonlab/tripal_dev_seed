@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="0c69d5e4dd8b0457ce9ddb92694549d8">MSQPPVVLATASYDHTIRFWEAKSGRCYRTIQYPESQVNRLEITPDKRYLAAAGNPHIRLFDINSNSPQPVMSYDSHTNNVMAVGFQCDGNWMYSGSEDGTVKIWDLRAPGCQREYESRAAVNTVVLHPNQTELISGDQNGNIRVWDLTANSCSCELVPEVDTAVRSLTVMWDGSLVVAANNRGTCYVWRLLQGTQTMTNFEPLHKLQAHDGYILKCLLSPELCEPHRYLATASADHTVRIWNLDGFTLEKTLVGHQRWVWDCVFSVDGAFLITASSDSTARLWSMSNGEEIKVYRGHQKATVCCALHDGTEPSSC</sequence>
+        <xref id="Gene.155::FRAEX38873_v2_000001280.1::g.155::m.155" name="Gene.155::FRAEX38873_v2_000001280.1::g.155  ORF type:complete len:317 (+) FRAEX38873_v2_000001280.1:1-951(+)"/>
+        <matches>
+            <fingerprints-match evalue="9.190334E-9" graphscan="III">
+                <signature ac="PR00320" desc="G protein beta WD-40 repeat signature" name="GPROTEINBRPT">
+                    <entry ac="IPR020472" desc="G-protein beta WD-40 repeat" name="G-protein_beta_WD-40_rep" type="REPEAT"/>
+                    <models>
+                        <model ac="PR00320" desc="G protein beta WD-40 repeat signature" name="GPROTEINBRPT"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="1" pvalue="4.63E-6" score="41.78" start="93" end="107"/>
+                    <fingerprints-location motifNumber="3" pvalue="1.63E-4" score="31.12" start="272" end="286"/>
+                    <fingerprints-location motifNumber="2" pvalue="6.5E-6" score="40.68" start="230" end="244"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer2-match evalue="6.9E-50" score="181.7">
+                <signature ac="SM00320" desc="WD40 repeats" name="WD40">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00320" desc="WD40 repeats" name="WD40"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="17.9" evalue="0.71" hmm-start="1" hmm-end="46" hmm-length="0" start="24" end="62"/>
+                    <hmmer2-location score="47.5" evalue="1.8E-9" hmm-start="1" hmm-end="46" hmm-length="0" start="67" end="106"/>
+                    <hmmer2-location score="34.7" evalue="1.3E-5" hmm-start="1" hmm-end="46" hmm-length="0" start="200" end="243"/>
+                    <hmmer2-location score="30.0" evalue="3.3E-4" hmm-start="1" hmm-end="46" hmm-length="0" start="109" end="147"/>
+                    <hmmer2-location score="42.0" evalue="8.1E-8" hmm-start="1" hmm-end="46" hmm-length="0" start="246" end="285"/>
+                    <hmmer2-location score="9.7" evalue="15.0" hmm-start="1" hmm-end="46" hmm-length="0" start="150" end="190"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="1.4E-73" score="246.9">
+                <signature ac="G3DSA:2.130.10.10">
+                    <entry ac="IPR015943" desc="WD40/YVTN repeat-like-containing domain" name="WD40/YVTN_repeat-like_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="1pbyB00"/>
+                        <model ac="1sq9A00"/>
+                        <model ac="1yfqA00"/>
+                        <model ac="2bbkH00"/>
+                        <model ac="1xipA00"/>
+                        <model ac="1mdaH00"/>
+                        <model ac="1xksA00"/>
+                        <model ac="1p22A02"/>
+                        <model ac="1k8kC00"/>
+                        <model ac="1erjC00"/>
+                        <model ac="1vyhC01"/>
+                        <model ac="1gxrA00"/>
+                        <model ac="3b7fA00"/>
+                        <model ac="2pbiD00"/>
+                        <model ac="3mksB02"/>
+                        <model ac="1ri6A00"/>
+                        <model ac="1fwxA01"/>
+                        <model ac="1jmxB00"/>
+                        <model ac="1pguB01"/>
+                        <model ac="3pe7A00"/>
+                        <model ac="1olzA01"/>
+                        <model ac="1k32A02"/>
+                        <model ac="1l0qA01"/>
+                        <model ac="2uzxB01"/>
+                        <model ac="1nr0A02"/>
+                        <model ac="1pguB02"/>
+                        <model ac="1jofA00"/>
+                        <model ac="1r5mA00"/>
+                        <model ac="1nr0A01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="313" env-start="196" score="92.6" evalue="1.2E-26" hmm-start="81" hmm-end="192" hmm-length="0" start="211" end="308"/>
+                    <hmmer3-location env-end="222" env-start="2" score="163.2" evalue="4.1E-48" hmm-start="65" hmm-end="275" hmm-length="0" start="7" end="210"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.3E-48" score="160.2">
+                <signature ac="PF00400" desc="WD domain, G-beta repeat" name="WD40">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00400" desc="WD domain, G-beta repeat" name="WD40"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="147" env-start="111" score="18.2" evalue="0.0015" hmm-start="10" hmm-end="39" hmm-length="0" start="119" end="147"/>
+                    <hmmer3-location env-end="243" env-start="201" score="34.7" evalue="9.2E-9" hmm-start="2" hmm-end="39" hmm-length="0" start="202" end="243"/>
+                    <hmmer3-location env-end="21" env-start="1" score="15.6" evalue="0.01" hmm-start="23" hmm-end="39" hmm-length="0" start="5" end="21"/>
+                    <hmmer3-location env-end="106" env-start="68" score="34.8" evalue="8.4E-9" hmm-start="2" hmm-end="39" hmm-length="0" start="69" end="106"/>
+                    <hmmer3-location env-end="285" env-start="247" score="35.0" evalue="7.6E-9" hmm-start="4" hmm-end="39" hmm-length="0" start="250" end="285"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1">
+                    <entry ac="IPR019775" desc="WD40 repeat, conserved site" name="WD40_repeat_CS" type="CONSERVED_SITE"/>
+                    <models>
+                        <model ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="134" end="148">
+                        <alignment>LISGdqNgNIRVWDL</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1">
+                    <entry ac="IPR019775" desc="WD40 repeat, conserved site" name="WD40_repeat_CS" type="CONSERVED_SITE"/>
+                    <models>
+                        <model ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="8" end="22">
+                        <alignment>LATAsyDhTIRFWEA</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1">
+                    <entry ac="IPR019775" desc="WD40 repeat, conserved site" name="WD40_repeat_CS" type="CONSERVED_SITE"/>
+                    <models>
+                        <model ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="230" end="244">
+                        <alignment>LATAsaDhTVRIWNL</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1">
+                    <entry ac="IPR019775" desc="WD40 repeat, conserved site" name="WD40_repeat_CS" type="CONSERVED_SITE"/>
+                    <models>
+                        <model ac="PS00678" desc="Trp-Asp (WD) repeats signature." name="WD_REPEATS_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="93" end="107">
+                        <alignment>MYSGseDgTVKIWDL</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="15.02" start="74" end="108">
+                        <alignment>YDSHTNNVMAVGFQCDGNWMYSGSEDGTVKIWDLR-------</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="13.75" start="253" end="294">
+                        <alignment>LVGHQRWVWDCVFSVDGAFLITASSDSTARLWSMSNGEEIKV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.609" start="115" end="156">
+                        <alignment>EYESRAAVNTVVLHPNQTELISGDQNGNIRVWDLTANSCSCE</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50294" desc="Trp-Asp (WD) repeats circular profile." name="WD_REPEATS_REGION">
+                    <entry ac="IPR017986" desc="WD40-repeat-containing domain" name="WD40_repeat_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50294" desc="Trp-Asp (WD) repeats circular profile." name="WD_REPEATS_REGION"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="44.03" start="1" end="294">
+                        <alignment>------------MSQPPVVLATASYDHTIRFWEAKSGRCYRTIQYPESQVNRLEITPD-KRYLAAAGNPHIRLFDINSNSPQPVmsYDSHTNNVMAVGFQCDGNWMYSGSEDGTVKIWDLRAPGCQREYESRAAVNTVVLHPNQ-TELISGDQNGNIRVWDLTANSCSCElVPEVDTAVRSLTVMWDGSLVVAANNRGTCYVWRLLQGTQTMTnfeplhkLQAHDGYILKCLLSPElcepHRYLATASADHTVRIWNLDGFTLEKTLVGHQRWVWDCVFSVDGAFLITASSDSTARLWSMSNGEEIKV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.94" start="1" end="30">
+                        <alignment>------------MSQPPVVLATASYDHTIRFWEAKSGRCYRT</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2">
+                    <entry ac="IPR001680" desc="WD40 repeat" name="WD40_repeat" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50082" desc="Trp-Asp (WD) repeats profile." name="WD_REPEATS_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.508" start="207" end="252">
+                        <alignment>LQAHDGYILKCLLSPElcepHRYLATASADHTVRIWNLDGFTLEKT</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.49E-65">
+                <signature ac="SSF50998" name="Quinoprotein alcohol dehydrogenase-like">
+                    <entry ac="IPR011047" desc="Quinonprotein alcohol dehydrogenase-like superfamily" name="Quinonprotein_ADH-like_supfam" type="DOMAIN"/>
+                    <models>
+                        <model ac="0048022" name="Quinoprotein alcohol dehydrogenase-like"/>
+                        <model ac="0047121" name="Quinoprotein alcohol dehydrogenase-like"/>
+                        <model ac="0046933" name="Quinoprotein alcohol dehydrogenase-like"/>
+                        <model ac="0047775" name="Quinoprotein alcohol dehydrogenase-like"/>
+                        <model ac="0047890" name="Quinoprotein alcohol dehydrogenase-like"/>
+                        <model ac="0046808" name="Quinoprotein alcohol dehydrogenase-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="8" end="304"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="9a1102d19376baa447aa9ed4ddd8a42b">LIECSEWARIEQAQNTNNSEIEQHNHKSNRIHRKAEILEQRKGNFTTHKPQNKKRRETHVVFQEFSASPETAWMGFVKMNVANRTIMLVKAFNKSAHSVVPELDHVAVKTRQNPWPLNVETQSLNSITLRLKLRQH</sequence>
+        <xref id="Gene.95::FRAEX38873_v2_000000810.1::g.95::m.95" name="Gene.95::FRAEX38873_v2_000000810.1::g.95  ORF type:internal len:137 (-) FRAEX38873_v2_000000810.1:1-408(-)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="21" end="42"/>
+                </locations>
+            </coils-match>
+        </matches>
+    </protein>
+</protein-matches>

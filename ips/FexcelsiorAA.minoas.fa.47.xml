@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="519470f4b5e957dc68465a14c31b79ef">MAESVMNKVADNEGEKEQNVEENIESEGHLDTDMDKFALAELNHILVLSSLSVSSEECPNLEEKSVKNRKEKHKISNLQRRRPEINEFRSPERQISRVSTKIRDCRHCRRM</sequence>
+        <xref id="Gene.66::FRAEX38873_v2_000000550.1::g.66::m.66" name="Gene.66::FRAEX38873_v2_000000550.1::g.66  ORF type:complete len:112 (+) FRAEX38873_v2_000000550.1:1-336(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="61" end="82"/>
+                </locations>
+            </coils-match>
+        </matches>
+    </protein>
+</protein-matches>

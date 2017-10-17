@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="d6626b3d92ae436b6991b18425fe75f7">MDVKQQSMIQESQKPSTKKHDSSSDALPLPLYLANAVFFTLFFSVVYYLLLRWREKIRNSAPLHVLTLSEIGAIVAFVVSFIYLLGFFGISFVQSLIIPRASHDILDELEEIDQLMRKEDSRAAPCAAAPTPSDCQAASPKPQSKLDKIDAADQLPAIPHLSEVDEEIIKSVVEGKTPSYSLESKLSDTRRAASIRREALQRISGKSLAGLPLEGFDYDTILGQCCEMPVGYVQIPVGIAGPLLLDGREFSVPMATTEGCLVASTNRGCKAIYVSGGASSVVFRDAMTRAPVVRFGTAKRAADLKFFLEDPLNFEALSLVFNSSSRFGRLQSIKCAIAGKNLYIRFSCSTGDAMGMNMVSKGVQNVMDFLDKEFPDMDVIGISGNYCSDKKPAAVNWIEGRGKSVVCEAIIKEDVVKKVLKTDVESLVELNMLKNLTDPAQNIESSHCITMMEAVNNGKDLHVSVTMPSIEVGTVGGGTQLASQSACLNLLGVKGASKEAPGSNSRQLAAIVAGAVLAGELSLMSALAAGQLVKSHMKYNRSNKDVSKASS</sequence>
+        <xref id="Gene.173::FRAEX38873_v2_000001440.2::g.173::m.173" name="Gene.173::FRAEX38873_v2_000001440.2::g.173  ORF type:complete len:552 (+) FRAEX38873_v2_000001440.2:1-1656(+)"/>
+        <matches>
+            <fingerprints-match evalue="8.18551E-55" graphscan="IIII..">
+                <signature ac="PR00071" desc="Hydroxymethylglutaryl-coenzyme A reductase signature" name="HMGCOARDTASE">
+                    <entry ac="IPR002202" desc="Hydroxymethylglutaryl-CoA reductase, class I/II" name="HMG_CoA_Rdtase" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                    </entry>
+                    <models>
+                        <model ac="PR00071" desc="Hydroxymethylglutaryl-coenzyme A reductase signature" name="HMGCOARDTASE"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="2" pvalue="2.22E-16" score="91.87" start="252" end="272"/>
+                    <fingerprints-location motifNumber="4" pvalue="1.0E-16" score="88.38" start="383" end="408"/>
+                    <fingerprints-location motifNumber="3" pvalue="8.66E-14" score="82.89" start="343" end="361"/>
+                    <fingerprints-location motifNumber="1" pvalue="4.44E-16" score="76.61" start="225" end="246"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer3-match evalue="1.5E-55" score="185.9">
+                <signature ac="G3DSA:3.30.70.420">
+                    <entry ac="IPR009023" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding" name="HMG_CoA_Rdtase_NAD(P)-bd" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016616" name="oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                    </entry>
+                    <models>
+                        <model ac="1r31A01"/>
+                        <model ac="2r4fA03"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="402" env-start="286" score="185.0" evalue="2.9E-55" hmm-start="1" hmm-end="117" hmm-length="0" start="286" end="401"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="5.4E-27" score="93.3">
+                <signature ac="G3DSA:1.10.3270.10">
+                    <entry ac="IPR023282" desc="Hydroxymethylglutaryl-CoA reductase, N-terminal" name="HMG_CoA_Rdtase_N" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="1hw8A01"/>
+                        <model ac="1dqaD01"/>
+                        <model ac="2r4fD01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="235" env-start="160" score="92.2" evalue="1.1E-26" hmm-start="6" hmm-end="79" hmm-length="0" start="164" end="235"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.1E-140" score="466.9">
+                <signature ac="PF00368" desc="Hydroxymethylglutaryl-coenzyme A reductase" name="HMG-CoA_red">
+                    <entry ac="IPR002202" desc="Hydroxymethylglutaryl-CoA reductase, class I/II" name="HMG_CoA_Rdtase" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00368" desc="Hydroxymethylglutaryl-coenzyme A reductase" name="HMG-CoA_red"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="438" env-start="190" score="318.8" evalue="3.1E-95" hmm-start="2" hmm-end="248" hmm-length="0" start="191" end="437"/>
+                    <hmmer3-location env-end="541" env-start="437" score="144.6" evalue="2.7E-42" hmm-start="276" hmm-end="373" hmm-length="0" start="438" end="541"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="8.4E-74" score="246.8">
+                <signature ac="G3DSA:3.90.770.10">
+                    <entry ac="IPR023074" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, catalytic domain" name="HMG_CoA_Rdtase_cat" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                    </entry>
+                    <models>
+                        <model ac="2r4fA02"/>
+                        <model ac="1r31A02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="437" env-start="236" score="94.0" evalue="4.4E-27" hmm-start="1" hmm-end="83" hmm-length="0" start="236" end="282"/>
+                    <hmmer3-location env-end="437" env-start="236" score="94.0" evalue="4.4E-27" hmm-start="1" hmm-end="83" hmm-length="0" start="402" end="436"/>
+                    <hmmer3-location env-end="545" env-start="437" score="147.5" evalue="1.9E-43" hmm-start="113" hmm-end="219" hmm-length="0" start="438" end="543"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS01192" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 3." name="HMG_COA_REDUCTASE_3">
+                    <entry ac="IPR023076" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, conserved site" name="HMG_CoA_Rdtase_CS" type="CONSERVED_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                    </entry>
+                    <models>
+                        <model ac="PS01192" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 3." name="HMG_COA_REDUCTASE_3"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="526" end="539">
+                        <alignment>ALaAgqLvKSHMkY</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00066" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 1." name="HMG_COA_REDUCTASE_1">
+                    <entry ac="IPR023076" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, conserved site" name="HMG_CoA_Rdtase_CS" type="CONSERVED_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00066" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 1." name="HMG_COA_REDUCTASE_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="345" end="359">
+                        <alignment>RfSCsTGDaMGmNmV</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00318" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 2." name="HMG_COA_REDUCTASE_2">
+                    <entry ac="IPR023076" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, conserved site" name="HMG_CoA_Rdtase_CS" type="CONSERVED_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00318" desc="Hydroxymethylglutaryl-coenzyme A reductases signature 2." name="HMG_COA_REDUCTASE_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="472" end="479">
+                        <alignment>VGtVGGGT</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="PS50065" desc="Hydroxymethylglutaryl-coenzyme A reductases family profile." name="HMG_COA_REDUCTASE_4">
+                    <entry ac="IPR002202" desc="Hydroxymethylglutaryl-CoA reductase, class I/II" name="HMG_CoA_Rdtase" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004420" name="hydroxymethylglutaryl-CoA reductase (NADPH) activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50065" desc="Hydroxymethylglutaryl-coenzyme A reductases family profile." name="HMG_COA_REDUCTASE_4"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="121.966" start="165" end="541">
+                        <alignment>DEEIIKSVVEGKTPSYSLESKLSDTRRAASIRREALQRISGKSLAGLPLEGFDYDTILGQCCEMPVGYVQIPVGIAGPLLLDGREFSVPMATTEGCLVASTNRGCKAIYVSGGASSVVFRDAMTRAPVVRFGTAKRAADLKFFLEDPLNFEALSLVFNSSSRFGRLQSIKCAIAGKNLYIRFSCSTGDAMGMNMVSKGVQNVMDFLDKEFPDMDVIGISGNYCSDKKPAAVNWIEGRGKSVVCEAIIKEDVVKKVLKTDVESLVELNMLKNLT----------------------------DPAQNIESSHCITMMEAVNNGKDLHVSVTMPSIEVGTVGGGTQLASQSACLNLLGVKGASKEAPGSNSRQLAAIVAGAVLAGELSLMSALAAGQLVKSHMKYNR</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="2.75E-86">
+                <signature ac="SSF56542" name="Substrate-binding domain of HMG-CoA reductase">
+                    <entry ac="IPR009029" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, substrate-binding" name="HMG_CoA_Rdtase_sub-bd" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016616" name="oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                    </entry>
+                    <models>
+                        <model ac="0038756" name="Substrate-binding domain of HMG-CoA reductase"/>
+                        <model ac="0042689" name="Substrate-binding domain of HMG-CoA reductase"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="161" end="283"/>
+                    <superfamilyhmmer3-location start="400" end="530"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.7E-45">
+                <signature ac="SSF55035" name="NAD-binding domain of HMG-CoA reductase">
+                    <entry ac="IPR009023" desc="Hydroxymethylglutaryl-CoA reductase, class I/II, NAD/NADP-binding" name="HMG_CoA_Rdtase_NAD(P)-bd" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016616" name="oxidoreductase activity, acting on the CH-OH group of donors, NAD or NADP as acceptor"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0050662" name="coenzyme binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015936" name="coenzyme A metabolic process"/>
+                        <pathway-xref db="KEGG" id="00900+1.1.1.34" name="Terpenoid backbone biosynthesis"/>
+                        <pathway-xref db="UniPathway" id="UPA00058" name="Metabolic intermediate biosynthesis; (R)-mevalonate biosynthesis; (R)-mevalonate from acetyl-CoA: step 3/3"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7391" name="Isoprene biosynthesis II (engineered)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-922" name="Mevalonate pathway I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6174" name="Mevalonate pathway II (archaea)"/>
+                    </entry>
+                    <models>
+                        <model ac="0046381" name="NAD-binding domain of HMG-CoA reductase"/>
+                        <model ac="0042688" name="NAD-binding domain of HMG-CoA reductase"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="287" end="402"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

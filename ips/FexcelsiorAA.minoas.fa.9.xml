@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="8cc08622a4520f8df024b0e9d57e1e77">MTFEANFAPSVKGSGISGTLHAAKPLDACSALTNKIDSEKNDTRSPFVLIIRGGCSFEDKVRRAQAARFKAAIVYDSENGDLVAMAGNAAGIKIHAVFVSKASGEKLTQYVGAADVELWIISSFENSTWSIMAMSFISLLAMSAVLATCFFVRRHRIRRERPRAPCVREFHGMSSRLVKAMPSLTFTAVLEDNCTSQTCAICLEDYTVGEKLRILPCRHKFHATCVDAWLTSWRTFCPVCKRDARTSTGDPPASESTPLLSSTPASFPSSSILSSFRSSLASSPAIQIAPASFQSSSLSRRNSISSTPYNQPSLQSHHQSSHLSMSRSSVDLRNMSSQRSHAAYLVSPHSLGYPSLSPLNSRYMSPYIPSLGNASSSYIGTSSRQPNPLHYSESATSLSPFASAQSLPGC</sequence>
+        <xref id="Gene.12::FRAEX38873_v2_000000100.2::g.12::m.12" name="Gene.12::FRAEX38873_v2_000000100.2::g.12  ORF type:complete len:411 (+) FRAEX38873_v2_000000100.2:1-1233(+)"/>
+        <matches>
+            <hmmer2-match evalue="2.3E-9" score="47.1">
+                <signature ac="SM00184" desc="Ring finger" name="RING">
+                    <entry ac="IPR001841" desc="Zinc finger, RING-type" name="Znf_RING" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00184" desc="Ring finger" name="RING"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="47.1" evalue="2.3E-9" hmm-start="1" hmm-end="23" hmm-length="0" start="199" end="240"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="1.5E-13" score="50.1">
+                <signature ac="PF02225" desc="PA domain" name="PA">
+                    <entry ac="IPR003137" desc="Protease-associated domain, PA" name="Protease-assoc_domain" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF02225" desc="PA domain" name="PA"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="111" env-start="17" score="49.3" evalue="2.7E-13" hmm-start="26" hmm-end="101" hmm-length="0" start="37" end="111"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="8.2E-17" score="60.0">
+                <signature ac="G3DSA:3.30.40.10">
+                    <entry ac="IPR013083" desc="Zinc finger, RING/FYVE/PHD-type" name="Znf_RING/FYVE/PHD" type="DOMAIN"/>
+                    <models>
+                        <model ac="1jm7A00"/>
+                        <model ac="1chcA00"/>
+                        <model ac="1fp0A00"/>
+                        <model ac="1xwhA00"/>
+                        <model ac="1vyxA00"/>
+                        <model ac="1vd4A00"/>
+                        <model ac="1wfkA01"/>
+                        <model ac="1zbdB00"/>
+                        <model ac="1e4uA00"/>
+                        <model ac="1g25A00"/>
+                        <model ac="1fbvA02"/>
+                        <model ac="3phdD00"/>
+                        <model ac="1iymA00"/>
+                        <model ac="2puyB00"/>
+                        <model ac="1t1hA00"/>
+                        <model ac="1weqA00"/>
+                        <model ac="2idaA01"/>
+                        <model ac="1borA00"/>
+                        <model ac="2fuiA00"/>
+                        <model ac="1rmdA01"/>
+                        <model ac="3kqiA00"/>
+                        <model ac="3gv4A00"/>
+                        <model ac="1weeA00"/>
+                        <model ac="1wevA01"/>
+                        <model ac="1weoA00"/>
+                        <model ac="1weuA00"/>
+                        <model ac="1jm7B00"/>
+                        <model ac="1vfyA00"/>
+                        <model ac="1wenA00"/>
+                        <model ac="2jrjA00"/>
+                        <model ac="3dplR00"/>
+                        <model ac="2bayE00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="245" env-start="193" score="59.1" evalue="1.7E-16" hmm-start="5" hmm-end="52" hmm-length="0" start="196" end="243"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.2E-14" score="53.8">
+                <signature ac="G3DSA:3.50.30.30">
+                    <models>
+                        <model ac="3kasA02"/>
+                        <model ac="1y9zA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="119" env-start="3" score="53.0" evalue="2.2E-14" hmm-start="51" hmm-end="139" hmm-length="0" start="36" end="115"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.3E-14" score="51.9">
+                <signature ac="PF13639" desc="Ring finger domain" name="zf-RING_2">
+                    <entry ac="IPR001841" desc="Zinc finger, RING-type" name="Znf_RING" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF13639" desc="Ring finger domain" name="zf-RING_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="241" env-start="197" score="50.9" evalue="8.9E-14" hmm-start="2" hmm-end="44" hmm-length="0" start="198" end="241"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50089" desc="Zinc finger RING-type profile." name="ZF_RING_2">
+                    <entry ac="IPR001841" desc="Zinc finger, RING-type" name="Znf_RING" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50089" desc="Zinc finger RING-type profile." name="ZF_RING_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="12.475" start="199" end="241">
+                        <alignment>CAICLEDYTVGeKLRILPCRHKFHATCVDAW-LTSWRTFCPVCK</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.7E-6">
+                <signature ac="SSF52025" name="PA domain">
+                    <models>
+                        <model ac="0046309" name="PA domain"/>
+                        <model ac="0053257" name="PA domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="42" end="126"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.62E-19">
+                <signature ac="SSF57850" name="RING/U-box">
+                    <models>
+                        <model ac="0049212" name="RING/U-box"/>
+                        <model ac="0046745" name="RING/U-box"/>
+                        <model ac="0046140" name="RING/U-box"/>
+                        <model ac="0047625" name="RING/U-box"/>
+                        <model ac="0043836" name="RING/U-box"/>
+                        <model ac="0054689" name="RING/U-box"/>
+                        <model ac="0047475" name="RING/U-box"/>
+                        <model ac="0047624" name="RING/U-box"/>
+                        <model ac="0050087" name="RING/U-box"/>
+                        <model ac="0041252" name="RING/U-box"/>
+                        <model ac="0053820" name="RING/U-box"/>
+                        <model ac="0050318" name="RING/U-box"/>
+                        <model ac="0035646" name="RING/U-box"/>
+                        <model ac="0053608" name="RING/U-box"/>
+                        <model ac="0053934" name="RING/U-box"/>
+                        <model ac="0053909" name="RING/U-box"/>
+                        <model ac="0050527" name="RING/U-box"/>
+                        <model ac="0053763" name="RING/U-box"/>
+                        <model ac="0050469" name="RING/U-box"/>
+                        <model ac="0050433" name="RING/U-box"/>
+                        <model ac="0052268" name="RING/U-box"/>
+                        <model ac="0047962" name="RING/U-box"/>
+                        <model ac="0054129" name="RING/U-box"/>
+                        <model ac="0050592" name="RING/U-box"/>
+                        <model ac="0052291" name="RING/U-box"/>
+                        <model ac="0037895" name="RING/U-box"/>
+                        <model ac="0046458" name="RING/U-box"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="189" end="253"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

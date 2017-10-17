@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="a089bb2c387d8a1e4b05afc2d00a1ff4">MLGSVNKFFIASMLMWAVPLAILYGFNTICPGSTELSPYSMTLLSGFLAVISVNVVIAFYICMAMKEPSDKHEPDPKFIADAKASITQSKPNEADSSSNHAKRE</sequence>
+        <xref id="Gene.11::FRAEX38873_v2_000000090.1::g.11::m.11" name="Gene.11::FRAEX38873_v2_000000090.1::g.11  ORF type:complete len:105 (+) FRAEX38873_v2_000000090.1:1-315(+)"/>
+        <matches>
+            <hmmer3-match evalue="3.3E-13" score="49.2">
+                <signature ac="PF09446" desc="VMA21-like domain" name="VMA21">
+                    <entry ac="IPR019013" desc="Vacuolar ATPase assembly integral membrane protein VMA21-like domain" name="VMA21-like_domain" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF09446" desc="VMA21-like domain" name="VMA21"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="65" env-start="1" score="49.0" evalue="3.9E-13" hmm-start="4" hmm-end="66" hmm-length="0" start="4" end="65"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

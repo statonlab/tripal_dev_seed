@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="8959fded2554a0b85d83b3452f12e06f">MMTSSMLYYANMPLGIPRMLKVRASNTNDNVPIKKMGMSDEECEAAVVAGNIPETPPAPPKPAAPAGTPVVPSLSLSCRPRRNRRSPALRAAFQETSLSPANLVYPLFIHEGEEDTPIGAMPGCYRLGWRHGLVEEVSKARDVGVNSIVXHIT</sequence>
+        <xref id="Gene.106::FRAEX38873_v2_000000930.1::g.106::m.106" name="Gene.106::FRAEX38873_v2_000000930.1::g.106  ORF type:complete len:154 (+) FRAEX38873_v2_000000930.1:1-462(+)"/>
+        <matches>
+            <hmmer2-match evalue="6.2E-4" score="-253.6">
+                <signature ac="SM01004" desc="Delta-aminolevulinic acid dehydratase" name="ALAD">
+                    <entry ac="IPR001731" desc="Porphobilinogen synthase" name="Porphobilinogen_synth" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0033014" name="tetrapyrrole biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046872" name="metal ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004655" name="porphobilinogen synthase activity"/>
+                        <pathway-xref db="KEGG" id="00860+4.2.1.24" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="UniPathway" id="UPA00251" name="Porphyrin-containing compound metabolism; protoporphyrin-IX biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 1/4"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5188" name="Tetrapyrrole biosynthesis I (from glutamate)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5189" name="Tetrapyrrole biosynthesis II (from glycine)"/>
+                    </entry>
+                    <models>
+                        <model ac="SM01004" desc="Delta-aminolevulinic acid dehydratase" name="ALAD"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="-253.6" evalue="6.2E-4" hmm-start="1" hmm-end="325" hmm-length="0" start="75" end="153"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="3.1E-16" score="58.7">
+                <signature ac="G3DSA:3.20.20.70">
+                    <entry ac="IPR013785" desc="Aldolase-type TIM barrel" name="Aldolase_TIM" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1wa3D00"/>
+                        <model ac="1vrdB00"/>
+                        <model ac="1vhnA01"/>
+                        <model ac="2i1oA02"/>
+                        <model ac="2p0oA01"/>
+                        <model ac="1rd5A00"/>
+                        <model ac="3ovpB00"/>
+                        <model ac="3gvgA00"/>
+                        <model ac="3b4uA00"/>
+                        <model ac="1p1xB00"/>
+                        <model ac="3igsB00"/>
+                        <model ac="1tqjC00"/>
+                        <model ac="1me8A00"/>
+                        <model ac="1m5wA00"/>
+                        <model ac="3cu2A00"/>
+                        <model ac="1q6oB00"/>
+                        <model ac="1pv8A00"/>
+                        <model ac="2p10C01"/>
+                        <model ac="2vxnA00"/>
+                        <model ac="3ajxA00"/>
+                        <model ac="1vhcF00"/>
+                        <model ac="1vyrA00"/>
+                        <model ac="1l6wA00"/>
+                        <model ac="2nzlA00"/>
+                        <model ac="3cc1B01"/>
+                        <model ac="1p4cA00"/>
+                        <model ac="2qezE03"/>
+                        <model ac="3l21B00"/>
+                        <model ac="1gteB05"/>
+                        <model ac="1fcqA00"/>
+                        <model ac="1d3gA00"/>
+                        <model ac="2nwrA00"/>
+                        <model ac="2qr6A02"/>
+                        <model ac="2oczA00"/>
+                        <model ac="3elfA00"/>
+                        <model ac="1uasA01"/>
+                        <model ac="3ru6B00"/>
+                        <model ac="1n7kA00"/>
+                        <model ac="1o94A01"/>
+                        <model ac="1sflB00"/>
+                        <model ac="1ep3A00"/>
+                        <model ac="1ujpA00"/>
+                        <model ac="1tv8B00"/>
+                        <model ac="1piiA02"/>
+                        <model ac="3o1nA00"/>
+                        <model ac="2y88A00"/>
+                        <model ac="3ldvA00"/>
+                        <model ac="1vc4A00"/>
+                        <model ac="1w5qB00"/>
+                        <model ac="1nvmA01"/>
+                        <model ac="3ndoA00"/>
+                        <model ac="1jr1B00"/>
+                        <model ac="1ofdA02"/>
+                        <model ac="1xi3A00"/>
+                        <model ac="3e96A00"/>
+                        <model ac="3clmA00"/>
+                        <model ac="1piiA01"/>
+                        <model ac="1qwgA00"/>
+                        <model ac="3a21B01"/>
+                        <model ac="1ypfA00"/>
+                        <model ac="3mbdA00"/>
+                        <model ac="1gvfB00"/>
+                        <model ac="1vcfB00"/>
+                        <model ac="2hmcA00"/>
+                        <model ac="3ceuA00"/>
+                        <model ac="1of8A00"/>
+                        <model ac="3daqA00"/>
+                        <model ac="1r30A00"/>
+                        <model ac="2w79A00"/>
+                        <model ac="2rfgA00"/>
+                        <model ac="2zdrA01"/>
+                        <model ac="3hq1A01"/>
+                        <model ac="1w8sE00"/>
+                        <model ac="3chvA00"/>
+                        <model ac="2qf7A04"/>
+                        <model ac="1p0kA00"/>
+                        <model ac="3ctlA00"/>
+                        <model ac="1vcvA00"/>
+                        <model ac="3atyB00"/>
+                        <model ac="2iqtA00"/>
+                        <model ac="1wx0A00"/>
+                        <model ac="1jcnA00"/>
+                        <model ac="2b7nA02"/>
+                        <model ac="1jvnA02"/>
+                        <model ac="1nsjA00"/>
+                        <model ac="2tpsB00"/>
+                        <model ac="1ofdA03"/>
+                        <model ac="3nyzA00"/>
+                        <model ac="2fiqB01"/>
+                        <model ac="1x1oA02"/>
+                        <model ac="1w0mA00"/>
+                        <model ac="1b3oA00"/>
+                        <model ac="1thfD00"/>
+                        <model ac="1vqtA00"/>
+                        <model ac="3bv4A00"/>
+                        <model ac="1to3A00"/>
+                        <model ac="1x7fA01"/>
+                        <model ac="1w3iA00"/>
+                        <model ac="2w6rA00"/>
+                        <model ac="3a5fA00"/>
+                        <model ac="3ewwA00"/>
+                        <model ac="1rqbA01"/>
+                        <model ac="1vr6A02"/>
+                        <model ac="3cwnA00"/>
+                        <model ac="1zfjA00"/>
+                        <model ac="1xm3B00"/>
+                        <model ac="1wbhB00"/>
+                        <model ac="1ps9A01"/>
+                        <model ac="2r8wA00"/>
+                        <model ac="1i4nA00"/>
+                        <model ac="2e6fA01"/>
+                        <model ac="3lbmC00"/>
+                        <model ac="3rndA00"/>
+                        <model ac="3c6cA00"/>
+                        <model ac="3hpxA01"/>
+                        <model ac="1qopA00"/>
+                        <model ac="2yw3E00"/>
+                        <model ac="1yxyA00"/>
+                        <model ac="3sj3A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="152" env-start="68" score="58.3" evalue="4.2E-16" hmm-start="10" hmm-end="84" hmm-length="0" start="75" end="149"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="8.2E-16" score="57.6">
+                <signature ac="PF00490" desc="Delta-aminolevulinic acid dehydratase" name="ALAD">
+                    <entry ac="IPR001731" desc="Porphobilinogen synthase" name="Porphobilinogen_synth" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0033014" name="tetrapyrrole biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046872" name="metal ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004655" name="porphobilinogen synthase activity"/>
+                        <pathway-xref db="KEGG" id="00860+4.2.1.24" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="UniPathway" id="UPA00251" name="Porphyrin-containing compound metabolism; protoporphyrin-IX biosynthesis; coproporphyrinogen-III from 5-aminolevulinate: step 1/4"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5188" name="Tetrapyrrole biosynthesis I (from glutamate)"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5189" name="Tetrapyrrole biosynthesis II (from glycine)"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00490" desc="Delta-aminolevulinic acid dehydratase" name="ALAD"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="153" env-start="75" score="57.4" evalue="9.7E-16" hmm-start="3" hmm-end="76" hmm-length="0" start="77" end="150"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="5.27E-14">
+                <signature ac="SSF51569" name="Aldolase">
+                    <models>
+                        <model ac="0052334" name="Aldolase"/>
+                        <model ac="0049279" name="Aldolase"/>
+                        <model ac="0050734" name="Aldolase"/>
+                        <model ac="0041658" name="Aldolase"/>
+                        <model ac="0046338" name="Aldolase"/>
+                        <model ac="0046689" name="Aldolase"/>
+                        <model ac="0051011" name="Aldolase"/>
+                        <model ac="0052702" name="Aldolase"/>
+                        <model ac="0048496" name="Aldolase"/>
+                        <model ac="0050278" name="Aldolase"/>
+                        <model ac="0050181" name="Aldolase"/>
+                        <model ac="0046461" name="Aldolase"/>
+                        <model ac="0048312" name="Aldolase"/>
+                        <model ac="0036525" name="Aldolase"/>
+                        <model ac="0048586" name="Aldolase"/>
+                        <model ac="0049453" name="Aldolase"/>
+                        <model ac="0051114" name="Aldolase"/>
+                        <model ac="0045877" name="Aldolase"/>
+                        <model ac="0046606" name="Aldolase"/>
+                        <model ac="0049848" name="Aldolase"/>
+                        <model ac="0051699" name="Aldolase"/>
+                        <model ac="0049382" name="Aldolase"/>
+                        <model ac="0046975" name="Aldolase"/>
+                        <model ac="0047183" name="Aldolase"/>
+                        <model ac="0048245" name="Aldolase"/>
+                        <model ac="0049000" name="Aldolase"/>
+                        <model ac="0045714" name="Aldolase"/>
+                        <model ac="0051144" name="Aldolase"/>
+                        <model ac="0048453" name="Aldolase"/>
+                        <model ac="0050359" name="Aldolase"/>
+                        <model ac="0035351" name="Aldolase"/>
+                        <model ac="0049661" name="Aldolase"/>
+                        <model ac="0045763" name="Aldolase"/>
+                        <model ac="0046720" name="Aldolase"/>
+                        <model ac="0046288" name="Aldolase"/>
+                        <model ac="0047939" name="Aldolase"/>
+                        <model ac="0050143" name="Aldolase"/>
+                        <model ac="0051345" name="Aldolase"/>
+                        <model ac="0048294" name="Aldolase"/>
+                        <model ac="0050339" name="Aldolase"/>
+                        <model ac="0050945" name="Aldolase"/>
+                        <model ac="0046878" name="Aldolase"/>
+                        <model ac="0041152" name="Aldolase"/>
+                        <model ac="0051933" name="Aldolase"/>
+                        <model ac="0047070" name="Aldolase"/>
+                        <model ac="0046628" name="Aldolase"/>
+                        <model ac="0046665" name="Aldolase"/>
+                        <model ac="0050239" name="Aldolase"/>
+                        <model ac="0048611" name="Aldolase"/>
+                        <model ac="0041693" name="Aldolase"/>
+                        <model ac="0050246" name="Aldolase"/>
+                        <model ac="0043346" name="Aldolase"/>
+                        <model ac="0048940" name="Aldolase"/>
+                        <model ac="0039482" name="Aldolase"/>
+                        <model ac="0049247" name="Aldolase"/>
+                        <model ac="0046741" name="Aldolase"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="73" end="150"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

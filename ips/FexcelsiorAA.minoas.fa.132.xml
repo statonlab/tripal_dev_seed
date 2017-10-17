@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e3b8e7d50aa51321446c4a49a86f61c1">MHHNPATVEEQLILKAIREECPWESLPKRLQTTLSSKEEWHRRIIEHCLKKRLQWNTCFARKVCKEGEYYEDMMRYLRRNLALFPYHLAEYVCRVMRVSPFKYYCDMIFEVMKNEQPYDSIPNFSAADALRLTGIGRNEFIDIMNKCRSKKIMWKLNKSIARELLPTEPVDFAIEPWWEVYLVNFTLEEFKKLSEEEMATIDKICKEEANSFILFDPEIVKELFRRGLVYFNVPVYPDDHFKVSRLEGFVSNREQLYEDPIEELLYAVFVVSSENSTVAELATTLQADLSQLQAAASFACRLGWAVKIIDPASILKESILPGSPKSLLSDEDEGSFASMGSTNPSTAVDTAQQGDILWTENYSPPVDYARVALVVDANITSYLMMGSVSPGLKSHAVTLYEAGKLGNASIADLCKDLSTLEGTRFEGELQEFANHAFSLRCVLECLTSGGVVTDEEATLLSDVSLVNRYGGTGTKESMSNIEDSVDSRMTQEDYDSAELLTGSTRDEKLSAAVSEEINYAGDSISNLCVSNDEKSYSVDGLDAGKEMAKKQRKYRVDILRCESLAALPPATLDRLFLRDYDIITSMVPLPHRSVLPGPKGPIHFGPPSHSSMTPWMKLVLYSAVGCGPLSVVLMKGQCLRMLPAPLAGCEKALVCSWDGSTVGGLGGKFEGNLVKGSILLHCLNSLLKCSAVLVQPFSRYDLDDSGKLVTLDVPLPLKNSDGSIANIREKLGLCGEGTSKLDSLLSNISNRINLWSIGYISLLRLFKEQESENFSVDGEKYEWVPFSVQFGIPLFSPKLCKDICRRVVSSQLLQTELLTEHHDAMQDLRKRLHDVCAEYQTTGPTARLLYQKEQPQDSSRQLMTYASGRWNPLMDPSSPISGALSEHQRLKLANRQRCSTEVLSFDGNILRSYALAPVYEDATRSIENSTSVGTAKVESEDTESTEVILPGVNLLFDGSELRPFDIGACLQARQPVSLISEASTASAASAVN</sequence>
+        <xref id="Gene.170::FRAEX38873_v2_000001420.2::g.170::m.170" name="Gene.170::FRAEX38873_v2_000001420.2::g.170  ORF type:complete len:993 (+) FRAEX38873_v2_000001420.2:1-2979(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.3E-67" score="227.6">
+                <signature ac="PF14648" desc="FAM91 C-terminus" name="FAM91_C">
+                    <entry ac="IPR028097" desc="FAM91, C-terminal domain" name="FAM91_C_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF14648" desc="FAM91 C-terminus" name="FAM91_C"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="867" env-start="766" score="45.0" evalue="5.9E-12" hmm-start="342" hmm-end="411" hmm-length="0" start="778" end="847"/>
+                    <hmmer3-location env-end="527" env-start="367" score="66.1" evalue="2.3E-18" hmm-start="5" hmm-end="89" hmm-length="0" start="370" end="455"/>
+                    <hmmer3-location env-end="780" env-start="539" score="105.0" evalue="3.7E-30" hmm-start="97" hmm-end="296" hmm-length="0" start="551" end="772"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.4E-91" score="305.9">
+                <signature ac="PF14647" desc="FAM91 N-terminus" name="FAM91_N">
+                    <entry ac="IPR028091" desc="FAM91, N-terminal domain" name="FAM91_N_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF14647" desc="FAM91 N-terminus" name="FAM91_N"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="315" env-start="15" score="305.2" evalue="3.8E-91" hmm-start="2" hmm-end="292" hmm-length="0" start="16" end="307"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

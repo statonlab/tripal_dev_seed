@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="69ee3eb38d10f390ff7d42e479a47dd1">MESVFGLMGKDFAIVVADSSAVHSILVHKTNEDKIMLLDSHKLMGASGETGDRAQFTEYIQKNVALYQFRNGIPLTTAAAANFTRGELATALRKNPYMVNIIMAGYDKDIGPSLYFIDYIASLHKLDKASAFGYGSYFALSMMDRHYRNDMTVEEAIDLVDKVIMEIRSRLVVAPPNFVIKIVDKDGAREYAWRESIKDAPVPAV</sequence>
+        <xref id="Gene.177::FRAEX38873_v2_000001480.1::g.177::m.177" name="Gene.177::FRAEX38873_v2_000001480.1::g.177  ORF type:complete len:206 (+) FRAEX38873_v2_000001480.1:1-618(+)"/>
+        <matches>
+            <hmmer3-match evalue="7.0E-55" score="185.1">
+                <signature ac="G3DSA:3.60.20.10">
+                    <entry ac="IPR029055" desc="Nucleophile aminohydrolases, N-terminal" name="Ntn_hydrolases_N" type="DOMAIN"/>
+                    <models>
+                        <model ac="1rypD00"/>
+                        <model ac="1rypB00"/>
+                        <model ac="1ecfA01"/>
+                        <model ac="1xffA00"/>
+                        <model ac="1rypJ00"/>
+                        <model ac="1rypF00"/>
+                        <model ac="1ct9A01"/>
+                        <model ac="1yarA00"/>
+                        <model ac="1gk9B01"/>
+                        <model ac="1rypI00"/>
+                        <model ac="1rypA00"/>
+                        <model ac="2jayA00"/>
+                        <model ac="1rypL00"/>
+                        <model ac="1rypG00"/>
+                        <model ac="1yarH00"/>
+                        <model ac="1kehA01"/>
+                        <model ac="1rypC00"/>
+                        <model ac="1g3kA00"/>
+                        <model ac="1ofdA01"/>
+                        <model ac="1q15A01"/>
+                        <model ac="1ryp100"/>
+                        <model ac="1q5qH00"/>
+                        <model ac="1jgtB01"/>
+                        <model ac="3mi0F00"/>
+                        <model ac="1rypH00"/>
+                        <model ac="1te5A00"/>
+                        <model ac="1rypK00"/>
+                        <model ac="2imhA01"/>
+                        <model ac="1ryp200"/>
+                        <model ac="1or0B01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="196" env-start="1" score="185.0" evalue="7.9E-55" hmm-start="1" hmm-end="192" hmm-length="0" start="1" end="191"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.3E-41" score="139.4">
+                <signature ac="PF00227" desc="Proteasome subunit" name="Proteasome">
+                    <entry ac="IPR001353" desc="Proteasome, subunit alpha/beta" name="Proteasome_sua/b" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005839" name="proteasome core complex"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0051603" name="proteolysis involved in cellular protein catabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004298" name="threonine-type endopeptidase activity"/>
+                        <pathway-xref db="Reactome" id="REACT_578" name="Apoptosis"/>
+                        <pathway-xref db="Reactome" id="REACT_6185" name="HIV Infection"/>
+                        <pathway-xref db="Reactome" id="REACT_13635" name="Regulation of activated PAK-2p34 by proteasome mediated degradation"/>
+                        <pathway-xref db="Reactome" id="REACT_6850" name="Cdc20:Phospho-APC/C mediated degradation of Cyclin A"/>
+                        <pathway-xref db="Reactome" id="REACT_1538" name="Cell Cycle Checkpoints"/>
+                        <pathway-xref db="Reactome" id="REACT_11045" name="Signaling by Wnt"/>
+                        <pathway-xref db="Reactome" id="REACT_152" name="Cell Cycle, Mitotic"/>
+                        <pathway-xref db="Reactome" id="REACT_383" name="DNA Replication"/>
+                        <pathway-xref db="Reactome" id="REACT_13" name="Metabolism of amino acids and derivatives"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00227" desc="Proteasome subunit" name="Proteasome"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="183" env-start="2" score="139.1" evalue="8.9E-41" hmm-start="6" hmm-end="190" hmm-length="0" start="3" end="183"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51476" desc="Proteasome beta-type subunit profile." name="PROTEASOME_BETA_2">
+                    <entry ac="IPR023333" desc="Proteasome B-type subunit" name="Proteasome_suB-type" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004298" name="threonine-type endopeptidase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51476" desc="Proteasome beta-type subunit profile." name="PROTEASOME_BETA_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="40.105" start="1" end="183">
+                        <alignment>MESVFGLMGKDFAIVVADSSAVHSILVHKTNEDKIMLLDSHKLMGASGETGDRAQFTEYIQKNVALYQFRnGIPLTTAAAANFTRGELATALRKNPYMVNIIMAGYDKDIGPSLYfIDYIASLHKLDkASAFGYGSYFALSMMDRHYRNDMTVEEAIDLVDKVIMEIRSRLVVAPPNFVIKIV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="2.24E-48">
+                <signature ac="SSF56235" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)">
+                    <entry ac="IPR029055" desc="Nucleophile aminohydrolases, N-terminal" name="Ntn_hydrolases_N" type="DOMAIN"/>
+                    <models>
+                        <model ac="0053208" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047001" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039162" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043426" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043429" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042626" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0045430" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039157" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0045668" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049272" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047427" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042559" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047426" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036849" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039156" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0046214" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039167" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039168" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043435" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042627" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039169" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0040554" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0054762" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0053074" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0050948" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049273" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043424" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0040786" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0048627" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039164" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0046519" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0037916" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043422" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042377" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043431" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039159" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039335" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043428" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036097" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039334" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039872" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039539" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0052428" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047031" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0053199" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043430" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043434" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0035162" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043423" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039165" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0048784" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039158" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039163" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043433" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0054144" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039160" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036865" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049601" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043425" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="3" end="192"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="a9ad19bfe76a0995aa37c207b2db6448">MPRTSSKKGSTNSTAAYNSSTMDLFRAASGKAASKELERIDQLFYSYANNSSDMIEPEGIESLCSDLEVDHTNVRILMLAWKMQAKKQGYFTREEWRAGLKALKVDTISKIKKALPELEKEVRRPSYFVDFYSYAFRYCLTEEKQKSIDIESICILLELVLGSNFRPQADALIQYLKMQTDYKVINLDQWMGFYRFCNEISFPDFSNYDPDLAWPLVLDNFVDWMRVKED</sequence>
+        <xref id="Gene.103::FRAEX38873_v2_000000900.1::g.103::m.103" name="Gene.103::FRAEX38873_v2_000000900.1::g.103  ORF type:complete len:231 (+) FRAEX38873_v2_000000900.1:1-693(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.9E-28" score="98.2">
+                <signature ac="PF03556" desc="Cullin binding" name="Cullin_binding">
+                    <entry ac="IPR005176" desc="Potentiating neddylation domain" name="PONY_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF03556" desc="Cullin binding" name="Cullin_binding"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="226" env-start="108" score="97.5" evalue="4.8E-28" hmm-start="1" hmm-end="117" hmm-length="0" start="108" end="226"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51229" desc="DCUN1 domain profile." name="DCUN1">
+                    <entry ac="IPR005176" desc="Potentiating neddylation domain" name="PONY_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PS51229" desc="DCUN1 domain profile." name="DCUN1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="43.355" start="35" end="226">
+                        <alignment>KELERIDQLFYSYANNS-SDMIEPEGIESLCSDLEVDHTNVRILMLAWKMQAKKQGYFTREEWRAGLKALKVDTISKIKKALPELEKEVRR-PSYFVDFYSYAFRYCLTEEkQKSIDIESICILLELVLGSNFRPQADALIQYLKMQTdYKVINLDQWMGFYRFCNEISFpDFSNYDPDLAWPLVLDNFVDWMR</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.84E-5">
+                <signature ac="SSF47473" name="EF-hand">
+                    <models>
+                        <model ac="0048467" name="EF-hand"/>
+                        <model ac="0054797" name="EF-hand"/>
+                        <model ac="0048211" name="EF-hand"/>
+                        <model ac="0036831" name="EF-hand"/>
+                        <model ac="0035583" name="EF-hand"/>
+                        <model ac="0048820" name="EF-hand"/>
+                        <model ac="0040067" name="EF-hand"/>
+                        <model ac="0036425" name="EF-hand"/>
+                        <model ac="0041808" name="EF-hand"/>
+                        <model ac="0045726" name="EF-hand"/>
+                        <model ac="0035206" name="EF-hand"/>
+                        <model ac="0036978" name="EF-hand"/>
+                        <model ac="0048602" name="EF-hand"/>
+                        <model ac="0048083" name="EF-hand"/>
+                        <model ac="0040758" name="EF-hand"/>
+                        <model ac="0038096" name="EF-hand"/>
+                        <model ac="0041542" name="EF-hand"/>
+                        <model ac="0050653" name="EF-hand"/>
+                        <model ac="0043728" name="EF-hand"/>
+                        <model ac="0039372" name="EF-hand"/>
+                        <model ac="0048241" name="EF-hand"/>
+                        <model ac="0046181" name="EF-hand"/>
+                        <model ac="0044956" name="EF-hand"/>
+                        <model ac="0036594" name="EF-hand"/>
+                        <model ac="0044028" name="EF-hand"/>
+                        <model ac="0036977" name="EF-hand"/>
+                        <model ac="0043674" name="EF-hand"/>
+                        <model ac="0044062" name="EF-hand"/>
+                        <model ac="0045207" name="EF-hand"/>
+                        <model ac="0039521" name="EF-hand"/>
+                        <model ac="0043503" name="EF-hand"/>
+                        <model ac="0042817" name="EF-hand"/>
+                        <model ac="0037987" name="EF-hand"/>
+                        <model ac="0046215" name="EF-hand"/>
+                        <model ac="0040064" name="EF-hand"/>
+                        <model ac="0053194" name="EF-hand"/>
+                        <model ac="0049906" name="EF-hand"/>
+                        <model ac="0053255" name="EF-hand"/>
+                        <model ac="0043372" name="EF-hand"/>
+                        <model ac="0036461" name="EF-hand"/>
+                        <model ac="0042454" name="EF-hand"/>
+                        <model ac="0043104" name="EF-hand"/>
+                        <model ac="0047730" name="EF-hand"/>
+                        <model ac="0045680" name="EF-hand"/>
+                        <model ac="0035893" name="EF-hand"/>
+                        <model ac="0039467" name="EF-hand"/>
+                        <model ac="0038680" name="EF-hand"/>
+                        <model ac="0038125" name="EF-hand"/>
+                        <model ac="0035795" name="EF-hand"/>
+                        <model ac="0046706" name="EF-hand"/>
+                        <model ac="0046115" name="EF-hand"/>
+                        <model ac="0052892" name="EF-hand"/>
+                        <model ac="0042847" name="EF-hand"/>
+                        <model ac="0045999" name="EF-hand"/>
+                        <model ac="0051413" name="EF-hand"/>
+                        <model ac="0043035" name="EF-hand"/>
+                        <model ac="0037031" name="EF-hand"/>
+                        <model ac="0047768" name="EF-hand"/>
+                        <model ac="0046726" name="EF-hand"/>
+                        <model ac="0049489" name="EF-hand"/>
+                        <model ac="0047377" name="EF-hand"/>
+                        <model ac="0049421" name="EF-hand"/>
+                        <model ac="0049237" name="EF-hand"/>
+                        <model ac="0053359" name="EF-hand"/>
+                        <model ac="0053193" name="EF-hand"/>
+                        <model ac="0035873" name="EF-hand"/>
+                        <model ac="0050649" name="EF-hand"/>
+                        <model ac="0049328" name="EF-hand"/>
+                        <model ac="0044955" name="EF-hand"/>
+                        <model ac="0048244" name="EF-hand"/>
+                        <model ac="0039413" name="EF-hand"/>
+                        <model ac="0035639" name="EF-hand"/>
+                        <model ac="0049706" name="EF-hand"/>
+                        <model ac="0043217" name="EF-hand"/>
+                        <model ac="0047873" name="EF-hand"/>
+                        <model ac="0048981" name="EF-hand"/>
+                        <model ac="0041313" name="EF-hand"/>
+                        <model ac="0047413" name="EF-hand"/>
+                        <model ac="0041978" name="EF-hand"/>
+                        <model ac="0047687" name="EF-hand"/>
+                        <model ac="0036627" name="EF-hand"/>
+                        <model ac="0039003" name="EF-hand"/>
+                        <model ac="0039974" name="EF-hand"/>
+                        <model ac="0051184" name="EF-hand"/>
+                        <model ac="0045710" name="EF-hand"/>
+                        <model ac="0045443" name="EF-hand"/>
+                        <model ac="0038094" name="EF-hand"/>
+                        <model ac="0049189" name="EF-hand"/>
+                        <model ac="0038475" name="EF-hand"/>
+                        <model ac="0038410" name="EF-hand"/>
+                        <model ac="0046010" name="EF-hand"/>
+                        <model ac="0037066" name="EF-hand"/>
+                        <model ac="0047425" name="EF-hand"/>
+                        <model ac="0037732" name="EF-hand"/>
+                        <model ac="0040528" name="EF-hand"/>
+                        <model ac="0037597" name="EF-hand"/>
+                        <model ac="0049061" name="EF-hand"/>
+                        <model ac="0049327" name="EF-hand"/>
+                        <model ac="0045442" name="EF-hand"/>
+                        <model ac="0047571" name="EF-hand"/>
+                        <model ac="0037250" name="EF-hand"/>
+                        <model ac="0036390" name="EF-hand"/>
+                        <model ac="0053282" name="EF-hand"/>
+                        <model ac="0048828" name="EF-hand"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="35" end="103"/>
+                    <superfamilyhmmer3-location start="130" end="198"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

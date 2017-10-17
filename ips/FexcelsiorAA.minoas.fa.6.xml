@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="119d0e4da8116b5d038f4b3037104f27">MENLGLASSSKIVLGFSPNPRNTILSWKPFLGLPNLLKKTSKNGRHTKENSSFSAVSLLQGHKTTKTIALGKVRRDYFASTTTSKSQETSSVGVNPQISMPPPSSQVGSPLFWIGVGVGLSALFSWVATYLKKYAMQQAFKTLMGQMNTQNNQFSNAAFSPGSPFPFPQPAYPTSDANTTSTSVASQPVTVDVPATKVEDPPSAAVKETVEPEKGPKKFAFVDVSPEETFQKNAFENYKESIQTDAPKDPEPFQQVSENGSAANRGTGFSEGPSTKQTNPLLSVEALEKMMEDPTVQKMIYPYLPEELRNPTTFKWMLQNPQYRQQLQDMLNNMGGSPEWDTRMMDSLQSFDLSSPEIKQQFDQIGLTPEEVISKIMANPEVAMAFQNPRVQAAIMDCSQNPLSIAKYQNDKEVMDVFNKISELFPGATGS</sequence>
+        <xref id="Gene.9::FRAEX38873_v2_000000070.1::g.9::m.9" name="Gene.9::FRAEX38873_v2_000000070.1::g.9  ORF type:complete len:432 (+) FRAEX38873_v2_000000070.1:1-1296(+)"/>
+        <matches>
+            <hmmer2-match evalue="4.5E-13" score="59.4">
+                <signature ac="SM00727" desc="Heat shock chaperonin-binding motif." name="STI1">
+                    <entry ac="IPR006636" desc="Heat shock chaperonin-binding" name="STI1_HS-bd" type="DOMAIN"/>
+                    <models>
+                        <model ac="SM00727" desc="Heat shock chaperonin-binding motif." name="STI1"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="30.5" evalue="2.4E-4" hmm-start="1" hmm-end="46" hmm-length="0" start="369" end="408"/>
+                    <hmmer2-location score="29.0" evalue="6.7E-4" hmm-start="1" hmm-end="46" hmm-length="0" start="293" end="327"/>
+                </locations>
+            </hmmer2-match>
+        </matches>
+    </protein>
+</protein-matches>

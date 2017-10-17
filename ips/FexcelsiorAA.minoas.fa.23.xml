@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="8b734e479781f15517f4205911bb3466">MPALACCIDATVASHPGYAVAWDGIVPTPESSSASGVSLSTNSTITNAWSPAHSSILYRVDGWGAPYFTVNSSGNISVLPYGADTLPHQEIDLLKVVKKASDPKASGGLGLQFPLIVRFSDVLKKRLESLQSAFNFAVQSHAYEAHYQGVYPVKCNQDRFVVEDIVKFGSGFRFGLEAGSKPELLVAMSCLCKGSSEALLVCNGFKDAEYISLALVARKLHLNTVIVLEQEEELDIVINVSQQLRVRPVIGLRAKLRTKHSGHFGSTSGEKGKFGLTTTQILRVVKKLEQHSMLDCLQLLHFHIGSQIPSTALLADGVREASQIYCELIRLGACMKVIDIGGGLGIDYDGSKSQDSEISVGYIV</sequence>
+        <xref id="Gene.31::FRAEX38873_v2_000000290.1::g.31::m.31" name="Gene.31::FRAEX38873_v2_000000290.1::g.31  ORF type:complete len:365 (+) FRAEX38873_v2_000000290.1:1-1095(+)"/>
+        <matches>
+            <fingerprints-match evalue="1.006034E-49" graphscan="IIIII....">
+                <signature ac="PR01180" desc="Arginine decarboxylase signature" name="ARGDCRBXLASE">
+                    <entry ac="IPR002985" desc="Arginine decarboxylase" name="Arg_decrbxlase" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008792" name="arginine decarboxylase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008295" name="spermidine biosynthetic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006527" name="arginine catabolic process"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6834" name="Spermidine biosynthesis III"/>
+                        <pathway-xref db="MetaCyc" id="PWY-40" name="Putrescine biosynthesis I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-43" name="Putrescine biosynthesis II"/>
+                        <pathway-xref db="KEGG" id="00330+4.1.1.19" name="Arginine and proline metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6305" name="Putrescine biosynthesis IV"/>
+                    </entry>
+                    <models>
+                        <model ac="PR01180" desc="Arginine decarboxylase signature" name="ARGDCRBXLASE"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="3" pvalue="1.85E-10" score="82.21" start="201" end="216"/>
+                    <fingerprints-location motifNumber="2" pvalue="4.57E-10" score="83.08" start="143" end="157"/>
+                    <fingerprints-location motifNumber="4" pvalue="5.77E-12" score="57.34" start="227" end="248"/>
+                    <fingerprints-location motifNumber="5" pvalue="1.0E-16" score="79.93" start="251" end="273"/>
+                    <fingerprints-location motifNumber="1" pvalue="2.24E-9" score="73.08" start="119" end="134"/>
+                </locations>
+            </fingerprints-match>
+            <fingerprints-match evalue="9.457367E-11" graphscan="III..">
+                <signature ac="PR01179" desc="Ornithine/diaminopimelate/arginine (ODA) decarboxylase family signature" name="ODADCRBXLASE">
+                    <entry ac="IPR000183" desc="Ornithine/DAP/Arg decarboxylase" name="Orn/DAP/Arg_de-COase" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                        <pathway-xref db="Reactome" id="REACT_13" name="Metabolism of amino acids and derivatives"/>
+                    </entry>
+                    <models>
+                        <model ac="PR01179" desc="Ornithine/diaminopimelate/arginine (ODA) decarboxylase family signature" name="ODADCRBXLASE"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="3" pvalue="1.13E-4" score="47.43" start="294" end="307"/>
+                    <fingerprints-location motifNumber="1" pvalue="6.26E-9" score="41.78" start="151" end="169"/>
+                    <fingerprints-location motifNumber="2" pvalue="7.32E-5" score="40.99" start="175" end="187"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer3-match evalue="7.4E-49" score="166.0">
+                <signature ac="PF02784" desc="Pyridoxal-dependent decarboxylase, pyridoxal binding domain" name="Orn_Arg_deC_N">
+                    <entry ac="IPR022644" desc="Orn/DAP/Arg decarboxylase 2, N-terminal" name="De-COase2_N" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                        <pathway-xref db="Reactome" id="REACT_13" name="Metabolism of amino acids and derivatives"/>
+                    </entry>
+                    <models>
+                        <model ac="PF02784" desc="Pyridoxal-dependent decarboxylase, pyridoxal binding domain" name="Orn_Arg_deC_N"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="362" env-start="125" score="165.6" evalue="1.0E-48" hmm-start="8" hmm-end="213" hmm-length="0" start="132" end="351"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.7E-48" score="163.0">
+                <signature ac="G3DSA:3.20.20.10">
+                    <entry ac="IPR029066" desc="PLP-binding barrel" name="PLP-binding_barrel" type="DOMAIN"/>
+                    <models>
+                        <model ac="2p3eA02"/>
+                        <model ac="2o0tA02"/>
+                        <model ac="3co8A02"/>
+                        <model ac="3sy1A00"/>
+                        <model ac="7odcA02"/>
+                        <model ac="1knwA02"/>
+                        <model ac="1rcqA02"/>
+                        <model ac="1bd0A01"/>
+                        <model ac="3cpgA00"/>
+                        <model ac="2nvaC02"/>
+                        <model ac="1xfcB02"/>
+                        <model ac="1ct5A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="360" env-start="120" score="162.6" evalue="6.2E-48" hmm-start="2" hmm-end="221" hmm-length="0" start="121" end="352"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00879" desc="Orn/DAP/Arg decarboxylases family 2 signature 2." name="ODR_DC_2_2">
+                    <entry ac="IPR022657" desc="Orn/DAP/Arg decarboxylase 2, conserved site" name="De-COase2_CS" type="CONSERVED_SITE">
+                        <pathway-xref db="Reactome" id="REACT_13" name="Metabolism of amino acids and derivatives"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00879" desc="Orn/DAP/Arg decarboxylases family 2 signature 2." name="ODR_DC_2_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="332" end="345">
+                        <alignment>GacMkVIDIGGGLG</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00878" desc="Orn/DAP/Arg decarboxylases family 2 pyridoxal-P attachment site." name="ODR_DC_2_1">
+                    <entry ac="IPR022653" desc="Orn/DAP/Arg decarboxylase 2, pyridoxal-phosphate binding site" name="De-COase2_pyr-phos_BS" type="BINDING_SITE">
+                        <pathway-xref db="Reactome" id="REACT_13" name="Metabolism of amino acids and derivatives"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00878" desc="Orn/DAP/Arg decarboxylases family 2 pyridoxal-P attachment site." name="ODR_DC_2_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="151" end="169">
+                        <alignment>YPvKCNqdrfVVedIvkfG</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <superfamilyhmmer3-match evalue="5.23E-51">
+                <signature ac="SSF51419" name="PLP-binding barrel">
+                    <entry ac="IPR029066" desc="PLP-binding barrel" name="PLP-binding_barrel" type="DOMAIN"/>
+                    <models>
+                        <model ac="0050171" name="PLP-binding barrel"/>
+                        <model ac="0053370" name="PLP-binding barrel"/>
+                        <model ac="0046211" name="PLP-binding barrel"/>
+                        <model ac="0040168" name="PLP-binding barrel"/>
+                        <model ac="0049144" name="PLP-binding barrel"/>
+                        <model ac="0046278" name="PLP-binding barrel"/>
+                        <model ac="0038618" name="PLP-binding barrel"/>
+                        <model ac="0053309" name="PLP-binding barrel"/>
+                        <model ac="0049723" name="PLP-binding barrel"/>
+                        <model ac="0045930" name="PLP-binding barrel"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="120" end="352"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

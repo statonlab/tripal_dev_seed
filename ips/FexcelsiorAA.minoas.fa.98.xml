@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e8594c4abf05b0dfb7e293ace427cc6c">MAVGKNKRISKGKKGGKKKAQDWYDIKAPSVFNTRNIGKTLVTRTQGTKIASEGLKHRVFEVSLADLQGDEDHSFRKIRLRAEDVQGKNVLTNFWGMNFTTDKLRSLVRKWQSLIEAHIHQIRRKMREIMVNQAQSCDLKDLVQKFIPESIGKEIEKATSSVYPLQHVYIRKVKILKAPKFDLGKLMEVHGDYSEDVGVKLDRPVDEPMAEENEVGGA</sequence>
+        <xref id="Gene.130::FRAEX38873_v2_000001070.1::g.130::m.130" name="Gene.130::FRAEX38873_v2_000001070.1::g.130  ORF type:complete len:219 (+) FRAEX38873_v2_000001070.1:1-657(+)"/>
+        <matches>
+            <hmmer3-match evalue="3.4E-59" score="199.3">
+                <signature ac="PF01015" desc="Ribosomal S3Ae family" name="Ribosomal_S3Ae">
+                    <entry ac="IPR001593" desc="Ribosomal protein S3Ae" name="Ribosomal_S3Ae" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006412" name="translation"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003735" name="structural constituent of ribosome"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005840" name="ribosome"/>
+                    </entry>
+                    <models>
+                        <model ac="PF01015" desc="Ribosomal S3Ae family" name="Ribosomal_S3Ae"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="120" env-start="5" score="135.6" evalue="1.1E-39" hmm-start="4" hmm-end="107" hmm-length="0" start="8" end="119"/>
+                    <hmmer3-location env-end="180" env-start="116" score="70.3" evalue="1.1E-19" hmm-start="133" hmm-end="195" hmm-length="0" start="118" end="180"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS01191" desc="Ribosomal protein S3Ae signature." name="RIBOSOMAL_S3AE">
+                    <entry ac="IPR018281" desc="Ribosomal protein S3Ae, conserved site" name="Ribosomal_S3Ae_CS" type="CONSERVED_SITE">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006412" name="translation"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003735" name="structural constituent of ribosome"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005840" name="ribosome"/>
+                    </entry>
+                    <models>
+                        <model ac="PS01191" desc="Ribosomal protein S3Ae signature." name="RIBOSOMAL_S3AE"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="55" end="67">
+                        <alignment>LkHRVfEvSLaDL</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="MF_03122" desc="40S ribosomal protein S1 [RPS3A]." name="Ribosomal_S3Ae_euk">
+                    <entry ac="IPR027500" desc="40S ribosomal protein S1/3, eukaryotes" name="Ribosomal_S1/3_euk" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006412" name="translation"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005840" name="ribosome"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005622" name="intracellular"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003735" name="structural constituent of ribosome"/>
+                    </entry>
+                    <models>
+                        <model ac="MF_03122" desc="40S ribosomal protein S1 [RPS3A]." name="Ribosomal_S3Ae_euk"/>
+                    </models>
+                    <signature-library-release library="HAMAP" version="201311.27"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="26.924" start="1" end="214">
+                        <alignment>MAVGKNKRISK-GKKGGKKK------AQDWYDIKAPSVFNTRNIGKTLVTRTQGTKIASEGLKHRVFEVSLADLQGDEDHSFRKIRLRAEDVQGKNVLTNFWGMNFTTDKLRSLVRKWQSLIEAH------------------------------------IHQIRRKMREIMVNQAQSCDLKDLVQKFIPESIGKEIEKATSSVYPLQHVYIRKVKILKAPKFDLGKLMEVHGDYSedVGVKLDR--PVDEPMAEENE</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+        </matches>
+    </protein>
+</protein-matches>

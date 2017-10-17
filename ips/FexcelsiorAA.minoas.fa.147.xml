@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="c9016fe973c14b7a1005a2f61548e6e1">MMSHFRGCNTLVNMIIFVTFLLLFLCPGTLSMAAGGEKSIIELPTISEDLVNWAGYGEEQLSRVVITGELLCHGDRNHKDLVHPLPVSGASIAVFCGTSGHKARKSYAMGKTDGYGEFHIDLPSHLHSIPNLEKICLVKVLHLPKTCSCRHAFTGKHKGIELTSIGEGIRTYTAHKIHLLHKTAKRHMNRRAKTTRN</sequence>
+        <xref id="Gene.189::FRAEX38873_v2_000001610.1::g.189::m.189" name="Gene.189::FRAEX38873_v2_000001610.1::g.189  ORF type:complete len:198 (+) FRAEX38873_v2_000001610.1:1-594(+)"/>
+        <matches>
+            <hmmer3-match evalue="6.2E-13" score="48.3">
+                <signature ac="PF01190" desc="Pollen proteins Ole e I like" name="Pollen_Ole_e_I">
+                    <entry ac="IPR006041" desc="Pollen Ole e 1 allergen/extensin" name="Pollen_Ole_e1_allergen" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF01190" desc="Pollen proteins Ole e I like" name="Pollen_Ole_e_I"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="163" env-start="66" score="47.7" evalue="9.0E-13" hmm-start="1" hmm-end="87" hmm-length="0" start="66" end="154"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

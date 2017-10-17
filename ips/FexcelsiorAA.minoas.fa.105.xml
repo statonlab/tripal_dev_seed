@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="f0d320615b17e160c38a7681c6aef256">MATVVHNHNLKHHHRHHSYFSRPRSTRILKIRCKKPSNSDAFSERKQVHVDYGKGIHEVSTQISGLRKSDLPKRNRLRVEGDRFQKDWTISEVVERILELNHWDDVEGVLNRWAGRFARKNFPVLIKEITEMGSIEHSIQVFNWMKNQKNYCAQNDIYNMMIRMHARHNRIDQARGLFFEMQKWRCKPDVETYNALINAHGRAGQWRWAMNIMEDMLQAAIPPSRSTYNNLINACGSSGNWREALKVCKKMTDNGVGPDLVTHNIVLSAYKTGAQYSKALSYFELMKSTNVRPDTTTLNIVIHCSVKLGKYEEAVETFNSMREKRAGCSPDIVTYTSIMHMYSVCGQIENCQAVFNTLVAEGLKPNIVSYNALVGAYASLGMSKQASSIFEQMKHSGIRPDVVSYTSLLNAYGRSQQPVKAREIFDLMNRNNCKPNLVSYNALIDAYGSNGFLAEAVELLREMEQNGVQPNVVSISTLLAACGRCCHKVKIDSILKAAKMRGIELNTIAYNSAIGSYMNIGEYEKALTLYRCMRDKKVKPDSVTFNVLISGSCKMSKYNEALELLVEMMDLKIPLSREVYSSAICAYSKQGQLVEAESTFNMMKMAGFHPDVVAYTTMLHAYNIGENWEKAFAVFQEMELNDVQPDSVACSALMRAFNKGSQPGKVLLVAQFMRDKKIPFTDSIFFELVSACSILRDWKMTADIIEMMDTSLLTVSVGTLNHLLHSVGKAGKIEIHD</sequence>
+        <xref id="Gene.137::FRAEX38873_v2_000001150.1::g.137::m.137" name="Gene.137::FRAEX38873_v2_000001150.1::g.137  ORF type:complete len:738 (+) FRAEX38873_v2_000001150.1:1-2214(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.1E-111" score="356.4">
+                <signature ac="TIGR00756" desc="PPR: pentatricopeptide repeat domain" name="TIGR00756">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="TIGR00756" desc="PPR: pentatricopeptide repeat domain" name="TIGR00756"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="437" env-start="403" score="31.2" evalue="2.9E-8" hmm-start="1" hmm-end="34" hmm-length="0" start="403" end="436"/>
+                    <hmmer3-location env-end="577" env-start="543" score="23.8" evalue="6.6E-6" hmm-start="1" hmm-end="33" hmm-length="0" start="543" end="575"/>
+                    <hmmer3-location env-end="332" env-start="296" score="25.4" evalue="2.0E-6" hmm-start="2" hmm-end="34" hmm-length="0" start="297" end="331"/>
+                    <hmmer3-location env-end="190" env-start="156" score="31.7" evalue="2.0E-8" hmm-start="2" hmm-end="35" hmm-length="0" start="157" end="190"/>
+                    <hmmer3-location env-end="260" env-start="226" score="31.7" evalue="2.1E-8" hmm-start="2" hmm-end="34" hmm-length="0" start="227" end="259"/>
+                    <hmmer3-location env-end="225" env-start="191" score="24.0" evalue="5.7E-6" hmm-start="2" hmm-end="33" hmm-length="0" start="192" end="223"/>
+                    <hmmer3-location env-end="472" env-start="438" score="33.9" evalue="4.2E-9" hmm-start="1" hmm-end="35" hmm-length="0" start="438" end="472"/>
+                    <hmmer3-location env-end="542" env-start="508" score="22.0" evalue="2.4E-5" hmm-start="2" hmm-end="35" hmm-length="0" start="509" end="542"/>
+                    <hmmer3-location env-end="647" env-start="613" score="26.5" evalue="9.0E-7" hmm-start="1" hmm-end="35" hmm-length="0" start="613" end="647"/>
+                    <hmmer3-location env-end="295" env-start="261" score="20.6" evalue="6.8E-5" hmm-start="1" hmm-end="35" hmm-length="0" start="261" end="295"/>
+                    <hmmer3-location env-end="612" env-start="578" score="27.5" evalue="4.6E-7" hmm-start="2" hmm-end="35" hmm-length="0" start="579" end="612"/>
+                    <hmmer3-location env-end="402" env-start="368" score="28.2" evalue="2.7E-7" hmm-start="1" hmm-end="35" hmm-length="0" start="368" end="402"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.8E-47" score="158.9">
+                <signature ac="G3DSA:1.25.40.10">
+                    <entry ac="IPR011990" desc="Tetratricopeptide-like helical" name="TPR-like_helical" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="1elwA00"/>
+                        <model ac="1wao101"/>
+                        <model ac="2v5fA00"/>
+                        <model ac="1na3A00"/>
+                        <model ac="1a17A00"/>
+                        <model ac="2r5sA02"/>
+                        <model ac="2vyiA00"/>
+                        <model ac="2r5sA01"/>
+                        <model ac="2ifuD00"/>
+                        <model ac="3ckcA02"/>
+                        <model ac="1b89A00"/>
+                        <model ac="1fchB00"/>
+                        <model ac="3beeA00"/>
+                        <model ac="1na0A00"/>
+                        <model ac="1hh8A00"/>
+                        <model ac="1klxA00"/>
+                        <model ac="1nznA00"/>
+                        <model ac="1elrA00"/>
+                        <model ac="1xnfA00"/>
+                        <model ac="1w3bB00"/>
+                        <model ac="1p5qA02"/>
+                        <model ac="1qqeA00"/>
+                        <model ac="1ouvA00"/>
+                        <model ac="1ihgA02"/>
+                        <model ac="2fo7A00"/>
+                        <model ac="1hxiA00"/>
+                        <model ac="1hz4A00"/>
+                        <model ac="2hr2A00"/>
+                        <model ac="2i6hA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="650" env-start="428" score="29.8" evalue="1.5E-7" hmm-start="82" hmm-end="260" hmm-length="0" start="437" end="637"/>
+                    <hmmer3-location env-end="324" env-start="26" score="43.4" evalue="1.1E-11" hmm-start="132" hmm-end="304" hmm-length="0" start="157" end="311"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.2E-22" score="77.9">
+                <signature ac="G3DSA:1.25.40.10">
+                    <entry ac="IPR011990" desc="Tetratricopeptide-like helical" name="TPR-like_helical" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="1elwA00"/>
+                        <model ac="1wao101"/>
+                        <model ac="2v5fA00"/>
+                        <model ac="1na3A00"/>
+                        <model ac="1a17A00"/>
+                        <model ac="2r5sA02"/>
+                        <model ac="2vyiA00"/>
+                        <model ac="2r5sA01"/>
+                        <model ac="2ifuD00"/>
+                        <model ac="3ckcA02"/>
+                        <model ac="1b89A00"/>
+                        <model ac="1fchB00"/>
+                        <model ac="3beeA00"/>
+                        <model ac="1na0A00"/>
+                        <model ac="1hh8A00"/>
+                        <model ac="1klxA00"/>
+                        <model ac="1nznA00"/>
+                        <model ac="1elrA00"/>
+                        <model ac="1xnfA00"/>
+                        <model ac="1w3bB00"/>
+                        <model ac="1p5qA02"/>
+                        <model ac="1qqeA00"/>
+                        <model ac="1ouvA00"/>
+                        <model ac="1ihgA02"/>
+                        <model ac="2fo7A00"/>
+                        <model ac="1hxiA00"/>
+                        <model ac="1hz4A00"/>
+                        <model ac="2hr2A00"/>
+                        <model ac="2i6hA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="398" env-start="292" score="20.2" evalue="2.3E-4" hmm-start="17" hmm-end="103" hmm-length="0" start="312" end="393"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.0E-89" score="286.9">
+                <signature ac="PF01535" desc="PPR repeat" name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PF01535" desc="PPR repeat" name="PPR"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="608" env-start="578" score="22.2" evalue="8.0E-5" hmm-start="2" hmm-end="31" hmm-length="0" start="579" end="608"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.0E-127" score="413.4">
+                <signature ac="PF13041" desc="PPR repeat family" name="PPR_2">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PF13041" desc="PPR repeat family" name="PPR_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="554" env-start="505" score="48.9" evalue="4.0E-13" hmm-start="2" hmm-end="50" hmm-length="0" start="506" end="554"/>
+                    <hmmer3-location env-end="484" env-start="435" score="52.5" evalue="3.1E-14" hmm-start="1" hmm-end="48" hmm-length="0" start="435" end="482"/>
+                    <hmmer3-location env-end="272" env-start="225" score="40.0" evalue="2.6E-10" hmm-start="5" hmm-end="48" hmm-length="0" start="227" end="270"/>
+                    <hmmer3-location env-end="659" env-start="610" score="40.3" evalue="1.9E-10" hmm-start="1" hmm-end="49" hmm-length="0" start="610" end="658"/>
+                    <hmmer3-location env-end="344" env-start="296" score="38.2" evalue="9.1E-10" hmm-start="5" hmm-end="48" hmm-length="0" start="297" end="342"/>
+                    <hmmer3-location env-end="414" env-start="365" score="52.4" evalue="3.3E-14" hmm-start="1" hmm-end="48" hmm-length="0" start="365" end="412"/>
+                    <hmmer3-location env-end="200" env-start="155" score="50.0" evalue="1.8E-13" hmm-start="5" hmm-end="47" hmm-length="0" start="157" end="199"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.854" start="259" end="293">
+                        <alignment>DLVTHNIVLSAYKTGAQYSKALSYFELMKSTNVRP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.863" start="506" end="540">
+                        <alignment>NTIAYNSAIGSYMNIGEYEKALTLYRCMRDKKVKP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.413" start="154" end="188">
+                        <alignment>QNDIYNMMIRMHARHNRIDQARGLFFEMQKWRCKP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="12.463" start="366" end="400">
+                        <alignment>NIVSYNALVGAYASLGMSKQASSIFEQMKHSGIRP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="5.152" start="118" end="148">
+                        <alignment>ARKNFPVLIKEITEMGSIEHSIQVFNWMKNQ----</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="6.928" start="646" end="680">
+                        <alignment>DSVACSALMRAFNKGSQPGKVLLVAQFMRDKKIPF</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="12.025" start="401" end="435">
+                        <alignment>DVVSYTSLLNAYGRSQQPVKAREIFDLMNRNNCKP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="13.537" start="436" end="470">
+                        <alignment>NLVSYNALIDAYGSNGFLAEAVELLREMEQNGVQP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.348" start="576" end="610">
+                        <alignment>SREVYSSAICAYSKQGQLVEAESTFNMMKMAGFHP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="11.016" start="541" end="575">
+                        <alignment>DSVTFNVLISGSCKMSKYNEALELLVEMMDLKIPL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.512" start="331" end="365">
+                        <alignment>DIVTYTSIMHMYSVCGQIENCQAVFNTLVAEGLKP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="12.211" start="224" end="258">
+                        <alignment>SRSTYNNLINACGSSGNWREALKVCKKMTDNGVGP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="6.062" start="471" end="505">
+                        <alignment>NVVSISTLLAACGRCCHKVKIDSILKAAKMRGIEL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.514" start="294" end="324">
+                        <alignment>DTTTLNIVIHCSVKLGKYEEAVETFNSMREK----</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="11.871" start="189" end="223">
+                        <alignment>DVETYNALINAHGRAGQWRWAMNIMEDMLQAAIPP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR">
+                    <entry ac="IPR002885" desc="Pentatricopeptide repeat" name="Pentatricopeptide_repeat" type="REPEAT"/>
+                    <models>
+                        <model ac="PS51375" desc="Pentatricopeptide (PPR) repeat profile." name="PPR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.841" start="611" end="645">
+                        <alignment>DVVAYTTMLHAYNIGENWEKAFAVFQEMELNDVQP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="6.32E-8">
+                <signature ac="SSF48452" name="TPR-like">
+                    <models>
+                        <model ac="0052670" name="TPR-like"/>
+                        <model ac="0047272" name="TPR-like"/>
+                        <model ac="0050358" name="TPR-like"/>
+                        <model ac="0046583" name="TPR-like"/>
+                        <model ac="0054895" name="TPR-like"/>
+                        <model ac="0054096" name="TPR-like"/>
+                        <model ac="0054057" name="TPR-like"/>
+                        <model ac="0040251" name="TPR-like"/>
+                        <model ac="0052646" name="TPR-like"/>
+                        <model ac="0054886" name="TPR-like"/>
+                        <model ac="0039276" name="TPR-like"/>
+                        <model ac="0045692" name="TPR-like"/>
+                        <model ac="0048732" name="TPR-like"/>
+                        <model ac="0051253" name="TPR-like"/>
+                        <model ac="0051845" name="TPR-like"/>
+                        <model ac="0051240" name="TPR-like"/>
+                        <model ac="0047366" name="TPR-like"/>
+                        <model ac="0052100" name="TPR-like"/>
+                        <model ac="0042932" name="TPR-like"/>
+                        <model ac="0054961" name="TPR-like"/>
+                        <model ac="0046585" name="TPR-like"/>
+                        <model ac="0046753" name="TPR-like"/>
+                        <model ac="0051642" name="TPR-like"/>
+                        <model ac="0054395" name="TPR-like"/>
+                        <model ac="0046495" name="TPR-like"/>
+                        <model ac="0047256" name="TPR-like"/>
+                        <model ac="0051037" name="TPR-like"/>
+                        <model ac="0049644" name="TPR-like"/>
+                        <model ac="0048699" name="TPR-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="536" end="656"/>
+                    <superfamilyhmmer3-location start="294" end="393"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="3.4E-7">
+                <signature ac="SSF81901" name="HCP-like">
+                    <models>
+                        <model ac="0048648" name="HCP-like"/>
+                        <model ac="0047832" name="HCP-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="132" end="320"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

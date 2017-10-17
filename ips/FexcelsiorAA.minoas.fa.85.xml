@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="827c812c231d8f8d5e4dba64fcba4b9f">MDLNSEADENIKNKQKQEEEGEEKQHFHVLAVDDSNIDRKLLERLLTVSSYQVTCVDSGDKALEYLGLLDIEENEFSSTSISSSESSQKAVSKVNLIMTDYSMPGINGYDLLKRVKGSSWKDVPVVVMSSENIPSRINMCLEGGAEEFLLKPVKLADLRKLHSHLLHTTNINDTKEQNDSIIDNDLNNNTNKRKATAPENSERRPRIQELPVS</sequence>
+        <xref id="Gene.110::FRAEX38873_v2_000000940.1::g.110::m.110" name="Gene.110::FRAEX38873_v2_000000940.1::g.110  ORF type:complete len:214 (+) FRAEX38873_v2_000000940.1:1-642(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="4" end="25"/>
+                </locations>
+            </coils-match>
+            <hmmer2-match evalue="1.5E-18" score="77.7">
+                <signature ac="SM00448" desc="cheY-homologous receiver domain" name="REC">
+                    <entry ac="IPR001789" desc="Signal transduction response regulator, receiver domain" name="Sig_transdc_resp-reg_receiver" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0000156" name="phosphorelay response regulator activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0000160" name="phosphorelay signal transduction system"/>
+                        <pathway-xref db="Reactome" id="REACT_14797" name="Signaling by GPCR"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00448" desc="cheY-homologous receiver domain" name="REC"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="77.7" evalue="1.5E-18" hmm-start="1" hmm-end="150" hmm-length="0" start="27" end="162"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="2.1E-33" score="114.6">
+                <signature ac="G3DSA:3.40.50.2300">
+                    <models>
+                        <model ac="3c3kB01"/>
+                        <model ac="1bykA02"/>
+                        <model ac="1p2fA01"/>
+                        <model ac="3d8uB01"/>
+                        <model ac="1peaA01"/>
+                        <model ac="1ys7A01"/>
+                        <model ac="3bilA02"/>
+                        <model ac="1mb3A00"/>
+                        <model ac="2rjoA02"/>
+                        <model ac="1ewkA01"/>
+                        <model ac="3cs3A02"/>
+                        <model ac="2r4qA00"/>
+                        <model ac="2fvyA02"/>
+                        <model ac="2jbaA00"/>
+                        <model ac="3lftA01"/>
+                        <model ac="1qkkA00"/>
+                        <model ac="2w42B01"/>
+                        <model ac="1srrC00"/>
+                        <model ac="2jk1A00"/>
+                        <model ac="2pjuC01"/>
+                        <model ac="2ayzA00"/>
+                        <model ac="3hzhA00"/>
+                        <model ac="2rgyA01"/>
+                        <model ac="2qzjA00"/>
+                        <model ac="1peaA02"/>
+                        <model ac="2kyrA00"/>
+                        <model ac="1r8jB01"/>
+                        <model ac="3brsA02"/>
+                        <model ac="2iksA01"/>
+                        <model ac="3cu5B00"/>
+                        <model ac="3b2nA00"/>
+                        <model ac="3brqB02"/>
+                        <model ac="3cnbA00"/>
+                        <model ac="2fvyA01"/>
+                        <model ac="1k66A00"/>
+                        <model ac="2r25B00"/>
+                        <model ac="2rjnA00"/>
+                        <model ac="1jx6A02"/>
+                        <model ac="3eq2B01"/>
+                        <model ac="2q5cA01"/>
+                        <model ac="3ipcA02"/>
+                        <model ac="3clkB01"/>
+                        <model ac="2qv0A00"/>
+                        <model ac="3crnA00"/>
+                        <model ac="1p6qA00"/>
+                        <model ac="3gl9B00"/>
+                        <model ac="2qxyA00"/>
+                        <model ac="3ipcA01"/>
+                        <model ac="3gybA02"/>
+                        <model ac="3hsyA02"/>
+                        <model ac="1jyeA02"/>
+                        <model ac="1w25B02"/>
+                        <model ac="1dbwB00"/>
+                        <model ac="2rdmA00"/>
+                        <model ac="2qu7A01"/>
+                        <model ac="1gudA01"/>
+                        <model ac="3cg0A00"/>
+                        <model ac="2zayA00"/>
+                        <model ac="3bblA01"/>
+                        <model ac="3h5iA00"/>
+                        <model ac="3cg4A00"/>
+                        <model ac="3c3kA02"/>
+                        <model ac="3c3mA00"/>
+                        <model ac="3ctpA02"/>
+                        <model ac="3brqB01"/>
+                        <model ac="2qr3A00"/>
+                        <model ac="3h5oA02"/>
+                        <model ac="1dbqA01"/>
+                        <model ac="1dz3A00"/>
+                        <model ac="2driA01"/>
+                        <model ac="2fepA02"/>
+                        <model ac="1dcfA00"/>
+                        <model ac="3ctpA01"/>
+                        <model ac="8abpA02"/>
+                        <model ac="1zgzA00"/>
+                        <model ac="1qo0D01"/>
+                        <model ac="1ewkB02"/>
+                        <model ac="1jbeA00"/>
+                        <model ac="2fepA01"/>
+                        <model ac="3nhmA00"/>
+                        <model ac="1jdpA01"/>
+                        <model ac="1dbqA02"/>
+                        <model ac="3lftA02"/>
+                        <model ac="3clkA02"/>
+                        <model ac="1s8nA01"/>
+                        <model ac="3kg2B01"/>
+                        <model ac="8abpA01"/>
+                        <model ac="2h3hB02"/>
+                        <model ac="1jx6A01"/>
+                        <model ac="3ckmA02"/>
+                        <model ac="3o2jB01"/>
+                        <model ac="2r47A01"/>
+                        <model ac="2hqbA02"/>
+                        <model ac="1a2oA01"/>
+                        <model ac="3bilA01"/>
+                        <model ac="3ckmA01"/>
+                        <model ac="3gt7A00"/>
+                        <model ac="2driA02"/>
+                        <model ac="2iksB02"/>
+                        <model ac="2b4aA00"/>
+                        <model ac="2rjoA01"/>
+                        <model ac="2h3hA01"/>
+                        <model ac="3cz5C00"/>
+                        <model ac="3d8uA02"/>
+                        <model ac="1jdpB02"/>
+                        <model ac="1jyeA01"/>
+                        <model ac="1u04A03"/>
+                        <model ac="2qvgA00"/>
+                        <model ac="1a04A01"/>
+                        <model ac="1bykA01"/>
+                        <model ac="2hqbA01"/>
+                        <model ac="1ny5A01"/>
+                        <model ac="2qu7A02"/>
+                        <model ac="3brsA01"/>
+                        <model ac="2qsjB00"/>
+                        <model ac="2wjwA01"/>
+                        <model ac="3cs3A01"/>
+                        <model ac="1dp4C02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="178" env-start="22" score="114.0" evalue="3.0E-33" hmm-start="4" hmm-end="142" hmm-length="0" start="24" end="172"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.6E-19" score="68.6">
+                <signature ac="PF00072" desc="Response regulator receiver domain" name="Response_reg">
+                    <entry ac="IPR001789" desc="Signal transduction response regulator, receiver domain" name="Sig_transdc_resp-reg_receiver" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0000156" name="phosphorelay response regulator activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0000160" name="phosphorelay signal transduction system"/>
+                        <pathway-xref db="Reactome" id="REACT_14797" name="Signaling by GPCR"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00072" desc="Response regulator receiver domain" name="Response_reg"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="162" env-start="29" score="66.3" evalue="1.9E-18" hmm-start="1" hmm-end="109" hmm-length="0" start="29" end="160"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50110" desc="Response regulatory domain profile." name="RESPONSE_REGULATORY">
+                    <entry ac="IPR001789" desc="Signal transduction response regulator, receiver domain" name="Sig_transdc_resp-reg_receiver" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0000156" name="phosphorelay response regulator activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0000160" name="phosphorelay signal transduction system"/>
+                        <pathway-xref db="Reactome" id="REACT_14797" name="Signaling by GPCR"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50110" desc="Response regulatory domain profile." name="RESPONSE_REGULATORY"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="27.137" start="28" end="166">
+                        <alignment>HVLAVDDSNIDRKLLERLLTVSSYQVTCVDSGDKALEYLGLLDieenefsstsisssessqkavskVNLIMTDYSMPGINGYDLLKRVKgSSWKDVPVVVMSSENIPSRINMCLEGGAEEFLLKPVKLADLRKLHSHLL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.42E-26">
+                <signature ac="SSF52172" name="CheY-like">
+                    <entry ac="IPR011006" desc="CheY-like superfamily" name="CheY-like_superfamily" type="DOMAIN"/>
+                    <models>
+                        <model ac="0048975" name="CheY-like"/>
+                        <model ac="0047296" name="CheY-like"/>
+                        <model ac="0049456" name="CheY-like"/>
+                        <model ac="0050342" name="CheY-like"/>
+                        <model ac="0051898" name="CheY-like"/>
+                        <model ac="0048465" name="CheY-like"/>
+                        <model ac="0039925" name="CheY-like"/>
+                        <model ac="0048231" name="CheY-like"/>
+                        <model ac="0048656" name="CheY-like"/>
+                        <model ac="0046075" name="CheY-like"/>
+                        <model ac="0047753" name="CheY-like"/>
+                        <model ac="0045852" name="CheY-like"/>
+                        <model ac="0051229" name="CheY-like"/>
+                        <model ac="0047867" name="CheY-like"/>
+                        <model ac="0050341" name="CheY-like"/>
+                        <model ac="0046294" name="CheY-like"/>
+                        <model ac="0047555" name="CheY-like"/>
+                        <model ac="0048685" name="CheY-like"/>
+                        <model ac="0051860" name="CheY-like"/>
+                        <model ac="0048997" name="CheY-like"/>
+                        <model ac="0049761" name="CheY-like"/>
+                        <model ac="0043525" name="CheY-like"/>
+                        <model ac="0045682" name="CheY-like"/>
+                        <model ac="0048066" name="CheY-like"/>
+                        <model ac="0051573" name="CheY-like"/>
+                        <model ac="0047799" name="CheY-like"/>
+                        <model ac="0050964" name="CheY-like"/>
+                        <model ac="0051859" name="CheY-like"/>
+                        <model ac="0048463" name="CheY-like"/>
+                        <model ac="0046428" name="CheY-like"/>
+                        <model ac="0051574" name="CheY-like"/>
+                        <model ac="0051386" name="CheY-like"/>
+                        <model ac="0051318" name="CheY-like"/>
+                        <model ac="0048705" name="CheY-like"/>
+                        <model ac="0054521" name="CheY-like"/>
+                        <model ac="0045700" name="CheY-like"/>
+                        <model ac="0046299" name="CheY-like"/>
+                        <model ac="0048129" name="CheY-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="27" end="174"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

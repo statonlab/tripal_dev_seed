@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="f400a254b83637587c5e8ecb08e15ec5">MSTSNLDSSSSVTESVDIPRFHHTPFYCEENVYLLCKKLAADGIARSDGSDLFVIFISNENKQIPLWHQKASHRADGVILWDYHAICIQKRKDSNLPHLVWDLDSSLPFPSPLSTYVSETIRPSFQLFSEFQRFFRIVHAPIFLRSFASDRRHMKDTAGNWLHPPPSYKVIVAEDGTVHNLNEYMEMSSADVVKSIGDDTKDNVYAQRLGVLVRASQLEEIFSLIS</sequence>
+        <xref id="Gene.138::FRAEX38873_v2_000001160.1::g.138::m.138" name="Gene.138::FRAEX38873_v2_000001160.1::g.138  ORF type:complete len:227 (+) FRAEX38873_v2_000001160.1:1-681(+)"/>
+        <matches>
+            <hmmer3-match evalue="9.6E-69" score="230.2">
+                <signature ac="G3DSA:3.10.620.10">
+                    <entry ac="IPR023128" desc="Protein N-terminal glutamine amidohydrolase, alpha beta roll" name="Prot_N_Gln_amidohydro_ab_roll" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016811" name="hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"/>
+                        <pathway-xref db="KEGG" id="00364+3.5.1.-" name="Fluorobenzoate degradation"/>
+                        <pathway-xref db="KEGG" id="00260+3.5.1.-" name="Glycine, serine and threonine metabolism"/>
+                        <pathway-xref db="KEGG" id="00480+3.5.1.-" name="Glutathione metabolism"/>
+                        <pathway-xref db="KEGG" id="00930+3.5.1.-" name="Caprolactam degradation"/>
+                        <pathway-xref db="KEGG" id="00240+3.5.1.-" name="Pyrimidine metabolism"/>
+                        <pathway-xref db="KEGG" id="00600+3.5.1.-" name="Sphingolipid metabolism"/>
+                        <pathway-xref db="KEGG" id="00760+3.5.1.-" name="Nicotinate and nicotinamide metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="3c9qA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="224" env-start="1" score="230.0" evalue="1.1E-68" hmm-start="8" hmm-end="199" hmm-length="0" start="8" end="221"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.0E-61" score="207.3">
+                <signature ac="PF09764" desc="N-terminal glutamine amidase" name="Nt_Gln_amidase">
+                    <entry ac="IPR023128" desc="Protein N-terminal glutamine amidohydrolase, alpha beta roll" name="Prot_N_Gln_amidohydro_ab_roll" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016811" name="hydrolase activity, acting on carbon-nitrogen (but not peptide) bonds, in linear amides"/>
+                        <pathway-xref db="KEGG" id="00364+3.5.1.-" name="Fluorobenzoate degradation"/>
+                        <pathway-xref db="KEGG" id="00260+3.5.1.-" name="Glycine, serine and threonine metabolism"/>
+                        <pathway-xref db="KEGG" id="00480+3.5.1.-" name="Glutathione metabolism"/>
+                        <pathway-xref db="KEGG" id="00930+3.5.1.-" name="Caprolactam degradation"/>
+                        <pathway-xref db="KEGG" id="00240+3.5.1.-" name="Pyrimidine metabolism"/>
+                        <pathway-xref db="KEGG" id="00600+3.5.1.-" name="Sphingolipid metabolism"/>
+                        <pathway-xref db="KEGG" id="00760+3.5.1.-" name="Nicotinate and nicotinamide metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="PF09764" desc="N-terminal glutamine amidase" name="Nt_Gln_amidase"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="223" env-start="22" score="207.1" evalue="1.2E-61" hmm-start="2" hmm-end="183" hmm-length="0" start="23" end="222"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

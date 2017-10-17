@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="f6289f05d4421f1f5eaa7eed5862e76b">MACAISVQTLLLTPKLRSPSSNFFPVLENNRNDKFRNRKRKVIKRCRAMVQQTVQGPSAAYAKEMERLSAKESLLLAFKDAGGFEALTAGKTTEMQCIDVNERIVSLERLNPTPRPTTSPYLEGRWNFEWFGSGSPGFLAARFLFERFPPALANLSKLDMVIKDEYANIAANMKLLNLIESNFILSTRLSIEGPMRMKEEYVEGIFGSPKIDEETIPQQLRSVFVQASSTVQQLPVSIRDAMASGVKIPLGGTFQRLFLISYLDEEILIIRDTAGVPEVLTRLDSAPLPLVDTITEYES</sequence>
+        <xref id="Gene.168::FRAEX38873_v2_000001400.1::g.168::m.168" name="Gene.168::FRAEX38873_v2_000001400.1::g.168  ORF type:complete len:300 (+) FRAEX38873_v2_000001400.1:1-900(+)"/>
+        <matches>
+            <hmmer3-match evalue="6.6E-12" score="45.4">
+                <signature ac="PF04755" desc="PAP_fibrillin" name="PAP_fibrillin">
+                    <entry ac="IPR006843" desc="Plastid lipid-associated protein/fibrillin conserved domain" name="PAP/fibrillin_dom" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0009507" name="chloroplast"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005198" name="structural molecule activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF04755" desc="PAP_fibrillin" name="PAP_fibrillin"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="281" env-start="69" score="44.8" evalue="9.8E-12" hmm-start="20" hmm-end="193" hmm-length="0" start="92" end="276"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

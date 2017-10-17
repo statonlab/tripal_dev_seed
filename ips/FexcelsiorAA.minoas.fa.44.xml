@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="fec4510ba476ef945c98002d40d95ff4">MHTKELFLDSTIRLGVWSLVRGFDQQQKYKPFISRCSTQGDLKIGSVREVNVKSGLPATTSTEQLELLDDKEHILGVKIVGGDHRLKNLISNYCSPDIIYGKPGTLVIESFVVDVPEGNTQEETCDFVNALINCNLKSLADVSQRMAMQDLIKPINRF</sequence>
+        <xref id="Gene.61::FRAEX38873_v2_000000510.1::g.61::m.61" name="Gene.61::FRAEX38873_v2_000000510.1::g.61  ORF type:complete len:159 (+) FRAEX38873_v2_000000510.1:1-477(+)"/>
+        <matches>
+            <hmmer3-match evalue="3.6E-33" score="114.3">
+                <signature ac="G3DSA:3.30.530.20">
+                    <entry ac="IPR023393" desc="START-like domain" name="START-like_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="2qimA00"/>
+                        <model ac="1em2A00"/>
+                        <model ac="2r55A00"/>
+                        <model ac="1vjhA00"/>
+                        <model ac="2ns9A01"/>
+                        <model ac="2wqlA00"/>
+                        <model ac="2kewA00"/>
+                        <model ac="2nn5A00"/>
+                        <model ac="2pcsA00"/>
+                        <model ac="3f08A00"/>
+                        <model ac="3ie5B00"/>
+                        <model ac="1jssA00"/>
+                        <model ac="1t17A00"/>
+                        <model ac="2ffsA00"/>
+                        <model ac="2il5A00"/>
+                        <model ac="1kcmA00"/>
+                        <model ac="1ln1A00"/>
+                        <model ac="2qpvA00"/>
+                        <model ac="2i9yA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="152" env-start="15" score="113.9" evalue="4.8E-33" hmm-start="17" hmm-end="142" hmm-length="0" start="16" end="149"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.0E-5" score="25.6">
+                <signature ac="PF10604" desc="Polyketide cyclase / dehydrase and lipid transport" name="Polyketide_cyc2">
+                    <entry ac="IPR019587" desc="Polyketide cyclase/dehydrase" name="Polyketide_cyclase/dehydratase" type="FAMILY"/>
+                    <models>
+                        <model ac="PF10604" desc="Polyketide cyclase / dehydrase and lipid transport" name="Polyketide_cyc2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="144" env-start="15" score="25.2" evalue="1.3E-5" hmm-start="17" hmm-end="136" hmm-length="0" start="16" end="141"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.78E-23">
+                <signature ac="SSF55961" name="Bet v1-like">
+                    <models>
+                        <model ac="0054256" name="Bet v1-like"/>
+                        <model ac="0046017" name="Bet v1-like"/>
+                        <model ac="0054620" name="Bet v1-like"/>
+                        <model ac="0050926" name="Bet v1-like"/>
+                        <model ac="0051031" name="Bet v1-like"/>
+                        <model ac="0049937" name="Bet v1-like"/>
+                        <model ac="0051529" name="Bet v1-like"/>
+                        <model ac="0046549" name="Bet v1-like"/>
+                        <model ac="0050686" name="Bet v1-like"/>
+                        <model ac="0054900" name="Bet v1-like"/>
+                        <model ac="0047354" name="Bet v1-like"/>
+                        <model ac="0050208" name="Bet v1-like"/>
+                        <model ac="0051685" name="Bet v1-like"/>
+                        <model ac="0051990" name="Bet v1-like"/>
+                        <model ac="0050822" name="Bet v1-like"/>
+                        <model ac="0051454" name="Bet v1-like"/>
+                        <model ac="0052007" name="Bet v1-like"/>
+                        <model ac="0053606" name="Bet v1-like"/>
+                        <model ac="0049515" name="Bet v1-like"/>
+                        <model ac="0054545" name="Bet v1-like"/>
+                        <model ac="0051879" name="Bet v1-like"/>
+                        <model ac="0047345" name="Bet v1-like"/>
+                        <model ac="0054143" name="Bet v1-like"/>
+                        <model ac="0051115" name="Bet v1-like"/>
+                        <model ac="0054669" name="Bet v1-like"/>
+                        <model ac="0046586" name="Bet v1-like"/>
+                        <model ac="0050953" name="Bet v1-like"/>
+                        <model ac="0047675" name="Bet v1-like"/>
+                        <model ac="0054263" name="Bet v1-like"/>
+                        <model ac="0046430" name="Bet v1-like"/>
+                        <model ac="0054296" name="Bet v1-like"/>
+                        <model ac="0052424" name="Bet v1-like"/>
+                        <model ac="0048001" name="Bet v1-like"/>
+                        <model ac="0052379" name="Bet v1-like"/>
+                        <model ac="0054964" name="Bet v1-like"/>
+                        <model ac="0052677" name="Bet v1-like"/>
+                        <model ac="0053731" name="Bet v1-like"/>
+                        <model ac="0054496" name="Bet v1-like"/>
+                        <model ac="0049728" name="Bet v1-like"/>
+                        <model ac="0046811" name="Bet v1-like"/>
+                        <model ac="0051032" name="Bet v1-like"/>
+                        <model ac="0052916" name="Bet v1-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="16" end="141"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

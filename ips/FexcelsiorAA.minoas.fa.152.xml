@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="55b8235022949017e4abe967979b60f1">MEVSAGQNKQKEQDFLVASISQLSISNSTSPQVVAKFHYDSGVAELRFDPESDPNASVHFVLHTSRLFKLSPFQSVCISEASEMDKEKSYSRGISIQFINEEESRNFHCAFEQWKKEVVVQGSEFPNGTVSSSQSKFDDKIESSSAKMYFHYYGQLLHQQNMMQDYVRTGTYYAAVMENRVDFAGRVVVDVGAGSGILSLFAAQAGARHVYAVEASEMAEYACKLIDGNPSLSERITVIKGKVEEVELPEKADILISEPMGTLLVNERMLESYIIARDRFLVPNGKMFPTIGRIHMAPFSDEYLYMEIANKALFWQQQNYYGVNLAPLQSTAFQGYFSQPVVDAFDPRLLVAPAISHVIDFTSTKEEELYEIDIPLKFVSSVGTRVHGLACWFDVLFNGSTVQRWLTTAPGAPTTHWYQLRCVLAQPIYVMPGQEIVGRLHMVSHKAQSYTLYLTLSAKMWGPGAEQGGILQTSSGKLDLKEPYYRLSQPQAYPLPQDQQTNQLLQTQDIQIQAQDEEGSDLMQQTLQDSGAELHSL</sequence>
+        <xref id="Gene.195::FRAEX38873_v2_000001670.1::g.195::m.195" name="Gene.195::FRAEX38873_v2_000001670.1::g.195  ORF type:complete len:538 (+) FRAEX38873_v2_000001670.1:1-1614(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.5E-35" score="120.9">
+                <signature ac="G3DSA:3.40.50.150">
+                    <entry ac="IPR029063" desc="S-adenosyl-L-methionine-dependent methyltransferase-like" name="SAM-dependent_MTases-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="3a25A02"/>
+                        <model ac="1g60B00"/>
+                        <model ac="2r6zB02"/>
+                        <model ac="2i7cB02"/>
+                        <model ac="3g89B00"/>
+                        <model ac="1o9gA01"/>
+                        <model ac="3giwA00"/>
+                        <model ac="3bkxA00"/>
+                        <model ac="3hviA00"/>
+                        <model ac="3bzbB00"/>
+                        <model ac="1yf3A01"/>
+                        <model ac="3orhD00"/>
+                        <model ac="1jqeA00"/>
+                        <model ac="2p8jA00"/>
+                        <model ac="2xvmA00"/>
+                        <model ac="1i4wA01"/>
+                        <model ac="1jg1A00"/>
+                        <model ac="3ccfA00"/>
+                        <model ac="1nkvB00"/>
+                        <model ac="2fpoC00"/>
+                        <model ac="1ri5A00"/>
+                        <model ac="3gjyA00"/>
+                        <model ac="2igtA01"/>
+                        <model ac="2oo3A00"/>
+                        <model ac="2o57A02"/>
+                        <model ac="1dctA01"/>
+                        <model ac="3c3pA00"/>
+                        <model ac="3cc8A00"/>
+                        <model ac="3qowA02"/>
+                        <model ac="2py6A03"/>
+                        <model ac="1v39A00"/>
+                        <model ac="3c3yA00"/>
+                        <model ac="1fp1D02"/>
+                        <model ac="1vbfA00"/>
+                        <model ac="1dusA00"/>
+                        <model ac="1uwvA02"/>
+                        <model ac="2qm3A02"/>
+                        <model ac="1vlmA00"/>
+                        <model ac="1xxlA00"/>
+                        <model ac="1ej0A00"/>
+                        <model ac="2a14A00"/>
+                        <model ac="1im8A00"/>
+                        <model ac="1af7A02"/>
+                        <model ac="3pfgA01"/>
+                        <model ac="3kqsA00"/>
+                        <model ac="1dl5A01"/>
+                        <model ac="1ej6A04"/>
+                        <model ac="2qy6A01"/>
+                        <model ac="1g55A02"/>
+                        <model ac="2dpmA01"/>
+                        <model ac="1u2zA02"/>
+                        <model ac="3busB00"/>
+                        <model ac="1nv8A02"/>
+                        <model ac="2p7iA00"/>
+                        <model ac="2o57D00"/>
+                        <model ac="1mjfA02"/>
+                        <model ac="2fhpA00"/>
+                        <model ac="3frhA02"/>
+                        <model ac="1g8aA02"/>
+                        <model ac="1qamA01"/>
+                        <model ac="1qzzA03"/>
+                        <model ac="1ne2B00"/>
+                        <model ac="3cggA00"/>
+                        <model ac="2y1wA01"/>
+                        <model ac="1m6yA01"/>
+                        <model ac="1booA00"/>
+                        <model ac="2wa2A00"/>
+                        <model ac="1ve3B00"/>
+                        <model ac="1l3iA00"/>
+                        <model ac="1i1nA00"/>
+                        <model ac="1ufkA03"/>
+                        <model ac="1pjzA00"/>
+                        <model ac="3mb5A02"/>
+                        <model ac="3ajdA02"/>
+                        <model ac="2r3sA03"/>
+                        <model ac="1jsxA00"/>
+                        <model ac="1eg2A00"/>
+                        <model ac="1i9gA02"/>
+                        <model ac="2efjA02"/>
+                        <model ac="2b3tA02"/>
+                        <model ac="1xvaA02"/>
+                        <model ac="2ozvA01"/>
+                        <model ac="1inlA01"/>
+                        <model ac="3c6kB03"/>
+                        <model ac="2ih2A01"/>
+                        <model ac="2c7pA01"/>
+                        <model ac="1vl5A00"/>
+                        <model ac="3ftdA01"/>
+                        <model ac="2p35A01"/>
+                        <model ac="2ob1A00"/>
+                        <model ac="1uirA02"/>
+                        <model ac="1fp2A02"/>
+                        <model ac="3futA01"/>
+                        <model ac="2as0A03"/>
+                        <model ac="1o54A02"/>
+                        <model ac="3cvoA00"/>
+                        <model ac="1l1eB00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="289" env-start="139" score="120.2" evalue="4.0E-35" hmm-start="14" hmm-end="153" hmm-length="0" start="148" end="289"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.4E-14" score="51.3">
+                <signature ac="PF05185" desc="PRMT5 arginine-N-methyltransferase" name="PRMT5">
+                    <entry ac="IPR025799" desc="Protein arginine N-methyltransferase" name="Arg_MeTrfase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006479" name="protein methylation"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008168" name="methyltransferase activity"/>
+                        <pathway-xref db="KEGG" id="00270+2.1.1.-" name="Cysteine and methionine metabolism"/>
+                        <pathway-xref db="KEGG" id="00940+2.1.1.-" name="Phenylpropanoid biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00941+2.1.1.-" name="Flavonoid biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00945+2.1.1.-" name="Stilbenoid, diarylheptanoid and gingerol biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00350+2.1.1.-" name="Tyrosine metabolism"/>
+                        <pathway-xref db="KEGG" id="00253+2.1.1.-" name="Tetracycline biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00360+2.1.1.-" name="Phenylalanine metabolism"/>
+                        <pathway-xref db="KEGG" id="00450+2.1.1.-" name="Selenocompound metabolism"/>
+                        <pathway-xref db="KEGG" id="00380+2.1.1.-" name="Tryptophan metabolism"/>
+                        <pathway-xref db="KEGG" id="00860+2.1.1.-" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="KEGG" id="00627+2.1.1.-" name="Aminobenzoate degradation"/>
+                        <pathway-xref db="KEGG" id="00130+2.1.1.-" name="Ubiquinone and other terpenoid-quinone biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00522+2.1.1.-" name="Biosynthesis of 12-, 14- and 16-membered macrolides"/>
+                        <pathway-xref db="KEGG" id="00624+2.1.1.-" name="Polycyclic aromatic hydrocarbon degradation"/>
+                        <pathway-xref db="KEGG" id="00981+2.1.1.-" name="Insect hormone biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00340+2.1.1.-" name="Histidine metabolism"/>
+                        <pathway-xref db="KEGG" id="00942+2.1.1.-" name="Anthocyanin biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00950+2.1.1.-" name="Isoquinoline alkaloid biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="PF05185" desc="PRMT5 arginine-N-methyltransferase" name="PRMT5"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="450" env-start="160" score="50.4" evalue="1.5E-13" hmm-start="189" hmm-end="428" hmm-length="0" start="187" end="437"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="9.8E-48" score="161.8">
+                <signature ac="G3DSA:2.70.160.11">
+                    <models>
+                        <model ac="2fytA02"/>
+                        <model ac="3q7eA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="475" env-start="291" score="160.9" evalue="1.9E-47" hmm-start="2" hmm-end="170" hmm-length="0" start="292" end="469"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51678" desc="SAM-dependent methyltransferase PRMT-type domain profile." name="SAM_MT_PRMT">
+                    <entry ac="IPR025799" desc="Protein arginine N-methyltransferase" name="Arg_MeTrfase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006479" name="protein methylation"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008168" name="methyltransferase activity"/>
+                        <pathway-xref db="KEGG" id="00270+2.1.1.-" name="Cysteine and methionine metabolism"/>
+                        <pathway-xref db="KEGG" id="00940+2.1.1.-" name="Phenylpropanoid biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00941+2.1.1.-" name="Flavonoid biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00945+2.1.1.-" name="Stilbenoid, diarylheptanoid and gingerol biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00350+2.1.1.-" name="Tyrosine metabolism"/>
+                        <pathway-xref db="KEGG" id="00253+2.1.1.-" name="Tetracycline biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00360+2.1.1.-" name="Phenylalanine metabolism"/>
+                        <pathway-xref db="KEGG" id="00450+2.1.1.-" name="Selenocompound metabolism"/>
+                        <pathway-xref db="KEGG" id="00380+2.1.1.-" name="Tryptophan metabolism"/>
+                        <pathway-xref db="KEGG" id="00860+2.1.1.-" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="KEGG" id="00627+2.1.1.-" name="Aminobenzoate degradation"/>
+                        <pathway-xref db="KEGG" id="00130+2.1.1.-" name="Ubiquinone and other terpenoid-quinone biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00522+2.1.1.-" name="Biosynthesis of 12-, 14- and 16-membered macrolides"/>
+                        <pathway-xref db="KEGG" id="00624+2.1.1.-" name="Polycyclic aromatic hydrocarbon degradation"/>
+                        <pathway-xref db="KEGG" id="00981+2.1.1.-" name="Insect hormone biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00340+2.1.1.-" name="Histidine metabolism"/>
+                        <pathway-xref db="KEGG" id="00942+2.1.1.-" name="Anthocyanin biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00950+2.1.1.-" name="Isoquinoline alkaloid biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51678" desc="SAM-dependent methyltransferase PRMT-type domain profile." name="SAM_MT_PRMT"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="87.199" start="142" end="455">
+                        <alignment>ESSSAKMYFHYygqLLHQQN-MMQDYVRTGTYYAAVMENRVDFAGRVVVDVGAGSGILSLFAAQAGARHVYAVEA-SEMAEYACKLIDGNPSLSErITVIKGKVEEV--ELPEKADILISEPMGTLLVNERMLESYIIARDRFLVPNGKMFPTIGRIHMAPFSDeylYMEIANKALFWQQQnyYGVNLAPLQSTAFQGYFSQPVVDAFDPRLLVAPAISHV-IDFTSTKEEELYEIDIPLKFVSSVGTRVHGLACWFDVLFNGsTVQRWLTTAPGA----PtTHWYQLRCVLAQPIYVMPGQEIVGRLHMVSH-KAQSYTLYLT</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="8.44E-64">
+                <signature ac="SSF53335" name="S-adenosyl-L-methionine-dependent methyltransferases">
+                    <entry ac="IPR029063" desc="S-adenosyl-L-methionine-dependent methyltransferase-like" name="SAM-dependent_MTases-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="0049074" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0045109" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047945" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052001" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054557" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0044550" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054473" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046931" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0045633" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051842" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051885" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054332" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049671" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0037952" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051239" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050519" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052510" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052084" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048805" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050693" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047329" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048524" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0042197" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051143" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048490" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052992" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047211" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047919" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0037982" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053229" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049719" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052182" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046354" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052739" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050935" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051930" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054391" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050234" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046838" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049122" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051449" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052536" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051816" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051657" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049186" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0044689" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048774" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050762" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047303" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047580" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048438" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049442" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0043085" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0036976" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0040196" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047471" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052894" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0041326" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0041444" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050919" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054378" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053107" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0045060" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047465" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049885" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049171" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050988" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050242" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046923" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0045988" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052618" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053855" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051103" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0040829" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049069" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053077" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047656" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0040964" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052484" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052649" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052693" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047923" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049778" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047851" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051617" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050154" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048106" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052949" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0039093" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049532" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052807" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052749" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050749" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046568" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051884" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052709" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046696" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051588" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046303" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054686" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053110" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051944" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0035026" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046840" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047676" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048629" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051679" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0052982" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049915" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0041593" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054432" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0041580" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0046744" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0053087" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0048856" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047862" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0036610" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051840" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051261" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0054520" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0042682" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0049474" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050745" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0040327" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0051823" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0050038" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                        <model ac="0047386" name="S-adenosyl-L-methionine-dependent methyltransferases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="152" end="463"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

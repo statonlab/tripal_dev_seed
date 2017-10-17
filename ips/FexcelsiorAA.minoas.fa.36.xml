@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="5acc5522d5ef3f65b57d9c6be4428bae">MSLHICKSLPFRTKPSVSASLESGVEVVASAKPTSLCFDEAKERITKLFHQAELSISSYDTAWVAMVPSPHSSQEPCFPGCVNWLLENQLHDGSWALPHHHSLLLKDIISSTLACVLALKRWAIGDEQISRGVHFIELHFASATDDRQLSPVGYDIIFPGMLEYARDLSLNLCLDPTTLNDLIHKRDLELKRSYQSHSAEREAYLAYVAEGMGKLQNWESLRNLGCLNYLRSALKKFGNAVPAVYPLNIYAQLCLVDNLERLGISRHFRKEIQTVLDETYRCWLQGEEEICMEASTSALAFRLLRMNGYDVSSDLLTEILEAESFSSSFGGHTKDINMILESYGASEKIIHPSEFALEAQNSRFKHLLEQKICSGSTYSSILGRHIDQEVKTILQYPFYATLERIANRRNIENYKLDNTRILKTAYCSPKFGNKDFLFLSALEFNVSQTRHREELKELERWVVENRLDELSFARQKSAYCYFSAAATFFAPDLSDARMSWAKNGVLTTVIDDFFDVGGSVEELKNLIQLVEIWDVNVVTDCCSEQVRIIFSALQSTICQIGDKGLVYQERSVTNHIIDIWLNLLHSMLKETEWAKDKYVPTMDEYMSNAHVSFALGPIVLPTLYFVGHKLSDEVVHHSEVHNLFKLMSTCGRLLNDIQSFKRESKDGKLNALSLYIISGGSDITEEAAIAEMKRLISSQRRELLRLVLQGKNSVLPKACKDLFWHMCTVLHLFYCKDDGFTSEEMISVVKAIIHHPIVIDEFEFKA</sequence>
+        <xref id="Gene.51::FRAEX38873_v2_000000420.1::g.51::m.51" name="Gene.51::FRAEX38873_v2_000000420.1::g.51  ORF type:complete len:767 (+) FRAEX38873_v2_000000420.1:1-2301(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.3E-46" score="157.3">
+                <signature ac="G3DSA:1.50.30.10">
+                    <entry ac="IPR001906" desc="Terpene synthase, N-terminal domain" name="Terpene_synth_N" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016829" name="lyase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0010333" name="terpene synthase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="3m00A02"/>
+                        <model ac="1n1bA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="446" env-start="230" score="156.6" evalue="3.8E-46" hmm-start="10" hmm-end="206" hmm-length="0" start="235" end="446"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.0E-33" score="114.6">
+                <signature ac="PF01397" desc="Terpene synthase, N-terminal domain" name="Terpene_synth">
+                    <entry ac="IPR001906" desc="Terpene synthase, N-terminal domain" name="Terpene_synth_N" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016829" name="lyase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0010333" name="terpene synthase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="PF01397" desc="Terpene synthase, N-terminal domain" name="Terpene_synth"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="394" env-start="214" score="113.7" evalue="5.5E-33" hmm-start="22" hmm-end="178" hmm-length="0" start="224" end="389"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.4E-67" score="226.3">
+                <signature ac="PF03936" desc="Terpene synthase family, metal binding domain" name="Terpene_synth_C">
+                    <entry ac="IPR005630" desc="Terpene synthase, metal-binding domain" name="Terpene_synthase_metal-bd" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0000287" name="magnesium ion binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0010333" name="terpene synthase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016829" name="lyase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03936" desc="Terpene synthase family, metal binding domain" name="Terpene_synth_C"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="704" env-start="436" score="225.7" evalue="5.5E-67" hmm-start="4" hmm-end="269" hmm-length="0" start="439" end="703"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.6E-93" score="311.2">
+                <signature ac="G3DSA:1.10.600.10">
+                    <entry ac="IPR008949" desc="Terpenoid synthase" name="Terpenoid_synth" type="DOMAIN"/>
+                    <models>
+                        <model ac="1yyqB00"/>
+                        <model ac="3lomA00"/>
+                        <model ac="1n1bB02"/>
+                        <model ac="1v4eA00"/>
+                        <model ac="2h8oA00"/>
+                        <model ac="3bnyD00"/>
+                        <model ac="1ezfB00"/>
+                        <model ac="1wmwD00"/>
+                        <model ac="2qisA00"/>
+                        <model ac="3m00A01"/>
+                        <model ac="1wy0A00"/>
+                        <model ac="3npkA00"/>
+                        <model ac="1ps1A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="758" env-start="447" score="310.8" evalue="6.3E-93" hmm-start="2" hmm-end="312" hmm-length="0" start="448" end="757"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.8E-10" score="39.4">
+                <signature ac="G3DSA:1.50.10.20">
+                    <entry ac="IPR008930" desc="Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid" name="Terpenoid_cyclase/PrenylTrfase" type="DOMAIN"/>
+                    <models>
+                        <model ac="1w6kA03"/>
+                        <model ac="1hzfA00"/>
+                        <model ac="1qqfA00"/>
+                        <model ac="1r76A00"/>
+                        <model ac="1n4qB00"/>
+                        <model ac="2h6fB00"/>
+                        <model ac="1w6kA02"/>
+                        <model ac="3dssB00"/>
+                        <model ac="2sqcA02"/>
+                        <model ac="2sqcA01"/>
+                        <model ac="1gxmB00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="148" env-start="52" score="37.9" evalue="8.0E-10" hmm-start="10" hmm-end="85" hmm-length="0" start="62" end="139"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="7.85E-40">
+                <signature ac="SSF48239" name="Terpenoid cyclases/Protein prenyltransferases">
+                    <entry ac="IPR008930" desc="Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid" name="Terpenoid_cyclase/PrenylTrfase" type="DOMAIN"/>
+                    <models>
+                        <model ac="0047273" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0035832" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0041184" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0049012" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0050380" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053305" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0050379" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053306" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0046282" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0048283" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053354" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0046298" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="232" end="417"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="5.61E-12">
+                <signature ac="SSF48239" name="Terpenoid cyclases/Protein prenyltransferases">
+                    <entry ac="IPR008930" desc="Terpenoid cyclases/protein prenyltransferase alpha-alpha toroid" name="Terpenoid_cyclase/PrenylTrfase" type="DOMAIN"/>
+                    <models>
+                        <model ac="0047273" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0035832" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0041184" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0049012" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0050380" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053305" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0050379" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053306" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0046282" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0048283" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0053354" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                        <model ac="0046298" name="Terpenoid cyclases/Protein prenyltransferases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="451" end="473"/>
+                    <superfamilyhmmer3-location start="58" end="171"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.47E-79">
+                <signature ac="SSF48576" name="Terpenoid synthases">
+                    <entry ac="IPR008949" desc="Terpenoid synthase" name="Terpenoid_synth" type="DOMAIN"/>
+                    <models>
+                        <model ac="0043373" name="Terpenoid synthases"/>
+                        <model ac="0048261" name="Terpenoid synthases"/>
+                        <model ac="0043350" name="Terpenoid synthases"/>
+                        <model ac="0044612" name="Terpenoid synthases"/>
+                        <model ac="0053355" name="Terpenoid synthases"/>
+                        <model ac="0048806" name="Terpenoid synthases"/>
+                        <model ac="0046340" name="Terpenoid synthases"/>
+                        <model ac="0054583" name="Terpenoid synthases"/>
+                        <model ac="0046658" name="Terpenoid synthases"/>
+                        <model ac="0049855" name="Terpenoid synthases"/>
+                        <model ac="0047573" name="Terpenoid synthases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="433" end="757"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

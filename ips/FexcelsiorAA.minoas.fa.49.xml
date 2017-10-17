@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="9c9a722347e9666f31c710201d630a44">MSQGQGQRQTPLQRPPGYRDPSIPIQNPRPQPLPRKAITLPPSFYQKKRRSWCQTCCCCTCIVLFLLVILIIVSGALFYIWFDPKLPVVHLKTIKFTKFHVRHTDAGPALDAQSSLNVEIKNPNKNFELEYDKIRAVLNARNGANLGEQTLPGFTQEKNNVKTLKFTIKASEELLAKKDADKIINGFKIKNLVMSIEVKTGMGLKGNGWKTGTIQVNVICAGVTLNQIQNGAMPKCRIKLFDWVYVN</sequence>
+        <xref id="Gene.68::FRAEX38873_v2_000000570.1::g.68::m.68" name="Gene.68::FRAEX38873_v2_000000570.1::g.68  ORF type:complete len:248 (+) FRAEX38873_v2_000000570.1:1-744(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.0E-11" score="44.0">
+                <signature ac="PF03168" desc="Late embryogenesis abundant protein" name="LEA_2">
+                    <entry ac="IPR004864" desc="Late embryogenesis abundant protein, LEA-14" name="LEA-14" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF03168" desc="Late embryogenesis abundant protein" name="LEA_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="220" env-start="117" score="43.2" evalue="3.6E-11" hmm-start="1" hmm-end="101" hmm-length="0" start="117" end="220"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

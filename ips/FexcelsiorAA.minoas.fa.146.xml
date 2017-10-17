@@ -1,0 +1,560 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="23a4339f3bb618bd1c676217c7b4e2df">MIRKLAVFCWVFIFCFWASANALLSPNGVNFEVQALMEIKSSLIDPHGVLNWDANAVDPCSNWAMVTCSKDNLVITLAAPSQSLSGKISPRIGNLTHLQSILLQDNNITGPIPVELGRLPKLQTIDLSDNLLTGQIPSSLSQIKSLQYLRLNNNSLAGIIPSLSNLTQLTFVDLSYNNLSGPVPRICFGNPMICATGKEQDCNGSAPLPLPFSMNNSQNPQPSRTSNSRKIALALGSSLGCICLLILGFSFLLWWRHKHNQQIFFDGNGNELHHEEVCLGNLRRFQYRELQSATNNFSSKNILGKGGFGIVYKGCLQDGTVVAVKRLKDGNAIGGEIQFQTEVEMISLAVHRNLLRLYGFCVTSTERLLVYPFMSNGSVASRLKAKPSLDWGTRKRIALGAARGLLYLHEQCDPKIIHRDVKAANILLDDYYEAVVGDFGLAKLLDHRDSHVTTAVRGTVGHIAPEYLSTGQSSEKTDVFGFGILLLELITGQRALEFGKLANQKGAMLEWVKKIHQEKKLDVLVDKDLKNNYDRIELEEMVQVALLCTQYIPTHRPKMSEVVRMLEGDGLAERWEASQRAEATRCRANEFSSSERYSDLTDDSSLLVQAMELSGPR</sequence>
+        <xref id="Gene.187::FRAEX38873_v2_000001600.1::g.187::m.187" name="Gene.187::FRAEX38873_v2_000001600.1::g.187  ORF type:complete len:618 (+) FRAEX38873_v2_000001600.1:1-1854(+)"/>
+        <matches>
+            <hmmer2-match evalue="2.9E-36" score="136.4">
+                <signature ac="SM00220" desc="Serine/Threonine protein kinases, catalytic domain" name="S_TKc">
+                    <entry ac="IPR002290" desc="Serine/threonine- /dual specificity protein kinase, catalytic  domain" name="Ser/Thr_dual-sp_kinase_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00220" desc="Serine/Threonine protein kinases, catalytic domain" name="S_TKc"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="136.4" evalue="2.9E-36" hmm-start="1" hmm-end="231" hmm-length="0" start="297" end="552"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="2.4E-10" score="39.9">
+                <signature ac="PF13855" desc="Leucine rich repeat" name="LRR_8">
+                    <entry ac="IPR001611" desc="Leucine-rich repeat" name="Leu-rich_rpt" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF13855" desc="Leucine rich repeat" name="LRR_8"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="179" env-start="120" score="37.3" evalue="1.5E-9" hmm-start="1" hmm-end="61" hmm-length="0" start="120" end="179"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="9.3E-22" score="76.6">
+                <signature ac="G3DSA:3.30.200.20">
+                    <models>
+                        <model ac="3lffA01"/>
+                        <model ac="3blhA01"/>
+                        <model ac="3f66B01"/>
+                        <model ac="2ac3A01"/>
+                        <model ac="1t46A01"/>
+                        <model ac="2i6lA01"/>
+                        <model ac="2h6dA01"/>
+                        <model ac="3lxpA01"/>
+                        <model ac="2weiA01"/>
+                        <model ac="1g8aA01"/>
+                        <model ac="2izrA01"/>
+                        <model ac="3d5vA01"/>
+                        <model ac="2b9hA01"/>
+                        <model ac="3pa3A01"/>
+                        <model ac="2qkwB01"/>
+                        <model ac="3csvA01"/>
+                        <model ac="1u5qA01"/>
+                        <model ac="3oz6A01"/>
+                        <model ac="3q4uB01"/>
+                        <model ac="2oo8X01"/>
+                        <model ac="2ppqA01"/>
+                        <model ac="3bu3A01"/>
+                        <model ac="2f57B01"/>
+                        <model ac="2w4oA01"/>
+                        <model ac="3nuaA01"/>
+                        <model ac="2zv2A01"/>
+                        <model ac="1ckiA01"/>
+                        <model ac="2cnqA01"/>
+                        <model ac="1nt2A01"/>
+                        <model ac="3g0eA01"/>
+                        <model ac="1lufA01"/>
+                        <model ac="3pvuA03"/>
+                        <model ac="2j51A01"/>
+                        <model ac="3nszA02"/>
+                        <model ac="3dzoA02"/>
+                        <model ac="2evaA01"/>
+                        <model ac="1nd4A01"/>
+                        <model ac="3mdyA01"/>
+                        <model ac="1x8bA01"/>
+                        <model ac="1ia9A01"/>
+                        <model ac="3a99A01"/>
+                        <model ac="2a19C01"/>
+                        <model ac="2vd5B01"/>
+                        <model ac="2acxA02"/>
+                        <model ac="2q83B01"/>
+                        <model ac="2wtkC01"/>
+                        <model ac="2w4jA01"/>
+                        <model ac="3bceB01"/>
+                        <model ac="1zy4B01"/>
+                        <model ac="3fhrA01"/>
+                        <model ac="2dylA01"/>
+                        <model ac="3genA01"/>
+                        <model ac="2clqA01"/>
+                        <model ac="3eqrB01"/>
+                        <model ac="3cc6A01"/>
+                        <model ac="3kfaA01"/>
+                        <model ac="2jamA01"/>
+                        <model ac="2vgpB01"/>
+                        <model ac="2w5aA01"/>
+                        <model ac="1zarA02"/>
+                        <model ac="3lltA01"/>
+                        <model ac="2rkuA01"/>
+                        <model ac="3comB01"/>
+                        <model ac="2oibA01"/>
+                        <model ac="3g51A01"/>
+                        <model ac="3og7A01"/>
+                        <model ac="1z57A01"/>
+                        <model ac="1fmkA03"/>
+                        <model ac="2b1pA01"/>
+                        <model ac="2bkkA01"/>
+                        <model ac="3gopA01"/>
+                        <model ac="2r3iA01"/>
+                        <model ac="1tvoA01"/>
+                        <model ac="1tkiA01"/>
+                        <model ac="1xbbA01"/>
+                        <model ac="1xjdA01"/>
+                        <model ac="3a8xB01"/>
+                        <model ac="2ipxA01"/>
+                        <model ac="1s9jA01"/>
+                        <model ac="1uu3A02"/>
+                        <model ac="1kobA01"/>
+                        <model ac="3pozA01"/>
+                        <model ac="1rdqE02"/>
+                        <model ac="1o6lA02"/>
+                        <model ac="3f3zA01"/>
+                        <model ac="1kutB01"/>
+                        <model ac="2jiiA01"/>
+                        <model ac="2qolA01"/>
+                        <model ac="2f2uB01"/>
+                        <model ac="1wakA01"/>
+                        <model ac="3orkA01"/>
+                        <model ac="2jedB01"/>
+                        <model ac="2wtjA01"/>
+                        <model ac="3fpqA01"/>
+                        <model ac="1qpcA01"/>
+                        <model ac="2fstX01"/>
+                        <model ac="1q5kA01"/>
+                        <model ac="3c0iA01"/>
+                        <model ac="1fvrA01"/>
+                        <model ac="1ob3A01"/>
+                        <model ac="2j0iA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="375" env-start="303" score="75.7" evalue="1.8E-21" hmm-start="1" hmm-end="72" hmm-length="0" start="311" end="375"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.4E-9" score="36.8">
+                <signature ac="PF08263" desc="Leucine rich repeat N-terminal domain" name="LRRNT_2">
+                    <entry ac="IPR013210" desc="Leucine-rich repeat-containing N-terminal, type 2" name="LRR-contain_N2" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF08263" desc="Leucine rich repeat N-terminal domain" name="LRRNT_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="69" env-start="29" score="35.8" evalue="5.1E-9" hmm-start="3" hmm-end="43" hmm-length="0" start="31" end="69"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.1E-35" score="120.8">
+                <signature ac="G3DSA:3.80.10.10">
+                    <models>
+                        <model ac="2ifgA01"/>
+                        <model ac="1h6uA02"/>
+                        <model ac="2ca6A00"/>
+                        <model ac="1ogqA00"/>
+                        <model ac="1a9nC00"/>
+                        <model ac="3cvrA01"/>
+                        <model ac="1fo1B00"/>
+                        <model ac="1w8aA00"/>
+                        <model ac="1oznA00"/>
+                        <model ac="1xkuA00"/>
+                        <model ac="2ra8A02"/>
+                        <model ac="1wwlA00"/>
+                        <model ac="1dceA03"/>
+                        <model ac="1p9aG00"/>
+                        <model ac="3g06A01"/>
+                        <model ac="1h6tA01"/>
+                        <model ac="2bexA00"/>
+                        <model ac="2astB00"/>
+                        <model ac="1io0A00"/>
+                        <model ac="1ds9A00"/>
+                        <model ac="1o6vB01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="357" env-start="29" score="120.4" evalue="4.1E-35" hmm-start="7" hmm-end="167" hmm-length="0" start="32" end="185"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="5.7E-44" score="149.7">
+                <signature ac="G3DSA:1.10.510.10">
+                    <models>
+                        <model ac="1rdqE01"/>
+                        <model ac="1kobA02"/>
+                        <model ac="3fmeA02"/>
+                        <model ac="3a99A02"/>
+                        <model ac="3fpqB02"/>
+                        <model ac="3pvuA04"/>
+                        <model ac="2w4kA02"/>
+                        <model ac="2evaA02"/>
+                        <model ac="3bhyA02"/>
+                        <model ac="3pozA02"/>
+                        <model ac="3genA02"/>
+                        <model ac="2zv2A02"/>
+                        <model ac="3c0iA02"/>
+                        <model ac="3og7B02"/>
+                        <model ac="1unlA02"/>
+                        <model ac="1zarA03"/>
+                        <model ac="2nruA02"/>
+                        <model ac="1p4oA02"/>
+                        <model ac="3fe3A02"/>
+                        <model ac="1wakA02"/>
+                        <model ac="2hw6A02"/>
+                        <model ac="3fhrA02"/>
+                        <model ac="2b9hA02"/>
+                        <model ac="2eu9A02"/>
+                        <model ac="3hmmA02"/>
+                        <model ac="2clqA02"/>
+                        <model ac="2rkuA02"/>
+                        <model ac="3pa3A02"/>
+                        <model ac="3kn6A02"/>
+                        <model ac="2r3iA02"/>
+                        <model ac="3byvA01"/>
+                        <model ac="3orkA02"/>
+                        <model ac="1q3dA02"/>
+                        <model ac="2izrA02"/>
+                        <model ac="1o6lA01"/>
+                        <model ac="1s9jA02"/>
+                        <model ac="3dtcA02"/>
+                        <model ac="1x8bA02"/>
+                        <model ac="2bujA02"/>
+                        <model ac="1s9iA02"/>
+                        <model ac="2f2uA02"/>
+                        <model ac="2jamB02"/>
+                        <model ac="2qkwB02"/>
+                        <model ac="2ac3A02"/>
+                        <model ac="2qocA02"/>
+                        <model ac="2xirA02"/>
+                        <model ac="2v62A02"/>
+                        <model ac="2a2aA02"/>
+                        <model ac="3lxpA02"/>
+                        <model ac="2vgoA02"/>
+                        <model ac="3nszA01"/>
+                        <model ac="2a19B02"/>
+                        <model ac="3lffA02"/>
+                        <model ac="2w5aA02"/>
+                        <model ac="2j0iA02"/>
+                        <model ac="3kk8A02"/>
+                        <model ac="1tkiA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="587" env-start="375" score="148.8" evalue="1.0E-43" hmm-start="2" hmm-end="229" hmm-length="0" start="376" end="582"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.9E-43" score="148.4">
+                <signature ac="PF00069" desc="Protein kinase domain" name="Pkinase">
+                    <entry ac="IPR000719" desc="Protein kinase domain" name="Prot_kinase_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00069" desc="Protein kinase domain" name="Pkinase"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="566" env-start="297" score="147.8" evalue="2.8E-43" hmm-start="3" hmm-end="256" hmm-length="0" start="299" end="564"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.1E-17" score="61.3">
+                <signature ac="G3DSA:2.60.120.200">
+                    <entry ac="IPR013320" desc="Concanavalin A-like lectin/glucanase, subgroup" name="ConA-like_subgrp" type="DOMAIN"/>
+                    <models>
+                        <model ac="1ajoB00"/>
+                        <model ac="2jd4A01"/>
+                        <model ac="1d2sA00"/>
+                        <model ac="1upsB01"/>
+                        <model ac="1j1tA00"/>
+                        <model ac="2sliA01"/>
+                        <model ac="1hlcA00"/>
+                        <model ac="1wd3A01"/>
+                        <model ac="1avbA00"/>
+                        <model ac="3c2uA02"/>
+                        <model ac="1w0pA01"/>
+                        <model ac="1w6nB00"/>
+                        <model ac="1jhnA01"/>
+                        <model ac="2r1bA00"/>
+                        <model ac="1ux6A02"/>
+                        <model ac="2eigA00"/>
+                        <model ac="3kqrA00"/>
+                        <model ac="1bkzA00"/>
+                        <model ac="2vu9A01"/>
+                        <model ac="1dypA00"/>
+                        <model ac="3mw4A00"/>
+                        <model ac="2a5zA00"/>
+                        <model ac="1a8dA01"/>
+                        <model ac="2ltnA00"/>
+                        <model ac="2ayhA00"/>
+                        <model ac="1w0pA03"/>
+                        <model ac="2wkkA00"/>
+                        <model ac="1umzB00"/>
+                        <model ac="1ajkA00"/>
+                        <model ac="1ikpA01"/>
+                        <model ac="1h30A02"/>
+                        <model ac="1is3A00"/>
+                        <model ac="2gmeA00"/>
+                        <model ac="1s0iA02"/>
+                        <model ac="1nlsA00"/>
+                        <model ac="1g86A00"/>
+                        <model ac="2jd4A02"/>
+                        <model ac="1kqrA00"/>
+                        <model ac="1h30A01"/>
+                        <model ac="1pz7A00"/>
+                        <model ac="3h0oA00"/>
+                        <model ac="1kjlA00"/>
+                        <model ac="1uaiA00"/>
+                        <model ac="1o4yA00"/>
+                        <model ac="1n1tA02"/>
+                        <model ac="1oq1A00"/>
+                        <model ac="1gv9A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="320" env-start="194" score="60.5" evalue="1.2E-16" hmm-start="133" hmm-end="235" hmm-length="0" start="211" end="310"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00108" desc="Serine/Threonine protein kinases active-site signature." name="PROTEIN_KINASE_ST">
+                    <entry ac="IPR008271" desc="Serine/threonine-protein kinase, active site" name="Ser/Thr_kinase_AS" type="ACTIVE_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004674" name="protein serine/threonine kinase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00108" desc="Serine/Threonine protein kinases active-site signature." name="PROTEIN_KINASE_ST"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="416" end="428">
+                        <alignment>IiHrDVKaaNILL</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00107" desc="Protein kinases ATP-binding region signature." name="PROTEIN_KINASE_ATP">
+                    <entry ac="IPR017441" desc="Protein kinase, ATP binding site" name="Protein_kinase_ATP_BS" type="BINDING_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00107" desc="Protein kinases ATP-binding region signature." name="PROTEIN_KINASE_ATP"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="303" end="325">
+                        <alignment>LGKGGFGIVYkGclqdgtvVAVK</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="PS51450" desc="Leucine-rich repeat profile." name="LRR">
+                    <entry ac="IPR001611" desc="Leucine-rich repeat" name="Leu-rich_rpt" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51450" desc="Leucine-rich repeat profile." name="LRR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="7.096" start="145" end="167">
+                        <alignment>SLQYLRLNNNSLAGIiPSLSNLT</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51450" desc="Leucine-rich repeat profile." name="LRR">
+                    <entry ac="IPR001611" desc="Leucine-rich repeat" name="Leu-rich_rpt" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51450" desc="Leucine-rich repeat profile." name="LRR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="6.264" start="121" end="143">
+                        <alignment>KLQTIDLSDNLLTgQIPSSLSQI</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS51450" desc="Leucine-rich repeat profile." name="LRR">
+                    <entry ac="IPR001611" desc="Leucine-rich repeat" name="Leu-rich_rpt" type="REPEAT">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51450" desc="Leucine-rich repeat profile." name="LRR"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="5.14" start="97" end="120">
+                        <alignment>HLQSILLQDNNITGpIPvELGRLP</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <profilescan-match>
+                <signature ac="PS50011" desc="Protein kinase domain profile." name="PROTEIN_KINASE_DOM">
+                    <entry ac="IPR000719" desc="Protein kinase domain" name="Prot_kinase_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006468" name="protein phosphorylation"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005524" name="ATP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004672" name="protein kinase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50011" desc="Protein kinase domain profile." name="PROTEIN_KINASE_DOM"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="35.128" start="297" end="547">
+                        <alignment>FSSKNILGKGGFGIVYKGCL-QDGTVVAVKRLKD---GNAigGEIQFQTEVEMIS-LaVHRNLLRLYGFCVTSTERLLVYPFMSNGSVASRLKA---KpsLDWGTRKRIALGAARGLLYLHEQcdpKIIHRDVKAANILLDDYYEAVVGDFGLAKLLDHRDShVTTAVRGTVGHIAPEYL--STGQSSeKTDVFGFGILLLELITGQraLEFGKLaNQKGAMLEWVKKI----------HQEKKLDVLVDKDLK-NNYDRIELEEMVQVALL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.36E-31">
+                <signature ac="SSF52058" name="L domain-like">
+                    <models>
+                        <model ac="0042103" name="L domain-like"/>
+                        <model ac="0048059" name="L domain-like"/>
+                        <model ac="0041263" name="L domain-like"/>
+                        <model ac="0053105" name="L domain-like"/>
+                        <model ac="0051010" name="L domain-like"/>
+                        <model ac="0041848" name="L domain-like"/>
+                        <model ac="0040812" name="L domain-like"/>
+                        <model ac="0053853" name="L domain-like"/>
+                        <model ac="0050397" name="L domain-like"/>
+                        <model ac="0046830" name="L domain-like"/>
+                        <model ac="0046244" name="L domain-like"/>
+                        <model ac="0048505" name="L domain-like"/>
+                        <model ac="0041267" name="L domain-like"/>
+                        <model ac="0047132" name="L domain-like"/>
+                        <model ac="0053852" name="L domain-like"/>
+                        <model ac="0041268" name="L domain-like"/>
+                        <model ac="0053646" name="L domain-like"/>
+                        <model ac="0039223" name="L domain-like"/>
+                        <model ac="0039222" name="L domain-like"/>
+                        <model ac="0039014" name="L domain-like"/>
+                        <model ac="0047619" name="L domain-like"/>
+                        <model ac="0045746" name="L domain-like"/>
+                        <model ac="0039015" name="L domain-like"/>
+                        <model ac="0040811" name="L domain-like"/>
+                        <model ac="0041264" name="L domain-like"/>
+                        <model ac="0046297" name="L domain-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="32" end="193"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="4.45E-76">
+                <signature ac="SSF56112" name="Protein kinase-like (PK-like)">
+                    <entry ac="IPR011009" desc="Protein kinase-like domain" name="Kinase-like_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016772" name="transferase activity, transferring phosphorus-containing groups"/>
+                    </entry>
+                    <models>
+                        <model ac="0041315" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041710" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0035615" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0042707" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0047734" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0042918" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041719" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0040179" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041927" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0048011" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0054221" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0042315" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0038940" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037369" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0040670" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039792" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0038477" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0043269" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049347" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0040180" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0051133" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0053681" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0043074" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037572" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0038373" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0052889" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0048206" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0046180" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041592" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049348" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0047332" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0046998" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039603" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041767" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0047088" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044547" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0050990" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049795" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044203" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0048785" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0053164" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0046210" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0046494" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044924" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039686" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037731" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0034801" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0040302" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0036031" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037668" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041048" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037803" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039408" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0035157" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0037714" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044090" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0036014" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049538" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0041095" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0050905" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049834" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044907" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0046042" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0054833" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0054547" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044036" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039870" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0051877" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0038659" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0049786" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0039145" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0038413" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0042354" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0040727" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0035371" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0054536" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0043658" name="Protein kinase-like (PK-like)"/>
+                        <model ac="0044407" name="Protein kinase-like (PK-like)"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="274" end="567"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

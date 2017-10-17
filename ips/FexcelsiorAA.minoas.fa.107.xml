@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="fd34eea0a7d5c8588e83da2717afacad">MASLVSSPFTLPNSKTSHLSSISQKNYFIHSFLPKKISQNNSRTPHNFKIAAIGNGLFTQTTPEVRRIVPENAQGLPTVKLVYVVLEAQYQSALTAAVQTLNKNGQYVSFEVVGYLVEELRDENTYKTFCKDLEDANIFIGSLIFVEELALKVKAAVEKERDRLDAVLVFPSMPEVMRLNKLGSFSMSQLGQSKSPFFQLFKNKKSSAGFADSMLKLVRTLPKVLKYLPSDKAQDARRYILSLQFWLGGSPDNLVNFLKMISGSYVPSLKGTKIDYSDPVLYLDNGIWHPLAPCMYDDVKEYLNWYGTRRDANEKLKSKNAPIIGLVLQRSHIVTGDESHYVAVIMELEARGAKVIPIFAGGLDFSGPVERYFIDPVTKKPMVNSVVSLTGFALVGGPARQDHPRAVEALMKLDVPYMVALPLVFQTTEEWLNSTLGLHPIQVALQVALPELDGGMEPIVFSGRDPRTGKSHALHKRVEQLCTRAIKWAELKRKTKTEKKLAITVFSFPPDKGNVGTAAYLNVFASIYSVLKDLKNDGYNVEGLPEAPEALMEDVIHDKEAQFNSPNLNVAYKMSVREYQRLTPYATALEENWGKPPGNLNSDGENLLVYGKQYGNVFIGVQPTFGYEGDPMRLLFSKSASPHHGFAAYYSFVEKIFGADAVLHFGTHGSLEFMPGKQVGMSDACFPDSLIGNIPNVYYYAANNPSEATIAKRRSYANTISYLTPPAENAGLYKGLKQLSELISSYQSLKDSGRGPQIVNSIISTAKQCNLDKDVDLPEEGEEISAKERDLVVGKVYSKIMEIESRLLPCGLHVIGEPPSAMEAVATLVNIAALNRPEQGISSLPAILAETLGRDIEDVYKGSDKGILRDVELLRQITEASRGAVTAFVERSTNNKGQVVDVSDKLTSLFGFGINEPWIQYLSNTKFYIADREKLRVLFQFLGECLKLVVADNELGSLKQALEGKYVEPGPGGDPIRNPKVLPTGKNIHALDPQSIPTTAALQSAKVVVDRLLERQKADNGGKYPETVALVLWGTDNIKTYGESLAQVMWMIGVRPVADTFGRVNRVEPVSLEELGRPRIDVVVNCSGVFRDLFINQMNLLDRAVKLVAELDEPEDQNYVRKHALEQAKALNVDVREAASRVFSNASGSYSSNINLAVENSSWNDEKQLQEMYLSRKSFAFDSDAPGVGMMEKQKIFEMALSTADATFQNLDSSEISLTDVSHYFDSDPTNLVQSLRKDGKKPSAYVADTTTANAQVRTLSETVRLDARTKLLNPKWYEGMLSSGYEGVREIEKRLTNTVGWSATSGQVDNWVYEEANTTFIQDEAMLNRLMNTNPNSFRKLLQTFLEANGRGYWETSAENIDRLRQLYSEVEDKIEGIDR</sequence>
+        <xref id="Gene.139::FRAEX38873_v2_000001170.1::g.139::m.139" name="Gene.139::FRAEX38873_v2_000001170.1::g.139  ORF type:complete len:1382 (+) FRAEX38873_v2_000001170.1:1-4146(+)"/>
+        <matches>
+            <hmmer3-match evalue="0.0" score="1110.1">
+                <signature ac="PF02514" desc="CobN/Magnesium Chelatase" name="CobN-Mg_chel">
+                    <entry ac="IPR003672" desc="CobN/magnesium chelatase" name="CobN/Mg_chltase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009058" name="biosynthetic process"/>
+                    </entry>
+                    <models>
+                        <model ac="PF02514" desc="CobN/Magnesium Chelatase" name="CobN-Mg_chel"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="1363" env-start="242" score="1109.9" evalue="0.0" hmm-start="3" hmm-end="1097" hmm-length="0" start="244" end="1362"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="0.0" score="1711.2">
+                <signature ac="TIGR02025" desc="BchH: magnesium chelatase, H subunit" name="TIGR02025">
+                    <entry ac="IPR011771" desc="Magnesium-chelatase, subunit H" name="BchH" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0015995" name="chlorophyll biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016851" name="magnesium chelatase activity"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7159" name="Chlorophyllide a biosynthesis III (aerobic, light independent)"/>
+                        <pathway-xref db="KEGG" id="00860+6.6.1.1" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5531" name="Chlorophyllide a biosynthesis II (anaerobic)"/>
+                    </entry>
+                    <models>
+                        <model ac="TIGR02025" desc="BchH: magnesium chelatase, H subunit" name="TIGR02025"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="1379" env-start="79" score="1711.1" evalue="0.0" hmm-start="2" hmm-end="1271" hmm-length="0" start="80" end="1379"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.6E-49" score="167.7">
+                <signature ac="PF11965" desc="Domain of unknown function (DUF3479)" name="DUF3479">
+                    <entry ac="IPR022571" desc="Magnesium chelatase, subunit H, N-terminal" name="Mg_chelatase_H_N" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016851" name="magnesium chelatase activity"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5531" name="Chlorophyllide a biosynthesis II (anaerobic)"/>
+                        <pathway-xref db="KEGG" id="00860+6.6.1.1" name="Porphyrin and chlorophyll metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7159" name="Chlorophyllide a biosynthesis III (aerobic, light independent)"/>
+                    </entry>
+                    <models>
+                        <model ac="PF11965" desc="Domain of unknown function (DUF3479)" name="DUF3479"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="240" env-start="79" score="166.8" evalue="3.0E-49" hmm-start="1" hmm-end="164" hmm-length="0" start="79" end="240"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

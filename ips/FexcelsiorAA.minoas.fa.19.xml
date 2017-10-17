@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="509d69576b94a5af2e7c99f6f6543d6d">MKFRVFFILALLVFSSLFLQGMTIVDLIDFISTLLMLLEIWIFFTSNKQFVFSPKTPLNWLWLGKKVNFWLESRMKGNQVLMLLQSRPVFIFPLITSIWFKIFQLRLLTMLSPPAAQATFPYIFAVSKFLQTGAFDLVGTIVYEIDQNPYQSTFYNGTIEVAEAGGLLSVESVFLFCLGTALLGLLGFWIRGQIKNFSKKTKRAHKVEVGTGTTNASMDEWLEGTAYTQSQSSKSKKKK</sequence>
+        <xref id="Gene.27::FRAEX38873_v2_000000250.1::g.27::m.27" name="Gene.27::FRAEX38873_v2_000000250.1::g.27  ORF type:complete len:240 (+) FRAEX38873_v2_000000250.1:1-720(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.5E-13" score="49.5">
+                <signature ac="PF03896" desc="Translocon-associated protein (TRAP), alpha subunit" name="TRAP_alpha">
+                    <entry ac="IPR005595" desc="Translocon-associated protein (TRAP), alpha subunit" name="TRAP_alpha" type="FAMILY">
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005783" name="endoplasmic reticulum"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03896" desc="Translocon-associated protein (TRAP), alpha subunit" name="TRAP_alpha"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="239" env-start="39" score="49.0" evalue="3.5E-13" hmm-start="95" hmm-end="264" hmm-length="0" start="61" end="230"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

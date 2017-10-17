@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e33b434711571670794169b6c17f2d0d">MDGAAIMEDGFPATRLFNQGYSYTYDDVIFLPHYIDFPTDAVSLSTKLSRRISLATPFVASPMDTVTESSMAAAMASLGAIGIVHSNTTPSHQASLVRLVKSHKIPFKHELIFKSPSDSILSADEFSSSPCIFVTEFGTQKSKLLGIVKISEWEKVTDKETRVSKYMTKAMVSLPASYKFEDIAGYLEKKELEFVPLVSDKNDEGEEIVNLVTSDDCERIKGFPKLGLPSVGSDGEFLVGAAIGTRESDKERLQHLVKAGVNVVVLDSSQGNSSYQIDMIKYAKNTYPDLDLIGGNVVTTYQAQNLIQAGVDGLRVGMGSGSICTTQEVCAVGRGQATAVYKVASVAAQSGVPVIADGGISNSGHVVKALVLGASTVMMGSFLAGSSEAPGTYINQGGRRVKKYRGMGSLEAMMKGSDARYLGDTAKLKIAQGVVGAVADKGSVLKFIPYTMQAVKQGFQDLGASSLQSAHDLLRSGVLRLEVRTGAAQVEGGIHGLVSYEKKSF</sequence>
+        <xref id="Gene.54::FRAEX38873_v2_000000440.1::g.54::m.54" name="Gene.54::FRAEX38873_v2_000000440.1::g.54  ORF type:complete len:506 (+) FRAEX38873_v2_000000440.1:1-1518(+)"/>
+        <matches>
+            <hmmer2-match evalue="1.1E-222" score="748.9">
+                <signature ac="PIRSF000130" name="IMPDH">
+                    <entry ac="IPR005990" desc="Inosine-5'-monophosphate dehydrogenase" name="IMP_DH" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003938" name="IMP dehydrogenase activity"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5695" name="Urate biosynthesis/inosine 5'-phosphate degradation"/>
+                        <pathway-xref db="KEGG" id="00230+1.1.1.205" name="Purine metabolism"/>
+                        <pathway-xref db="UniPathway" id="UPA00601" name="Purine metabolism; XMP biosynthesis via de novo pathway; XMP from IMP: step 1/1"/>
+                        <pathway-xref db="KEGG" id="00983+1.1.1.205" name="Drug metabolism - other enzymes"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6596" name="Adenosine nucleotides degradation I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7221" name="Guanosine ribonucleotides de novo biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="PIRSF000130" name="IMPDH"/>
+                    </models>
+                    <signature-library-release library="PIRSF" version="2.84"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="748.9" evalue="1.1E-222" hmm-start="1" hmm-end="524" hmm-length="0" start="8" end="505"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="1.4E-169" score="562.5">
+                <signature ac="TIGR01302" desc="IMP_dehydrog: inosine-5'-monophosphate dehydrogenase" name="TIGR01302">
+                    <entry ac="IPR005990" desc="Inosine-5'-monophosphate dehydrogenase" name="IMP_DH" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003938" name="IMP dehydrogenase activity"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5695" name="Urate biosynthesis/inosine 5'-phosphate degradation"/>
+                        <pathway-xref db="KEGG" id="00230+1.1.1.205" name="Purine metabolism"/>
+                        <pathway-xref db="UniPathway" id="UPA00601" name="Purine metabolism; XMP biosynthesis via de novo pathway; XMP from IMP: step 1/1"/>
+                        <pathway-xref db="KEGG" id="00983+1.1.1.205" name="Drug metabolism - other enzymes"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6596" name="Adenosine nucleotides degradation I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7221" name="Guanosine ribonucleotides de novo biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="TIGR01302" desc="IMP_dehydrog: inosine-5'-monophosphate dehydrogenase" name="TIGR01302"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="472" env-start="22" score="562.3" evalue="1.6E-169" hmm-start="1" hmm-end="449" hmm-length="0" start="22" end="471"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.5E-132" score="440.1">
+                <signature ac="PF00478" desc="IMP dehydrogenase / GMP reductase domain" name="IMPDH">
+                    <entry ac="IPR001093" desc="IMP dehydrogenase/GMP reductase" name="IMP_DH_GMPRt" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00478" desc="IMP dehydrogenase / GMP reductase domain" name="IMPDH"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="495" env-start="21" score="439.8" evalue="5.2E-132" hmm-start="2" hmm-end="348" hmm-length="0" start="22" end="491"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.7E-166" score="554.1">
+                <signature ac="G3DSA:3.20.20.70">
+                    <entry ac="IPR013785" desc="Aldolase-type TIM barrel" name="Aldolase_TIM" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1wa3D00"/>
+                        <model ac="1vrdB00"/>
+                        <model ac="1vhnA01"/>
+                        <model ac="2i1oA02"/>
+                        <model ac="2p0oA01"/>
+                        <model ac="1rd5A00"/>
+                        <model ac="3ovpB00"/>
+                        <model ac="3gvgA00"/>
+                        <model ac="3b4uA00"/>
+                        <model ac="1p1xB00"/>
+                        <model ac="3igsB00"/>
+                        <model ac="1tqjC00"/>
+                        <model ac="1me8A00"/>
+                        <model ac="1m5wA00"/>
+                        <model ac="3cu2A00"/>
+                        <model ac="1q6oB00"/>
+                        <model ac="1pv8A00"/>
+                        <model ac="2p10C01"/>
+                        <model ac="2vxnA00"/>
+                        <model ac="3ajxA00"/>
+                        <model ac="1vhcF00"/>
+                        <model ac="1vyrA00"/>
+                        <model ac="1l6wA00"/>
+                        <model ac="2nzlA00"/>
+                        <model ac="3cc1B01"/>
+                        <model ac="1p4cA00"/>
+                        <model ac="2qezE03"/>
+                        <model ac="3l21B00"/>
+                        <model ac="1gteB05"/>
+                        <model ac="1fcqA00"/>
+                        <model ac="1d3gA00"/>
+                        <model ac="2nwrA00"/>
+                        <model ac="2qr6A02"/>
+                        <model ac="2oczA00"/>
+                        <model ac="3elfA00"/>
+                        <model ac="1uasA01"/>
+                        <model ac="3ru6B00"/>
+                        <model ac="1n7kA00"/>
+                        <model ac="1o94A01"/>
+                        <model ac="1sflB00"/>
+                        <model ac="1ep3A00"/>
+                        <model ac="1ujpA00"/>
+                        <model ac="1tv8B00"/>
+                        <model ac="1piiA02"/>
+                        <model ac="3o1nA00"/>
+                        <model ac="2y88A00"/>
+                        <model ac="3ldvA00"/>
+                        <model ac="1vc4A00"/>
+                        <model ac="1w5qB00"/>
+                        <model ac="1nvmA01"/>
+                        <model ac="3ndoA00"/>
+                        <model ac="1jr1B00"/>
+                        <model ac="1ofdA02"/>
+                        <model ac="1xi3A00"/>
+                        <model ac="3e96A00"/>
+                        <model ac="3clmA00"/>
+                        <model ac="1piiA01"/>
+                        <model ac="1qwgA00"/>
+                        <model ac="3a21B01"/>
+                        <model ac="1ypfA00"/>
+                        <model ac="3mbdA00"/>
+                        <model ac="1gvfB00"/>
+                        <model ac="1vcfB00"/>
+                        <model ac="2hmcA00"/>
+                        <model ac="3ceuA00"/>
+                        <model ac="1of8A00"/>
+                        <model ac="3daqA00"/>
+                        <model ac="1r30A00"/>
+                        <model ac="2w79A00"/>
+                        <model ac="2rfgA00"/>
+                        <model ac="2zdrA01"/>
+                        <model ac="3hq1A01"/>
+                        <model ac="1w8sE00"/>
+                        <model ac="3chvA00"/>
+                        <model ac="2qf7A04"/>
+                        <model ac="1p0kA00"/>
+                        <model ac="3ctlA00"/>
+                        <model ac="1vcvA00"/>
+                        <model ac="3atyB00"/>
+                        <model ac="2iqtA00"/>
+                        <model ac="1wx0A00"/>
+                        <model ac="1jcnA00"/>
+                        <model ac="2b7nA02"/>
+                        <model ac="1jvnA02"/>
+                        <model ac="1nsjA00"/>
+                        <model ac="2tpsB00"/>
+                        <model ac="1ofdA03"/>
+                        <model ac="3nyzA00"/>
+                        <model ac="2fiqB01"/>
+                        <model ac="1x1oA02"/>
+                        <model ac="1w0mA00"/>
+                        <model ac="1b3oA00"/>
+                        <model ac="1thfD00"/>
+                        <model ac="1vqtA00"/>
+                        <model ac="3bv4A00"/>
+                        <model ac="1to3A00"/>
+                        <model ac="1x7fA01"/>
+                        <model ac="1w3iA00"/>
+                        <model ac="2w6rA00"/>
+                        <model ac="3a5fA00"/>
+                        <model ac="3ewwA00"/>
+                        <model ac="1rqbA01"/>
+                        <model ac="1vr6A02"/>
+                        <model ac="3cwnA00"/>
+                        <model ac="1zfjA00"/>
+                        <model ac="1xm3B00"/>
+                        <model ac="1wbhB00"/>
+                        <model ac="1ps9A01"/>
+                        <model ac="2r8wA00"/>
+                        <model ac="1i4nA00"/>
+                        <model ac="2e6fA01"/>
+                        <model ac="3lbmC00"/>
+                        <model ac="3rndA00"/>
+                        <model ac="3c6cA00"/>
+                        <model ac="3hpxA01"/>
+                        <model ac="1qopA00"/>
+                        <model ac="2yw3E00"/>
+                        <model ac="1yxyA00"/>
+                        <model ac="3sj3A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="505" env-start="13" score="553.8" evalue="2.1E-166" hmm-start="5" hmm-end="488" hmm-length="0" start="16" end="505"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00487" desc="IMP dehydrogenase / GMP reductase signature." name="IMP_DH_GMP_RED">
+                    <entry ac="IPR015875" desc="IMP dehydrogenase / GMP reductase, conserved site" name="IMP_DH/GMP_Rdtase_CS" type="CONSERVED_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016491" name="oxidoreductase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00487" desc="IMP dehydrogenase / GMP reductase signature." name="IMP_DH_GMP_RED"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="314" end="326">
+                        <alignment>LRVGMGsGSICtT</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="MF_01964" desc="Inosine-5'-monophosphate dehydrogenase [guaB]." name="IMPDH">
+                    <entry ac="IPR005990" desc="Inosine-5'-monophosphate dehydrogenase" name="IMP_DH" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003938" name="IMP dehydrogenase activity"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="MetaCyc" id="PWY-5695" name="Urate biosynthesis/inosine 5'-phosphate degradation"/>
+                        <pathway-xref db="KEGG" id="00230+1.1.1.205" name="Purine metabolism"/>
+                        <pathway-xref db="UniPathway" id="UPA00601" name="Purine metabolism; XMP biosynthesis via de novo pathway; XMP from IMP: step 1/1"/>
+                        <pathway-xref db="KEGG" id="00983+1.1.1.205" name="Drug metabolism - other enzymes"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6596" name="Adenosine nucleotides degradation I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7221" name="Guanosine ribonucleotides de novo biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="MF_01964" desc="Inosine-5'-monophosphate dehydrogenase [guaB]." name="IMPDH"/>
+                    </models>
+                    <signature-library-release library="HAMAP" version="201311.27"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="77.442" start="22" end="503">
+                        <alignment>SYTYDDVIFLPHYID-FPTDAVSLSTKLSRRISLATPFVASPMDTVTESSMAAAMASLGAIGIVHSNTTPSHQASLVRLVKSHKIPFKhELIFKSPSDSILSADEFSS----S---PCIFVTEFGTQK---SKLLGIVKISEWEKVT---DKETRVSKYMT---KAMVSLPASYKFED-IAGYLEKKELEFVPLVsdkNDeGEEIVNLVTSDDCERIKGFPKLGlpsvGSDGEFLVGAAIGTRE-SDKERLQHLVKAGVNVVVLDSSQGNSSYQIDMIKYAKNTYP--DLDLIGGNVVTTYQAQNLIQAGVDGLRVGMGSGSICTTQEVCAVGRGQATAVYKVASVAaQSGVPVIADGGISNSGHVVKALVLGASTVMMGSFLAGSSEAPGTYINQGGRRVKKYRGMGSLEAMMKGSDA---------------RYLGDTA----------KLKIAQGVVGAVADKGSVLKFIPYTMQAVKQGFQDLGASSLQSAHDLLRSGVLRLEVRTGAAQVEGGIHGLVSYEKK</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.7E-118">
+                <signature ac="SSF51412" name="Inosine monophosphate dehydrogenase (IMPDH)">
+                    <models>
+                        <model ac="0047561" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0053620" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0047664" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0053789" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0051569" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0046530" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                        <model ac="0048832" name="Inosine monophosphate dehydrogenase (IMPDH)"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="224" end="504"/>
+                    <superfamilyhmmer3-location start="14" end="104"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="2.62E-7">
+                <signature ac="SSF54631" name="CBS-domain pair">
+                    <models>
+                        <model ac="0053883" name="CBS-domain pair"/>
+                        <model ac="0054706" name="CBS-domain pair"/>
+                        <model ac="0054401" name="CBS-domain pair"/>
+                        <model ac="0053653" name="CBS-domain pair"/>
+                        <model ac="0053619" name="CBS-domain pair"/>
+                        <model ac="0053801" name="CBS-domain pair"/>
+                        <model ac="0053593" name="CBS-domain pair"/>
+                        <model ac="0054677" name="CBS-domain pair"/>
+                        <model ac="0053588" name="CBS-domain pair"/>
+                        <model ac="0054750" name="CBS-domain pair"/>
+                        <model ac="0054203" name="CBS-domain pair"/>
+                        <model ac="0054752" name="CBS-domain pair"/>
+                        <model ac="0053599" name="CBS-domain pair"/>
+                        <model ac="0053668" name="CBS-domain pair"/>
+                        <model ac="0053224" name="CBS-domain pair"/>
+                        <model ac="0054316" name="CBS-domain pair"/>
+                        <model ac="0054421" name="CBS-domain pair"/>
+                        <model ac="0054707" name="CBS-domain pair"/>
+                        <model ac="0054402" name="CBS-domain pair"/>
+                        <model ac="0053589" name="CBS-domain pair"/>
+                        <model ac="0053648" name="CBS-domain pair"/>
+                        <model ac="0054747" name="CBS-domain pair"/>
+                        <model ac="0054929" name="CBS-domain pair"/>
+                        <model ac="0054930" name="CBS-domain pair"/>
+                        <model ac="0054665" name="CBS-domain pair"/>
+                        <model ac="0053601" name="CBS-domain pair"/>
+                        <model ac="0054751" name="CBS-domain pair"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="130" end="217"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

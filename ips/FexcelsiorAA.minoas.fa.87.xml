@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="4dcd4a951cfcc90e8c9b1fa7f4ca0bf1">MAVDEAATVAELRATFASGKTKSYEWRVSQFKAILKLTNEHEKDIIEALRSDLNKPEYEAVLYEICGVKKSAKLALKELRRWMTPEKAKTSLVTFPSSAELVSEPLGVILVISTWNYPFLLSFEAVIGAISAGNTVVLKPSEIAPATSSLLSKLIGEYMDSSALKVVEGAVPETTALLGQKWDKIIYTGSGNVGRIVAAAAAKHLTPVILELGGKCPVIVDTKLNLEVAARRLISGKWGCNSGQTCVSPDYILTTKEFAPKLIDALVWELEKFYGKEPLKSPDLSCIVNSSHFNRLTKLMDDEKVFGKIVHGGQRDKTTLKIAPTILSDVPEDSLIMNEEIFGPLFPIITVDKIEDSFNVINAREKPLAAYLFTNDKMLQEEFVESVSAGGLSINETALHSATLTLPFGGIGESGMGSYHGKYSFDAFSHKKPVLRRSFVGEVAARYPPYTPEKQRFLKAFLDGNIIDIFRALFGW</sequence>
+        <xref id="Gene.113::FRAEX38873_v2_000000960.1::g.113::m.113" name="Gene.113::FRAEX38873_v2_000000960.1::g.113  ORF type:complete len:477 (+) FRAEX38873_v2_000000960.1:1-1431(+)"/>
+        <matches>
+            <hmmer2-match evalue="6.7E-228" score="766.3">
+                <signature ac="PIRSF036492" name="ALDH">
+                    <entry ac="IPR012394" desc="Aldehyde dehydrogenase NAD(P)-dependent" name="Aldehyde_DH_NAD(P)" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006081" name="cellular aldehyde metabolic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004030" name="aldehyde dehydrogenase [NAD(P)+] activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PIRSF036492" name="ALDH"/>
+                    </models>
+                    <signature-library-release library="PIRSF" version="2.84"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="766.3" evalue="6.7E-228" hmm-start="1" hmm-end="515" hmm-length="0" start="8" end="462"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="3.2E-83" score="279.4">
+                <signature ac="PF00171" desc="Aldehyde dehydrogenase family" name="Aldedh">
+                    <entry ac="IPR015590" desc="Aldehyde dehydrogenase domain" name="Aldehyde_DH_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016491" name="oxidoreductase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00171" desc="Aldehyde dehydrogenase family" name="Aldedh"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="434" env-start="1" score="279.3" evalue="3.6E-83" hmm-start="31" hmm-end="460" hmm-length="0" start="3" end="432"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.2E-52" score="176.2">
+                <signature ac="G3DSA:3.40.309.10">
+                    <entry ac="IPR016163" desc="Aldehyde dehydrogenase, C-terminal" name="Ald_DH_C" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016620" name="oxidoreductase activity, acting on the aldehyde or oxo group of donors, NAD or NADP as acceptor"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016491" name="oxidoreductase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1wndA02"/>
+                        <model ac="1t90A02"/>
+                        <model ac="1uzbA02"/>
+                        <model ac="3ed6A02"/>
+                        <model ac="1ez0A02"/>
+                        <model ac="2w8nA02"/>
+                        <model ac="3b4wA02"/>
+                        <model ac="1ad3A02"/>
+                        <model ac="1o20A02"/>
+                        <model ac="1euhA02"/>
+                        <model ac="1o04A02"/>
+                        <model ac="3k2wB02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="414" env-start="215" score="175.2" evalue="8.3E-52" hmm-start="1" hmm-end="195" hmm-length="0" start="226" end="414"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.6E-52" score="177.2">
+                <signature ac="G3DSA:3.40.605.10">
+                    <entry ac="IPR016162" desc="Aldehyde dehydrogenase, N-terminal" name="Ald_DH_N" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016491" name="oxidoreductase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                    </entry>
+                    <models>
+                        <model ac="2w8nA01"/>
+                        <model ac="1ez0B01"/>
+                        <model ac="3b4wA01"/>
+                        <model ac="1t90A01"/>
+                        <model ac="3k2wB01"/>
+                        <model ac="1ad3A01"/>
+                        <model ac="1a4sA01"/>
+                        <model ac="1o04A01"/>
+                        <model ac="1uxtA01"/>
+                        <model ac="3ed6A01"/>
+                        <model ac="1o20A01"/>
+                        <model ac="1euhA01"/>
+                        <model ac="1uzbA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="236" env-start="2" score="176.6" evalue="3.7E-52" hmm-start="44" hmm-end="274" hmm-length="0" start="7" end="225"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="3.27E-111">
+                <signature ac="SSF53720" name="ALDH-like">
+                    <entry ac="IPR016161" desc="Aldehyde/histidinol dehydrogenase" name="Ald_DH/histidinol_DH" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0055114" name="oxidation-reduction process"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016491" name="oxidoreductase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="0047758" name="ALDH-like"/>
+                        <model ac="0041670" name="ALDH-like"/>
+                        <model ac="0035565" name="ALDH-like"/>
+                        <model ac="0037277" name="ALDH-like"/>
+                        <model ac="0036174" name="ALDH-like"/>
+                        <model ac="0050666" name="ALDH-like"/>
+                        <model ac="0037193" name="ALDH-like"/>
+                        <model ac="0034877" name="ALDH-like"/>
+                        <model ac="0035037" name="ALDH-like"/>
+                        <model ac="0040316" name="ALDH-like"/>
+                        <model ac="0044883" name="ALDH-like"/>
+                        <model ac="0035766" name="ALDH-like"/>
+                        <model ac="0044574" name="ALDH-like"/>
+                        <model ac="0041750" name="ALDH-like"/>
+                        <model ac="0035003" name="ALDH-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="7" end="447"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

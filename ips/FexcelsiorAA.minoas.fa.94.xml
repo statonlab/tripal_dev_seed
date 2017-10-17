@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="d82b34105ef782c0d550000ac61ee778">MFSSTFHHFLPYTNMHSSTLKQPFFPSHPPPFLMKRENFLKPSPLQIQENPRKRNAEKNPQFFMPLNCVFHSPGKSRSRNPNPRNTAVFCLTICEQPLLHNLSVSQKVQALDLEFKSLSEPIDRVKRLLHYANHLPQLDESAKIQENRVTGCTAQVWLQVKMDNNGGMEFRVDTDSEITKGFCSCLIWVLDGAKFDEILTVNSDDFVEMNVGLPSRGHSRVNTWHNVLISMQKRTKDLVEKRNRETFPSLIHDISVNGSYKETQSTSLATRIDGQ</sequence>
+        <xref id="Gene.124::FRAEX38873_v2_000001030.1::g.124::m.124" name="Gene.124::FRAEX38873_v2_000001030.1::g.124  ORF type:complete len:276 (+) FRAEX38873_v2_000001030.1:1-828(+)"/>
+        <matches>
+            <hmmer3-match evalue="9.4E-39" score="131.7">
+                <signature ac="G3DSA:3.90.1010.10">
+                    <models>
+                        <model ac="1q48A00"/>
+                        <model ac="1ni7A00"/>
+                        <model ac="3g0mA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="246" env-start="94" score="131.4" evalue="1.2E-38" hmm-start="9" hmm-end="153" hmm-length="0" start="100" end="244"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.4E-20" score="73.0">
+                <signature ac="PF02657" desc="Fe-S metabolism associated domain" name="SufE">
+                    <entry ac="IPR003808" desc="Fe-S metabolism associated domain, SufE-like" name="Fe-S_metab-assoc_dom" type="DOMAIN">
+                        <pathway-xref db="UniPathway" id="UPA00266" name="Cofactor biosynthesis; iron-sulfur cluster biosynthesis"/>
+                    </entry>
+                    <models>
+                        <model ac="PF02657" desc="Fe-S metabolism associated domain" name="SufE"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="236" env-start="111" score="72.6" evalue="1.9E-20" hmm-start="4" hmm-end="123" hmm-length="0" start="114" end="234"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="9.42E-29">
+                <signature ac="SSF82649" name="SufE/NifU">
+                    <models>
+                        <model ac="0042614" name="SufE/NifU"/>
+                        <model ac="0050511" name="SufE/NifU"/>
+                        <model ac="0041151" name="SufE/NifU"/>
+                        <model ac="0041407" name="SufE/NifU"/>
+                        <model ac="0043760" name="SufE/NifU"/>
+                        <model ac="0053635" name="SufE/NifU"/>
+                        <model ac="0050992" name="SufE/NifU"/>
+                        <model ac="0050294" name="SufE/NifU"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="100" end="238"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

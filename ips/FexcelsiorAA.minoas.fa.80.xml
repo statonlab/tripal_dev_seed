@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="7fa933ce1e244a1fd5b6c9660c6e559a">MMLYSAVHERLLRTSDDFFWPVETTFHGRFIIDVEFLDLKICPLNGGEGNSICPNEGRMQYPATQNTLRCLATQNSLRCLSRMLDESIHADVTINTADGTLQAHKAILSASSPVFHSMFLHDLKEKESSTADMEDMSRESCMALISYFYGKINKDDFWKHRLALLGAANKYDIVELKDTCEESLLEDINSENVLERLQEAWLYELDKLKKACLTYLFDFGKIYDVRDEMEMFFRNADRELVVEMFQEVLTVWKPA</sequence>
+        <xref id="Gene.104::FRAEX38873_v2_000000910.1::g.104::m.104" name="Gene.104::FRAEX38873_v2_000000910.1::g.104  ORF type:complete len:256 (+) FRAEX38873_v2_000000910.1:1-768(+)"/>
+        <matches>
+            <hmmer2-match evalue="4.4E-16" score="69.4">
+                <signature ac="SM00225" desc="Broad-Complex, Tramtrack and Bric a brac" name="BTB">
+                    <entry ac="IPR000210" desc="BTB/POZ-like" name="BTB/POZ-like" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00225" desc="Broad-Complex, Tramtrack and Bric a brac" name="BTB"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="69.4" evalue="4.4E-16" hmm-start="1" hmm-end="114" hmm-length="0" start="90" end="188"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="5.8E-23" score="80.8">
+                <signature ac="PF00651" desc="BTB/POZ domain" name="BTB">
+                    <entry ac="IPR013069" desc="BTB/POZ" name="BTB_POZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00651" desc="BTB/POZ domain" name="BTB"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="188" env-start="80" score="73.4" evalue="1.2E-20" hmm-start="4" hmm-end="109" hmm-length="0" start="83" end="186"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.6E-27" score="93.5">
+                <signature ac="G3DSA:3.30.710.10">
+                    <entry ac="IPR011333" desc="BTB/POZ fold" name="BTB/POZ_fold" type="DOMAIN"/>
+                    <models>
+                        <model ac="1fs1B00"/>
+                        <model ac="1r29A00"/>
+                        <model ac="2fnjC00"/>
+                        <model ac="1nexA00"/>
+                        <model ac="1cs3A00"/>
+                        <model ac="1nn7A00"/>
+                        <model ac="1t1dA00"/>
+                        <model ac="3b84A00"/>
+                        <model ac="3kvtA00"/>
+                        <model ac="2if5A00"/>
+                        <model ac="3ga1A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="188" env-start="69" score="81.7" evalue="2.8E-23" hmm-start="14" hmm-end="124" hmm-length="0" start="74" end="185"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50097" desc="BTB domain profile." name="BTB">
+                    <entry ac="IPR000210" desc="BTB/POZ-like" name="BTB/POZ-like" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50097" desc="BTB domain profile." name="BTB"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="15.122" start="90" end="149">
+                        <alignment>ADVTINTADGTLQAHKAILSASSPVFHSMFLHDLKEKESsTADMEDMSRESCMALISYFY--------</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.73E-23">
+                <signature ac="SSF54695" name="POZ domain">
+                    <entry ac="IPR011333" desc="BTB/POZ fold" name="BTB/POZ_fold" type="DOMAIN"/>
+                    <models>
+                        <model ac="0035720" name="POZ domain"/>
+                        <model ac="0045530" name="POZ domain"/>
+                        <model ac="0041351" name="POZ domain"/>
+                        <model ac="0042727" name="POZ domain"/>
+                        <model ac="0049297" name="POZ domain"/>
+                        <model ac="0037753" name="POZ domain"/>
+                        <model ac="0043834" name="POZ domain"/>
+                        <model ac="0043098" name="POZ domain"/>
+                        <model ac="0040560" name="POZ domain"/>
+                        <model ac="0041467" name="POZ domain"/>
+                        <model ac="0037241" name="POZ domain"/>
+                        <model ac="0038738" name="POZ domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="74" end="186"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

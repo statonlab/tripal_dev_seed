@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="fc9e58a6bdcd06e825e44ea76070e935">MQEIIACNPTIPLQSHHRRPNRNAATTFFTSRHLLFLGRRKLCFDVVSLLDTLSPIPRADNKDAITSFCTEDFGLLRENFLMTTRRMLFTSLLMCSCCYLLPSRCFPAYALGDPSVTVEQVTPPVFPSGALFPTEERIVQLFEKNTYSVVNIFDVTLRPQLNITGAVEVPEGNGSGVVWDDQGHIVTNYHVIGNSLSRNPSRGQVVARVNILASEGVQKNFEGKLIGADRTKDLAVLKVEAPEELLRPMKVGLSSFLKVGQQCLAIGNPFGFDHTLTVGVISGLNRDINSQTGVTIGGGIQTDAAINPGNSGGPLLDSKGNLIGINTAIFTQTGTSAGVGFAIPSSTVVKIVPQLIQFGKAVRAALNVEIAPDPIANQLNVRNGALILQVPGNSLAAKAGLLPTTRGFAGNIVLGDIIVAVDGKPVRSRSELNKTLDEYNIGEKVILKIQRGVENLEVPIVLEER</sequence>
+        <xref id="Gene.205::FRAEX38873_v2_000001750.1::g.205::m.205" name="Gene.205::FRAEX38873_v2_000001750.1::g.205  ORF type:complete len:466 (+) FRAEX38873_v2_000001750.1:1-1398(+)"/>
+        <matches>
+            <fingerprints-match evalue="7.702131E-35" graphscan="I.IIII">
+                <signature ac="PR00834" desc="HtrA/DegQ protease family signature" name="PROTEASES2C">
+                    <entry ac="IPR001940" desc="Peptidase S1C" name="Peptidase_S1C" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006508" name="proteolysis"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004252" name="serine-type endopeptidase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PR00834" desc="HtrA/DegQ protease family signature" name="PROTEASES2C"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="3" pvalue="5.16E-14" score="51.12" start="259" end="283"/>
+                    <fingerprints-location motifNumber="1" pvalue="3.62E-6" score="51.97" start="183" end="195"/>
+                    <fingerprints-location motifNumber="4" pvalue="3.93E-10" score="69.24" start="296" end="313"/>
+                    <fingerprints-location motifNumber="6" pvalue="3.52E-5" score="39.59" start="411" end="423"/>
+                    <fingerprints-location motifNumber="5" pvalue="3.07E-8" score="45.12" start="318" end="335"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer2-match evalue="0.0071" score="25.6">
+                <signature ac="SM00228" desc="Domain present in PSD-95, Dlg, and ZO-1/2." name="PDZ">
+                    <entry ac="IPR001478" desc="PDZ domain" name="PDZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00228" desc="Domain present in PSD-95, Dlg, and ZO-1/2." name="PDZ"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="25.6" evalue="0.0071" hmm-start="1" hmm-end="80" hmm-length="0" start="337" end="453"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="6.5E-19" score="67.9">
+                <signature ac="PF13365" desc="Trypsin-like peptidase domain" name="Trypsin_2">
+                    <models>
+                        <model ac="PF13365" desc="Trypsin-like peptidase domain" name="Trypsin_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="325" env-start="174" score="67.2" evalue="1.1E-18" hmm-start="1" hmm-end="120" hmm-length="0" start="174" end="325"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="8.1E-41" score="138.4">
+                <signature ac="G3DSA:2.40.10.10">
+                    <models>
+                        <model ac="2xw9A02"/>
+                        <model ac="2qf0B02"/>
+                        <model ac="1hj8A02"/>
+                        <model ac="1eq9A01"/>
+                        <model ac="2bhgA01"/>
+                        <model ac="3nclA01"/>
+                        <model ac="1fiwA02"/>
+                        <model ac="2qa9E02"/>
+                        <model ac="1gvkB02"/>
+                        <model ac="3gylB02"/>
+                        <model ac="2qxiA02"/>
+                        <model ac="1svpA01"/>
+                        <model ac="1pq7A01"/>
+                        <model ac="1lcyA01"/>
+                        <model ac="3mfjA02"/>
+                        <model ac="2z9iC01"/>
+                        <model ac="1gpzA02"/>
+                        <model ac="1nn6A02"/>
+                        <model ac="3govB02"/>
+                        <model ac="1l1jA01"/>
+                        <model ac="1si5H01"/>
+                        <model ac="2bvrH02"/>
+                        <model ac="1a7sA02"/>
+                        <model ac="2hrvA01"/>
+                        <model ac="1svpA02"/>
+                        <model ac="2pkaA00"/>
+                        <model ac="2bvrH01"/>
+                        <model ac="1nn6A01"/>
+                        <model ac="1te0A01"/>
+                        <model ac="2h2zA02"/>
+                        <model ac="2aiqA02"/>
+                        <model ac="1orfA02"/>
+                        <model ac="1eptB00"/>
+                        <model ac="1arbA01"/>
+                        <model ac="1gvkB01"/>
+                        <model ac="1a7sA01"/>
+                        <model ac="1elvA01"/>
+                        <model ac="2qa9E01"/>
+                        <model ac="1dleB02"/>
+                        <model ac="3lgiA02"/>
+                        <model ac="1arbA02"/>
+                        <model ac="2zu1A01"/>
+                        <model ac="1yphC00"/>
+                        <model ac="2wphS02"/>
+                        <model ac="2o8lA02"/>
+                        <model ac="2iphA02"/>
+                        <model ac="2xw9A01"/>
+                        <model ac="1te0A02"/>
+                        <model ac="1ym0A02"/>
+                        <model ac="2halA01"/>
+                        <model ac="3lgiB01"/>
+                        <model ac="3fanA02"/>
+                        <model ac="1lvoA02"/>
+                        <model ac="1p57B02"/>
+                        <model ac="3gylB01"/>
+                        <model ac="2halA02"/>
+                        <model ac="1pq7A02"/>
+                        <model ac="3mhwU02"/>
+                        <model ac="2hntC00"/>
+                        <model ac="2pkaB00"/>
+                        <model ac="1ezxC00"/>
+                        <model ac="1agjA01"/>
+                        <model ac="2o8tA01"/>
+                        <model ac="1mbmA01"/>
+                        <model ac="1yphE00"/>
+                        <model ac="1k2i101"/>
+                        <model ac="2j92A02"/>
+                        <model ac="2r0lA02"/>
+                        <model ac="1gvzA02"/>
+                        <model ac="1zjkA03"/>
+                        <model ac="2h5cA01"/>
+                        <model ac="2asuB01"/>
+                        <model ac="2asuB02"/>
+                        <model ac="1zjkA04"/>
+                        <model ac="1ky9A01"/>
+                        <model ac="1p3cA02"/>
+                        <model ac="2f91A02"/>
+                        <model ac="2jkhA02"/>
+                        <model ac="1befA02"/>
+                        <model ac="3mmgA02"/>
+                        <model ac="2o8lA01"/>
+                        <model ac="1lcyA02"/>
+                        <model ac="2h5cA02"/>
+                        <model ac="2qy0D02"/>
+                        <model ac="3beuA02"/>
+                        <model ac="2hlcA01"/>
+                        <model ac="1eptA00"/>
+                        <model ac="2h2zA01"/>
+                        <model ac="2hrvA02"/>
+                        <model ac="2anyA02"/>
+                        <model ac="3o8bA02"/>
+                        <model ac="1k28D01"/>
+                        <model ac="1rrkA02"/>
+                        <model ac="1gvzA01"/>
+                        <model ac="1lvbA01"/>
+                        <model ac="3mfjA01"/>
+                        <model ac="1agjA02"/>
+                        <model ac="2zu1A02"/>
+                        <model ac="1riwB00"/>
+                        <model ac="1p3cA01"/>
+                        <model ac="2hntE00"/>
+                        <model ac="1elvA02"/>
+                        <model ac="3mmgA01"/>
+                        <model ac="3nclA02"/>
+                        <model ac="2hlcA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="369" env-start="250" score="137.4" evalue="1.6E-40" hmm-start="3" hmm-end="120" hmm-length="0" start="261" end="368"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.5E-12" score="45.0">
+                <signature ac="PF13180" desc="PDZ domain" name="PDZ_2">
+                    <entry ac="IPR001478" desc="PDZ domain" name="PDZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF13180" desc="PDZ domain" name="PDZ_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="462" env-start="366" score="44.1" evalue="1.3E-11" hmm-start="13" hmm-end="80" hmm-length="0" start="382" end="460"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.4E-22" score="78.2">
+                <signature ac="G3DSA:2.40.10.10">
+                    <models>
+                        <model ac="2xw9A02"/>
+                        <model ac="2qf0B02"/>
+                        <model ac="1hj8A02"/>
+                        <model ac="1eq9A01"/>
+                        <model ac="2bhgA01"/>
+                        <model ac="3nclA01"/>
+                        <model ac="1fiwA02"/>
+                        <model ac="2qa9E02"/>
+                        <model ac="1gvkB02"/>
+                        <model ac="3gylB02"/>
+                        <model ac="2qxiA02"/>
+                        <model ac="1svpA01"/>
+                        <model ac="1pq7A01"/>
+                        <model ac="1lcyA01"/>
+                        <model ac="3mfjA02"/>
+                        <model ac="2z9iC01"/>
+                        <model ac="1gpzA02"/>
+                        <model ac="1nn6A02"/>
+                        <model ac="3govB02"/>
+                        <model ac="1l1jA01"/>
+                        <model ac="1si5H01"/>
+                        <model ac="2bvrH02"/>
+                        <model ac="1a7sA02"/>
+                        <model ac="2hrvA01"/>
+                        <model ac="1svpA02"/>
+                        <model ac="2pkaA00"/>
+                        <model ac="2bvrH01"/>
+                        <model ac="1nn6A01"/>
+                        <model ac="1te0A01"/>
+                        <model ac="2h2zA02"/>
+                        <model ac="2aiqA02"/>
+                        <model ac="1orfA02"/>
+                        <model ac="1eptB00"/>
+                        <model ac="1arbA01"/>
+                        <model ac="1gvkB01"/>
+                        <model ac="1a7sA01"/>
+                        <model ac="1elvA01"/>
+                        <model ac="2qa9E01"/>
+                        <model ac="1dleB02"/>
+                        <model ac="3lgiA02"/>
+                        <model ac="1arbA02"/>
+                        <model ac="2zu1A01"/>
+                        <model ac="1yphC00"/>
+                        <model ac="2wphS02"/>
+                        <model ac="2o8lA02"/>
+                        <model ac="2iphA02"/>
+                        <model ac="2xw9A01"/>
+                        <model ac="1te0A02"/>
+                        <model ac="1ym0A02"/>
+                        <model ac="2halA01"/>
+                        <model ac="3lgiB01"/>
+                        <model ac="3fanA02"/>
+                        <model ac="1lvoA02"/>
+                        <model ac="1p57B02"/>
+                        <model ac="3gylB01"/>
+                        <model ac="2halA02"/>
+                        <model ac="1pq7A02"/>
+                        <model ac="3mhwU02"/>
+                        <model ac="2hntC00"/>
+                        <model ac="2pkaB00"/>
+                        <model ac="1ezxC00"/>
+                        <model ac="1agjA01"/>
+                        <model ac="2o8tA01"/>
+                        <model ac="1mbmA01"/>
+                        <model ac="1yphE00"/>
+                        <model ac="1k2i101"/>
+                        <model ac="2j92A02"/>
+                        <model ac="2r0lA02"/>
+                        <model ac="1gvzA02"/>
+                        <model ac="1zjkA03"/>
+                        <model ac="2h5cA01"/>
+                        <model ac="2asuB01"/>
+                        <model ac="2asuB02"/>
+                        <model ac="1zjkA04"/>
+                        <model ac="1ky9A01"/>
+                        <model ac="1p3cA02"/>
+                        <model ac="2f91A02"/>
+                        <model ac="2jkhA02"/>
+                        <model ac="1befA02"/>
+                        <model ac="3mmgA02"/>
+                        <model ac="2o8lA01"/>
+                        <model ac="1lcyA02"/>
+                        <model ac="2h5cA02"/>
+                        <model ac="2qy0D02"/>
+                        <model ac="3beuA02"/>
+                        <model ac="2hlcA01"/>
+                        <model ac="1eptA00"/>
+                        <model ac="2h2zA01"/>
+                        <model ac="2hrvA02"/>
+                        <model ac="2anyA02"/>
+                        <model ac="3o8bA02"/>
+                        <model ac="1k28D01"/>
+                        <model ac="1rrkA02"/>
+                        <model ac="1gvzA01"/>
+                        <model ac="1lvbA01"/>
+                        <model ac="3mfjA01"/>
+                        <model ac="1agjA02"/>
+                        <model ac="2zu1A02"/>
+                        <model ac="1riwB00"/>
+                        <model ac="1p3cA01"/>
+                        <model ac="2hntE00"/>
+                        <model ac="1elvA02"/>
+                        <model ac="3mmgA01"/>
+                        <model ac="3nclA02"/>
+                        <model ac="2hlcA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="268" env-start="165" score="77.1" evalue="5.2E-22" hmm-start="5" hmm-end="92" hmm-length="0" start="168" end="260"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.0E-16" score="59.3">
+                <signature ac="G3DSA:2.30.42.10">
+                    <entry ac="IPR001478" desc="PDZ domain" name="PDZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="3i4wA00"/>
+                        <model ac="2o2tB00"/>
+                        <model ac="2ozfA00"/>
+                        <model ac="2qg1A00"/>
+                        <model ac="2vz5A00"/>
+                        <model ac="2jikB00"/>
+                        <model ac="1kwaA00"/>
+                        <model ac="2q9vA00"/>
+                        <model ac="2vwrA00"/>
+                        <model ac="1r6jA00"/>
+                        <model ac="1u3bA01"/>
+                        <model ac="1nf3C00"/>
+                        <model ac="3qe1A00"/>
+                        <model ac="2eeiA00"/>
+                        <model ac="2iwoA00"/>
+                        <model ac="1n7eA00"/>
+                        <model ac="2h2bA00"/>
+                        <model ac="2jilA00"/>
+                        <model ac="1qauA00"/>
+                        <model ac="3b76A00"/>
+                        <model ac="3o46A00"/>
+                        <model ac="2iwnA00"/>
+                        <model ac="2qt5A01"/>
+                        <model ac="2ogpA00"/>
+                        <model ac="3eggC01"/>
+                        <model ac="3bpuA00"/>
+                        <model ac="1v6bA00"/>
+                        <model ac="2q3gA00"/>
+                        <model ac="1m5zA00"/>
+                        <model ac="1i16A00"/>
+                        <model ac="1wh1A01"/>
+                        <model ac="2w4fA00"/>
+                        <model ac="1pdrA00"/>
+                        <model ac="1wg6A01"/>
+                        <model ac="1ueqA00"/>
+                        <model ac="2opgA00"/>
+                        <model ac="1k32A04"/>
+                        <model ac="1ihjB00"/>
+                        <model ac="1rzxA00"/>
+                        <model ac="2h3lB00"/>
+                        <model ac="2d92A00"/>
+                        <model ac="1y7nA00"/>
+                        <model ac="1ky9B03"/>
+                        <model ac="1w9eA01"/>
+                        <model ac="2r4hC01"/>
+                        <model ac="2vrfA00"/>
+                        <model ac="2kv8A00"/>
+                        <model ac="1vaeA00"/>
+                        <model ac="2hgaA01"/>
+                        <model ac="3r68A00"/>
+                        <model ac="1ky9B04"/>
+                        <model ac="3cbyB00"/>
+                        <model ac="2edvA00"/>
+                        <model ac="1uezA00"/>
+                        <model ac="3o5nG00"/>
+                        <model ac="1sotB03"/>
+                        <model ac="1uewA00"/>
+                        <model ac="2fe5A00"/>
+                        <model ac="1lcyA03"/>
+                        <model ac="2kbsA00"/>
+                        <model ac="1fc6A02"/>
+                        <model ac="1um1A00"/>
+                        <model ac="1x5rA01"/>
+                        <model ac="1p1eA00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="465" env-start="362" score="58.4" evalue="3.8E-16" hmm-start="17" hmm-end="96" hmm-length="0" start="376" end="464"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50106" desc="PDZ domain profile." name="PDZ">
+                    <entry ac="IPR001478" desc="PDZ domain" name="PDZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50106" desc="PDZ domain profile." name="PDZ"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="9.089" start="355" end="453">
+                        <alignment>LIQFGKAVRAALNVEIAPDPIANQLNvrnGALILQVPGNSLAAKAgllpttrgfaGNIVLGDIIVAVDGKPVRSRSELNKTLDEYNIGEKVILKIQRGV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="4.34E-51">
+                <signature ac="SSF50494" name="Trypsin-like serine proteases">
+                    <entry ac="IPR009003" desc="Trypsin-like cysteine/serine peptidase domain" name="Trypsin-like_Pept_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                    </entry>
+                    <models>
+                        <model ac="0034935" name="Trypsin-like serine proteases"/>
+                        <model ac="0042528" name="Trypsin-like serine proteases"/>
+                        <model ac="0043683" name="Trypsin-like serine proteases"/>
+                        <model ac="0046602" name="Trypsin-like serine proteases"/>
+                        <model ac="0040038" name="Trypsin-like serine proteases"/>
+                        <model ac="0043596" name="Trypsin-like serine proteases"/>
+                        <model ac="0037077" name="Trypsin-like serine proteases"/>
+                        <model ac="0035500" name="Trypsin-like serine proteases"/>
+                        <model ac="0037607" name="Trypsin-like serine proteases"/>
+                        <model ac="0037786" name="Trypsin-like serine proteases"/>
+                        <model ac="0048262" name="Trypsin-like serine proteases"/>
+                        <model ac="0037599" name="Trypsin-like serine proteases"/>
+                        <model ac="0048030" name="Trypsin-like serine proteases"/>
+                        <model ac="0035673" name="Trypsin-like serine proteases"/>
+                        <model ac="0042606" name="Trypsin-like serine proteases"/>
+                        <model ac="0047957" name="Trypsin-like serine proteases"/>
+                        <model ac="0046290" name="Trypsin-like serine proteases"/>
+                        <model ac="0041509" name="Trypsin-like serine proteases"/>
+                        <model ac="0040353" name="Trypsin-like serine proteases"/>
+                        <model ac="0053746" name="Trypsin-like serine proteases"/>
+                        <model ac="0049863" name="Trypsin-like serine proteases"/>
+                        <model ac="0048697" name="Trypsin-like serine proteases"/>
+                        <model ac="0035182" name="Trypsin-like serine proteases"/>
+                        <model ac="0038059" name="Trypsin-like serine proteases"/>
+                        <model ac="0035578" name="Trypsin-like serine proteases"/>
+                        <model ac="0054138" name="Trypsin-like serine proteases"/>
+                        <model ac="0049010" name="Trypsin-like serine proteases"/>
+                        <model ac="0034812" name="Trypsin-like serine proteases"/>
+                        <model ac="0048392" name="Trypsin-like serine proteases"/>
+                        <model ac="0040692" name="Trypsin-like serine proteases"/>
+                        <model ac="0040590" name="Trypsin-like serine proteases"/>
+                        <model ac="0037075" name="Trypsin-like serine proteases"/>
+                        <model ac="0035122" name="Trypsin-like serine proteases"/>
+                        <model ac="0038512" name="Trypsin-like serine proteases"/>
+                        <model ac="0042529" name="Trypsin-like serine proteases"/>
+                        <model ac="0041537" name="Trypsin-like serine proteases"/>
+                        <model ac="0035974" name="Trypsin-like serine proteases"/>
+                        <model ac="0053299" name="Trypsin-like serine proteases"/>
+                        <model ac="0037840" name="Trypsin-like serine proteases"/>
+                        <model ac="0044104" name="Trypsin-like serine proteases"/>
+                        <model ac="0051141" name="Trypsin-like serine proteases"/>
+                        <model ac="0042134" name="Trypsin-like serine proteases"/>
+                        <model ac="0036154" name="Trypsin-like serine proteases"/>
+                        <model ac="0037609" name="Trypsin-like serine proteases"/>
+                        <model ac="0046356" name="Trypsin-like serine proteases"/>
+                        <model ac="0048635" name="Trypsin-like serine proteases"/>
+                        <model ac="0042588" name="Trypsin-like serine proteases"/>
+                        <model ac="0040858" name="Trypsin-like serine proteases"/>
+                        <model ac="0035283" name="Trypsin-like serine proteases"/>
+                        <model ac="0038419" name="Trypsin-like serine proteases"/>
+                        <model ac="0040887" name="Trypsin-like serine proteases"/>
+                        <model ac="0050034" name="Trypsin-like serine proteases"/>
+                        <model ac="0047191" name="Trypsin-like serine proteases"/>
+                        <model ac="0053039" name="Trypsin-like serine proteases"/>
+                        <model ac="0037192" name="Trypsin-like serine proteases"/>
+                        <model ac="0040351" name="Trypsin-like serine proteases"/>
+                        <model ac="0048877" name="Trypsin-like serine proteases"/>
+                        <model ac="0046575" name="Trypsin-like serine proteases"/>
+                        <model ac="0046306" name="Trypsin-like serine proteases"/>
+                        <model ac="0049389" name="Trypsin-like serine proteases"/>
+                        <model ac="0045688" name="Trypsin-like serine proteases"/>
+                        <model ac="0046511" name="Trypsin-like serine proteases"/>
+                        <model ac="0046722" name="Trypsin-like serine proteases"/>
+                        <model ac="0042215" name="Trypsin-like serine proteases"/>
+                        <model ac="0042416" name="Trypsin-like serine proteases"/>
+                        <model ac="0047218" name="Trypsin-like serine proteases"/>
+                        <model ac="0042882" name="Trypsin-like serine proteases"/>
+                        <model ac="0037131" name="Trypsin-like serine proteases"/>
+                        <model ac="0040102" name="Trypsin-like serine proteases"/>
+                        <model ac="0052619" name="Trypsin-like serine proteases"/>
+                        <model ac="0050139" name="Trypsin-like serine proteases"/>
+                        <model ac="0038219" name="Trypsin-like serine proteases"/>
+                        <model ac="0053300" name="Trypsin-like serine proteases"/>
+                        <model ac="0041149" name="Trypsin-like serine proteases"/>
+                        <model ac="0045461" name="Trypsin-like serine proteases"/>
+                        <model ac="0041958" name="Trypsin-like serine proteases"/>
+                        <model ac="0051243" name="Trypsin-like serine proteases"/>
+                        <model ac="0047648" name="Trypsin-like serine proteases"/>
+                        <model ac="0045413" name="Trypsin-like serine proteases"/>
+                        <model ac="0035210" name="Trypsin-like serine proteases"/>
+                        <model ac="0043779" name="Trypsin-like serine proteases"/>
+                        <model ac="0036116" name="Trypsin-like serine proteases"/>
+                        <model ac="0037734" name="Trypsin-like serine proteases"/>
+                        <model ac="0046995" name="Trypsin-like serine proteases"/>
+                        <model ac="0048628" name="Trypsin-like serine proteases"/>
+                        <model ac="0045561" name="Trypsin-like serine proteases"/>
+                        <model ac="0035042" name="Trypsin-like serine proteases"/>
+                        <model ac="0037635" name="Trypsin-like serine proteases"/>
+                        <model ac="0048133" name="Trypsin-like serine proteases"/>
+                        <model ac="0042293" name="Trypsin-like serine proteases"/>
+                        <model ac="0035683" name="Trypsin-like serine proteases"/>
+                        <model ac="0043039" name="Trypsin-like serine proteases"/>
+                        <model ac="0043371" name="Trypsin-like serine proteases"/>
+                        <model ac="0044076" name="Trypsin-like serine proteases"/>
+                        <model ac="0045318" name="Trypsin-like serine proteases"/>
+                        <model ac="0043603" name="Trypsin-like serine proteases"/>
+                        <model ac="0038086" name="Trypsin-like serine proteases"/>
+                        <model ac="0047907" name="Trypsin-like serine proteases"/>
+                        <model ac="0049034" name="Trypsin-like serine proteases"/>
+                        <model ac="0043220" name="Trypsin-like serine proteases"/>
+                        <model ac="0034885" name="Trypsin-like serine proteases"/>
+                        <model ac="0038297" name="Trypsin-like serine proteases"/>
+                        <model ac="0049401" name="Trypsin-like serine proteases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="138" end="360"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.97E-13">
+                <signature ac="SSF50156" name="PDZ domain-like">
+                    <entry ac="IPR001478" desc="PDZ domain" name="PDZ" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005515" name="protein binding"/>
+                    </entry>
+                    <models>
+                        <model ac="0040319" name="PDZ domain-like"/>
+                        <model ac="0042116" name="PDZ domain-like"/>
+                        <model ac="0050063" name="PDZ domain-like"/>
+                        <model ac="0043682" name="PDZ domain-like"/>
+                        <model ac="0052650" name="PDZ domain-like"/>
+                        <model ac="0053596" name="PDZ domain-like"/>
+                        <model ac="0050584" name="PDZ domain-like"/>
+                        <model ac="0054035" name="PDZ domain-like"/>
+                        <model ac="0050836" name="PDZ domain-like"/>
+                        <model ac="0045940" name="PDZ domain-like"/>
+                        <model ac="0049780" name="PDZ domain-like"/>
+                        <model ac="0050857" name="PDZ domain-like"/>
+                        <model ac="0044315" name="PDZ domain-like"/>
+                        <model ac="0050057" name="PDZ domain-like"/>
+                        <model ac="0038828" name="PDZ domain-like"/>
+                        <model ac="0051242" name="PDZ domain-like"/>
+                        <model ac="0051603" name="PDZ domain-like"/>
+                        <model ac="0041775" name="PDZ domain-like"/>
+                        <model ac="0050574" name="PDZ domain-like"/>
+                        <model ac="0044391" name="PDZ domain-like"/>
+                        <model ac="0039028" name="PDZ domain-like"/>
+                        <model ac="0043410" name="PDZ domain-like"/>
+                        <model ac="0040042" name="PDZ domain-like"/>
+                        <model ac="0048900" name="PDZ domain-like"/>
+                        <model ac="0050833" name="PDZ domain-like"/>
+                        <model ac="0049521" name="PDZ domain-like"/>
+                        <model ac="0050486" name="PDZ domain-like"/>
+                        <model ac="0050516" name="PDZ domain-like"/>
+                        <model ac="0041246" name="PDZ domain-like"/>
+                        <model ac="0051643" name="PDZ domain-like"/>
+                        <model ac="0050572" name="PDZ domain-like"/>
+                        <model ac="0044399" name="PDZ domain-like"/>
+                        <model ac="0052077" name="PDZ domain-like"/>
+                        <model ac="0044311" name="PDZ domain-like"/>
+                        <model ac="0050835" name="PDZ domain-like"/>
+                        <model ac="0042601" name="PDZ domain-like"/>
+                        <model ac="0044310" name="PDZ domain-like"/>
+                        <model ac="0044398" name="PDZ domain-like"/>
+                        <model ac="0050553" name="PDZ domain-like"/>
+                        <model ac="0050492" name="PDZ domain-like"/>
+                        <model ac="0040399" name="PDZ domain-like"/>
+                        <model ac="0044638" name="PDZ domain-like"/>
+                        <model ac="0050487" name="PDZ domain-like"/>
+                        <model ac="0042687" name="PDZ domain-like"/>
+                        <model ac="0049876" name="PDZ domain-like"/>
+                        <model ac="0044366" name="PDZ domain-like"/>
+                        <model ac="0050116" name="PDZ domain-like"/>
+                        <model ac="0044382" name="PDZ domain-like"/>
+                        <model ac="0049946" name="PDZ domain-like"/>
+                        <model ac="0052270" name="PDZ domain-like"/>
+                        <model ac="0054088" name="PDZ domain-like"/>
+                        <model ac="0050550" name="PDZ domain-like"/>
+                        <model ac="0050114" name="PDZ domain-like"/>
+                        <model ac="0040455" name="PDZ domain-like"/>
+                        <model ac="0049878" name="PDZ domain-like"/>
+                        <model ac="0044337" name="PDZ domain-like"/>
+                        <model ac="0044688" name="PDZ domain-like"/>
+                        <model ac="0048138" name="PDZ domain-like"/>
+                        <model ac="0041243" name="PDZ domain-like"/>
+                        <model ac="0052281" name="PDZ domain-like"/>
+                        <model ac="0050618" name="PDZ domain-like"/>
+                        <model ac="0042269" name="PDZ domain-like"/>
+                        <model ac="0044623" name="PDZ domain-like"/>
+                        <model ac="0052663" name="PDZ domain-like"/>
+                        <model ac="0045904" name="PDZ domain-like"/>
+                        <model ac="0041555" name="PDZ domain-like"/>
+                        <model ac="0040294" name="PDZ domain-like"/>
+                        <model ac="0050541" name="PDZ domain-like"/>
+                        <model ac="0047731" name="PDZ domain-like"/>
+                        <model ac="0041357" name="PDZ domain-like"/>
+                        <model ac="0049781" name="PDZ domain-like"/>
+                        <model ac="0040317" name="PDZ domain-like"/>
+                        <model ac="0042844" name="PDZ domain-like"/>
+                        <model ac="0037485" name="PDZ domain-like"/>
+                        <model ac="0038015" name="PDZ domain-like"/>
+                        <model ac="0040806" name="PDZ domain-like"/>
+                        <model ac="0049948" name="PDZ domain-like"/>
+                        <model ac="0050507" name="PDZ domain-like"/>
+                        <model ac="0052727" name="PDZ domain-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="322" end="452"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

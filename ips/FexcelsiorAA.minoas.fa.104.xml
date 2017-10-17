@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="fc95528b42c64d9d78bab3b88442d8fe">MAYTSLSRTSSSESTNNIIPVTLPRSSSLNLESSDVFHERSLVRRDSPGTFHRLNKATRSGLTSLLRSLLHFISFPIIVIPVCRWLAIPTQLSIVPSLGRRVTGTLFGYRRGYVSFAVQVDPTSAPVLIIEFAVSTSMLVKEMSSALVRIALECEKPPLMNRSGSRRSPVRLFNEPMWTMYCNGRKCGHAQSRSCTESDWHVLNTVQSVSVGAGVIPVVEAGKKKGPSEGELLYMRARFERVVGSRDSEAFYMMNPDGNGGPELSIFLLRM</sequence>
+        <xref id="Gene.136::FRAEX38873_v2_000001140.1::g.136::m.136" name="Gene.136::FRAEX38873_v2_000001140.1::g.136  ORF type:complete len:272 (+) FRAEX38873_v2_000001140.1:1-816(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.0E-68" score="227.2">
+                <signature ac="TIGR01570" desc="A_thal_3588: uncharacterized plant-specific domain TIGR01570" name="TIGR01570">
+                    <entry ac="IPR006460" desc="Protein of unknown function DUF617, plant" name="DUF617_pln" type="FAMILY"/>
+                    <models>
+                        <model ac="TIGR01570" desc="A_thal_3588: uncharacterized plant-specific domain TIGR01570" name="TIGR01570"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="271" env-start="102" score="226.8" evalue="2.6E-68" hmm-start="1" hmm-end="160" hmm-length="0" start="102" end="270"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.2E-70" score="234.0">
+                <signature ac="PF04759" desc="Protein of unknown function, DUF617" name="DUF617">
+                    <entry ac="IPR006460" desc="Protein of unknown function DUF617, plant" name="DUF617_pln" type="FAMILY"/>
+                    <models>
+                        <model ac="PF04759" desc="Protein of unknown function, DUF617" name="DUF617"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="271" env-start="101" score="233.7" evalue="7.8E-70" hmm-start="1" hmm-end="166" hmm-length="0" start="101" end="271"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

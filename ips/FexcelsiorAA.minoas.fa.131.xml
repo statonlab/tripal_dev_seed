@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="37859d2f9a1d017d32a5af924e9751f3">MLKAIQILGSSSFGFVSLPCRFKRKPQANCDLYFFSRKPIKASKLSSLRSKASSFAFRVRKGRDSIASQMSHIHSDSNPYGASSSSSTSTPVQSTGSIRKINFCQSCGGRTKHEIPDGEEKMRAICTSCGKIIYENPKMVVGCLIEHENKILLCKRKINPSFGLWTLPAGYMEIGESAAEGAIRETWEEANAEVEVLSPFAHLDIPLIGQTYIIFLAKLKRPHFSPGPESSECQLFALNDIPFDSLAFSSMLVTLQLYIEDTKVGRPMFHYGIINKRPGTSPSEIHAYTLDHHLKS</sequence>
+        <xref id="Gene.169::FRAEX38873_v2_000001410.2::g.169::m.169" name="Gene.169::FRAEX38873_v2_000001410.2::g.169  ORF type:complete len:297 (+) FRAEX38873_v2_000001410.2:1-891(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.3E-28" score="99.3">
+                <signature ac="G3DSA:3.90.79.10">
+                    <entry ac="IPR015797" desc="NUDIX hydrolase domain-like" name="NUDIX_hydrolase_dom-like" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="2fmlA02"/>
+                        <model ac="2fb1B01"/>
+                        <model ac="1hztA00"/>
+                        <model ac="3fspA03"/>
+                        <model ac="1nqzA00"/>
+                        <model ac="2b0vA00"/>
+                        <model ac="3o69A00"/>
+                        <model ac="3a6sA00"/>
+                        <model ac="3couA00"/>
+                        <model ac="1q27A00"/>
+                        <model ac="1vhzA01"/>
+                        <model ac="1ryaA00"/>
+                        <model ac="3q93A00"/>
+                        <model ac="1k2eA00"/>
+                        <model ac="1ktgA00"/>
+                        <model ac="1sjyA00"/>
+                        <model ac="1v8wA00"/>
+                        <model ac="2fkbC00"/>
+                        <model ac="1vk6A02"/>
+                        <model ac="1g0sA00"/>
+                        <model ac="2b06A00"/>
+                        <model ac="2azwA00"/>
+                        <model ac="3hyqA00"/>
+                        <model ac="2pqvB00"/>
+                        <model ac="1q33A02"/>
+                        <model ac="1f3yA00"/>
+                        <model ac="3cngC02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="272" env-start="136" score="98.8" evalue="1.8E-28" hmm-start="1" hmm-end="127" hmm-length="0" start="136" end="262"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.2E-17" score="62.9">
+                <signature ac="G3DSA:2.20.70.10">
+                    <models>
+                        <model ac="1wr7A01"/>
+                        <model ac="1tk7A02"/>
+                        <model ac="2re3B03"/>
+                        <model ac="1o6wA02"/>
+                        <model ac="1o6wA01"/>
+                        <model ac="3cngA01"/>
+                        <model ac="1k5rA00"/>
+                        <model ac="2f21A01"/>
+                        <model ac="1eg3A01"/>
+                        <model ac="1pinA01"/>
+                        <model ac="2l4jA00"/>
+                        <model ac="2dmvA01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="135" env-start="99" score="62.2" evalue="1.8E-17" hmm-start="2" hmm-end="37" hmm-length="0" start="100" end="135"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.8E-13" score="49.7">
+                <signature ac="PF14803" desc="Nudix N-terminal" name="Nudix_N_2">
+                    <entry ac="IPR029401" desc="Nudix hydrolase, N-terminal" name="Nudix_N" type="DOMAIN">
+                        <pathway-xref db="KEGG" id="00740+3.6.1.18" name="Riboflavin metabolism"/>
+                        <pathway-xref db="KEGG" id="00790+3.6.1.-" name="Folate biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00230+3.6.1.-+3.6.1.13" name="Purine metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="PF14803" desc="Nudix N-terminal" name="Nudix_N_2"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="135" env-start="102" score="49.1" evalue="2.9E-13" hmm-start="1" hmm-end="34" hmm-length="0" start="102" end="135"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.6E-15" score="56.7">
+                <signature ac="PF00293" desc="NUDIX domain" name="NUDIX">
+                    <entry ac="IPR000086" desc="NUDIX hydrolase domain" name="NUDIX_hydrolase_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00293" desc="NUDIX domain" name="NUDIX"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="260" env-start="137" score="56.2" evalue="2.4E-15" hmm-start="4" hmm-end="126" hmm-length="0" start="140" end="251"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00893" desc="Nudix box signature." name="NUDIX_BOX">
+                    <entry ac="IPR020084" desc="NUDIX hydrolase, conserved site" name="NUDIX_hydrolase_CS" type="CONSERVED_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00893" desc="Nudix box signature." name="NUDIX_BOX"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="170" end="191">
+                        <alignment>GymeigEsaaeGAiRETwEEaN</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="PS51462" desc="Nudix hydrolase domain profile." name="NUDIX">
+                    <entry ac="IPR000086" desc="NUDIX hydrolase domain" name="NUDIX_hydrolase_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS51462" desc="Nudix hydrolase domain profile." name="NUDIX"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="15.04" start="136" end="259">
+                        <alignment>NPKMVVGCLIEH--ENKILLCKRKIN-PSfgLWTLPAGYMEIGESAAEGAIRETWEEANAE---VEVLS--PFAHLDIpLIGQTYIIFLAKLKRPHFSPG----PESSECQLFALNDIPFdSLAFSSMLVTLQLYI</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="2.44E-37">
+                <signature ac="SSF55811" name="Nudix">
+                    <entry ac="IPR015797" desc="NUDIX hydrolase domain-like" name="NUDIX_hydrolase_dom-like" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016787" name="hydrolase activity"/>
+                    </entry>
+                    <models>
+                        <model ac="0048821" name="Nudix"/>
+                        <model ac="0041034" name="Nudix"/>
+                        <model ac="0051716" name="Nudix"/>
+                        <model ac="0043363" name="Nudix"/>
+                        <model ac="0051092" name="Nudix"/>
+                        <model ac="0052719" name="Nudix"/>
+                        <model ac="0047428" name="Nudix"/>
+                        <model ac="0052634" name="Nudix"/>
+                        <model ac="0050097" name="Nudix"/>
+                        <model ac="0050821" name="Nudix"/>
+                        <model ac="0041520" name="Nudix"/>
+                        <model ac="0044768" name="Nudix"/>
+                        <model ac="0043415" name="Nudix"/>
+                        <model ac="0051875" name="Nudix"/>
+                        <model ac="0049418" name="Nudix"/>
+                        <model ac="0047252" name="Nudix"/>
+                        <model ac="0051868" name="Nudix"/>
+                        <model ac="0050220" name="Nudix"/>
+                        <model ac="0037875" name="Nudix"/>
+                        <model ac="0044789" name="Nudix"/>
+                        <model ac="0040258" name="Nudix"/>
+                        <model ac="0048869" name="Nudix"/>
+                        <model ac="0046700" name="Nudix"/>
+                        <model ac="0050219" name="Nudix"/>
+                        <model ac="0052791" name="Nudix"/>
+                        <model ac="0048878" name="Nudix"/>
+                        <model ac="0047729" name="Nudix"/>
+                        <model ac="0052710" name="Nudix"/>
+                        <model ac="0049771" name="Nudix"/>
+                        <model ac="0051867" name="Nudix"/>
+                        <model ac="0050134" name="Nudix"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="102" end="263"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="c5072001e48ce646eec05f3a8d783114">MVANRTHPTPHHLYICIPLHPTQTHEASLSFSAPDYPQNSQRIAMRIRKHAKISPLVYAASSLKPGTLLQTHVCQLNQSPWDVLSFLPPTTPPPPLPPSSFQVNGNDDFDRNGSLVESMTAFESAASMKMATDDLEIEDMKWVYSDSGGIKGDAAIGKAEEVATKEDKEIVFCCKTDGKGWKCKRKAAEGNSLCEHHLSLVRNYNNWAAPAAKKVDRVVADSRRHPRAKKAASTSNPYEFYYYSGFGPRWGKRRGENNKISSNVGMPKNVDQEREMVQSSLSRIDNEESDIEDEIEYEEEDEESSESESESRRKRARKPIKARSLKSLM</sequence>
+        <xref id="Gene.212::FRAEX38873_v2_000001830.1::g.212::m.212" name="Gene.212::FRAEX38873_v2_000001830.1::g.212  ORF type:complete len:330 (+) FRAEX38873_v2_000001830.1:1-990(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.5E-12" score="46.8">
+                <signature ac="PF08879" desc="WRC" name="WRC">
+                    <entry ac="IPR014977" desc="WRC" name="WRC" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF08879" desc="WRC" name="WRC"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="209" env-start="167" score="45.7" evalue="3.3E-12" hmm-start="1" hmm-end="39" hmm-length="0" start="167" end="205"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51667" desc="WRC domain profile." name="WRC">
+                    <entry ac="IPR014977" desc="WRC" name="WRC" type="DOMAIN"/>
+                    <models>
+                        <model ac="PS51667" desc="WRC domain profile." name="WRC"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="17.537" start="167" end="211">
+                        <alignment>DKEIVFCCKTDGKGWKCKRKAAEGNSLCEHHLSLVRNYNNWAAPA</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+        </matches>
+    </protein>
+</protein-matches>

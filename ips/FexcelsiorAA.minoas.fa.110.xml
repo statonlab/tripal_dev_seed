@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="1be0a968700b3ea08f57a71daf0a464c">MTVTPRISINDGKLVVHGKTMLTRVPDNIVLTYGSGVGVVSGAFIGATASQSKSLHVFPVGVLEDVRFMCLFRFKLWWMTQRMGTCGKDIPLETQFMLVESKETTESEREDTPTIYTVLLPLLEGQFRAVLQGNENNELEICLESGDNAVETNQGLYLVYMHAGTNPFEVINHALPSLLDWFGWCTWDAFYTDVTAEGVEEGLKSLSDGGTPPRFLIIDDGWQQIGSEVKEDINCIVQEGAQFANRLTGIKENTKFQRNKKNEENESGLKHVVDEAKQRPNGQNEQVYIVLK</sequence>
+        <xref id="Gene.144::FRAEX38873_v2_000001210.1::g.144::m.144" name="Gene.144::FRAEX38873_v2_000001210.1::g.144  ORF type:complete len:293 (+) FRAEX38873_v2_000001210.1:1-879(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.3E-105" score="352.7">
+                <signature ac="PF05691" desc="Raffinose synthase or seed imbibition protein Sip1" name="Raffinose_syn">
+                    <entry ac="IPR008811" desc="Glycosyl hydrolases 36" name="Glycosyl_hydrolases_36" type="FAMILY"/>
+                    <models>
+                        <model ac="PF05691" desc="Raffinose synthase or seed imbibition protein Sip1" name="Raffinose_syn"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="291" env-start="7" score="346.4" evalue="1.8E-103" hmm-start="1" hmm-end="309" hmm-length="0" start="7" end="289"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="7.9E-16" score="57.7">
+                <signature ac="G3DSA:3.20.20.70">
+                    <entry ac="IPR013785" desc="Aldolase-type TIM barrel" name="Aldolase_TIM" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003824" name="catalytic activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1wa3D00"/>
+                        <model ac="1vrdB00"/>
+                        <model ac="1vhnA01"/>
+                        <model ac="2i1oA02"/>
+                        <model ac="2p0oA01"/>
+                        <model ac="1rd5A00"/>
+                        <model ac="3ovpB00"/>
+                        <model ac="3gvgA00"/>
+                        <model ac="3b4uA00"/>
+                        <model ac="1p1xB00"/>
+                        <model ac="3igsB00"/>
+                        <model ac="1tqjC00"/>
+                        <model ac="1me8A00"/>
+                        <model ac="1m5wA00"/>
+                        <model ac="3cu2A00"/>
+                        <model ac="1q6oB00"/>
+                        <model ac="1pv8A00"/>
+                        <model ac="2p10C01"/>
+                        <model ac="2vxnA00"/>
+                        <model ac="3ajxA00"/>
+                        <model ac="1vhcF00"/>
+                        <model ac="1vyrA00"/>
+                        <model ac="1l6wA00"/>
+                        <model ac="2nzlA00"/>
+                        <model ac="3cc1B01"/>
+                        <model ac="1p4cA00"/>
+                        <model ac="2qezE03"/>
+                        <model ac="3l21B00"/>
+                        <model ac="1gteB05"/>
+                        <model ac="1fcqA00"/>
+                        <model ac="1d3gA00"/>
+                        <model ac="2nwrA00"/>
+                        <model ac="2qr6A02"/>
+                        <model ac="2oczA00"/>
+                        <model ac="3elfA00"/>
+                        <model ac="1uasA01"/>
+                        <model ac="3ru6B00"/>
+                        <model ac="1n7kA00"/>
+                        <model ac="1o94A01"/>
+                        <model ac="1sflB00"/>
+                        <model ac="1ep3A00"/>
+                        <model ac="1ujpA00"/>
+                        <model ac="1tv8B00"/>
+                        <model ac="1piiA02"/>
+                        <model ac="3o1nA00"/>
+                        <model ac="2y88A00"/>
+                        <model ac="3ldvA00"/>
+                        <model ac="1vc4A00"/>
+                        <model ac="1w5qB00"/>
+                        <model ac="1nvmA01"/>
+                        <model ac="3ndoA00"/>
+                        <model ac="1jr1B00"/>
+                        <model ac="1ofdA02"/>
+                        <model ac="1xi3A00"/>
+                        <model ac="3e96A00"/>
+                        <model ac="3clmA00"/>
+                        <model ac="1piiA01"/>
+                        <model ac="1qwgA00"/>
+                        <model ac="3a21B01"/>
+                        <model ac="1ypfA00"/>
+                        <model ac="3mbdA00"/>
+                        <model ac="1gvfB00"/>
+                        <model ac="1vcfB00"/>
+                        <model ac="2hmcA00"/>
+                        <model ac="3ceuA00"/>
+                        <model ac="1of8A00"/>
+                        <model ac="3daqA00"/>
+                        <model ac="1r30A00"/>
+                        <model ac="2w79A00"/>
+                        <model ac="2rfgA00"/>
+                        <model ac="2zdrA01"/>
+                        <model ac="3hq1A01"/>
+                        <model ac="1w8sE00"/>
+                        <model ac="3chvA00"/>
+                        <model ac="2qf7A04"/>
+                        <model ac="1p0kA00"/>
+                        <model ac="3ctlA00"/>
+                        <model ac="1vcvA00"/>
+                        <model ac="3atyB00"/>
+                        <model ac="2iqtA00"/>
+                        <model ac="1wx0A00"/>
+                        <model ac="1jcnA00"/>
+                        <model ac="2b7nA02"/>
+                        <model ac="1jvnA02"/>
+                        <model ac="1nsjA00"/>
+                        <model ac="2tpsB00"/>
+                        <model ac="1ofdA03"/>
+                        <model ac="3nyzA00"/>
+                        <model ac="2fiqB01"/>
+                        <model ac="1x1oA02"/>
+                        <model ac="1w0mA00"/>
+                        <model ac="1b3oA00"/>
+                        <model ac="1thfD00"/>
+                        <model ac="1vqtA00"/>
+                        <model ac="3bv4A00"/>
+                        <model ac="1to3A00"/>
+                        <model ac="1x7fA01"/>
+                        <model ac="1w3iA00"/>
+                        <model ac="2w6rA00"/>
+                        <model ac="3a5fA00"/>
+                        <model ac="3ewwA00"/>
+                        <model ac="1rqbA01"/>
+                        <model ac="1vr6A02"/>
+                        <model ac="3cwnA00"/>
+                        <model ac="1zfjA00"/>
+                        <model ac="1xm3B00"/>
+                        <model ac="1wbhB00"/>
+                        <model ac="1ps9A01"/>
+                        <model ac="2r8wA00"/>
+                        <model ac="1i4nA00"/>
+                        <model ac="2e6fA01"/>
+                        <model ac="3lbmC00"/>
+                        <model ac="3rndA00"/>
+                        <model ac="3c6cA00"/>
+                        <model ac="3hpxA01"/>
+                        <model ac="1qopA00"/>
+                        <model ac="2yw3E00"/>
+                        <model ac="1yxyA00"/>
+                        <model ac="3sj3A00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="290" env-start="169" score="57.3" evalue="1.1E-15" hmm-start="5" hmm-end="89" hmm-length="0" start="173" end="279"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="4.56E-12">
+                <signature ac="SSF51445" name="(Trans)glycosidases">
+                    <entry ac="IPR017853" desc="Glycoside hydrolase, superfamily" name="Glycoside_hydrolase_SF" type="DOMAIN"/>
+                    <models>
+                        <model ac="0050167" name="(Trans)glycosidases"/>
+                        <model ac="0050643" name="(Trans)glycosidases"/>
+                        <model ac="0045806" name="(Trans)glycosidases"/>
+                        <model ac="0051733" name="(Trans)glycosidases"/>
+                        <model ac="0046782" name="(Trans)glycosidases"/>
+                        <model ac="0047198" name="(Trans)glycosidases"/>
+                        <model ac="0050004" name="(Trans)glycosidases"/>
+                        <model ac="0046595" name="(Trans)glycosidases"/>
+                        <model ac="0049842" name="(Trans)glycosidases"/>
+                        <model ac="0050870" name="(Trans)glycosidases"/>
+                        <model ac="0038607" name="(Trans)glycosidases"/>
+                        <model ac="0045994" name="(Trans)glycosidases"/>
+                        <model ac="0047491" name="(Trans)glycosidases"/>
+                        <model ac="0037707" name="(Trans)glycosidases"/>
+                        <model ac="0051312" name="(Trans)glycosidases"/>
+                        <model ac="0047094" name="(Trans)glycosidases"/>
+                        <model ac="0045828" name="(Trans)glycosidases"/>
+                        <model ac="0046152" name="(Trans)glycosidases"/>
+                        <model ac="0046176" name="(Trans)glycosidases"/>
+                        <model ac="0046497" name="(Trans)glycosidases"/>
+                        <model ac="0036926" name="(Trans)glycosidases"/>
+                        <model ac="0036899" name="(Trans)glycosidases"/>
+                        <model ac="0047190" name="(Trans)glycosidases"/>
+                        <model ac="0049986" name="(Trans)glycosidases"/>
+                        <model ac="0046891" name="(Trans)glycosidases"/>
+                        <model ac="0048920" name="(Trans)glycosidases"/>
+                        <model ac="0046948" name="(Trans)glycosidases"/>
+                        <model ac="0052086" name="(Trans)glycosidases"/>
+                        <model ac="0044581" name="(Trans)glycosidases"/>
+                        <model ac="0054219" name="(Trans)glycosidases"/>
+                        <model ac="0047122" name="(Trans)glycosidases"/>
+                        <model ac="0049162" name="(Trans)glycosidases"/>
+                        <model ac="0052168" name="(Trans)glycosidases"/>
+                        <model ac="0049424" name="(Trans)glycosidases"/>
+                        <model ac="0042911" name="(Trans)glycosidases"/>
+                        <model ac="0038605" name="(Trans)glycosidases"/>
+                        <model ac="0051737" name="(Trans)glycosidases"/>
+                        <model ac="0049744" name="(Trans)glycosidases"/>
+                        <model ac="0048959" name="(Trans)glycosidases"/>
+                        <model ac="0037464" name="(Trans)glycosidases"/>
+                        <model ac="0047795" name="(Trans)glycosidases"/>
+                        <model ac="0046102" name="(Trans)glycosidases"/>
+                        <model ac="0046229" name="(Trans)glycosidases"/>
+                        <model ac="0050431" name="(Trans)glycosidases"/>
+                        <model ac="0046023" name="(Trans)glycosidases"/>
+                        <model ac="0046186" name="(Trans)glycosidases"/>
+                        <model ac="0047041" name="(Trans)glycosidases"/>
+                        <model ac="0047246" name="(Trans)glycosidases"/>
+                        <model ac="0046643" name="(Trans)glycosidases"/>
+                        <model ac="0051975" name="(Trans)glycosidases"/>
+                        <model ac="0052962" name="(Trans)glycosidases"/>
+                        <model ac="0046256" name="(Trans)glycosidases"/>
+                        <model ac="0046556" name="(Trans)glycosidases"/>
+                        <model ac="0048117" name="(Trans)glycosidases"/>
+                        <model ac="0047897" name="(Trans)glycosidases"/>
+                        <model ac="0043920" name="(Trans)glycosidases"/>
+                        <model ac="0053367" name="(Trans)glycosidases"/>
+                        <model ac="0047236" name="(Trans)glycosidases"/>
+                        <model ac="0040700" name="(Trans)glycosidases"/>
+                        <model ac="0046963" name="(Trans)glycosidases"/>
+                        <model ac="0052913" name="(Trans)glycosidases"/>
+                        <model ac="0048565" name="(Trans)glycosidases"/>
+                        <model ac="0042224" name="(Trans)glycosidases"/>
+                        <model ac="0047542" name="(Trans)glycosidases"/>
+                        <model ac="0047545" name="(Trans)glycosidases"/>
+                        <model ac="0047025" name="(Trans)glycosidases"/>
+                        <model ac="0047766" name="(Trans)glycosidases"/>
+                        <model ac="0052139" name="(Trans)glycosidases"/>
+                        <model ac="0049977" name="(Trans)glycosidases"/>
+                        <model ac="0045960" name="(Trans)glycosidases"/>
+                        <model ac="0046122" name="(Trans)glycosidases"/>
+                        <model ac="0052585" name="(Trans)glycosidases"/>
+                        <model ac="0049050" name="(Trans)glycosidases"/>
+                        <model ac="0049099" name="(Trans)glycosidases"/>
+                        <model ac="0035310" name="(Trans)glycosidases"/>
+                        <model ac="0051664" name="(Trans)glycosidases"/>
+                        <model ac="0050071" name="(Trans)glycosidases"/>
+                        <model ac="0040488" name="(Trans)glycosidases"/>
+                        <model ac="0046336" name="(Trans)glycosidases"/>
+                        <model ac="0054740" name="(Trans)glycosidases"/>
+                        <model ac="0053918" name="(Trans)glycosidases"/>
+                        <model ac="0050215" name="(Trans)glycosidases"/>
+                        <model ac="0045913" name="(Trans)glycosidases"/>
+                        <model ac="0046470" name="(Trans)glycosidases"/>
+                        <model ac="0046505" name="(Trans)glycosidases"/>
+                        <model ac="0038123" name="(Trans)glycosidases"/>
+                        <model ac="0046607" name="(Trans)glycosidases"/>
+                        <model ac="0050130" name="(Trans)glycosidases"/>
+                        <model ac="0047578" name="(Trans)glycosidases"/>
+                        <model ac="0048242" name="(Trans)glycosidases"/>
+                        <model ac="0052376" name="(Trans)glycosidases"/>
+                        <model ac="0049716" name="(Trans)glycosidases"/>
+                        <model ac="0047099" name="(Trans)glycosidases"/>
+                        <model ac="0049894" name="(Trans)glycosidases"/>
+                        <model ac="0049054" name="(Trans)glycosidases"/>
+                        <model ac="0051146" name="(Trans)glycosidases"/>
+                        <model ac="0049622" name="(Trans)glycosidases"/>
+                        <model ac="0047217" name="(Trans)glycosidases"/>
+                        <model ac="0047436" name="(Trans)glycosidases"/>
+                        <model ac="0050028" name="(Trans)glycosidases"/>
+                        <model ac="0049908" name="(Trans)glycosidases"/>
+                        <model ac="0053049" name="(Trans)glycosidases"/>
+                        <model ac="0048295" name="(Trans)glycosidases"/>
+                        <model ac="0047754" name="(Trans)glycosidases"/>
+                        <model ac="0046471" name="(Trans)glycosidases"/>
+                        <model ac="0051370" name="(Trans)glycosidases"/>
+                        <model ac="0045947" name="(Trans)glycosidases"/>
+                        <model ac="0042235" name="(Trans)glycosidases"/>
+                        <model ac="0045956" name="(Trans)glycosidases"/>
+                        <model ac="0050412" name="(Trans)glycosidases"/>
+                        <model ac="0051481" name="(Trans)glycosidases"/>
+                        <model ac="0046463" name="(Trans)glycosidases"/>
+                        <model ac="0043588" name="(Trans)glycosidases"/>
+                        <model ac="0048418" name="(Trans)glycosidases"/>
+                        <model ac="0046266" name="(Trans)glycosidases"/>
+                        <model ac="0039218" name="(Trans)glycosidases"/>
+                        <model ac="0049836" name="(Trans)glycosidases"/>
+                        <model ac="0052173" name="(Trans)glycosidases"/>
+                        <model ac="0048402" name="(Trans)glycosidases"/>
+                        <model ac="0050404" name="(Trans)glycosidases"/>
+                        <model ac="0048598" name="(Trans)glycosidases"/>
+                        <model ac="0046523" name="(Trans)glycosidases"/>
+                        <model ac="0041792" name="(Trans)glycosidases"/>
+                        <model ac="0046755" name="(Trans)glycosidases"/>
+                        <model ac="0049502" name="(Trans)glycosidases"/>
+                        <model ac="0048404" name="(Trans)glycosidases"/>
+                        <model ac="0046455" name="(Trans)glycosidases"/>
+                        <model ac="0052495" name="(Trans)glycosidases"/>
+                        <model ac="0049124" name="(Trans)glycosidases"/>
+                        <model ac="0038608" name="(Trans)glycosidases"/>
+                        <model ac="0046559" name="(Trans)glycosidases"/>
+                        <model ac="0048530" name="(Trans)glycosidases"/>
+                        <model ac="0036198" name="(Trans)glycosidases"/>
+                        <model ac="0046139" name="(Trans)glycosidases"/>
+                        <model ac="0044469" name="(Trans)glycosidases"/>
+                        <model ac="0045965" name="(Trans)glycosidases"/>
+                        <model ac="0046993" name="(Trans)glycosidases"/>
+                        <model ac="0046924" name="(Trans)glycosidases"/>
+                        <model ac="0050760" name="(Trans)glycosidases"/>
+                        <model ac="0050774" name="(Trans)glycosidases"/>
+                        <model ac="0052061" name="(Trans)glycosidases"/>
+                        <model ac="0040522" name="(Trans)glycosidases"/>
+                        <model ac="0048992" name="(Trans)glycosidases"/>
+                        <model ac="0049976" name="(Trans)glycosidases"/>
+                        <model ac="0038179" name="(Trans)glycosidases"/>
+                        <model ac="0052125" name="(Trans)glycosidases"/>
+                        <model ac="0047591" name="(Trans)glycosidases"/>
+                        <model ac="0047117" name="(Trans)glycosidases"/>
+                        <model ac="0044281" name="(Trans)glycosidases"/>
+                        <model ac="0047637" name="(Trans)glycosidases"/>
+                        <model ac="0053948" name="(Trans)glycosidases"/>
+                        <model ac="0049705" name="(Trans)glycosidases"/>
+                        <model ac="0049678" name="(Trans)glycosidases"/>
+                        <model ac="0047875" name="(Trans)glycosidases"/>
+                        <model ac="0036535" name="(Trans)glycosidases"/>
+                        <model ac="0048314" name="(Trans)glycosidases"/>
+                        <model ac="0051153" name="(Trans)glycosidases"/>
+                        <model ac="0040789" name="(Trans)glycosidases"/>
+                        <model ac="0046528" name="(Trans)glycosidases"/>
+                        <model ac="0050447" name="(Trans)glycosidases"/>
+                        <model ac="0052352" name="(Trans)glycosidases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="178" end="279"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

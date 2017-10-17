@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="823ef34aba32b575ae69f90a282651b7">MVSELMFIDEEMAIDEGLGYPIAYAKLCRDRSFGPFSHGPPFTFTPYVLPQEEDSRAKEYDEMFPIVDPKAIPTTKPKIFVVDPYGNVLYYHADSASPLAWDIDHWFPCTRGGLTVPSNLRIIQWQVCKKKHNKLEFLIPWWEFQVGISINQFLSIFASSNSDFRHRAFSWLFSEGENEELKASQTFDSHTFPQHFTESKEIMGLAPAAVVLSRRESCDTPLRSLDVNRRPRSSTPIIAAKKLKPLKENQDKIMVNNPYQAIIMARDSLKQREETLKMEAEIQKLDMEVNELHQKTEEEKAAIQDLELVLMKRRRRAEKCRQLAESQCSYRAVLEKMIRDAMHQSVVYKEQVRLNQAATSALLARLQAQKAICDSAERDLHRKYKQKDELEKQIRPEWDQARKRSRMDDTTDEEKDDKTVLYLPGNEPKVQLQMEINDTSLTSKDDKTLLYLPGTESRVPLHKELWEFLEEEQRASSASLLLKDEQEQEIDNKIQIVKPQKCNEAMVATPDNKPIEEGLEKLEIQEGGIIYTIRFPIRCEPDGNEDEESRKERGKGNVEKWLQLLLENTGEDTESKSQKANENEPSETDRLIRKLNLIYPDKKIEVSRVKESECLNQIKENSEKAEEMAEIEARKSKLNNKKEDDKKSEVANTSNKNTPLKNPPYKIRPERSKVNESSSDGKKVGRTSSGEEKNGRRGKVGKERELSRSESFRSFRQIPSSPSLILEGMKKRVDCIRKKPLVLDGDDDDDDYNEDHAVPRNSFIKTIKKAVKI</sequence>
+        <xref id="Gene.235::FRAEX38873_v2_000002000.1::g.235::m.235" name="Gene.235::FRAEX38873_v2_000002000.1::g.235  ORF type:complete len:774 (+) FRAEX38873_v2_000002000.1:1-2322(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="275" end="310"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="373" end="394"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="615" end="649"/>
+                </locations>
+            </coils-match>
+        </matches>
+    </protein>
+</protein-matches>

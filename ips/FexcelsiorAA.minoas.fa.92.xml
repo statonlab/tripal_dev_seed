@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="24826cc9f48e2b3ef8eeb047d4347bad">MAETKSAMRKPVFTKVDQLRPGTNGHNLVVKVVSANVVMQMGRPNGPQPRQMRIAECLVGDETGTTVFTARNEQVDLMKPENTVILRNAKIDMFKGSMRLGVDKWGRVEVTEPASFTVKEDNNLSSVEYELVNVVE</sequence>
+        <xref id="Gene.122::FRAEX38873_v2_000001010.1::g.122::m.122" name="Gene.122::FRAEX38873_v2_000001010.1::g.122  ORF type:complete len:137 (+) FRAEX38873_v2_000001010.1:1-411(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.5E-45" score="153.0">
+                <signature ac="G3DSA:2.40.50.140">
+                    <entry ac="IPR012340" desc="Nucleic acid-binding, OB-fold" name="NA-bd_OB-fold" type="DOMAIN"/>
+                    <models>
+                        <model ac="1cukA01"/>
+                        <model ac="1xjvA01"/>
+                        <model ac="3g48B00"/>
+                        <model ac="1wfqA01"/>
+                        <model ac="2oq0C01"/>
+                        <model ac="1bkbA02"/>
+                        <model ac="1ripA00"/>
+                        <model ac="2hqlA01"/>
+                        <model ac="2jqoA01"/>
+                        <model ac="1uebA03"/>
+                        <model ac="1vq8A01"/>
+                        <model ac="2k5nA00"/>
+                        <model ac="2khiA00"/>
+                        <model ac="1c9oA00"/>
+                        <model ac="1kxlA00"/>
+                        <model ac="1rl2A01"/>
+                        <model ac="3irbA02"/>
+                        <model ac="1ny4A00"/>
+                        <model ac="1lm0A00"/>
+                        <model ac="1y14D02"/>
+                        <model ac="1fguB01"/>
+                        <model ac="3pgzA00"/>
+                        <model ac="1uebA02"/>
+                        <model ac="1jb7A01"/>
+                        <model ac="3i4oA00"/>
+                        <model ac="1jb7A02"/>
+                        <model ac="1luzA00"/>
+                        <model ac="3kdfA00"/>
+                        <model ac="1jjgA00"/>
+                        <model ac="3afpA00"/>
+                        <model ac="1go3E01"/>
+                        <model ac="1gm5A03"/>
+                        <model ac="1b7yB02"/>
+                        <model ac="1fjgQ00"/>
+                        <model ac="2oq0B02"/>
+                        <model ac="1g29102"/>
+                        <model ac="1fviA02"/>
+                        <model ac="1vs0A03"/>
+                        <model ac="2r7dA03"/>
+                        <model ac="1n9wA01"/>
+                        <model ac="2asbA01"/>
+                        <model ac="1hh2P02"/>
+                        <model ac="1qzgA00"/>
+                        <model ac="3d0fA01"/>
+                        <model ac="1gvpA00"/>
+                        <model ac="2ztdA01"/>
+                        <model ac="1smxA00"/>
+                        <model ac="1miuA02"/>
+                        <model ac="1u5kA01"/>
+                        <model ac="1k3rA02"/>
+                        <model ac="1ckmA02"/>
+                        <model ac="3cp0A00"/>
+                        <model ac="2zteA01"/>
+                        <model ac="1d7qA00"/>
+                        <model ac="1miuA05"/>
+                        <model ac="1x54A01"/>
+                        <model ac="2qgqA02"/>
+                        <model ac="1oxxK02"/>
+                        <model ac="1jmcA02"/>
+                        <model ac="2vqeL00"/>
+                        <model ac="1l0wA01"/>
+                        <model ac="3hksA02"/>
+                        <model ac="1ewiA00"/>
+                        <model ac="1x6oA02"/>
+                        <model ac="1bbuA01"/>
+                        <model ac="1se8A01"/>
+                        <model ac="1l1oF01"/>
+                        <model ac="1khiA02"/>
+                        <model ac="1eovA01"/>
+                        <model ac="1a62A02"/>
+                        <model ac="1u0lA01"/>
+                        <model ac="1t9hA01"/>
+                        <model ac="1uwvA01"/>
+                        <model ac="3ullB00"/>
+                        <model ac="1kl9A01"/>
+                        <model ac="1o7iB00"/>
+                        <model ac="2rhsD02"/>
+                        <model ac="1ltlA02"/>
+                        <model ac="1je5A00"/>
+                        <model ac="1miuA03"/>
+                        <model ac="3bzcA05"/>
+                        <model ac="1se8A02"/>
+                        <model ac="2awnC03"/>
+                        <model ac="3cqzH00"/>
+                        <model ac="2ahoB01"/>
+                        <model ac="1x9nA04"/>
+                        <model ac="3d31A02"/>
+                        <model ac="1v1qA00"/>
+                        <model ac="1v43A03"/>
+                        <model ac="2cwpA00"/>
+                        <model ac="1qvcD00"/>
+                        <model ac="3a74A01"/>
+                        <model ac="1jt8A00"/>
+                        <model ac="1wocC00"/>
+                        <model ac="1dgsA04"/>
+                        <model ac="2vw9B00"/>
+                        <model ac="1fl0A00"/>
+                        <model ac="1pfsA00"/>
+                        <model ac="3bjuB01"/>
+                        <model ac="2i5hA01"/>
+                        <model ac="1jb7A03"/>
+                        <model ac="1mkhA00"/>
+                        <model ac="1pv4A01"/>
+                        <model ac="3kdfB00"/>
+                        <model ac="2j01D01"/>
+                        <model ac="1a0iA02"/>
+                        <model ac="1p16B02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="134" env-start="12" score="152.8" evalue="2.8E-45" hmm-start="1" hmm-end="117" hmm-length="0" start="12" end="132"/>
+                </locations>
+            </hmmer3-match>
+            <superfamilyhmmer3-match evalue="1.84E-38">
+                <signature ac="SSF50249" name="Nucleic acid-binding proteins">
+                    <entry ac="IPR012340" desc="Nucleic acid-binding, OB-fold" name="NA-bd_OB-fold" type="DOMAIN"/>
+                    <models>
+                        <model ac="0040310" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048841" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049576" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047328" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054176" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049870" name="Nucleic acid-binding proteins"/>
+                        <model ac="0039892" name="Nucleic acid-binding proteins"/>
+                        <model ac="0044302" name="Nucleic acid-binding proteins"/>
+                        <model ac="0044179" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046921" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045922" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048166" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050575" name="Nucleic acid-binding proteins"/>
+                        <model ac="0043000" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054165" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037576" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049790" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046050" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047483" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046451" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045686" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046596" name="Nucleic acid-binding proteins"/>
+                        <model ac="0051771" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050994" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050502" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047013" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046777" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048170" name="Nucleic acid-binding proteins"/>
+                        <model ac="0038296" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048165" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054212" name="Nucleic acid-binding proteins"/>
+                        <model ac="0053958" name="Nucleic acid-binding proteins"/>
+                        <model ac="0039264" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048642" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047828" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048167" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054772" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046097" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045011" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054205" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054725" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050885" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054724" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049181" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047028" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048748" name="Nucleic acid-binding proteins"/>
+                        <model ac="0034894" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049722" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048839" name="Nucleic acid-binding proteins"/>
+                        <model ac="0036299" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037626" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045898" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054282" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054650" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054168" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046800" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049427" name="Nucleic acid-binding proteins"/>
+                        <model ac="0042114" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054651" name="Nucleic acid-binding proteins"/>
+                        <model ac="0044303" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048514" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048308" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046930" name="Nucleic acid-binding proteins"/>
+                        <model ac="0053734" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054722" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047473" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045777" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049051" name="Nucleic acid-binding proteins"/>
+                        <model ac="0040655" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054166" name="Nucleic acid-binding proteins"/>
+                        <model ac="0039281" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054855" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048641" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047019" name="Nucleic acid-binding proteins"/>
+                        <model ac="0052237" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054723" name="Nucleic acid-binding proteins"/>
+                        <model ac="0051100" name="Nucleic acid-binding proteins"/>
+                        <model ac="0043292" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048442" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050616" name="Nucleic acid-binding proteins"/>
+                        <model ac="0052107" name="Nucleic acid-binding proteins"/>
+                        <model ac="0053338" name="Nucleic acid-binding proteins"/>
+                        <model ac="0051418" name="Nucleic acid-binding proteins"/>
+                        <model ac="0053683" name="Nucleic acid-binding proteins"/>
+                        <model ac="0052503" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050995" name="Nucleic acid-binding proteins"/>
+                        <model ac="0040675" name="Nucleic acid-binding proteins"/>
+                        <model ac="0036711" name="Nucleic acid-binding proteins"/>
+                        <model ac="0052498" name="Nucleic acid-binding proteins"/>
+                        <model ac="0051177" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047715" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049071" name="Nucleic acid-binding proteins"/>
+                        <model ac="0046163" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054279" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048643" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047679" name="Nucleic acid-binding proteins"/>
+                        <model ac="0053990" name="Nucleic acid-binding proteins"/>
+                        <model ac="0050030" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047147" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048844" name="Nucleic acid-binding proteins"/>
+                        <model ac="0039498" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047920" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054276" name="Nucleic acid-binding proteins"/>
+                        <model ac="0041615" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049372" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048176" name="Nucleic acid-binding proteins"/>
+                        <model ac="0048887" name="Nucleic acid-binding proteins"/>
+                        <model ac="0049455" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054597" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047805" name="Nucleic acid-binding proteins"/>
+                        <model ac="0035732" name="Nucleic acid-binding proteins"/>
+                        <model ac="0044549" name="Nucleic acid-binding proteins"/>
+                        <model ac="0045976" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037797" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047223" name="Nucleic acid-binding proteins"/>
+                        <model ac="0043001" name="Nucleic acid-binding proteins"/>
+                        <model ac="0036423" name="Nucleic acid-binding proteins"/>
+                        <model ac="0039578" name="Nucleic acid-binding proteins"/>
+                        <model ac="0047474" name="Nucleic acid-binding proteins"/>
+                        <model ac="0038054" name="Nucleic acid-binding proteins"/>
+                        <model ac="0036158" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037641" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054167" name="Nucleic acid-binding proteins"/>
+                        <model ac="0041327" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054593" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037226" name="Nucleic acid-binding proteins"/>
+                        <model ac="0051294" name="Nucleic acid-binding proteins"/>
+                        <model ac="0038590" name="Nucleic acid-binding proteins"/>
+                        <model ac="0054754" name="Nucleic acid-binding proteins"/>
+                        <model ac="0042019" name="Nucleic acid-binding proteins"/>
+                        <model ac="0037529" name="Nucleic acid-binding proteins"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="4" end="134"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

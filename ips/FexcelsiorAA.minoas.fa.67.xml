@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="d3b3e83dc4d0627e28ce9a5c4a8ce213">MSQRSVPAPFLTKTYDMVGDPSSDDVISWNESGTAFVVWKTAEFAKDLLPNYFKHNNFSSFVRQLNTYGFRKIVPDKWEFANENFKRGQKELLIEIRRRKTVPSQNPSGVKHVATDSPTLPENSGDDLGSSSTSSPDSKNPGSLGTQTSAQLADLSGENEKLKKDNHTLCSELAQTKKQCDELVTYLTQCVKVAPEQINQIMNGSASIIDEAGPCNKDVGGGNLDNDNDENVECMKLFGVMVKKKRSRDLTLDFSEVHKKEMKKTVEESVSWMKISASSGENSKVYS</sequence>
+        <xref id="Gene.91::FRAEX38873_v2_000000780.1::g.91::m.91" name="Gene.91::FRAEX38873_v2_000000780.1::g.91  ORF type:complete len:288 (+) FRAEX38873_v2_000000780.1:1-864(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="152" end="180"/>
+                </locations>
+            </coils-match>
+            <fingerprints-match evalue="2.496392E-20" graphscan="III">
+                <signature ac="PR00056" desc="Heat shock factor (HSF) domain signature" name="HSFDOMAIN">
+                    <entry ac="IPR000232" desc="Heat shock factor (HSF)-type, DNA-binding" name="HSF_DNA-bd" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="sequence-specific DNA binding transcription factor activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                    </entry>
+                    <models>
+                        <model ac="PR00056" desc="Heat shock factor (HSF) domain signature" name="HSFDOMAIN"/>
+                    </models>
+                    <signature-library-release library="PRINTS" version="42.0"/>
+                </signature>
+                <locations>
+                    <fingerprints-location motifNumber="3" pvalue="4.18E-9" score="84.62" start="61" end="73"/>
+                    <fingerprints-location motifNumber="2" pvalue="2.42E-8" score="78.68" start="48" end="60"/>
+                    <fingerprints-location motifNumber="1" pvalue="1.46E-10" score="47.74" start="10" end="33"/>
+                </locations>
+            </fingerprints-match>
+            <hmmer2-match evalue="1.5E-60" score="217.2">
+                <signature ac="SM00415" desc="heat shock factor" name="HSF">
+                    <entry ac="IPR000232" desc="Heat shock factor (HSF)-type, DNA-binding" name="HSF_DNA-bd" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="sequence-specific DNA binding transcription factor activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00415" desc="heat shock factor" name="HSF"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="217.2" evalue="1.5E-60" hmm-start="1" hmm-end="115" hmm-length="0" start="6" end="99"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="2.2E-35" score="120.8">
+                <signature ac="PF00447" desc="HSF-type DNA-binding" name="HSF_DNA-bind">
+                    <entry ac="IPR000232" desc="Heat shock factor (HSF)-type, DNA-binding" name="HSF_DNA-bd" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="sequence-specific DNA binding transcription factor activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00447" desc="HSF-type DNA-binding" name="HSF_DNA-bind"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="103" env-start="9" score="119.7" evalue="4.7E-35" hmm-start="2" hmm-end="102" hmm-length="0" start="10" end="101"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.3E-39" score="133.1">
+                <signature ac="G3DSA:1.10.10.10">
+                    <entry ac="IPR011991" desc="Winged helix-turn-helix DNA-binding domain" name="WHTH_DNA-bd_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="2fb1A02"/>
+                        <model ac="3df8A00"/>
+                        <model ac="2ia2C01"/>
+                        <model ac="1rz4A02"/>
+                        <model ac="2ipqX01"/>
+                        <model ac="1s8nA02"/>
+                        <model ac="3k69A00"/>
+                        <model ac="1or7B02"/>
+                        <model ac="1p4xA02"/>
+                        <model ac="1jgsA00"/>
+                        <model ac="1ka8A00"/>
+                        <model ac="1p6rA00"/>
+                        <model ac="1u5tB02"/>
+                        <model ac="1fpqA02"/>
+                        <model ac="3p9cA01"/>
+                        <model ac="2krfA00"/>
+                        <model ac="2fxaA00"/>
+                        <model ac="3jthB00"/>
+                        <model ac="2fnaA03"/>
+                        <model ac="1u2wD00"/>
+                        <model ac="1z05A01"/>
+                        <model ac="1fc3B00"/>
+                        <model ac="1oywA03"/>
+                        <model ac="1yyvB00"/>
+                        <model ac="2jt1A00"/>
+                        <model ac="3f6vA00"/>
+                        <model ac="1duxC00"/>
+                        <model ac="2ga1A02"/>
+                        <model ac="1yg2A01"/>
+                        <model ac="1fshA00"/>
+                        <model ac="2ia0A01"/>
+                        <model ac="1y0uB00"/>
+                        <model ac="1ku9B01"/>
+                        <model ac="2jtvA00"/>
+                        <model ac="2f2eA01"/>
+                        <model ac="2qm3A01"/>
+                        <model ac="1ft9A02"/>
+                        <model ac="1v3fA00"/>
+                        <model ac="3g73A00"/>
+                        <model ac="1fzpD00"/>
+                        <model ac="1xgsA02"/>
+                        <model ac="2ijlB00"/>
+                        <model ac="1gvjA00"/>
+                        <model ac="1xd7A00"/>
+                        <model ac="2hgcA00"/>
+                        <model ac="3coaC00"/>
+                        <model ac="1lddA00"/>
+                        <model ac="1v4rA01"/>
+                        <model ac="3cuqA02"/>
+                        <model ac="3ctaA01"/>
+                        <model ac="3dfgA01"/>
+                        <model ac="2fswA00"/>
+                        <model ac="3boqA00"/>
+                        <model ac="1hstA00"/>
+                        <model ac="1dpuA00"/>
+                        <model ac="1ldjA07"/>
+                        <model ac="3bz6A02"/>
+                        <model ac="1qgpA00"/>
+                        <model ac="1t98A01"/>
+                        <model ac="2hztC00"/>
+                        <model ac="2zbkA01"/>
+                        <model ac="3cdhA00"/>
+                        <model ac="3cuqA03"/>
+                        <model ac="2o0yC01"/>
+                        <model ac="3fm5A00"/>
+                        <model ac="1ucrB00"/>
+                        <model ac="1j9iA00"/>
+                        <model ac="1opcA00"/>
+                        <model ac="1jhfA02"/>
+                        <model ac="1t6sB01"/>
+                        <model ac="1zarA01"/>
+                        <model ac="3cjnA00"/>
+                        <model ac="2pn6A01"/>
+                        <model ac="1r1uB00"/>
+                        <model ac="1hsjA03"/>
+                        <model ac="1p2fA02"/>
+                        <model ac="1l0oC00"/>
+                        <model ac="1yqaA00"/>
+                        <model ac="3bddD00"/>
+                        <model ac="2fmlB03"/>
+                        <model ac="1k78A01"/>
+                        <model ac="1lvaA02"/>
+                        <model ac="2oqgC00"/>
+                        <model ac="1bjaA00"/>
+                        <model ac="3c18A03"/>
+                        <model ac="2irfG00"/>
+                        <model ac="3dfgA02"/>
+                        <model ac="2a61B00"/>
+                        <model ac="1cf7B00"/>
+                        <model ac="2p8tA01"/>
+                        <model ac="2hs5A01"/>
+                        <model ac="1hksA00"/>
+                        <model ac="2dtrA01"/>
+                        <model ac="2a6hF02"/>
+                        <model ac="3cloA02"/>
+                        <model ac="1sfxB00"/>
+                        <model ac="3htsB00"/>
+                        <model ac="1fp2A01"/>
+                        <model ac="1aoyA00"/>
+                        <model ac="2w25A01"/>
+                        <model ac="1lj9B00"/>
+                        <model ac="2p5vA01"/>
+                        <model ac="1sfuA00"/>
+                        <model ac="1sd4A01"/>
+                        <model ac="1oyiA00"/>
+                        <model ac="1i27A00"/>
+                        <model ac="1k78I00"/>
+                        <model ac="2r3sB01"/>
+                        <model ac="1biaA01"/>
+                        <model ac="3i53B01"/>
+                        <model ac="1r1tA00"/>
+                        <model ac="1fseB00"/>
+                        <model ac="2dbbB01"/>
+                        <model ac="3cuqB03"/>
+                        <model ac="2nnnC00"/>
+                        <model ac="1dp7P00"/>
+                        <model ac="1pdnC02"/>
+                        <model ac="1ulyA01"/>
+                        <model ac="3c7jA01"/>
+                        <model ac="2ia1B02"/>
+                        <model ac="1kq8A00"/>
+                        <model ac="1u3eM02"/>
+                        <model ac="1p4wA00"/>
+                        <model ac="3edpA01"/>
+                        <model ac="1ku3A00"/>
+                        <model ac="1mgtA02"/>
+                        <model ac="1bm9A00"/>
+                        <model ac="1pp8O00"/>
+                        <model ac="1ev7B02"/>
+                        <model ac="1s6lA01"/>
+                        <model ac="1cf7A00"/>
+                        <model ac="1kgsA02"/>
+                        <model ac="1ldjA06"/>
+                        <model ac="1o7fA02"/>
+                        <model ac="1tnsA00"/>
+                        <model ac="3b73A00"/>
+                        <model ac="2z3yA01"/>
+                        <model ac="1p4xA01"/>
+                        <model ac="1bbyA00"/>
+                        <model ac="1t6sB02"/>
+                        <model ac="3bj6B00"/>
+                        <model ac="2hoeA01"/>
+                        <model ac="2gauA02"/>
+                        <model ac="2dt5B01"/>
+                        <model ac="1s29A00"/>
+                        <model ac="1d8jA00"/>
+                        <model ac="1a04A02"/>
+                        <model ac="2pg4A00"/>
+                        <model ac="2obpA00"/>
+                        <model ac="1mkmB01"/>
+                        <model ac="3bz6A01"/>
+                        <model ac="3bjaA00"/>
+                        <model ac="1in4A02"/>
+                        <model ac="1hw1A01"/>
+                        <model ac="2od5A00"/>
+                        <model ac="3by6C01"/>
+                        <model ac="3fm3A02"/>
+                        <model ac="1tbxB00"/>
+                        <model ac="2fbhA00"/>
+                        <model ac="3elkB00"/>
+                        <model ac="3dfgA03"/>
+                        <model ac="2heoA00"/>
+                        <model ac="1t0fA02"/>
+                        <model ac="1wrjA02"/>
+                        <model ac="2oa4A01"/>
+                        <model ac="1hkqA00"/>
+                        <model ac="1je8E00"/>
+                        <model ac="1pueE00"/>
+                        <model ac="1w5sA03"/>
+                        <model ac="2ia2D01"/>
+                        <model ac="1qbjC00"/>
+                        <model ac="3qu3B01"/>
+                        <model ac="1d3yA01"/>
+                        <model ac="3h92A00"/>
+                        <model ac="2bgcH02"/>
+                        <model ac="1b9mB01"/>
+                        <model ac="2r7dA01"/>
+                        <model ac="1o57A01"/>
+                        <model ac="1ixcA01"/>
+                        <model ac="1fnnB03"/>
+                        <model ac="3jtgA01"/>
+                        <model ac="3broD00"/>
+                        <model ac="2fokA02"/>
+                        <model ac="1l3lA02"/>
+                        <model ac="2hr3D02"/>
+                        <model ac="1yo5C00"/>
+                        <model ac="3kccA02"/>
+                        <model ac="2eshA00"/>
+                        <model ac="1on2A01"/>
+                        <model ac="2fbiA00"/>
+                        <model ac="2rdpA00"/>
+                        <model ac="2o3fA00"/>
+                        <model ac="3fzvB01"/>
+                        <model ac="2o0yB01"/>
+                        <model ac="1xsvA00"/>
+                        <model ac="3e6mA00"/>
+                        <model ac="1w4mA00"/>
+                        <model ac="2rkhA01"/>
+                        <model ac="1lvaA04"/>
+                        <model ac="1ufmA00"/>
+                        <model ac="1lvaA01"/>
+                        <model ac="2esnA01"/>
+                        <model ac="1k78B00"/>
+                        <model ac="1j5yA01"/>
+                        <model ac="1gxqA00"/>
+                        <model ac="2ns0A00"/>
+                        <model ac="3fxqB01"/>
+                        <model ac="1q1hA00"/>
+                        <model ac="1b6aA02"/>
+                        <model ac="2nyxB01"/>
+                        <model ac="1s3jA02"/>
+                        <model ac="1r7jA00"/>
+                        <model ac="2qvoA00"/>
+                        <model ac="3htuA00"/>
+                        <model ac="2g7uA01"/>
+                        <model ac="1ub9A00"/>
+                        <model ac="1stzA01"/>
+                        <model ac="1b4aA01"/>
+                        <model ac="3bwgB01"/>
+                        <model ac="2cg4A01"/>
+                        <model ac="1repC02"/>
+                        <model ac="1qo0D02"/>
+                        <model ac="3echA01"/>
+                        <model ac="3f6oB00"/>
+                        <model ac="1yioA02"/>
+                        <model ac="2qwwC00"/>
+                        <model ac="1lvaA03"/>
+                        <model ac="1repC01"/>
+                        <model ac="1u5tB01"/>
+                        <model ac="1mzbA01"/>
+                        <model ac="1ldkB03"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="95" env-start="1" score="132.3" evalue="4.0E-39" hmm-start="8" hmm-end="101" hmm-length="0" start="3" end="94"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS00434" desc="HSF-type DNA-binding domain signature." name="HSF_DOMAIN">
+                    <entry ac="IPR000232" desc="Heat shock factor (HSF)-type, DNA-binding" name="HSF_DNA-bd" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0043565" name="sequence-specific DNA binding"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0005634" name="nucleus"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003700" name="sequence-specific DNA binding transcription factor activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006355" name="regulation of transcription, DNA-templated"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00434" desc="HSF-type DNA-binding domain signature." name="HSF_DOMAIN"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="49" end="73">
+                        <alignment>LpnyFKHnNfSSFVRQLNtYgFRKI</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <superfamilyhmmer3-match evalue="5.08E-34">
+                <signature ac="SSF46785" name="&quot;Winged helix&quot; DNA-binding domain">
+                    <models>
+                        <model ac="0046435" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052644" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049797" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0035347" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051444" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045802" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052755" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051849" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054845" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046987" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054851" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049335" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052633" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051521" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051874" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054842" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051354" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049173" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052860" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051528" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045339" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0041732" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043935" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052641" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051371" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052198" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052159" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053154" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048605" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047195" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047445" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054732" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053953" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049276" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052506" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0041905" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037456" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049556" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044089" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043164" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047247" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045910" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049520" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051170" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0036285" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049886" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048703" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040586" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043473" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047959" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0039384" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043669" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050578" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053005" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049993" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049944" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054069" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049555" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044139" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054036" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049777" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037861" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050391" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051302" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045030" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044208" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044207" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047290" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050608" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047161" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047910" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052246" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053835" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047587" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046839" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048491" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0039091" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054468" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052718" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053826" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049308" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049859" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052508" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049992" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052282" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049363" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045283" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040517" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046914" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054933" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048177" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051455" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048817" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0041150" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054295" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045968" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053603" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051024" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050651" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0038753" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040679" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045974" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0042770" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047770" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049573" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053037" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054502" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044373" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054434" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054291" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0036540" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054062" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045923" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045862" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052640" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0036614" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053261" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0042414" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043062" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050338" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054059" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045043" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046825" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051337" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052734" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049152" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049151" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0035958" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051033" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0036548" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047585" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044604" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045833" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051507" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046129" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052579" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0042079" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051708" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047461" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0038616" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043589" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054152" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0039808" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045032" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040682" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053027" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048041" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054362" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044211" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047283" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054478" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0038701" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051672" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053783" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037648" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049384" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054905" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047958" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054074" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0042156" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054702" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054850" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051665" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052514" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054945" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052801" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048143" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053825" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054016" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053153" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046835" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053666" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048861" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0042087" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053941" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047353" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045885" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048695" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0038673" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0044258" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050373" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054356" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050048" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048042" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0054290" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040266" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047234" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052725" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0050732" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045981" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0040207" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053759" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0047523" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043095" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052364" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0048601" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0052161" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0043758" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046837" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037759" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037767" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0049796" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0046283" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0051026" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037340" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0053684" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0037479" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                        <model ac="0045284" name="&quot;Winged helix&quot; DNA-binding domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="7" end="99"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

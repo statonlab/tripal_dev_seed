@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e106bdea9a2755141c8eb8251126a61c">MGVLLRLSGLLLSLLLTLTFCNGKNMTVKIVGFLDCTDCIIQEFDSNRASLGLKVAISCKSTNGEMRTMGNGGVDREGNFNITLSNQISDDETTVQGCLAKLHNASGAPCPIQTAETASMKIVRSEDNGTQTADVTQKLKFSPETCQSAFFWPFIIYKFFGQPNITYVPKLSPPPGPPVEYAPSPLQALPPPAPAPGSIDPSLPPTQSLPPSLPPAQSATSPIQLLTPAPAPGPIDPSIPPTESSPPPVHQYSVPPPTPVCKDPSSPPIQSLPPTIPLAPVKGSYPTLAPPPTFESPISPPVPAAPLSPPPYAQTPPSAAPTNRNPFAPHVPSSKRPNAPSPIIKTPLAPPVPKLQQPFAPPPVPKFENAPPPFKPTYQPNPPSIAPISPKPPPSPIEKSLPPSKTPLSPVPNSPPSNGHSITIPRAPPVPKLPHIPTVPRRFFNPPKSKYLPPHPSHHLH</sequence>
+        <xref id="Gene.29::FRAEX38873_v2_000000270.1::g.29::m.29" name="Gene.29::FRAEX38873_v2_000000270.1::g.29  ORF type:complete len:462 (+) FRAEX38873_v2_000000270.1:1-1386(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.6E-11" score="43.7">
+                <signature ac="PF01190" desc="Pollen proteins Ole e I like" name="Pollen_Ole_e_I">
+                    <entry ac="IPR006041" desc="Pollen Ole e 1 allergen/extensin" name="Pollen_Ole_e1_allergen" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF01190" desc="Pollen proteins Ole e I like" name="Pollen_Ole_e_I"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="126" env-start="30" score="43.1" evalue="2.5E-11" hmm-start="1" hmm-end="89" hmm-length="0" start="30" end="117"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

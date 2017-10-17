@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="6e7aa2163aacce04cd34d51972f2d000">MGDIWTGIMEIAAAAVIVPLGVLFLLSGLVVNFIQAVCFVLIRPFSKNTYRRVNKVVAELLWLELVWLVDWWAGVKLFCSYLFSSLTFSYVVLSWVFVGVPGGIRHGNEYILICITQVIGWSMWFSDYLFLERSWAKDESTLKLGFQRLRDFPQPFWLALFVEGTRFTEAKLLAAQEYATSTGLAVPRNVLIPRTKGFVTAISQMRSFVPAIYDVTAAIPKTSPAPTMLRLFKRQSAVVHVHLKRHLMKDLPETDDAVAQWCRDAFVAKDKLLDKHIAENSFGEQLQDTGRSLKSLLVVISWASLLTLGAYKIFQTSSLLSSWKGLTFSGIGLTIVTVLMQILIQFSKSERSAPARVNPSKPKNSESLGTQQDKQQ</sequence>
+        <xref id="Gene.156::FRAEX38873_v2_000001290.1::g.156::m.156" name="Gene.156::FRAEX38873_v2_000001290.1::g.156  ORF type:complete len:377 (+) FRAEX38873_v2_000001290.1:1-1131(+)"/>
+        <matches>
+            <hmmer2-match evalue="0.0091" score="13.4">
+                <signature ac="SM00563" desc="Phosphate acyltransferases" name="PlsC">
+                    <entry ac="IPR002123" desc="Phospholipid/glycerol acyltransferase" name="Plipid/glycerol_acylTrfase" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0016746" name="transferase activity, transferring acyl groups"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00563" desc="Phosphate acyltransferases" name="PlsC"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="13.4" evalue="0.0091" hmm-start="1" hmm-end="135" hmm-length="0" start="90" end="199"/>
+                </locations>
+            </hmmer2-match>
+        </matches>
+    </protein>
+</protein-matches>

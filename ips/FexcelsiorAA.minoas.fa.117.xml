@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="9e3461811cfb938835b6b73645be3e96">MVIEMPQSCTLAIDSSQWPILLKNYDKLNVRTGPSPPLPSGYSPLKRPLPEYVKYGILNLDKPANPSSHEVVAWIKRILRVEKTGHSGTLDPKITGNLIVCIDRATRLVKSQQGAGKEYVCIARLHSKVPEVAKVVRALESLTGAVFQRPPLISAVKRQPRIRTIYESKLLEYDADRHLVVFWISCEAGTYVRTLCVHLGLLLGVGGHMQELRRVRSGILGEKDNMVTMHDVMDAQWMYDDYRDETYLRRVIMPLEVVLTSYKRLVVKDSAVNAICYGAKLMSRVVEGEAIALGIAEMTTAVMAACDHGTVPRIKRVVMDRDTYPRKWGLGPRASMKKKLIVEGKLDKRGKPNENTPAEWLRNVVLPTGGDSMVAGLAAAAEPLLAAPMNVVSAVDEVEKKKKKKKQKNKEDKEEGYKHKLDKVDGSPAPDVVVKKAKVSLEAEETVQVKDKVELKKVDEVETVEVEKKEKKKKKIEGGGDAVDGSGEKSKKDKKKKDKANVDSAISEEKSKKKKKHEDE</sequence>
+        <xref id="Gene.153::FRAEX38873_v2_000001270.1::g.153::m.153" name="Gene.153::FRAEX38873_v2_000001270.1::g.153  ORF type:complete len:521 (+) FRAEX38873_v2_000001270.1:1-1563(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="391" end="416"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="2.0E-13" score="49.5">
+                <signature ac="G3DSA:2.30.130.10">
+                    <entry ac="IPR015947" desc="PUA-like domain" name="PUA-like_domain" type="DOMAIN"/>
+                    <models>
+                        <model ac="1r3eA02"/>
+                        <model ac="2as0A01"/>
+                        <model ac="1iq8A04"/>
+                        <model ac="1r3fA02"/>
+                        <model ac="1q7hA02"/>
+                        <model ac="2cx0A02"/>
+                        <model ac="1sqwA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="327" env-start="284" score="28.1" evalue="9.7E-7" hmm-start="46" hmm-end="85" hmm-length="0" start="287" end="326"/>
+                    <hmmer3-location env-end="286" env-start="260" score="18.8" evalue="7.6E-4" hmm-start="2" hmm-end="24" hmm-length="0" start="261" end="283"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="2.5E-22" score="79.5">
+                <signature ac="PF01509" desc="TruB family pseudouridylate synthase (N terminal domain)" name="TruB_N">
+                    <entry ac="IPR002501" desc="Pseudouridine synthase II" name="PsdUridine_synth" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006396" name="RNA processing"/>
+                    </entry>
+                    <models>
+                        <model ac="PF01509" desc="TruB family pseudouridylate synthase (N terminal domain)" name="TruB_N"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="192" env-start="76" score="73.0" evalue="2.4E-20" hmm-start="1" hmm-end="149" hmm-length="0" start="76" end="192"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.9E-140" score="464.0">
+                <signature ac="TIGR00425" desc="CBF5: putative rRNA pseudouridine synthase" name="TIGR00425">
+                    <entry ac="IPR004802" desc="tRNA pseudouridine synthase B family" name="tRNA_PsdUridine_synth_B_fam" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006396" name="RNA processing"/>
+                    </entry>
+                    <models>
+                        <model ac="TIGR00425" desc="CBF5: putative rRNA pseudouridine synthase" name="TIGR00425"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="329" env-start="22" score="455.6" evalue="1.8E-137" hmm-start="1" hmm-end="322" hmm-length="0" start="22" end="329"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.9E-26" score="90.6">
+                <signature ac="PF08068" desc="DKCLD (NUC011) domain" name="DKCLD">
+                    <entry ac="IPR012960" desc="Dyskerin-like" name="Dyskerin-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF08068" desc="DKCLD (NUC011) domain" name="DKCLD"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="72" env-start="14" score="86.0" evalue="1.0E-24" hmm-start="1" hmm-end="59" hmm-length="0" start="14" end="72"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50890" desc="PUA domain profile." name="PUA">
+                    <entry ac="IPR002478" desc="PUA domain" name="PUA" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003723" name="RNA binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50890" desc="PUA domain profile." name="PUA"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="10.419" start="262" end="319">
+                        <alignment>YKRLVVKDSAVNAICYGA-KLMSRVVE------------------GEAIALGIAEMTTAVMA--ACDHGTVPRIKRVVM</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="3.05E-10">
+                <signature ac="SSF88697" name="PUA domain-like">
+                    <entry ac="IPR015947" desc="PUA-like domain" name="PUA-like_domain" type="DOMAIN"/>
+                    <models>
+                        <model ac="0050072" name="PUA domain-like"/>
+                        <model ac="0050865" name="PUA domain-like"/>
+                        <model ac="0038846" name="PUA domain-like"/>
+                        <model ac="0052524" name="PUA domain-like"/>
+                        <model ac="0050744" name="PUA domain-like"/>
+                        <model ac="0051929" name="PUA domain-like"/>
+                        <model ac="0049603" name="PUA domain-like"/>
+                        <model ac="0054564" name="PUA domain-like"/>
+                        <model ac="0044757" name="PUA domain-like"/>
+                        <model ac="0051540" name="PUA domain-like"/>
+                        <model ac="0037984" name="PUA domain-like"/>
+                        <model ac="0052338" name="PUA domain-like"/>
+                        <model ac="0041612" name="PUA domain-like"/>
+                        <model ac="0050660" name="PUA domain-like"/>
+                        <model ac="0051801" name="PUA domain-like"/>
+                        <model ac="0051817" name="PUA domain-like"/>
+                        <model ac="0049288" name="PUA domain-like"/>
+                        <model ac="0054301" name="PUA domain-like"/>
+                        <model ac="0039543" name="PUA domain-like"/>
+                        <model ac="0039128" name="PUA domain-like"/>
+                        <model ac="0052482" name="PUA domain-like"/>
+                        <model ac="0044608" name="PUA domain-like"/>
+                        <model ac="0043106" name="PUA domain-like"/>
+                        <model ac="0052824" name="PUA domain-like"/>
+                        <model ac="0043893" name="PUA domain-like"/>
+                        <model ac="0043605" name="PUA domain-like"/>
+                        <model ac="0042644" name="PUA domain-like"/>
+                        <model ac="0051555" name="PUA domain-like"/>
+                        <model ac="0051810" name="PUA domain-like"/>
+                        <model ac="0054831" name="PUA domain-like"/>
+                        <model ac="0051822" name="PUA domain-like"/>
+                        <model ac="0049549" name="PUA domain-like"/>
+                        <model ac="0054796" name="PUA domain-like"/>
+                        <model ac="0039975" name="PUA domain-like"/>
+                        <model ac="0053955" name="PUA domain-like"/>
+                        <model ac="0051036" name="PUA domain-like"/>
+                        <model ac="0052864" name="PUA domain-like"/>
+                        <model ac="0052541" name="PUA domain-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="262" end="325"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="2.5E-73">
+                <signature ac="SSF55120" name="Pseudouridine synthase">
+                    <entry ac="IPR020103" desc="Pseudouridine synthase, catalytic domain" name="PsdUridine_synth_cat_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0009982" name="pseudouridine synthase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0003723" name="RNA binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0001522" name="pseudouridine synthesis"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009451" name="RNA modification"/>
+                    </entry>
+                    <models>
+                        <model ac="0043107" name="Pseudouridine synthase"/>
+                        <model ac="0043816" name="Pseudouridine synthase"/>
+                        <model ac="0051811" name="Pseudouridine synthase"/>
+                        <model ac="0052542" name="Pseudouridine synthase"/>
+                        <model ac="0042443" name="Pseudouridine synthase"/>
+                        <model ac="0036450" name="Pseudouridine synthase"/>
+                        <model ac="0043606" name="Pseudouridine synthase"/>
+                        <model ac="0050199" name="Pseudouridine synthase"/>
+                        <model ac="0039976" name="Pseudouridine synthase"/>
+                        <model ac="0047872" name="Pseudouridine synthase"/>
+                        <model ac="0050102" name="Pseudouridine synthase"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="15" end="260"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

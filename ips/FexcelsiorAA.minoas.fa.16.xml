@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="b2def56685713886158ae185fc692f88">MDGCCHGGILAAYAVDPSMTNSSFELTVGNLEKNSAGYKPLNPTLIAPGPGCTCVPLKDTNPIVSLVTGGRRKEQVFRTWKSTCTFSSYLANESPKNKCLGTSMSRMKARVTIQNYYQYRHIEKPGWKLGWTWTRNEVIWSMSGAFAIKQGNCSSFKYQIPHSCRKDPVIVDLMPDALPQNRSKGCCHGGVLAAYAVYPSLSNTSFEVTVGNLEQNTPGYKPLNLTLRAQDPVILVTSRWTRSLQFLPLSGEEEKSKF</sequence>
+        <xref id="Gene.22::FRAEX38873_v2_000000220.1::g.22::m.22" name="Gene.22::FRAEX38873_v2_000000220.1::g.22  ORF type:complete len:259 (+) FRAEX38873_v2_000000220.1:1-777(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.8E-52" score="177.4">
+                <signature ac="PF04833" desc="COBRA-like protein" name="COBRA">
+                    <entry ac="IPR006918" desc="COBRA, plant" name="COBRA_pln" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0016049" name="cell growth"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0010215" name="cellulose microfibril organization"/>
+                        <go-xref category="CELLULAR_COMPONENT" db="GO" id="GO:0031225" name="anchored component of membrane"/>
+                    </entry>
+                    <models>
+                        <model ac="PF04833" desc="COBRA-like protein" name="COBRA"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="88" env-start="1" score="46.6" evalue="2.7E-12" hmm-start="81" hmm-end="168" hmm-length="0" start="3" end="87"/>
+                    <hmmer3-location env-end="243" env-start="107" score="129.8" evalue="7.5E-38" hmm-start="3" hmm-end="131" hmm-length="0" start="109" end="232"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

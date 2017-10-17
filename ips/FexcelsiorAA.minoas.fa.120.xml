@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="6ff23255158866512cc49669dd0ba17f">MNFSSVRYDSNAIFVGPHNLARSQSHPHVFPHNQPQLQRNFIDFKRFDVVCALAKTASRVNLSDSELNRIESLSQVSGVLGCQWGDEGKGKLVDILAKHFDIVARCQGGSNAGHTIYNSEGKKFALHLVPSGILNDETVCVIGNGVVVHLPGFFKEIDGLESNGVSCKGRILVSDRAHLLFDFHQEVDGLREAELSKSFIGTTRRGIGPCYSSKVIRNGIRVSDLRHMDTFPQKLDLLLSDAASRFQGFNYGPDMLRQEVERYTRFAERLEPYITDTVHFMNDALSRKKKILVEGGQATMLDVDFGTYPFVTSSSPSAGGICTGLGIAPRVVGDLVGVVKAYTTRVGSGPFPTEILGKVGDLLRFAGQEFGTTTGRPRRCGTELYQRDFMTTVYLPKISLNLTKLDVLSELPEIQLGVSYKQIDGISIQSFPADLRALEQIKVEYEVMPGWQCDISSIRKYYELPKAARQYVERIEELVEQLEMKMQPSHNAIFF</sequence>
+        <xref id="Gene.157::FRAEX38873_v2_000001300.1::g.157::m.157" name="Gene.157::FRAEX38873_v2_000001300.1::g.157  ORF type:complete len:496 (+) FRAEX38873_v2_000001300.1:1-1488(+)"/>
+        <matches>
+            <hmmer2-match evalue="3.9E-205" score="697.5">
+                <signature ac="SM00788" desc="Adenylosuccinate synthetase" name="Adenylsucc_synt">
+                    <entry ac="IPR001114" desc="Adenylosuccinate synthetase" name="Adenylosuccinate_synthetase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00788" desc="Adenylosuccinate synthetase" name="Adenylsucc_synt"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="697.5" evalue="3.9E-205" hmm-start="1" hmm-end="422" hmm-length="0" start="76" end="484"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="1.6E-143" score="478.3">
+                <signature ac="PF00709" desc="Adenylosuccinate synthetase" name="Adenylsucc_synt">
+                    <entry ac="IPR001114" desc="Adenylosuccinate synthetase" name="Adenylosuccinate_synthetase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00709" desc="Adenylosuccinate synthetase" name="Adenylsucc_synt"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="488" env-start="76" score="477.9" evalue="2.0E-143" hmm-start="4" hmm-end="404" hmm-length="0" start="79" end="480"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.2E-29" score="100.3">
+                <signature ac="G3DSA:1.10.300.10">
+                    <models>
+                        <model ac="1p9bA02"/>
+                        <model ac="1dj2A02"/>
+                        <model ac="1adeA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="273" env-start="175" score="99.0" evalue="1.1E-28" hmm-start="1" hmm-end="99" hmm-length="0" start="175" end="268"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="9.0E-72" score="239.6">
+                <signature ac="G3DSA:3.40.440.10">
+                    <models>
+                        <model ac="2v40A01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="338" env-start="74" score="238.9" evalue="1.5E-71" hmm-start="2" hmm-end="169" hmm-length="0" start="75" end="167"/>
+                    <hmmer3-location env-end="338" env-start="74" score="238.9" evalue="1.5E-71" hmm-start="2" hmm-end="169" hmm-length="0" start="269" end="338"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.2E-136" score="453.7">
+                <signature ac="TIGR00184" desc="purA: adenylosuccinate synthase" name="TIGR00184">
+                    <entry ac="IPR001114" desc="Adenylosuccinate synthetase" name="Adenylosuccinate_synthetase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="TIGR00184" desc="purA: adenylosuccinate synthase" name="TIGR00184"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="486" env-start="78" score="453.4" evalue="1.5E-136" hmm-start="2" hmm-end="401" hmm-length="0" start="79" end="479"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.1E-48" score="162.5">
+                <signature ac="G3DSA:3.90.170.10">
+                    <models>
+                        <model ac="2v40A03"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="486" env-start="339" score="161.4" evalue="8.7E-48" hmm-start="1" hmm-end="141" hmm-length="0" start="339" end="480"/>
+                </locations>
+            </hmmer3-match>
+            <patternscan-match>
+                <signature ac="PS01266" desc="Adenylosuccinate synthetase GTP-binding site." name="ADENYLOSUCCIN_SYN_1">
+                    <entry ac="IPR018220" desc="Adenylosuccinate synthase, active site" name="Adenylosuccinate_synthase_AS" type="ACTIVE_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                    </entry>
+                    <models>
+                        <model ac="PS01266" desc="Adenylosuccinate synthetase GTP-binding site." name="ADENYLOSUCCIN_SYN_1"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="83" end="90">
+                        <alignment>QWGDEGKG</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <patternscan-match>
+                <signature ac="PS00513" desc="Adenylosuccinate synthetase active site." name="ADENYLOSUCCIN_SYN_2">
+                    <entry ac="IPR018220" desc="Adenylosuccinate synthase, active site" name="Adenylosuccinate_synthase_AS" type="ACTIVE_SITE">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                    </entry>
+                    <models>
+                        <model ac="PS00513" desc="Adenylosuccinate synthetase active site." name="ADENYLOSUCCIN_SYN_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PATTERNS" version="20.97"/>
+                </signature>
+                <locations>
+                    <patternscan-location level="STRONG" start="206" end="217">
+                        <alignment>GIGPcYssKviR</alignment>
+                    </patternscan-location>
+                </locations>
+            </patternscan-match>
+            <profilescan-match>
+                <signature ac="MF_00011" desc="Adenylosuccinate synthetase [purA]." name="Adenylosucc_synth">
+                    <entry ac="IPR001114" desc="Adenylosuccinate synthetase" name="Adenylosuccinate_synthetase" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006164" name="purine nucleotide biosynthetic process"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0005525" name="GTP binding"/>
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004019" name="adenylosuccinate synthase activity"/>
+                        <pathway-xref db="UniPathway" id="UPA00075" name="Purine metabolism; AMP biosynthesis via de novo pathway; AMP from IMP: step 1/2"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7219" name="Adenosine ribonucleotides de novo biosynthesis"/>
+                        <pathway-xref db="Reactome" id="REACT_1698" name="Metabolism of nucleotides"/>
+                        <pathway-xref db="KEGG" id="00230+6.3.4.4" name="Purine metabolism"/>
+                        <pathway-xref db="KEGG" id="00250+6.3.4.4" name="Alanine, aspartate and glutamate metabolism"/>
+                    </entry>
+                    <models>
+                        <model ac="MF_00011" desc="Adenylosuccinate synthetase [purA]." name="Adenylosucc_synth"/>
+                    </models>
+                    <signature-library-release library="HAMAP" version="201311.27"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="150.482" start="1" end="495">
+                        <alignment>--------------------------MNFSSVRYDSNAIFVGPHNLARSQSHPHVFPHNQPQLQRNFIDFKRFDVVCALAKTASRVNLSDSELnrieslsqvsGVLGCQWGDEGKGKLVDILAKHFDIVARCQGGSNAGHTIYNsEGKKFALHLVPSGILNDETVCVIGNGVVVHLPGFFKEIDGLESNGVS-CKGRILVSDRAHLLFDFHQEVDGLREAELSKSFIGTTRRGIGPCYSSKVIRNGIRVSDLRHMDTFPQKLDLLLSDA-ASRFQGFNYGP-DmLRQEVERYTRFAERLEPYITDTVHFMNDALSRKKKILVEGGQATMLDVDFGTYPFVTSSSPSAGGICTGLGIAPRVVGDLVGVVKAYTTRVGSGPFPTEILGKVGDLLRFAGQEFGTTTGRPRRCG---TELYQRDFMTTVYlpkISLNLTKLDVLSELPEIQLGVSYKqIDGISIQSFPADLRALEQIKVEYEVMPGWQCDISSIRKYYELPKAARQYVERIEELVEqlemkmqpSHNAIFF------------------------------------</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="3.29E-145">
+                <signature ac="SSF52540" name="P-loop containing nucleoside triphosphate hydrolases">
+                    <entry ac="IPR027417" desc="P-loop containing nucleoside triphosphate hydrolase" name="P-loop_NTPase" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051206" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052346" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052841" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046842" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048689" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037996" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054811" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048702" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041412" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042008" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040239" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036790" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052002" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036153" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049080" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050867" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047538" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048436" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051535" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051793" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039672" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045970" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037960" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049657" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050677" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037412" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037045" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050676" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046459" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053170" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037385" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054084" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048819" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050316" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048266" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035641" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047394" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051376" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048549" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036095" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047291" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042496" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046697" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039270" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052931" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043798" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045860" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042202" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042345" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045731" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049266" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051156" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049537" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048545" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050095" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050943" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038892" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050044" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047701" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046895" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049582" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047933" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052098" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040826" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047756" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051331" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044714" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047127" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052823" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036239" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049053" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050274" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046162" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048939" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048692" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051104" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037926" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044740" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051510" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051056" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054726" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050194" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043792" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049757" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044233" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048272" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035392" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052549" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038188" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043651" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049577" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043648" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047537" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041032" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045157" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044482" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050906" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051927" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046815" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052003" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046539" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037818" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047420" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039366" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039999" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049073" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046941" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048956" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042070" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037884" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043974" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049838" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051332" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048050" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045376" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037407" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041617" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046826" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054616" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052724" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049292" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044893" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054470" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043901" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035779" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051138" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0034832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040747" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038674" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043790" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047772" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043887" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050061" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048706" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047406" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050482" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047808" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042094" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051472" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049343" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052795" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048220" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051704" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051462" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049491" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053196" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052796" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037958" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046548" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043054" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036857" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050350" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052859" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036121" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048025" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050361" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048180" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046869" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043012" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049606" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044700" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045954" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049611" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052680" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048154" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036850" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049317" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038732" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038794" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047599" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049759" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036318" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046001" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037230" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051450" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048593" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048957" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043794" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050423" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040588" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051582" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048255" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037898" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043218" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048111" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054387" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039472" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036729" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053350" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046916" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049369" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038740" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050449" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050356" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038142" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047372" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040410" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053147" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037384" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042088" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052547" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036452" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045785" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049301" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050374" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046551" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038720" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048026" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038151" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052528" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050691" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047073" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035849" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049933" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051769" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044990" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048426" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041400" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052914" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052879" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038741" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051851" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051486" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052691" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050741" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052726" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0034833" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054467" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039715" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040237" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050354" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049919" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042089" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052155" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037787" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050775" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049853" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044086" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051460" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040678" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051784" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047665" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053247" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041442" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053146" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052546" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044438" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053591" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049190" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051952" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051458" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041170" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051499" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043258" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048226" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052832" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050337" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046315" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050227" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051551" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054471" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035814" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051485" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054829" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052785" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036155" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052054" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052625" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039041" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045788" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038731" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040419" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051325" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036451" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036748" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047839" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046693" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048113" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051942" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049506" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038144" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048868" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047023" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046442" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037248" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046913" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049825" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047820" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048381" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050792" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047813" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046860" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042720" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040121" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053059" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049398" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042557" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046157" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048963" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046258" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048885" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052004" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045809" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052855" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041443" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051448" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044125" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042605" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040984" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052548" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043912" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0040238" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035848" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0044416" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052815" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051498" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046945" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049837" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048044" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041234" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043440" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049881" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047797" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0039713" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041830" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047589" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051831" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038141" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049868" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051604" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051289" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037163" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050351" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050353" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054917" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049485" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038163" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046441" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042553" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052501" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047988" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046711" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047607" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051562" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043607" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035281" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051648" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052005" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042214" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046248" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045717" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051461" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049404" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051553" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052502" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046478" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046392" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048047" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036279" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052615" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0036699" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046276" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051580" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0054935" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043133" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043986" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051116" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041053" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049503" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0035786" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042735" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049306" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037862" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0043468" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050357" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0042280" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049300" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046479" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047259" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0049269" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0053686" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048410" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046105" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0052764" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0046936" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0037955" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045383" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051025" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0051459" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0045559" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0041834" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0047547" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0050989" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0038162" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                        <model ac="0048852" name="P-loop containing nucleoside triphosphate hydrolases"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="74" end="480"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

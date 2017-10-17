@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="b461f778e9a1e5612c9e89902c9ef890">MKDFESLLCLLNLISFSIQSLEKSLRNSSSIFAQNPIQKSVENFQTYPVISQEKTQLHHIAFGIASSSKLWKHRKEYIKLWWKPEEMRGFVWLDKHVKRSADDKQFLPSVKISSNTSKFEYKNSIGDRSAIRMSRIVSETVRLGLDDVRWIVLGDDDTFFFAENLVRVLSKYDHKQFYYIGKSSETHKQNIHFSYNMAYGGAGFAISYPLAKTLEKMQDRCLHRYPKLYGLDDRIQACMAELGVPLTVEMGFHQLDIYGDAFGLLAAHPIAPLLSLHHLDVIEPIFPNTGRIQSLRRLKMPMKLDSAGLMQQSICYDSARNWTISVSWGYATQIFRGIVPAREMEIPLRTFANWYRMHNEDGFSMKTRPLSTNACHRPFVYLLSNAIYNRATNRTASEYIPTNYPDSECNWKETADPSHVWRVEVYKMRDPNLWDKPPRRNCCRVLPLTKEGTIAVDIGECREGEIIEL</sequence>
+        <xref id="Gene.81::FRAEX38873_v2_000000680.1::g.81::m.81" name="Gene.81::FRAEX38873_v2_000000680.1::g.81  ORF type:complete len:470 (+) FRAEX38873_v2_000000680.1:1-1410(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.4E-108" score="361.8">
+                <signature ac="PF04646" desc="Protein of unknown function, DUF604" name="DUF604">
+                    <entry ac="IPR006740" desc="Protein of unknown function DUF604" name="DUF604" type="FAMILY"/>
+                    <models>
+                        <model ac="PF04646" desc="Protein of unknown function, DUF604" name="DUF604"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="443" env-start="189" score="361.3" evalue="2.0E-108" hmm-start="1" hmm-end="255" hmm-length="0" start="189" end="443"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

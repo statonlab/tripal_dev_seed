@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="ae60ef48ff495e852d5202ec6fe0db02">MATSTASAPAAAVKSTVVKISSLSSSRDITKPLNCFVPKIFPESHKPLQITLSKNPTSEVISSYKVSGNPEKSLEEYDDDKPREECGVVGIYGDPEASRLCYLALHALQHRGQEGAGIVAVHDNVLQSITGVGLVSDVFNESKLDQLPGDMAIGHVRYSTAGSSMLKNVQPFVASYKFGAVGVAHNGNLVNYQALRAELEENGSIFNTSSDTEVVLHLIAISKARPFFLRIVEACNKLEGAYSMVFLTEDKLVAVRDPFGFRPLVMGRRSNGSMVFASETCALDLIEATYEREVYPGEVIVVDKEGVRSLCLMAHPEPKSCIFEHIYFALPNSVVFGRSVYESRRAFGEILATESPVDCDVVIAVPDSGVVAALGYAAKAGVAFQQGLIRSHYVGRTFIEPSQKIRDFGVKLKLAPVRAVLEGKRVVVVDDSIVRGTTSSKIVRLIKEAGAKEVHMRIASPPIIGSCYYGVDTPSSEELISNRMSIEEIREFIGSDSLAFLSINSLKKLLGKDSPNFCYACFSGKYPVEPRGKVKRVGDFLDDGLSGSMESINGGWLERIRNQEEGVSDKNLNLKQEINLSV</sequence>
+        <xref id="Gene.16::FRAEX38873_v2_000000120.1::g.16::m.16" name="Gene.16::FRAEX38873_v2_000000120.1::g.16  ORF type:complete len:583 (+) FRAEX38873_v2_000000120.1:1-1749(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="557" end="578"/>
+                </locations>
+            </coils-match>
+            <hmmer2-match evalue="1.2E-213" score="719.0">
+                <signature ac="PIRSF000485" name="Pur1">
+                    <entry ac="IPR005854" desc="Amidophosphoribosyl transferase" name="Amd_phspho_trans" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004044" name="amidophosphoribosyltransferase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+                        <pathway-xref db="UniPathway" id="UPA00074" name="Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-(5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/2"/>
+                        <pathway-xref db="KEGG" id="00250+2.4.2.14" name="Alanine, aspartate and glutamate metabolism"/>
+                        <pathway-xref db="KEGG" id="00230+2.4.2.14" name="Purine metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7282" name="4-amino-2-methyl-5-phosphomethylpyrimidine biosynthesis (yeast)"/>
+                    </entry>
+                    <models>
+                        <model ac="PIRSF000485" name="Pur1"/>
+                    </models>
+                    <signature-library-release library="PIRSF" version="2.84"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="719.0" evalue="1.2E-213" hmm-start="1" hmm-end="552" hmm-length="0" start="75" end="544"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="1.5E-41" score="140.7">
+                <signature ac="G3DSA:3.40.50.2020">
+                    <entry ac="IPR029057" desc="Phosphoribosyltransferase-like" name="PRTase-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="1ecfA02"/>
+                        <model ac="1dkuA02"/>
+                        <model ac="1nulA00"/>
+                        <model ac="1xttB00"/>
+                        <model ac="1dkuA01"/>
+                        <model ac="1u9yA01"/>
+                        <model ac="2igbB00"/>
+                        <model ac="1l1qA00"/>
+                        <model ac="3mjdC00"/>
+                        <model ac="1bd3A00"/>
+                        <model ac="2e55A00"/>
+                        <model ac="1vchD00"/>
+                        <model ac="1hgxA00"/>
+                        <model ac="1tc1B00"/>
+                        <model ac="1dqnA00"/>
+                        <model ac="1v9sD00"/>
+                        <model ac="2dy0A00"/>
+                        <model ac="2p1zB00"/>
+                        <model ac="1qb7A00"/>
+                        <model ac="1y0bC00"/>
+                        <model ac="1fsgA00"/>
+                        <model ac="3m3hA00"/>
+                        <model ac="1o57B02"/>
+                        <model ac="2gebA00"/>
+                        <model ac="1vdmG00"/>
+                        <model ac="1u9yA02"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="509" env-start="341" score="140.0" evalue="2.5E-41" hmm-start="1" hmm-end="134" hmm-length="0" start="341" end="506"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="1.5E-65" score="220.4">
+                <signature ac="G3DSA:3.60.20.10">
+                    <entry ac="IPR029055" desc="Nucleophile aminohydrolases, N-terminal" name="Ntn_hydrolases_N" type="DOMAIN"/>
+                    <models>
+                        <model ac="1rypD00"/>
+                        <model ac="1rypB00"/>
+                        <model ac="1ecfA01"/>
+                        <model ac="1xffA00"/>
+                        <model ac="1rypJ00"/>
+                        <model ac="1rypF00"/>
+                        <model ac="1ct9A01"/>
+                        <model ac="1yarA00"/>
+                        <model ac="1gk9B01"/>
+                        <model ac="1rypI00"/>
+                        <model ac="1rypA00"/>
+                        <model ac="2jayA00"/>
+                        <model ac="1rypL00"/>
+                        <model ac="1rypG00"/>
+                        <model ac="1yarH00"/>
+                        <model ac="1kehA01"/>
+                        <model ac="1rypC00"/>
+                        <model ac="1g3kA00"/>
+                        <model ac="1ofdA01"/>
+                        <model ac="1q15A01"/>
+                        <model ac="1ryp100"/>
+                        <model ac="1q5qH00"/>
+                        <model ac="1jgtB01"/>
+                        <model ac="3mi0F00"/>
+                        <model ac="1rypH00"/>
+                        <model ac="1te5A00"/>
+                        <model ac="1rypK00"/>
+                        <model ac="2imhA01"/>
+                        <model ac="1ryp200"/>
+                        <model ac="1or0B01"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="328" env-start="86" score="219.8" evalue="2.2E-65" hmm-start="1" hmm-end="240" hmm-length="0" start="86" end="328"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="9.0E-14" score="51.1">
+                <signature ac="PF00156" desc="Phosphoribosyl transferase domain" name="Pribosyltran">
+                    <entry ac="IPR000836" desc="Phosphoribosyltransferase domain" name="PRibTrfase_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009116" name="nucleoside metabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00156" desc="Phosphoribosyl transferase domain" name="Pribosyltran"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="460" env-start="337" score="50.2" evalue="1.7E-13" hmm-start="8" hmm-end="123" hmm-length="0" start="342" end="458"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="4.2E-154" score="511.8">
+                <signature ac="TIGR01134" desc="purF: amidophosphoribosyltransferase" name="TIGR01134">
+                    <entry ac="IPR005854" desc="Amidophosphoribosyl transferase" name="Amd_phspho_trans" type="FAMILY">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0004044" name="amidophosphoribosyltransferase activity"/>
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0009113" name="purine nucleobase biosynthetic process"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6122" name="5-aminoimidazole ribonucleotide biosynthesis II"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6121" name="5-aminoimidazole ribonucleotide biosynthesis I"/>
+                        <pathway-xref db="MetaCyc" id="PWY-6277" name="Superpathway of 5-aminoimidazole ribonucleotide biosynthesis"/>
+                        <pathway-xref db="UniPathway" id="UPA00074" name="Purine metabolism; IMP biosynthesis via de novo pathway; N(1)-(5-phospho-D-ribosyl)glycinamide from 5-phospho-alpha-D-ribose 1-diphosphate: step 1/2"/>
+                        <pathway-xref db="KEGG" id="00250+2.4.2.14" name="Alanine, aspartate and glutamate metabolism"/>
+                        <pathway-xref db="KEGG" id="00230+2.4.2.14" name="Purine metabolism"/>
+                        <pathway-xref db="MetaCyc" id="PWY-7282" name="4-amino-2-methyl-5-phosphomethylpyrimidine biosynthesis (yeast)"/>
+                    </entry>
+                    <models>
+                        <model ac="TIGR01134" desc="purF: amidophosphoribosyltransferase" name="TIGR01134"/>
+                    </models>
+                    <signature-library-release library="TIGRFAM" version="13.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="527" env-start="86" score="511.6" evalue="4.9E-154" hmm-start="1" hmm-end="432" hmm-length="0" start="86" end="527"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="8.5E-26" score="90.0">
+                <signature ac="PF13537" desc="Glutamine amidotransferase domain" name="GATase_7">
+                    <entry ac="IPR000583" desc="Class II glutamine amidotransferase domain" name="GATase_dom" type="DOMAIN">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0008152" name="metabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="PF13537" desc="Glutamine amidotransferase domain" name="GATase_7"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="285" env-start="155" score="89.2" evalue="1.5E-25" hmm-start="2" hmm-end="123" hmm-length="0" start="156" end="283"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS51278" desc="Glutamine amidotransferase type 2 domain profile." name="GATASE_TYPE_2">
+                    <entry ac="IPR017932" desc="Glutamine amidotransferase type 2 domain" name="GATase_2_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PS51278" desc="Glutamine amidotransferase type 2 domain profile." name="GATASE_TYPE_2"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="47.507" start="86" end="305">
+                        <alignment>CGVVGIYGDP---EASRLCYLALHALQHRGQEGAGIVAVHDNVLQSITGVGLVSDVFNESKLDQLPGDMAIGHVRYSTAGSSMLKNVQPFVASYKFgaVGVAHNGNLVNYQALRAELEENGSIFNTSSDTEVVLHLI--AISKARPFFLRIVEACNKLEGAYSMVFLTE---DKLVAVRDPFGFRPLVMGRRSNgSMVFASETCALDlIEATYEREVYPGEVIVVDKE</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="1.61E-66">
+                <signature ac="SSF53271" name="PRTase-like">
+                    <entry ac="IPR029057" desc="Phosphoribosyltransferase-like" name="PRTase-like" type="DOMAIN"/>
+                    <models>
+                        <model ac="0051301" name="PRTase-like"/>
+                        <model ac="0036560" name="PRTase-like"/>
+                        <model ac="0051755" name="PRTase-like"/>
+                        <model ac="0047309" name="PRTase-like"/>
+                        <model ac="0035468" name="PRTase-like"/>
+                        <model ac="0050151" name="PRTase-like"/>
+                        <model ac="0046350" name="PRTase-like"/>
+                        <model ac="0044334" name="PRTase-like"/>
+                        <model ac="0041991" name="PRTase-like"/>
+                        <model ac="0048919" name="PRTase-like"/>
+                        <model ac="0050435" name="PRTase-like"/>
+                        <model ac="0038588" name="PRTase-like"/>
+                        <model ac="0046155" name="PRTase-like"/>
+                        <model ac="0035791" name="PRTase-like"/>
+                        <model ac="0047030" name="PRTase-like"/>
+                        <model ac="0052113" name="PRTase-like"/>
+                        <model ac="0041997" name="PRTase-like"/>
+                        <model ac="0036475" name="PRTase-like"/>
+                        <model ac="0049833" name="PRTase-like"/>
+                        <model ac="0042536" name="PRTase-like"/>
+                        <model ac="0048249" name="PRTase-like"/>
+                        <model ac="0038017" name="PRTase-like"/>
+                        <model ac="0040356" name="PRTase-like"/>
+                        <model ac="0046909" name="PRTase-like"/>
+                        <model ac="0048493" name="PRTase-like"/>
+                        <model ac="0051105" name="PRTase-like"/>
+                        <model ac="0046852" name="PRTase-like"/>
+                        <model ac="0050349" name="PRTase-like"/>
+                        <model ac="0048678" name="PRTase-like"/>
+                        <model ac="0034851" name="PRTase-like"/>
+                        <model ac="0051163" name="PRTase-like"/>
+                        <model ac="0049832" name="PRTase-like"/>
+                        <model ac="0050105" name="PRTase-like"/>
+                        <model ac="0041576" name="PRTase-like"/>
+                        <model ac="0050136" name="PRTase-like"/>
+                        <model ac="0041687" name="PRTase-like"/>
+                        <model ac="0041489" name="PRTase-like"/>
+                        <model ac="0036900" name="PRTase-like"/>
+                        <model ac="0052114" name="PRTase-like"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="321" end="531"/>
+                </locations>
+            </superfamilyhmmer3-match>
+            <superfamilyhmmer3-match evalue="1.8E-67">
+                <signature ac="SSF56235" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)">
+                    <entry ac="IPR029055" desc="Nucleophile aminohydrolases, N-terminal" name="Ntn_hydrolases_N" type="DOMAIN"/>
+                    <models>
+                        <model ac="0053208" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047001" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039162" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043426" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043429" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042626" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0045430" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039157" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0045668" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049272" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047427" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042559" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047426" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036849" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039156" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0046214" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039167" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039168" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043435" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042627" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039169" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0040554" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0054762" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0053074" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0050948" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049273" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043424" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0040786" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0048627" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039164" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0046519" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0037916" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043422" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0042377" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043431" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039159" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039335" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043428" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036097" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039334" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039872" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039539" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0052428" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0047031" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0053199" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043430" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043434" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0035162" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043423" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039165" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0048784" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039158" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039163" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043433" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0054144" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0039160" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0036865" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0049601" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                        <model ac="0043425" name="N-terminal nucleophile aminohydrolases (Ntn hydrolases)"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="86" end="309"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

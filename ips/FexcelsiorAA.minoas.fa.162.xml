@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="62896e61dfd43d1bf0c71af1089852d7">MDFSTASWFSELGEENSIFEDQCGFMDSFDEDLAALLGEESPALSPRSNCTSTLIRSSSSSTDLRTSSCMEKNETVMEPPSKQKKPNNYIFSRPNLVPSSTSSTPIILNFGSVNSPENPQPLSLSSLNREEKATVSEILRNPDEATKSAPITKKTSRVRPPSQTYDHIIAERKRREQLGQQFVALSTLVPGLKKMDKNSVLGDAIKYLKHLQERVHTLEEQSTKQNPESVVVKKSRLQMEDEGSSYEINSSCEQHLPEIEARVCNNHIHLSIHSKKRDGVLSKILNEVEKLNLTVIYTNVTPFGNFAFDINIITDDGGTIHLDRERDCKNS</sequence>
+        <xref id="Gene.208::FRAEX38873_v2_000001780.2::g.208::m.208" name="Gene.208::FRAEX38873_v2_000001780.2::g.208  ORF type:complete len:332 (+) FRAEX38873_v2_000001780.2:1-996(+)"/>
+        <matches>
+            <hmmer2-match evalue="9.8E-13" score="58.3">
+                <signature ac="SM00353" desc="helix loop helix domain" name="HLH">
+                    <entry ac="IPR011598" desc="Myc-type, basic helix-loop-helix (bHLH) domain" name="bHLH_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046983" name="protein dimerization activity"/>
+                    </entry>
+                    <models>
+                        <model ac="SM00353" desc="helix loop helix domain" name="HLH"/>
+                    </models>
+                    <signature-library-release library="SMART" version="6.2"/>
+                </signature>
+                <locations>
+                    <hmmer2-location score="58.3" evalue="9.8E-13" hmm-start="1" hmm-end="61" hmm-length="0" start="168" end="217"/>
+                </locations>
+            </hmmer2-match>
+            <hmmer3-match evalue="7.3E-16" score="57.5">
+                <signature ac="G3DSA:4.10.280.10">
+                    <entry ac="IPR011598" desc="Myc-type, basic helix-loop-helix (bHLH) domain" name="bHLH_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046983" name="protein dimerization activity"/>
+                    </entry>
+                    <models>
+                        <model ac="1nlwD00"/>
+                        <model ac="1mdyA00"/>
+                        <model ac="1am9B00"/>
+                        <model ac="1nlwE00"/>
+                        <model ac="1an4A00"/>
+                        <model ac="2ql2C00"/>
+                        <model ac="1a0aA00"/>
+                        <model ac="1uklC00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="234" env-start="165" score="56.5" evalue="1.6E-15" hmm-start="5" hmm-end="65" hmm-length="0" start="167" end="225"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="3.2E-9" score="36.2">
+                <signature ac="PF00010" desc="Helix-loop-helix DNA-binding domain" name="HLH">
+                    <entry ac="IPR011598" desc="Myc-type, basic helix-loop-helix (bHLH) domain" name="bHLH_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046983" name="protein dimerization activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PF00010" desc="Helix-loop-helix DNA-binding domain" name="HLH"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="212" env-start="163" score="34.5" evalue="1.1E-8" hmm-start="5" hmm-end="55" hmm-length="0" start="167" end="212"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50888" desc="Myc-type, basic helix-loop-helix (bHLH) domain profile." name="BHLH">
+                    <entry ac="IPR011598" desc="Myc-type, basic helix-loop-helix (bHLH) domain" name="bHLH_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046983" name="protein dimerization activity"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50888" desc="Myc-type, basic helix-loop-helix (bHLH) domain profile." name="BHLH"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="14.672" start="162" end="211">
+                        <alignment>SQTYDHIIAERKRREQLGQQFVALSTLVPGL---KKMDKNSVLGDAIKYLKHL</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+            <superfamilyhmmer3-match evalue="2.22E-16">
+                <signature ac="SSF47459" name="HLH, helix-loop-helix DNA-binding domain">
+                    <entry ac="IPR011598" desc="Myc-type, basic helix-loop-helix (bHLH) domain" name="bHLH_dom" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0046983" name="protein dimerization activity"/>
+                    </entry>
+                    <models>
+                        <model ac="0044409" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0043065" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0035101" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0034803" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0041452" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0035112" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0040898" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0038629" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0035113" name="HLH, helix-loop-helix DNA-binding domain"/>
+                        <model ac="0041437" name="HLH, helix-loop-helix DNA-binding domain"/>
+                    </models>
+                    <signature-library-release library="SUPERFAMILY" version="1.75"/>
+                </signature>
+                <locations>
+                    <superfamilyhmmer3-location start="163" end="228"/>
+                </locations>
+            </superfamilyhmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

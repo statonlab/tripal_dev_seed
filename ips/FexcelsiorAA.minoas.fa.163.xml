@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="e776b7961810dd1e608a25dbcc6c2564">MVEGKGSTLVHLLVIVLSLTAFGFAIAAERRRSTGVLHNDDFTNRTYCVYESDVATGYGAGAFLFLLSSESLLMGVTKCMCFGRPLAPGGNRAWTIIYFVSSWMTFLVAEACLIAGARNNAYHTKYRNMVYADNFSCDALRKGVFISGAVFVVATMILNVYYYMYFTKATTQPAHKANRAASTVGMAGRA</sequence>
+        <xref id="Gene.209::FRAEX38873_v2_000001800.1::g.209::m.209" name="Gene.209::FRAEX38873_v2_000001800.1::g.209  ORF type:complete len:191 (+) FRAEX38873_v2_000001800.1:1-573(+)"/>
+        <matches>
+            <hmmer3-match evalue="3.0E-26" score="91.5">
+                <signature ac="PF06749" desc="Protein of unknown function (DUF1218)" name="DUF1218">
+                    <entry ac="IPR009606" desc="Protein of unknown function DUF1218" name="DUF1218" type="FAMILY"/>
+                    <models>
+                        <model ac="PF06749" desc="Protein of unknown function (DUF1218)" name="DUF1218"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="158" env-start="61" score="90.4" evalue="6.8E-26" hmm-start="1" hmm-end="97" hmm-length="0" start="61" end="158"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

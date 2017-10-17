@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="485cf5e90ef193efa12c4430cf6b030d">MFFDGYGYHGTSFEQTYRCYPASFIDKAQIENGDKVIMPPSALDRLASLHIDYPMLFELQNAAAERVSHCGVLEFIAEEGMIYMPYWMMENLLLQEGDFVRVXFTLVVQFKQLVWELRVEIYHVLVCRKSLETTLRNFSCLTTGDSIMVAYNNKKYYIDIIETKPSNAISIIETDCEVDFAPPLDYKEPEKPVASIPKGKAPAEGEESPAEEPKFNAFTGVARRLDGKPLKNPAPPVSSSGLKDRTSGTSNGAGQSSASGSSSQSTNRQSQGKLVFGSNANRTREAQKDTPKETKQEPPKKEEPKFQAFSGKKYSLKG</sequence>
+        <xref id="Gene.33::FRAEX38873_v2_000000310.1::g.33::m.33" name="Gene.33::FRAEX38873_v2_000000310.1::g.33  ORF type:complete len:319 (+) FRAEX38873_v2_000000310.1:1-957(+)"/>
+        <matches>
+            <hmmer3-match evalue="1.4E-70" score="235.9">
+                <signature ac="PF03152" desc="Ubiquitin fusion degradation protein UFD1" name="UFD1">
+                    <entry ac="IPR004854" desc="Ubiquitin fusion degradation protein UFD1" name="UFD1" type="FAMILY">
+                        <go-xref category="BIOLOGICAL_PROCESS" db="GO" id="GO:0006511" name="ubiquitin-dependent protein catabolic process"/>
+                    </entry>
+                    <models>
+                        <model ac="PF03152" desc="Ubiquitin fusion degradation protein UFD1" name="UFD1"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="183" env-start="12" score="235.5" evalue="1.7E-70" hmm-start="2" hmm-end="176" hmm-length="0" start="13" end="183"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="8727e0b3d16939d371294120397c57b3">MAKLLQSDSRRMYSWWWDSHISPKNSKWLQENLTDMDSKVKTMIKLIEEDADSFARRAEMYYKKRPELMKHVEEFYRAYRALAERYDHATGVIRHAHRTMSEAFPNQVPQLFTDDSPASSVSGTEPRTPEISTPVRALCEEDSLQMDALNSSNSHAIKQNGEFEVDSDSVTRRNVEVRKGLNFDEVEEKEQSMQDSENHSVKEETPSRSDKVGESEGILTLKEALAKLEAEKEAGLAQYQQSLNKLSSLESDIAHAREVSRELNDRASKAENEAVIFKEELSKSESEKEANLQNAEEDLEELNERASRAETEAQSLKDELTKVAVEKDTALDNYMRSLEMISNLENKLQLTEEDARRLKERAEEAESEVEVLKQTVSKLTEEKEASALQYQQCLETISCLEKKLTSVQEEAQRLNEEIDYGVSKLKGAEEQCLLLERSNQSLHSELESLTLKMGTQTQELTEKDNELGRLWACIQEERLRFVEAETAFQTLQHLHTQTQEELRSLASELQRRAELLTTVESHNQSLQDEVLQVKEENKNLNEINESSALSIKDMENEITGLKGRNMKLEEEVELRLDERNALQQEIYCLKEELNDLNKNHISVLEQVHAVGINPRSLGSSVKELQDENSNLKETCSREQNEKVNLLKKLEILEQLLEKNSILETSLSDLNAELGVVRGQMEALDQSCRSLSEEKSSLIDEKGALMTRLQVTSENLEKLLEKNSLLENSLSDAHDKLQALKAESTSLGNSYQLLVEEKTVLINERGDLTSQLRTTQTKLEDMCKTYGDLKEKYMALEKEKESTLGKLEGLQMSLDVERQKHANFVQMNEQRFTDIQAEMELLQEESQQRKRELEEVLDNTSNYDIETFVLRKTVEDLEKNRCSLLTKHQKLVEESNLSEKLISKLERNNVEQKVEIKSLFNQATSLREGTYEVLKALHIVQDHPCNDQNGQDRICLNRLLSEVLYMKKSLHQAEIENLQQTVELSVLVTLIRQLRLEAQNLELVKNTVEHKFKIKTEQFLMLQSKVLELHETNTELLSKLREGDCKEEALMTQIEDLHRKLKNMQDACRVVHGENLDLLEEKISLTDELLLLKQNKHILQEENCVLYGEMLTLDYLSFIFRNCIDEKLVLLRQLGSDLNKLHDVNGALMGNLSLAEGRLDKLQKENVHVKEGLLKSEEELRIFSIAKDNLTNLIENGKNMLHQKELELQEAEQKVNLLENKNFELIKIVEGLSVESEELKVIREDQENQILKLSADNDHLNMENNRLCEVSQVLELNLHNLLGEHEKSKATEENLHSELQKKINEIDMWEIEAASLFNQLQMSIVNQLLYEQKFHELCKTFVDSTNENEGLKTQLAAYGPAVISLEECISSLEKNIILPVKLQDSEEDKMEDSQEMNHVVGNHLIENEKPVMPDTFSGLHNLRVRIQAIEQAAVEIYQLRVQENVFLHAKLEAATRQVEELKSESSQYRRNLKSSTEISEVDNTLLTKDIMLDQISESSSYGISKREQVEPDDQTISPTTDRNHDFHPVKSTRKQKGEHLVSDGLTEKELSVDKLEISERFTDPLQEGSKGKVLERLNSDIQKLANLQITVQDLKRKLEVTEKGKRGKDVTECETLKGQLEEADMEIMKLNDLNGKLIKSIENNSVPDVKSSFDSEDDGNVKRRRIPEQARRMSEKIGRLQLEVQKLQFVLLKLDEKDNKGKTPTSETKRRIVLRDYLYGVGRTTNGRKKSHFCSCARPSTTED</sequence>
+        <xref id="Gene.227::FRAEX38873_v2_000001950.1::g.227::m.227" name="Gene.227::FRAEX38873_v2_000001950.1::g.227  ORF type:complete len:1744 (+) FRAEX38873_v2_000001950.1:1-5232(+)"/>
+        <matches>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="887" end="922"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="334" end="383"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="708" end="743"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="390" end="418"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="516" end="600"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1576" end="1604"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="218" end="327"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="824" end="859"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1046" end="1067"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1612" end="1633"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1158" end="1179"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1291" end="1312"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="778" end="799"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="990" end="1011"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1186" end="1263"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="425" end="446"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="1443" end="1478"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="621" end="673"/>
+                </locations>
+            </coils-match>
+            <coils-match>
+                <signature ac="Coil" name="Coil">
+                    <signature-library-release library="COILS" version="2.2"/>
+                </signature>
+                <locations>
+                    <coils-location start="680" end="701"/>
+                </locations>
+            </coils-match>
+            <hmmer3-match evalue="2.3E-40" score="136.1">
+                <signature ac="PF07765" desc="KIP1-like protein" name="KIP1">
+                    <entry ac="IPR011684" desc="KIP1-like" name="KIP1_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF07765" desc="KIP1-like protein" name="KIP1"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="87" env-start="14" score="136.1" evalue="2.3E-40" hmm-start="1" hmm-end="74" hmm-length="0" start="14" end="87"/>
+                </locations>
+            </hmmer3-match>
+            <hmmer3-match evalue="6.1E-4" score="19.6">
+                <signature ac="G3DSA:1.20.5.340">
+                    <models>
+                        <model ac="1nknA00"/>
+                        <model ac="1ic2B00"/>
+                        <model ac="1wt6B00"/>
+                    </models>
+                    <signature-library-release library="GENE3D" version="3.5.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="739" env-start="658" score="19.6" evalue="6.1E-4" hmm-start="15" hmm-end="86" hmm-length="0" start="665" end="736"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>

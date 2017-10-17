@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="6d1f96d54280af39c362740e99a0a943">MRKHGWQLPYHPLQVVAVAVFLALGFAFYVFFAPFVGKELFQYIVMGIYTLLIMCVFSLYIWCAAADPADPGVFRSKKYLKISDSIKHVGLNKSKLGAESTSSIQDATAAATPGERVFDKSNKIIDKRSECVDNDKKNMSSHQISCFMAMFALLPCAYVCDSNEESSEQQMSEDGMFYCSLCEVEVYKYSKHCRVCDKCVDRFDHHCRWLNNCIGKKNYRKFFTLMVSAVLLLILQWSTGILVLVRCFLERNKFSVDISSKLGSSFTVVPFVIVVALCTILAMIATLPLTQLFFFHILLIKKGISTYDYIIALREQEQLAAAGQQSPQMSPRSSLTGLSSASSINTLHRAAWCTPPRLFVEDQFDVVPPDNLSVSSLGKKTALEESTKKKNPAAVKISPWTLARLNAEEVSKAAAEARKKSKILQPVARREGIYSLETGSSGPRMAPKPDNNRKRGSKRIRLPTDMPFDPHFKISSENAENIRENVIPKISTGLVSLQHEAQSAFRMSRAMPSSAHIVASSPESSLDSPDLHPFRVSSPGAEEARRLVGLSTSAMAFQKEIPFSRSTSDGYEASGGEDSDQIPSRFVQRSTNWSNLLFPSEQNRTVTKLTMPSSSSALSNHRKI</sequence>
+        <xref id="Gene.220::FRAEX38873_v2_000001900.1::g.220::m.220" name="Gene.220::FRAEX38873_v2_000001900.1::g.220  ORF type:complete len:625 (+) FRAEX38873_v2_000001900.1:1-1875(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.3E-29" score="101.9">
+                <signature ac="PF01529" desc="DHHC palmitoyltransferase" name="zf-DHHC">
+                    <entry ac="IPR001594" desc="Zinc finger, DHHC-type, palmitoyltransferase" name="Znf_DHHC_palmitoyltrfase" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PF01529" desc="DHHC palmitoyltransferase" name="zf-DHHC"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="312" env-start="69" score="101.9" evalue="2.3E-29" hmm-start="33" hmm-end="171" hmm-length="0" start="161" end="310"/>
+                </locations>
+            </hmmer3-match>
+            <profilescan-match>
+                <signature ac="PS50216" desc="Zinc finger DHHC-type profile." name="ZF_DHHC">
+                    <entry ac="IPR001594" desc="Zinc finger, DHHC-type, palmitoyltransferase" name="Znf_DHHC_palmitoyltrfase" type="DOMAIN">
+                        <go-xref category="MOLECULAR_FUNCTION" db="GO" id="GO:0008270" name="zinc ion binding"/>
+                    </entry>
+                    <models>
+                        <model ac="PS50216" desc="Zinc finger DHHC-type profile." name="ZF_DHHC"/>
+                    </models>
+                    <signature-library-release library="PROSITE_PROFILES" version="20.97"/>
+                </signature>
+                <locations>
+                    <profilescan-location score="22.168" start="177" end="227">
+                        <alignment>FYCSLCEVEVYKYSKHCRVCDKCVDRFDHHCRWLNNCIGKKNYRKFFTLMV</alignment>
+                    </profilescan-location>
+                </locations>
+            </profilescan-match>
+        </matches>
+    </protein>
+</protein-matches>

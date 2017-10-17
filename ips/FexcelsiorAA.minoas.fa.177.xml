@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<protein-matches xmlns="http://www.ebi.ac.uk/interpro/resources/schemas/interproscan5">
+    <protein>
+        <sequence md5="b6f7c75f732e8c136f7f1c2184232a88">MKNKTKTKIKKKKKSKSVSSVPMDNRAIDSEWWDIFWRKNSPTLGSNEPYDEEEGFKYFFRISKKTFEYICSLVREDLISRPPSGLINIEGRLLSVEKQVAIALRRLASGESQVSVGISFGVGQSTVSQVTWRFIEAMEERAKHHLKWPDSNKMDEIKSTFEAFSGLPNCCGAIDATHVIMTLPAVETSDDWCDQENNYSMFVQGVVDNKTRFLDIVTGWPGGMPISRLLKCSGFYKLCESGERLNGKVRMSSKERRFENIS</sequence>
+        <xref id="Gene.226::FRAEX38873_v2_000001940.1::g.226::m.226" name="Gene.226::FRAEX38873_v2_000001940.1::g.226  ORF type:complete len:263 (+) FRAEX38873_v2_000001940.1:1-789(+)"/>
+        <matches>
+            <hmmer3-match evalue="2.9E-6" score="26.8">
+                <signature ac="PF13359" desc="DDE superfamily endonuclease" name="DDE_Tnp_4">
+                    <entry ac="IPR027806" desc="Harbinger transposase-derived nuclease domain" name="HARBI1_dom" type="DOMAIN"/>
+                    <models>
+                        <model ac="PF13359" desc="DDE superfamily endonuclease" name="DDE_Tnp_4"/>
+                    </models>
+                    <signature-library-release library="PFAM" version="27.0"/>
+                </signature>
+                <locations>
+                    <hmmer3-location env-end="255" env-start="174" score="26.1" evalue="4.9E-6" hmm-start="1" hmm-end="69" hmm-length="0" start="174" end="240"/>
+                </locations>
+            </hmmer3-match>
+        </matches>
+    </protein>
+</protein-matches>
