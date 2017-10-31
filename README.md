@@ -13,6 +13,11 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 * FexcelsiorAA.minoas.fasta - predicted amino acids
 * ips/* - interproscan annotations for the predicted amino acids
 
+### expression
+* Fexcelsior_biosamples.xml - three random biosamples from NCBI.
+	- WZ0AFEAA
+	- ERS1887582
+	- ERS1887583
 
 ## Set up
 
@@ -25,6 +30,13 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 * Publish the proteins.
 
 A full guide will be written soon.
+
+### Adding expression data
+
+Prior to loading in expression data, you will create an analysis for the experiment (what was previously an expression_analysis), and then load biosamples associated with that expression analysis.
+
+* Create an analysis for the expression experiment
+* 
 
 ### Special notes
 
