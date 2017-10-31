@@ -13,13 +13,15 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 * FexcelsiorAA.minoas.fasta - predicted amino acids
 * ips/* - interproscan annotations for the predicted amino acids
 
+Note that to load the proteins, you must link them with the regexp `(FRA.*?)\.1`
+
 ### expression
 * Fexcelsior_biosamples.xml - three random biosamples from NCBI.
 	- WZ0AFEAA
 	- ERS1887582
 	- ERS1887583
 
-## Set up
+## Quick Set Up
 
 * Create an organism for Fraxinus excelsior (common name: European Ash)
 * Create analyses to associate the data with.  We currently use 1 analyses per content item.
@@ -28,15 +30,23 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 * Publish the mRNA.
 * Use the `tripal_analyssi_interpro` to load the interproscan data.
 * Publish the proteins.
+* Load Biosamples/Biomaterials
+* Load Expression data for Biosamples
 
-A full guide will be written soon.
+
+# Full Guide
+Under Construction!
+
+## Loading annotations
+Before you load in blast XML annotations, make sure you have an analysis for the annotation run.  Also make sure that you have the *database* loaded.  We BLAST against TREMBL and an abbreviated Swissprot (**Double check this!**).
+
+So: we associate the interproscan annotations with the *parent* IE the mRNA.  so you provide a regexp that will match mRNA.
+
 
 ### Adding expression data
 
 Prior to loading in expression data, you will create an analysis for the experiment (what was previously an expression_analysis), and then load biosamples associated with that expression analysis.
 
-* Create an analysis for the expression experiment
-* 
 
 ### Special notes
 
