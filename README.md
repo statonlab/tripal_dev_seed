@@ -17,9 +17,9 @@ Note that to load the proteins, you must link them with the regexp `(FRA.*?)\.1`
 
 ### expression
 * Fexcelsior_biosamples.xml - three random biosamples from NCBI.
-	- WZ0AFEAA
+	- LIBEST_026644
 	- ERS1887582
-	- ERS1887583
+	- ERS1887575
 
 ## Quick Set Up
 
