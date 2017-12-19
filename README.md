@@ -20,6 +20,10 @@ Note that to load the proteins, you must link them with the regexp `(FRA.*?)\.1`
 	- LIBEST_026644
 	- ERS1887582
 	- ERS1887575
+# Database Backup
+
+Backup databases are available with most of this data loaded.  The current database 12-19-17 is a first stab at this.
+
 
 ## Quick Set Up
 
