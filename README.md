@@ -45,6 +45,9 @@ Under Construction!
 
 # Creating the analysis
 
+## Loading the sequences
+
+[Sequence loading guide](/documentation/loading_FASTA.md)
 
 ## Loading annotations
 Before you load in blast XML annotations, make sure you have an analysis for the annotation run.  Also make sure that you have the *database* loaded.  We BLAST against TREMBL and an abbreviated Swissprot (**Double check this!**).
