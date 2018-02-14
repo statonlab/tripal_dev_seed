@@ -62,8 +62,5 @@ Prior to loading in expression data, you will create an analysis for the experim
 
 ### Special notes
 
-<<<<<<< HEAD
-* Protein loading: regexp to link
-=======
-* Protein loading: regexp to link polypeptides to MRNA (FRAEX.*?\.[0-9])
->>>>>>> 2068bd1d41ec9a3aa44de4c15b591e0b9e8232d6
+* Protein loading: regexp to link `(FRA.*?)(?=:)`
+
