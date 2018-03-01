@@ -43,6 +43,19 @@ Under Construction!
 
 # Creating the organism
 
+We need to create an organism with which to associate our data. A guide to creating an organism can be found [here](http://tripal.info/tutorials/v3.x/example-genomic-site/organism)
+
+For the field names, use the following:
+
+| Field Name   	| Value        	|
+|--------------	|--------------	|
+| Abbreviation 	| F. excelsior 	|
+| Genus        	| Fraxinus     	|
+| Species      	| excelsior    	|
+| Common Name  	| European Ash 	|
+
+Any other fields are optional and can be ignored.
+
 # Creating the analysis
 
 ## Loading the sequences
