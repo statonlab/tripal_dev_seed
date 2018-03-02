@@ -1,6 +1,6 @@
 # Creating An Analysis
 
-To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Organism** from the list of content types.
+To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Organism** from the list of content types. For our dataset, we need to make two analyses: one for TrEMBL and one for Swiss-Prot.
 
 Enter data into the following fields:
 
@@ -25,7 +25,7 @@ Locate the BLAST loader from the menu through **Tripal > Data Loaders > Chado BL
 * **Blast XML File Extension** - If you provided a path to the xml file instead of uploading a file directly, this would be the time to specify the file extension. This would typically be set to **xml.**
 * **Number of hits to be parsed** - Set this value to **10.**
 
-Click **Import File** at the bottom of the page. You will need to run the job provided.
+Other fields may be left at their default values or empty. Click **Import File** at the bottom of the page. You will need to run the job provided.
 
 # Viewing BLAST Results
 
