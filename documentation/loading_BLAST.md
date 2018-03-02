@@ -9,9 +9,11 @@ Enter data into the following fields:
 * **Program, Pipeline or Method version** - Something along the lines of **blast, 2.2.31**.
 * **Date Performed** - This should be the date the blast was run. If the blast process of scripts took several days, use the first day the job was created. If no date can be ascertained, then use 01, 01, 1900. 
 * **Data Source Name** - This will be the name of the unigene. There is not really a standard for a source that is a whole genome (like Chinese chestnut). 
-* **Data Source Version** - This is the version of the unigene or assembly. This field is optional and may be left blank. 
+* **Data Source Version** - This is the version of the unigene or assembly. This field is optional and may be left blank.
 
 Other fields may be left at their default values or empty. Click save.
+
+![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_1.png?raw=true)
 
 # Loading BLAST Results
 
@@ -27,6 +29,8 @@ Locate the BLAST loader from the menu through **Tripal > Data Loaders > Chado BL
 
 Other fields may be left at their default values or empty. Click **Import File** at the bottom of the page. You will need to run the job provided.
 
+![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_2.png?raw=true)
+
 # Viewing BLAST Results
 
 Unless specified otherwise, blast results are hidden by default.
@@ -36,3 +40,5 @@ From the menu, navigate to **Structure > Tripal Content Types.** In the new wind
 At the bottom of this window is a field of **disabled** content types, under which **Blast Results** should be located. Drag Blast Results out of the disabled field.
 
 Blast results should now be viewable in any mRNA content.
+
+![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_3.png?raw=true)
