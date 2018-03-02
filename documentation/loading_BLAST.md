@@ -21,7 +21,7 @@ Locate the BLAST loader from the menu through **Tripal > Data Loaders > Chado BL
 
 * **XML File** - Select and upload a blast xml file or provide a path to the blast xml file. If you are using a path, do not provide the file extension. If you input a directory without the tailing slash, all xml files in the directory will be loaded.
 * **Analysis** - Select the newly created blast analysis.
-* **Database** - We typically only run against two databases, TrEMBL and Swiss-Prot. Database entries have been created for these (Swiss-Prot for Swiss-prot and UNIPROT/TREMBL for TrEMBL).
+* **Database** - [You will need to create database entries for Swiss-prot and TrEMBL.](http://tripal.info/tutorials/v3.x/example-genomic-site/cross-reference) Select the database that corresponds to the XML file you're loading (i.e. Swiss-prot for sprot and trembl for trembl). 
 * **Blast XML File Extension** - If you provided a path to the xml file instead of uploading a file directly, this would be the time to specify the file extension. This would typically be set to **xml.**
 * **Number of hits to be parsed** - Set this value to **10.**
 
