@@ -5,7 +5,7 @@ To load a blast analysis, navigate to **Content > Tripal Content**. At the top o
 Enter data into the following fields:
 
 * **Analysis Name** - The name should be **\<organism common name\> (\<blast version\> against \<database\>)**. For example **American Chestnut (blastx against sprot)**. 
-* **Program, Pipeline Name or Method Name** - This will be one of the blast programs, such as **blastx** or **blastp**. 
+* **Program, Pipeline Name or Method Name** - Note that as of the time that this is being written, an analysis will not be saved if this field matches the Program, Pipeline Name or Method Name of an existing analysis. For this reason, it's recommend that you use **Blastx vs Swiss-Prot** for sprot and **Blastx vs TREMBL** for TREMBL.
 * **Program, Pipeline or Method version** - Something along the lines of **blast, 2.2.31**.
 * **Date Performed** - This should be the date the blast was run. If the blast process of scripts took several days, use the first day the job was created. If no date can be ascertained, then use 01, 01, 1900. 
 * **Data Source Name** - This will be the name of the unigene. There is not really a standard for a source that is a whole genome (like Chinese chestnut). 
