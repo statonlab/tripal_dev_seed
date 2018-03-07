@@ -1,4 +1,4 @@
-# Publishing MRNA
+# Publishing mRNA
 
 When we publish data in Tripal, we are creating entities for records in the chado database. The process is relatively simple.
 
@@ -10,4 +10,8 @@ Select mRNA from the **Content Type** dropdown and click **Publish.** A green he
 
 ![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_2.png)
 
+# Viewing Published Data
+
 You can check to make sure that publishing was successful by navigating to Content > Tripal Content. You can sort by Content Type > mRNA to display only the published mRNA results.
+
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_2.png)
