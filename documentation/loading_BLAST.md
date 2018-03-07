@@ -13,7 +13,7 @@ Enter data into the following fields:
 
 Other fields may be left at their default values or empty. Click save.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_1.png?raw=true)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/blast/blastdoc_1.png)
 
 # Loading BLAST Results
 
@@ -29,7 +29,7 @@ Locate the BLAST loader from the menu through **Tripal > Data Loaders > Chado BL
 
 Other fields may be left at their default values or empty. Click **Import File** at the bottom of the page. You will need to run the job provided.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_2.png?raw=true)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/blast/blastdoc_2.png)
 
 # Viewing BLAST Results
 
@@ -41,4 +41,4 @@ At the bottom of this window is a field of **disabled** content types, under whi
 
 Blast results should now be viewable in any mRNA content.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/tree/load-blast/documentation/img/blast/blastdoc_3.png?raw=true)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/blast/blastdoc_3.png)
