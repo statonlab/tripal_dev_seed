@@ -6,9 +6,11 @@ From the admin menu, navigate to **Content > Tripal Content > Publish Tripal Con
 
 ![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_1.png)
 
-Select mRNA from the **Content Type** dropdown and click **Publish.** A green header should appear with a job for you to run. Run the job and you're done.
+Select mRNA from the **Content Type** dropdown and click **Publish.**
 
 ![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_2.png)
+
+A green header should appear with a job for you to run. Run the job and you're done.
 
 # Viewing Published Data
 
