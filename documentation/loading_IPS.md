@@ -11,7 +11,7 @@ Enter data into the following fields:
 
 Other fields may be left at their default values or empty. Click save.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/ips/ipsdoc_1.png)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-interpro/documentation/img/ips/ipsdoc_1.png)
 
 # Loading InterProScan Results
 
@@ -25,7 +25,7 @@ Locate the InterProScan loader from the menu through **Tripal > Data Loaders > C
 
 Other fields may be left at their default values or empty. Click **Import File** at the bottom of the page. You will need to run the job provided.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/ips/ipsdoc_2.png)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-interpro/documentation/img/ips/ipsdoc_2.png)
 
 # Viewing InterProScan Results
 
@@ -39,4 +39,4 @@ Blast results should now be viewable in any mRNA content.
 
 **NOTE:** If InterPro results does not appear as a field, navigate to **manage fields** and click **Check for new fields.**
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-blast/documentation/img/ips/ipsdoc_3.png)
+![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-interpro/documentation/img/ips/ipsdoc_3.png)
