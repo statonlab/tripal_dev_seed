@@ -14,6 +14,6 @@ A green header should appear with a job for you to run. Run the job and you're d
 
 # Viewing Published Data
 
-You can check to make sure that publishing was successful by navigating to Content > Tripal Content. You can sort by Content Type > mRNA to display only the published mRNA results.
+You can check to make sure that publishing was successful by navigating to **Content > Tripal Content.** You can sort by Content Type > mRNA to display only the published mRNA results.
 
 ![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_3.png)
