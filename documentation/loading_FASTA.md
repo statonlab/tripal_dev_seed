@@ -8,13 +8,10 @@ We need an analysis with which to associate both our CDS and proteins.
 
 Navigate to **Content > Tripal Content** and click **Add Tripal Content** at the top of the page. Select **Analysis**. Because this is mostly just data to populate a test site, what we insert into these fields doesn't really matter. Naturally, however, if this were for a site we were releasing for public use, we would want this information to be accurate.
 
-**Name** - Something along the lines of, **F. Excelsior mRNA and polypeptide annotation**.
-
-**Program, Pipeline, Workflow or Method Name** - Something along the lines of, **maker**.
-
-**Program Version** - Something along the lines of, **1.0**.
-
-**Date Performed** - You can keep this default, but it's common to set this to an arbitrary date (e.g. January 1st, 1900) if you're unsure of the time when the analysis was performed.
+* **Name** - Something along the lines of, **F. Excelsior mRNA and polypeptide annotation**.
+* **Program, Pipeline, Workflow or Method Name** - Something along the lines of, **maker**.
+* **Program Version** - Something along the lines of, **1.0**.
+* **Date Performed** - You can keep this default, but it's common to set this to an arbitrary date (e.g. January 1st, 1900) if you're unsure of the time when the analysis was performed.
 
 All other fields can be left blank or at their default values. Click save.
 
@@ -24,10 +21,10 @@ All other fields can be left blank or at their default values. Click save.
 
 We load in our mRNA data first, then our proteins. Using the admin menu, navigate to **Tripal > Data Loaders > Chado FASTA Loader**.
 
-**File Upload** - From the dataset, this is the `FexcelsiorCDS.fasta` file.
-**Analysis** - Select the newly created analysis.
-**Organism** - Select *Fraxinus excelsior*. 
-**Sequence Type** - Enter *mRNA*
+* **File Upload** - From the dataset, this is the `FexcelsiorCDS.fasta` file.
+* **Analysis** - Select the newly created analysis.
+* **Organism** - Select *Fraxinus excelsior*. 
+* **Sequence Type** - Enter *mRNA*
 
 All other fields can be left blank or at their default values. Click **Import FASTA file**. A green header should appear at the top of the page with a job for you to run. Once your CDS have uploaded successfully, you can move on to uploading the polypeptides.
 
@@ -37,10 +34,10 @@ All other fields can be left blank or at their default values. Click **Import FA
 
 The process for uploading the polypeptides is similar to above, but with some slight differences to the fields.
 
-**File Upload** - From the dataset, this is the `FexcelsiorAA.minoas.fasta` file.
-**Analysis** - Select the newly created analysis.
-**Organism** - Select Fraxinus excelsior. 
-**Sequence Type** - Enter *polypeptide*.
+* **File Upload** - From the dataset, this is the `FexcelsiorAA.minoas.fasta` file.
+* **Analysis** - Select the newly created analysis.
+* **Organism** - Select Fraxinus excelsior. 
+* **Sequence Type** - Enter *polypeptide*.
 
 ![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-fasta/documentation/img/fasta/loading_AA_pt1.png)
 
