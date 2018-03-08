@@ -4,11 +4,11 @@ When we publish data in Tripal, we are creating entities for records in the chad
 
 From the admin menu, navigate to **Content > Tripal Content > Publish Tripal Content.**
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_1.png)
+![](img/publish/pubdoc_1.png)
 
 Select mRNA from the **Content Type** dropdown and click **Publish.**
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_2.png)
+![](img/publish/pubdoc_2.png)
 
 A green header should appear with a job for you to run. Run the job and you're done.
 
@@ -16,4 +16,4 @@ A green header should appear with a job for you to run. Run the job and you're d
 
 You can check to make sure that publishing was successful by navigating to **Content > Tripal Content.** You can sort by Content Type > mRNA to display only the published mRNA results.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/publish-mrna/documentation/img/publish/pubdoc_3.png)
+![](img/publish/pubdoc_3.png)
