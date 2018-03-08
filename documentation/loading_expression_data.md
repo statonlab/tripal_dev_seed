@@ -2,12 +2,12 @@
 
 ### Create Analysis
 
-You will first need an analysis to associate the expression data.  To do so, navigate to `tripal_content -> + add tripal content -> Analysis`.  
+You will first need an analysis to associate the expression data.  To do so, navigate to **Tripal_content -> Add Tripal Content**. Select **Analysis**.
 
 * **Name** - Something along the lines of **Fraxinus Excelsior Expression**.
-* **Program, Pipeline, Workflow or Method Name** - 
-* **Program Version** -
-* **Date Performed** -
+* **Program, Pipeline, Workflow or Method Name** - Something along the lines of **e.g maker**.
+* **Program Version** - Something along the lines of **e.g 1.0*.
+* **Date Performed** - Leave at default.
 
 ### Load the expression data
 
