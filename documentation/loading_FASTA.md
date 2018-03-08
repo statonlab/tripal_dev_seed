@@ -15,7 +15,7 @@ Navigate to **Content > Tripal Content** and click **Add Tripal Content** at the
 
 All other fields can be left blank or at their default values. Click save.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-fasta/documentation/img/fasta/fastadoc_1.png)
+![](img/fasta/fastadoc_1.png)
 
 ## Loading the Proteins (mRNA) file
 
