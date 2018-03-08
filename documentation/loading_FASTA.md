@@ -9,8 +9,11 @@ We need an analysis with which to associate both our CDS and proteins.
 Navigate to **Content > Tripal Content** and click **Add Tripal Content** at the top of the page. Select **Analysis**. Because this is mostly just data to populate a test site, what we insert into these fields doesn't really matter. Naturally, however, if this were for a site we were releasing for public use, we would want this information to be accurate.
 
 **Name** - Something along the lines of, **F. Excelsior mRNA and polypeptide annotation**.
+
 **Program, Pipeline, Workflow or Method Name** - Something along the lines of, **maker**.
+
 **Program Version** - Something along the lines of, **1.0**.
+
 **Date Performed** - You can keep this default, but it's common to set this to an arbitrary date (e.g. January 1st, 1900) if you're unsure of the time when the analysis was performed.
 
 All other fields can be left blank or at their default values. Click save.
