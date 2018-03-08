@@ -4,7 +4,7 @@
 
 You will first need an analysis to associate the expression data.  To do so, navigate to `tripal_content -> + add tripal content -> Analysis`.  
 
-* **Name** - Something along the lines of **Fraxinus Excelsior Expression*.
+* **Name** - Something along the lines of **Fraxinus Excelsior Expression**.
 * **Program, Pipeline, Workflow or Method Name** - 
 * **Program Version** -
 * **Date Performed** -
