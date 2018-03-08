@@ -21,7 +21,7 @@ Expression data is loaded by the `tripal_analysis_expression` module using the C
 
 All other fields can be ignored. Click **Import expression data**. A green header should appear at the top of the page with a job for you to run. Run it and you're done.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-expression-data/documentation/img/expression/expdoc_1.png)
+![](img/expression/expdoc_1.png)
 
 #### Publishing
 
@@ -37,4 +37,4 @@ At the top of the window, click **Manage Display**. Scroll all the way to the bo
 
 Now our results should be available to view. Navigate to any feature page (from the admin menu, Content > Tripal Content, click any record with type mRNA) and you should see your expression results.
 
-![](https://github.com/jwest60/tripal_dev_mini_dataset/blob/load-expression-data/documentation/img/expression/expdoc_2.png)
+![](img/expression/expdoc_2.png)
