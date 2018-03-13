@@ -1,6 +1,9 @@
 # Creating An Analysis
 
-To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Organism** from the list of content types. For our dataset, we need to make two analyses: one for TrEMBL and one for Swiss-Prot.
+To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Analysis** from the list of content types.  Some sites may have custom analysis types for each type of analysis performed. For our dataset, we need to make two analyses: one for TrEMBL and one for Swiss-Prot.
+
+(note: the above step is optional, but recommended).
+
 
 Enter data into the following fields:
 
@@ -17,7 +20,7 @@ Other fields may be left at their default values or empty. Click save.
 
 # Loading BLAST Results
 
-The BLAST loader is handled by the `tripal_analysis_blast` module. The BLAST loader can only load data from blast results in the xml format.
+The BLAST loader is handled by the `tripal_analysis_blast` module. The BLAST loader can only load data from blast results in XML format.
 
 Locate the BLAST loader from the menu through **Tripal > Data Loaders > Chado BLAST XML Results Loader.**
 
@@ -33,7 +36,7 @@ Other fields may be left at their default values or empty. Click **Import File**
 
 # Viewing BLAST Results
 
-Unless specified otherwise, blast results are hidden by default.
+Most fields are not enabled by default: this includes the BLAST results field.  In order for the BLAST results to show up on mRNA entities, we must enable the field.
 
 From the menu, navigate to **Structure > Tripal Content Types.** In the new window, select **manage display** in the table next to the content type **mRNA.**
 
