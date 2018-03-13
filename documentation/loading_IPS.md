@@ -1,6 +1,8 @@
 # Creating An Analysis
 
-To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Organism** from the list of content types.
+To load an interpro analysis, we first need an analysis to associate it withs. Navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Analysis** from the list of content types.  Some sites may have custom analysis types for each type of analysis performed.
+
+(note: the above step is optional, but recommended).
 
 Enter data into the following fields:
 

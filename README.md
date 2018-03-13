@@ -17,7 +17,7 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 ## biosamples
 
 ## expression
-* Fexcelsior_biosamples.xml - three random biosamples from NCBI.
+* Fexcelsior_biosamples.xml - three random biosamples in NCBI Biosampel XML format.
 	- LIBEST_026644
 	- ERS1887582
 	- ERS1887575
