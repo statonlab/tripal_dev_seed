@@ -47,7 +47,6 @@
                submission_date="2017-08-29T08:05:36.166" id="7570222" accession="Imaginary_sample_2">
         <Ids>
             <Id db="BioSample" is_primary="1">Imaginary_sample_2</Id>
-            <Id db="SRA">SRA_Imaginary_sample_2</Id>
         </Ids>
         <Description>
             <Title>Imaginary_sample_2</Title>
@@ -83,7 +82,6 @@
                submission_date="2017-08-29T08:05:36.146" id="7570221" accession="Imaginary_sample_3">
         <Ids>
             <Id db="BioSample" is_primary="1">Imaginary_sample_3</Id>
-            <Id db="SRA">SRA_Imaginary_sample_3</Id>
         </Ids>
         <Description>
             <Title>Imaginary_sample_3</Title>
@@ -119,7 +117,6 @@
                submission_date="2017-08-29T08:05:36.126" id="7570220" accession="Imaginary_sample_4">
         <Ids>
             <Id db="BioSample" is_primary="1">Imaginary_sample_4</Id>
-            <Id db="SRA">SRA_Imaginary_sample_4</Id>
         </Ids>
         <Description>
             <Title>Imaginary_sample_4</Title>
