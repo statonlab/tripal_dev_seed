@@ -39,28 +39,13 @@ Backup databases are available with most of this data loaded.  The current datab
 
 
 # Full Guide
-Under Construction!
-
-# Creating the organism
-
-# Creating the analysis
-
-## Loading the sequences
-
-[Sequence loading guide](/documentation/loading_FASTA.md)
-
-## Loading annotations
-Before you load in blast XML annotations, make sure you have an analysis for the annotation run.  Also make sure that you have the *database* loaded.  We BLAST against TREMBL and an abbreviated Swissprot (**Double check this!**).
-
-So: we associate the interproscan annotations with the *parent* IE the mRNA.  so you provide a regexp that will match mRNA.
-
-
-### Adding expression data
-
-Prior to loading in expression data, you will create an analysis for the experiment (what was previously an expression_analysis), and then load biosamples associated with that expression analysis.
-
+* [Loading Sequences](/documentation/loading_FASTA.md)
+* [Loading BLAST annotations](/documentation/loading_BLAST.md)
+* [Loading Interpro Scan annotations](/documentation/loading_IPS.md)
+* [Publishing mRNA](/documentation/publishing_mRNA.md)
+* [Loading biosamples](/documentation/loading_biosamples.md)
+* [Loading expression data](/documentation/loading_expression_data.md)
 
 ### Special notes
 
-* Protein loading: regexp to link `(FRA.*?)(?=:)`
-
+A regular expression is sometimes used to link data back to the mRNA feature.  This is because we only create entities (publish) for mRNA, so analyses that are linked to the polypeptide sequences must be loaded onto the mRNA instead. The regular expression to link is `(FRA.*?)(?=:)`
