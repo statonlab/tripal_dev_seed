@@ -15,13 +15,15 @@ See the description and credits for the full dataset on [Hardwoods Genomics Proj
 * *.xml - interproscan annotations for the predicted amino acids, ~ one xml per entry.
 
 ## biosamples
+There are two sets of mock expression data provided.  Data was seeded from NCBI but attributes have been modified.
 
-## expression
-* Fexcelsior_biosamples.xml - three random biosamples in NCBI Biosampel XML format.
-	- LIBEST_026644
-	- ERS1887582
-	- ERS1887575
-	
+## expression_data
+Expression data corresponding to biosample sets 1 and 2.
+
+Both sets include the matrix format file (`matrix_format.tsv`), which is easiest to load.
+
+Set 1 also includes each individual biosample's expression data in column format: `LIBEST_026644`,  `ERS1887582`, and `ERS1887575`.
+
 ## kegg_annotations
 
 KEGG annotations generated using the KEGG_KOALA tool, corresponding to the sequence features.
