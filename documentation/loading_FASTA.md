@@ -1,6 +1,6 @@
 # Loading FASTA sequences
 
-We use FASTA files to hold data on mRNA and proteins. This step will create a bunch of mRNA features with which we can associate other data (i.e. BLAST, Interpro, etc).
+ FASTA is a universal sequence format: when we talk about loading mRNA and polypeptide sequences, we're referring to FASTA and the FASTA loader. This step will create a bunch of mRNA features with which we can associate other data (i.e. BLAST, Interpro, etc).
 
 ## Create an Analysis
 
