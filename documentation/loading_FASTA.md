@@ -1,10 +1,10 @@
 # Loading FASTA sequences
 
-We use FASTA files to hold data on mRNA and proteins. This step will create a bunch of mRNA features with which we can associate other data (i.e. BLAST, Interpro, etc).
+ FASTA is a universal sequence format: when we talk about loading mRNA and polypeptide sequences, we're referring to FASTA and the FASTA loader. This step will create a bunch of mRNA features with which we can associate other data (i.e. BLAST, Interpro, etc).
 
 ## Create an Analysis
 
-We need an analysis with which to associate both our CDS and proteins.
+We need an analysis with which to associate both our CDS (mRNA) and proteins (polypeptides).
 
 Navigate to **Content > Tripal Content** and click **Add Tripal Content** at the top of the page. Select **Analysis**. Because this is mostly just data to populate a test site, what we insert into these fields doesn't really matter. Naturally, however, if this were for a site we were releasing for public use, we would want this information to be accurate.
 
@@ -17,7 +17,7 @@ All other fields can be left blank or at their default values. Click save.
 
 ![](img/fasta/fastadoc_1.png)
 
-## Loading the Proteins (mRNA) file
+## Loading the mRNA FASTA file
 
 We load in our mRNA data first, then our proteins. Using the admin menu, navigate to **Tripal > Data Loaders > Chado FASTA Loader**.
 

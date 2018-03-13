@@ -1,13 +1,11 @@
 # Complete guide
 ## Load Biosamples
 
-### Do **Not** create an analysis
-
-The biosample importer allows you to specify an analysis: for this pipeline, don't.
+The biosample importer allows you to specify an analysis: for this pipeline, we won't.
 
 ### Load the samples
 
-The Biosample loader is provided by the `tripal_biomaterial` module, and is located at `admin/tripal/loaders/chado_biosample_loader`.  Biosamples can be loaded as either an `xml` file, or a set of `csv/tsv` files.  `xml` is preffered, and can be optained from NCBI.  `csv/tsv` format requires that the first line is the column names for the biosample properties.  
+The Biosample loader is provided by the `tripal_biomaterial` module (distributed with the `tripal_analysis_expression` module), and is located at `admin/tripal/loaders/chado_biosample_loader`.  Biosamples can be loaded as either an `xml` file, or a set of `csv/tsv` files.  `xml` is preffered, and can be optained from NCBI.  `csv/tsv` format requires that the first line is the column names for the biosample properties.  
 
 ![](img/biodoc/biodoc_1.png)
 
@@ -21,6 +19,8 @@ After your file is uploaded, press the **Check Biomaterials** button to access t
 * Rename the properties in your source file so that they match existing CVterms.  You can look up available CVterms at `admin/tripal/loaders/chado_cvterms`.
 * Re-upload the biosample file, and rerun **Check Biomaterials**.
 * Repeat this process until you have suitable CVterms associated with all biosample properties.
+
+**New feature**: the above process can now also be applied to the **property values**.  Please see [the github documentation](https://github.com/tripal/tripal_analysis_expression) for more information.
 
 That said, you can import your biosamples without assigning CVterms.  In this case, the generic biomaterial_property CV will be used.
 
