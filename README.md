@@ -2,41 +2,50 @@
 This dataset is the first 200 genes of the Fraxinus excelsior dataset.  Use it to quickly seed a Tripal site with data.
 
 See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/content/European-Ash).
-## Files
-
-### mRNA
+# Files
+## sequences
 * FexcelsiorCDS.fasta - mRNA
+* FexcelsiorAA.minoas.fasta - predicted amino acids/polypeptides
+
+## blast_annotations
 * Fexcelsior.blastx.sprot.xml - swissprot annotations for these mRNA
 * Fexcelsior.blastx.trembl.xml - TREMBL annotations for these mRNA
 
-### protein
-* FexcelsiorAA.minoas.fasta - predicted amino acids
-* ips/* - interproscan annotations for the predicted amino acids
+## interproscan_annotations
+* *.xml - interproscan annotations for the predicted amino acids, ~ one xml per entry.
 
-Note that to load the proteins, you must link them with the regexp `(FRA.*?)\.1`
+## biosamples
 
-### expression
+## expression
 * Fexcelsior_biosamples.xml - three random biosamples from NCBI.
 	- LIBEST_026644
 	- ERS1887582
 	- ERS1887575
-# Database Backup
+	
+## kegg_annotations
+
+KEGG annotations generated using the KEGG_KOALA tool, corresponding to the sequence features.
+
+## documentation
+	
+## database_backups
 
 Backup databases are available with most of this data loaded.  The current database 12-19-17 is a first stab at this.
 
 
 ## Quick Set Up
 
-* Create an organism for Fraxinus excelsior (common name: European Ash)
-* Create analyses to associate the data with.  We currently use 1 analyses per content item.
-* Use the FASTA loader ot load in the CDS first, then the proteins.
-* Use the `tripal_analysis_blast` blast XML loader ot load the Fexcelsior data.  This gets associated with the mRNA.
+* Create an organism for _Fraxinus excelsior_ (common name: European Ash)
+* Create analyses to associate the data with.  We currently suggest 1 analysis per content item.
+* Use the FASTA loader to load in the CDS first, then the polypeptides.
+* Use the `tripal_analysis_blast` blast XML loader to load the _F. excelsior data_.  This gets associated with the mRNA.
 * Publish the mRNA.
 * Use the `tripal_analyssi_interpro` to load the interproscan data.
 * Publish the proteins.
-* Load Biosamples/Biomaterials
-* Load Expression data for Biosamples
+* Load Biosamples/Biomaterials.
+* Load Expression data for Biosamples.
 
+Note that to load the polypeptides, you must link them with the regexp  `(FRA.*?)(?=:)`
 
 # Full Guide
 * [Loading Sequences](/documentation/loading_FASTA.md)
