@@ -1,0 +1,123 @@
+<BioSampleSet>
+    <BioSample submission_date="2010-09-10T12:20:00.000" last_update="2017-10-11T17:47:50.343"
+               publication_date="2010-09-10T00:00:00.000" access="public" id="169742" accession="SAMN00169742">
+        <Ids>
+            <Id db="BioSample" is_primary="1">SAMN00169742</Id>
+            <Id db="EST">LIBEST_026644</Id>
+        </Ids>
+        <Description>
+            <Title>WZ0AFEAA</Title>
+            <Organism taxonomy_id="38873" taxonomy_name="Fraxinus excelsior"/>
+            <Comment>
+                <Paragraph>The composite cDNA library was made using mRNA extracted from setting and swelling buds
+                    harvested on 3 adult European ashes located in the Ciron Valley (France). The library was built
+                    using the CreatorTM SmartTM cDNA library construction kit (Clontech) according to the manufacturer's
+                    instructions.
+                </Paragraph>
+            </Comment>
+        </Description>
+        <Owner>
+            <Name abbreviation="">INRA - UMR BIOGECO</Name>
+            <Contacts>
+                <Contact lab="Genetique">
+                    <Address>
+                        <Street>69 route d'Arcachon, 33612 CESTAS Cedex - FRANCE</Street>
+                    </Address>
+                    <Name>
+                        <Last>Frigerio J</Last>
+                    </Name>
+                </Contact>
+            </Contacts>
+        </Owner>
+        <Models>
+            <Model>Generic</Model>
+        </Models>
+        <Package display_name="Generic">Generic.1.0</Package>
+        <Attributes>
+            <Attribute attribute_name="Age"> 10
+            </Attribute>
+            <Attribute attribute_name="tissue" harmonized_name="tissue" display_name="tissue">quiescent and swelling
+                buds
+            </Attribute>
+            <Attribute attribute_name="developmental stage
+" harmonized_name="developmental stage" display_name="development stage">adult
+            </Attribute>
+            <Attribute attribute_name="vector_replicon">pDNR-LIB</Attribute>
+        </Attributes>
+        <Status status="live" when="2017-10-11T17:32:50"/>
+    </BioSample>
+    <BioSample access="public" publication_date="2017-08-28T00:00:00.000" last_update="2017-08-29T15:17:24.000"
+               submission_date="2017-08-29T08:05:36.146" id="7570221" accession="SAMEA104228564">
+        <Ids>
+            <Id db="BioSample" is_primary="1">SAMEA104228564</Id>
+            <Id db="SRA">ERS1887582</Id>
+        </Ids>
+        <Description>
+            <Title>F.exc40-4; F. excelsior 40-4</Title>
+            <Organism taxonomy_id="38873" taxonomy_name="Fraxinus excelsior">
+                <OrganismName>Fraxinus excelsior</OrganismName>
+            </Organism>
+            <Comment>
+                <Paragraph>4 sample of Fraxinus excelsior genotype 40</Paragraph>
+            </Comment>
+        </Description>
+        <Owner>
+            <Name>EBI</Name>
+        </Owner>
+        <Models>
+            <Model>Generic</Model>
+        </Models>
+        <Package display_name="Generic">Generic.1.0</Package>
+        <Attributes>
+            <Attribute attribute_name="ENA-FIRST-PUBLIC">2017-08-28</Attribute>
+            <Attribute attribute_name="ENA-LAST-UPDATE">2017-08-27</Attribute>
+            <Attribute attribute_name="Sample Name" harmonized_name="sample_name" display_name="sample name">
+                ERS1887582
+            </Attribute>
+            <Attribute attribute_name="lab host" harmonized_name="lab_host" display_name="lab host">University of
+                Copenhagen
+            </Attribute>
+            <Attribute attribute_name="Age"> 20
+            </Attribute>
+            <Attribute attribute_name="organism part" harmonized_name="tissue" display_name="tissue">Leaf</Attribute>
+        </Attributes>
+        <Status status="live" when="2017-08-29T09:05:26.627"/>
+    </BioSample>
+    <BioSample access="public" publication_date="2017-08-28T00:00:00.000" last_update="2017-08-29T15:17:24.000"
+               submission_date="2017-08-29T08:05:35.996" id="7570214" accession="SAMEA104228557">
+        <Ids>
+            <Id db="BioSample" is_primary="1">SAMEA104228557</Id>
+            <Id db="SRA">ERS1887575</Id>
+        </Ids>
+        <Description>
+            <Title>F.exc35-2; F. excelsior 35-2</Title>
+            <Organism taxonomy_id="38873" taxonomy_name="Fraxinus excelsior">
+                <OrganismName>Fraxinus excelsior</OrganismName>
+            </Organism>
+            <Comment>
+                <Paragraph>2 sample of Fraxinus excelsior genotype 35</Paragraph>
+            </Comment>
+        </Description>
+        <Owner>
+            <Name>EBI</Name>
+        </Owner>
+        <Models>
+            <Model>Generic</Model>
+        </Models>
+        <Package display_name="Generic">Generic.1.0</Package>
+        <Attributes>
+            <Attribute attribute_name="ENA-FIRST-PUBLIC">2017-08-28</Attribute>
+            <Attribute attribute_name="ENA-LAST-UPDATE">2017-08-27</Attribute>
+            <Attribute attribute_name="Sample Name" harmonized_name="sample_name" display_name="sample name">
+                ERS1887575
+            </Attribute>
+            <Attribute attribute_name="lab host" harmonized_name="lab_host" display_name="lab host">University of
+                Copenhagen
+            </Attribute>
+            <Attribute attribute_name="Age"> 40
+            </Attribute>
+            <Attribute attribute_name="organism part" harmonized_name="tissue" display_name="tissue">Leaf</Attribute>
+        </Attributes>
+        <Status status="live" when="2017-08-29T09:05:26.460"/>
+    </BioSample>
+</BioSampleSet>
