@@ -12,6 +12,8 @@ Navigate to **Content > Tripal Content** and click **Add Tripal Content** at the
 * **Program, Pipeline, Workflow or Method Name** - Something along the lines of, **maker**.
 * **Program Version** - Something along the lines of, **1.0**.
 * **Date Performed** - You can keep this default, but it's common to set this to an arbitrary date (e.g. January 1st, 1900) if you're unsure of the time when the analysis was performed.
+* **Data Source Name**
+  - For a new transcriptome, this should be labeled, **de novo assembly**. 
 
 All other fields can be left blank or at their default values. Click save.
 
@@ -43,7 +45,7 @@ The process for uploading the polypeptides is similar to above, but with some sl
 
 In the additional options section, you have the option to extract the feature name with a regexp, link your sequences to an external database using a regexp, and to define relationships.  Because our polypeptides are derived from our mRNA CDS, we'll set the **relationship type** to _produced by_, and provide a regexp to link the terms.  If you're following this guide with the _F. excelsior_ miniature dataset, then `(FRA.*?)(?=:)` will work.  You may need to write your own regexp for your own data.
 
-![](img/fasta/loading_AA_pt2.png)
+![](img/fasta/loading_AA_pt3.png)
 
 All other fields can be left blank or at their default values. Click **Import FASTA file**. A green header should appear at the top of the page with a job for you to run. Once your CDS have uploaded successfully.
 
