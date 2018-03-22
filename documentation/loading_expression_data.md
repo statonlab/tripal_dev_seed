@@ -6,7 +6,7 @@ You will first need an analysis to associate the expression data.  To do so, nav
 
 * **Name** - Something along the lines of **Fraxinus Excelsior Expression**.
 * **Program, Pipeline, Workflow or Method Name** - Something along the lines of **e.g DESESQ2**.
-* **Program Version** - Something along the lines of **e.g 1.0*.
+* **Program Version** - Something along the lines of **e.g 1.0**.
 * **Date Performed** - Leave at default.
 
 ### Load the expression data
