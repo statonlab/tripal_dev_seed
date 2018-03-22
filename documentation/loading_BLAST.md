@@ -38,7 +38,7 @@ Other fields may be left at their default values or empty. Click **Import File**
 
 Most fields are not enabled by default: this includes the BLAST results field.  In order for the BLAST results to show up on mRNA entities, we must enable the field.
 
-From the menu, navigate to **Structure > Tripal Content Types.** In the new window, select **manage display** in the table next to the content type **mRNA.**
+From the menu, navigate to **Structure > Tripal Content Types.**  If the field `format__blast_display` is not listed, you should press the "Check for new fields" button in the upper left, and the field should be automatically added (but disabled by default).  In the new window, select **manage display** in the table next to the content type **mRNA.**
 
 At the bottom of this window is a field of **disabled** content types, under which **Blast Results** should be located. Drag Blast Results out of the disabled field.
 
