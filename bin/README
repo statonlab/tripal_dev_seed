@@ -1,0 +1,8 @@
+The files in this folder are simple scripts for parsing data.
+
+
+## extract_FASTA.pl
+(requires bioperl)
+Input: the raw FASTA file and a textfile consisting of newline seperated FASTA headers to extract.  Used to easily extract subset of scaffolds from scaffold list.
+
+Usage: `perl extract_FASTA.pl -i BATG-0.5-CLCbioSSPACE.fa -l scaffold_list.txt`
