@@ -1,7 +1,7 @@
 [![DOI](https://zenodo.org/badge/107319541.svg)](https://zenodo.org/badge/latestdoi/107319541)
 
 
-![Tripal Dev Seed logo](tripal_dev_mini_dataset/tripal_devseed.png)
+![Tripal Dev Seed logo](/tripal_dev_mini_dataset/tripal_devseed.png)
 
 This dataset is the first 200 genes of the Fraxinus excelsior dataset.  Use it to quickly seed a Tripal site with data.
 
