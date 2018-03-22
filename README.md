@@ -1,3 +1,6 @@
+[![DOI](https://zenodo.org/badge/107319541.svg)](https://zenodo.org/badge/latestdoi/107319541)
+
+
 
 This dataset is the first 200 genes of the Fraxinus excelsior dataset.  Use it to quickly seed a Tripal site with data.
 
