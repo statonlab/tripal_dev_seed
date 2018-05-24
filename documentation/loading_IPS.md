@@ -19,7 +19,7 @@ Other fields may be left at their default values or empty. Click save.
 
 The InterProScan loader is handled by the `tripal_analysis_interpro` module. The InterProScan loader can only load data from InterProScan results in the xml format.
 
-Locate the InterProScan loader from the menu through **Tripal > Data Loaders > Chado BLAST XML Results Loader.**
+Locate the InterProScan loader from the menu through **Tripal > Data Loaders > Chado InterproScan XML Results Loader.**
 
 * **XML File** - You will need to upload an entire directory of xml files, so enter a server path that will locate the directory containing the xml files of the InterProScan results.
 * **Analysis** - Select the newly created interpro analysis.
