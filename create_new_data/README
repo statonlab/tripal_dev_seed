@@ -11,10 +11,20 @@ To fully automate and document the creation of a devseed dataset.
 ## script
 
 ```
-curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff
+curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff.gz
 
-curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_data/C_sativus/prot.fasta
+curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_data/C_sativus/prot.fasta.gz
 
-curl
+curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/RNA/rna.fa.gz > src_data/C_sativus/mRNA.fasta.gz
+
+gunzip src_data/C_sativus/mRNA.fasta.gz
+
+gunzip src_data/C_sativus/prot.fasta.gz
+gunzip src_data/C_sativus/gff.gff.gz
+
+perl ../bin/process_input_to_n.pl 200  src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta src_data/C_sativus/gff.gff
+
+
 
 ```
+
