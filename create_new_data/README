@@ -1,0 +1,20 @@
+
+# Goal:
+
+To fully automate and document the creation of a devseed dataset.
+
+## Quick instructions
+
+* Download a GFF, mrna/CDS, and polypeptide fastas
+
+
+## script
+
+```
+curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff
+
+curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_data/C_sativus/prot.fasta
+
+curl
+
+```
