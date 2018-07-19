@@ -30,7 +30,9 @@ Set 1 also includes each individual biosample's expression data in column format
 
 ## kegg_annotations
 
-KEGG annotations generated using the KEGG_KOALA tool, corresponding to the sequence features.
+KEGG annotations generated using the KEGG_
+
+tool, corresponding to the sequence features.
 
 ## documentation
 	
@@ -72,7 +74,7 @@ The dev seed dataset was generated using the following software and versions.
 * [InterproScan]()
 * SWISSPROT database
 * TREMBL database
-* [KEGG KOALA]()
+* [KEGG Ghost KOALA](https://www.kegg.jp/ghostkoala/) 2.0
 * [MAFFT](https://mafft.cbrc.jp/alignment/software/) 7.402
 
 
