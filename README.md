@@ -65,6 +65,17 @@ Note that to load the polypeptides, you must link them with the regexp  `(FRA.*?
 
 A regular expression is sometimes used to link data back to the mRNA feature.  This is because we only create entities (publish) for mRNA, so analyses that are linked to the polypeptide sequences must be loaded onto the mRNA instead. The regular expression to link is `(FRA.*?)(?=:)`
 
+### Software versioning
+The dev seed dataset was generated using the following software and versions.
+
+* [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK279671/) 2.2.18+
+* [InterproScan]()
+* SWISSPROT database
+* TREMBL database
+* [KEGG KOALA]()
+* [MAFFT](https://mafft.cbrc.jp/alignment/software/) 7.402
+
+
 # License and Contributing
 
 This project is open source and provided under the [GPL-3.0 license](https://github.com/statonlab/tripal_alchemist/blob/master/LICENSE).  It was created by Bradford Condon and Meg Staton from the University of Tennessee Knoxville.  If you would like to make a contribution, simply fork the repo and make a pull request from there.
