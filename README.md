@@ -72,8 +72,8 @@ The dev seed dataset was generated using the following software and versions.
 
 * [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK279671/) 2.2.18+
 * [InterproScan]()
-* SWISSPROT database
-* TREMBL database
+* [SWISSPROT database](https://www.uniprot.org/statistics/Swiss-Prot) June 2016
+* [TREMBL database, plant subset](https://www.uniprot.org/statistics/TrEMBL) June 2016
 * [KEGG Ghost KOALA](https://www.kegg.jp/ghostkoala/) 2.0
 * [MAFFT](https://mafft.cbrc.jp/alignment/software/) 7.402
 
