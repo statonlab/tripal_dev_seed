@@ -20,7 +20,6 @@ def main(argv):
     ofh = open("out/sequences/polypeptide_mini.fasta", "w")
     count = 0
 
-    print ("regexp is " + regexp)
     fasta_sequences = SeqIO.parse(open(mrna_path), 'fasta')
     for fasta in fasta_sequences:
         name, sequence = fasta.id, str(fasta.seq)
@@ -29,11 +28,12 @@ def main(argv):
     fasta_sequences = SeqIO.parse(open(polyp_path), 'fasta')
     for fasta in fasta_sequences:
         prot_name, sequence = fasta.id, str(fasta.seq)
-        prot_transformed = re.match(regexp, prot_name)
-
-        if prot_transformed:
+        prot_transformed = re.search(regexp, prot_name)
+        if hasattr(prot_transformed, 'group'):
             match = prot_transformed.group(0)
+            print match
             if match in selected_mrna:
+                print "it happened"
                 ofh.write('>' + prot_name + '\n' + sequence + '\n')
     ofh.close()
 

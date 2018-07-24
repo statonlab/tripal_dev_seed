@@ -22,7 +22,7 @@ gunzip src_data/C_sativus/mRNA.fasta.gz
 gunzip src_data/C_sativus/prot.fasta.gz
 gunzip src_data/C_sativus/gff.gff.gz
 
-./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta [^\n]+ src_data/C_sativus/gff.gff 100 /db
+./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '[^\n]+' src_data/C_sativus/gff.gff 100 /db
 ```
 
 ```
