@@ -22,9 +22,9 @@ gunzip src_data/C_sativus/mRNA.fasta.gz
 gunzip src_data/C_sativus/prot.fasta.gz
 gunzip src_data/C_sativus/gff.gff.gz
 
-perl ../bin/process_input_to_n.pl 200  src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta src_data/C_sativus/gff.gff
-
-
-
+./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta [^\n]+ src_data/C_sativus/gff.gff 100 /db
 ```
 
+```
+./run.sh f_excel_source/FexcelsiorCDS.fasta f_excel_source/FexcelsiorAA.minoas.fasta '(FRA.*?)'  f_excel_source/Fe_filtered.gff3 200 /db
+```
