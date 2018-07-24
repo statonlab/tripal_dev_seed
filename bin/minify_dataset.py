@@ -2,6 +2,7 @@ from Bio import SeqIO
 import sys
 from os import path
 import csv
+import trim_polypeptide
 
 
 def main(argv):
@@ -21,25 +22,29 @@ def main(argv):
     polyp_path = path.relpath(polyp)
     gff_path = path.relpath(gff)
 
-    ofh = open("mrna_mini.fasta", "w")
+    ofh = open("out/sequences/mrna_mini.fasta", "w")
     count = 0
 
-    print ("opening " + mrna_path)
+    print ("Trimming " + mrna_path + " to " + str(n) + " sequences.\n")
 
     fasta_sequences = SeqIO.parse(open(mrna_path), 'fasta')
     for fasta in fasta_sequences:
-        if count < n:
+        if count < int(n):
             name, sequence = fasta.id, str(fasta.seq)
             ofh.write('>' + name + '\n' + sequence + '\n')
             count += 1
             selected_mrna.append(name)
     ofh.close()
 
+    print ("trimming GFF file")
     simple_gff_trimmer(gff_path, selected_mrna)
 
+    print ("trimming polypeptides")
+
+    trim_polypeptide.main([mrna_path, polyp, regexp])
 
 def simple_gff_trimmer(gff_path, selected_mrna):
-    with open(gff_path, 'rb') as tsvin, open('filtered.gff', 'wb') as gffout:
+    with open(gff_path, 'rb') as tsvin, open('out/gff/filtered.gff', 'wb') as gffout:
         tsvin = csv.reader(tsvin, delimiter='\t')
         csvout = csv.writer(gffout, delimiter='\t')
         csvout.writerow(['##gff-version 3'])

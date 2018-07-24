@@ -6,7 +6,7 @@ import xml.etree.cElementTree as ET
 
 
 def create_expression(args):
-    output_file = "expression.tsv"
+    output_file = "out/expression/expression.tsv"
     biomaterial_file = args[0]
     biomaterial_list = extract_biomats(biomaterial_file)
     biomaterial_n = len(biomaterial_list)

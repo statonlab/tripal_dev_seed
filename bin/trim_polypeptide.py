@@ -12,22 +12,20 @@ def main(argv):
     mrna = argv[0]
     polyp = argv[1]
     regexp = argv[2]
-
-
     selected_mrna = []
 
     mrna_path = path.relpath(mrna)
     polyp_path = path.relpath(polyp)
 
-    ofh = open("polypeptide_mini.fasta", "w")
+    ofh = open("out/sequences/polypeptide_mini.fasta", "w")
     count = 0
 
+    print ("regexp is " + regexp)
     fasta_sequences = SeqIO.parse(open(mrna_path), 'fasta')
     for fasta in fasta_sequences:
-            name, sequence = fasta.id, str(fasta.seq)
-            selected_mrna.append(name)
+        name, sequence = fasta.id, str(fasta.seq)
+        selected_mrna.append(name)
 
-    print ("opening " + polyp_path)
     fasta_sequences = SeqIO.parse(open(polyp_path), 'fasta')
     for fasta in fasta_sequences:
         prot_name, sequence = fasta.id, str(fasta.seq)
@@ -38,6 +36,7 @@ def main(argv):
             if match in selected_mrna:
                 ofh.write('>' + prot_name + '\n' + sequence + '\n')
     ofh.close()
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])

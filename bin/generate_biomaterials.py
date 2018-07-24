@@ -6,7 +6,7 @@ import random
 
 def create_biomaterials(num_biomats):
     fake = Faker()
-    output_file = "biomaterials.xml"
+    output_file = "out/biomaterials/biomaterials.xml"
     root = ET.Element("BioSampleSet")
     count = 0
     constant_property = fake.word()
