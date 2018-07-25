@@ -95,6 +95,7 @@ rm -r out
 download data:
 
 ```
+mkdir src_data/Fexcel
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.gz > src_data/Fexcel/Fexcel.gff3.gz
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.cds.fa.gz > src_data/Fexcel/Fexcelcds.fasta.gz
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.pep.fa.gz > src_data/Fexcel/Fexcelaa.fasta.gz
@@ -127,4 +128,22 @@ out/sequences/polypeptide_mini.fasta \
 Fexcel
 
 mv out Fexcel_mini
+```
+
+
+DELETE:
+
+running interproscan manually to test...
+had to disable the output directory
+
+```
+./interproscan.sh \
+-i /Users/chet/UTK/Data/tripal_dev_mini_dataset/Fexcel_mini/sequences/polypeptide_mini.fasta \
+-f XML, tsv \
+#-d out/ips/ \
+--disable-precalc \
+--iprlookup \
+--goterms \
+--pathways \
+# --tempdir /TMP
 ```
