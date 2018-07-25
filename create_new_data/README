@@ -22,9 +22,43 @@ gunzip src_data/C_sativus/mRNA.fasta.gz
 gunzip src_data/C_sativus/prot.fasta.gz
 gunzip src_data/C_sativus/gff.gff.gz
 
-./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '[^\n]+' src_data/C_sativus/gff.gff 100 /db
+./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '(.*)' src_data/C_sativus/gff.gff 100 /db
 ```
 
 ```
-./run.sh f_excel_source/FexcelsiorCDS.fasta f_excel_source/FexcelsiorAA.minoas.fasta '(FRA.*?)'  f_excel_source/Fe_filtered.gff3 200 /db
+mkdir src_data/Hebr
+curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.cds.fa.gz > src_data/Hebr/Hebr_1.0_mrna.fasta.gz
+curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.gff.gz > src_data/Hebr/Hebr_1.0_gff.gff.gz
+curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.peptides.fa.gz > src_data/Hebr/Hebr_1.0_prot.fasta.gz
+
+
+gunzip src_data/Hebr/Hebr_1.0_mrna.fasta.gz
+gunzip src_data/Hebr/Hebr_1.0_prot.fasta.gz
+gunzip src_data/Hebr/Hebr_1.0_gff.gff.gz
+
+TransDecoder.LongOrfs -t src_data/Hebr/Hebr_1.0_mrna.fasta
+mv src_data/Hebr/Hebr_1.0_mrna.fasta.transdecoder_dir/longest_orfs.pep src_data/Hebr/Hebr_1.0_prot.fasta
 ```
+We use transdecoder because otherwise we might not be able to get the mRNA name from the polypeptide name.
+This is problematic when loading in annotations, which must be linked to the parent feature via regular expression.
+
+```
+./run.sh  \
+ src_data/Hebr/Hebr_1.0_mrna.fasta \
+ src_data/Hebr/Hebr_1.0_prot.fasta\
+ '(.*?)\.p'  \
+  src_data/Hebr/Hebr_1.0_gff.gff\
+  Name\
+   200\
+    /db
+
+ ```
+
+
+
+```bash
+./run.sh f_excel_source/FexcelsiorCDS.fasta \
+ f_excel_source/FexcelsiorAA.minoas.fasta \
+ '(FRA.*?):'  f_excel_source/Fe_filtered.gff3 200 /db
+
+ ```

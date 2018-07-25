@@ -4,8 +4,9 @@ MRNA_FASTA=$1
 PROTEIN_FASTA=$2
 PROTEIN_REGEXP=$3
 GFF=$4
-COUNT=$5
-DB_DIR=$6
+GFF_KEY=$5
+COUNT=$6
+DB_DIR=$7
 
 #if output directory already exists, warn user and exit.
 if [ -d "out" ]; then
@@ -20,7 +21,7 @@ mkdir -p out/gff
 #Trim input files
 
 python ../bin/minify_dataset.py \
- $COUNT $MRNA_FASTA $PROTEIN_FASTA $PROTEIN_REGEXP $GFF
+ $COUNT $MRNA_FASTA $PROTEIN_FASTA $PROTEIN_REGEXP $GFF $GFF_KEY
 
 #blast nucleotide against TREMBL
 blastx \

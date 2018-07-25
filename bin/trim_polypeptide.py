@@ -14,7 +14,7 @@ def main(argv):
     regexp = argv[2]
     selected_mrna = []
 
-    mrna_path = path.relpath(mrna)
+    mrna_path = "out/sequences/mrna_mini.fasta"
     polyp_path = path.relpath(polyp)
 
     ofh = open("out/sequences/polypeptide_mini.fasta", "w")
@@ -30,10 +30,10 @@ def main(argv):
         prot_name, sequence = fasta.id, str(fasta.seq)
         prot_transformed = re.search(regexp, prot_name)
         if hasattr(prot_transformed, 'group'):
-            match = prot_transformed.group(0)
-            print match
+            match = prot_transformed.group(1)
+            if prot_transformed.group(1):
+                match = prot_transformed.group(1)
             if match in selected_mrna:
-                print "it happened"
                 ofh.write('>' + prot_name + '\n' + sequence + '\n')
     ofh.close()
 
