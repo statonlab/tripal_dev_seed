@@ -5,10 +5,27 @@ To fully automate and document the creation of a devseed dataset.
 
 ## Quick instructions
 
-* Download a GFF, mrna/CDS, and polypeptide fastas
+* Download a GFF, mrna/CDS, and polypeptide FASTA
+* Ensure that a regular expression can convert the polypeptide names to the the mRNA names
+* Ensure that the mRNA names can be found in the GFF without a regular expression.
+* Run the annotation pipeline
+* Manually annotate KEGG terms (Standalone software is not available due to the proprietary nature of KEGG)
+
+## Requirements
+
+* python
+* biopython
+* BLAST
+* Interproscan
+* The Uniprot TREMBL and SPROT databases
+* MAFFT
 
 
-## script
+## Example usage script
+
+### Data acquisition and setup
+
+#### C sativus
 
 ```
 curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff.gz
@@ -18,12 +35,16 @@ curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_
 curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/RNA/rna.fa.gz > src_data/C_sativus/mRNA.fasta.gz
 
 gunzip src_data/C_sativus/mRNA.fasta.gz
-
 gunzip src_data/C_sativus/prot.fasta.gz
 gunzip src_data/C_sativus/gff.gff.gz
 
-./run.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '(.*)' src_data/C_sativus/gff.gff 100 /db
 ```
+
+```
+./minify.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '(.*)' src_data/C_sativus/gff.gff 100 /db
+```
+
+#### Hebr
 
 ```
 mkdir src_data/Hebr
@@ -43,7 +64,7 @@ We use transdecoder because otherwise we might not be able to get the mRNA name 
 This is problematic when loading in annotations, which must be linked to the parent feature via regular expression.
 
 ```
-./run.sh  \
+./minify.sh  \
  src_data/Hebr/Hebr_1.0_mrna.fasta \
  src_data/Hebr/Hebr_1.0_prot.fasta\
  '(.*?)\.p'  \
@@ -52,13 +73,40 @@ This is problematic when loading in annotations, which must be linked to the par
    200\
     /db
 
+mv out Hebr_mini
  ```
-
-
 
 ```bash
-./run.sh f_excel_source/FexcelsiorCDS.fasta \
- f_excel_source/FexcelsiorAA.minoas.fasta \
- '(FRA.*?):'  f_excel_source/Fe_filtered.gff3 200 /db
+./annotate.sh \
+Hebr_mini/sequences/mrna_mini.fasta \
+Hebr_mini/sequences/polypeptide_mini.fasta \
+/fake/db/path \
+Hebr
+
+mv out/* Hebr_mini/
+rm -r out
+
+```
+
+
+
+#### F excelsior
+
+```bash
+./run.sh src_data/f_excel/FexcelsiorCDS.fasta \
+ src_data/f_excel/FexcelsiorAA.minoas.fasta \
+ '(FRA.*?):'  src_data/f_excel/Fe_filtered.gff3 200 /db
 
  ```
+
+
+ ```bash
+ ./annotate.sh \
+Fexcel_mini/sequences/mrna_mini.fasta \
+Fexcel_mini/sequences/polypeptide_mini.fasta \
+/fake/db/path \
+Fexcel
+
+mv out/* Fexcel_mini/
+rm -r out
+```
