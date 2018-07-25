@@ -92,21 +92,39 @@ rm -r out
 
 #### F excelsior
 
-```bash
-./run.sh src_data/f_excel/FexcelsiorCDS.fasta \
- src_data/f_excel/FexcelsiorAA.minoas.fasta \
- '(FRA.*?):'  src_data/f_excel/Fe_filtered.gff3 200 /db
+download data:
+
+```
+curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.gz > src_data/Fexcel/Fexcel.gff3.gz
+curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.cds.fa.gz > src_data/Fexcel/Fexcelcds.fasta.gz
+curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.pep.fa.gz > src_data/Fexcel/Fexcelaa.fasta.gz
+
+gunzip src_data/Fexcel/Fexcel.gff3.gz
+gunzip src_data/Fexcel/Fexcelcds.fasta.gz
+gunzip src_data/Fexcel/Fexcelaa.fasta.gz
+
+```
+
+ ```bash
+
+ ./minify.sh  \
+ src_data/Fexcel/Fexcelcds.fasta \
+ src_data/Fexcel/Fexcelaa.fasta\
+ '(.*)'  \
+  src_data/Fexcel/Fexcel.gff3\
+  ID \
+  200
 
  ```
 
+Then run the annotation script
 
  ```bash
  ./annotate.sh \
-Fexcel_mini/sequences/mrna_mini.fasta \
-Fexcel_mini/sequences/polypeptide_mini.fasta \
+out/sequences/mrna_mini.fasta \
+out/sequences/polypeptide_mini.fasta \
 /fake/db/path \
 Fexcel
 
-mv out/* Fexcel_mini/
-rm -r out
+mv out Fexcel_mini
 ```
