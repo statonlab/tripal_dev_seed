@@ -1,18 +1,32 @@
+<<<<<<< HEAD
 The files in this folder are simple scripts for parsing and minifying data.
+=======
+The files in this folder are simple scripts for parsing data.
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
 
 
 ## extract_FASTA.pl
 (requires bioperl)
+<<<<<<< HEAD
 **Input:** the raw FASTA file and a textfile consisting of newline seperated FASTA headers to extract.
 Used to easily extract subset of scaffolds from scaffold list.
 
 **Usage:** `perl extract_FASTA.pl -i BATG-0.5-CLCbioSSPACE.fa -l scaffold_list.txt`
+=======
+Input: the raw FASTA file and a textfile consisting of newline seperated FASTA headers to extract.  Used to easily extract subset of scaffolds from scaffold list.
+
+Usage: `perl extract_FASTA.pl -i BATG-0.5-CLCbioSSPACE.fa -l scaffold_list.txt`
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
 
 
 ## generate_biomaterials
 
+<<<<<<< HEAD
 A simple script that generates fake biomaterials XML.
 There are 5 properties for each biomaterial: one is a constant type with one of two values (ensuring there are properties to compare).  One's value is a number.
+=======
+A simple script that generates fake biomaterials XML.  There are 5 properties for each biomaterial: one is a constant type with one of two values (ensuring there are properties to compare).  One's value is a number.
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
 
 Usage:
 
@@ -44,20 +58,31 @@ New Aimeeberg, WY 70035</Address>
 
 ## generate_expression
 
+<<<<<<< HEAD
 A script for generating random expression data in matrix format.  Values are random between 1 and 1000, with a value for each mRNA in the input FASTA file and each biomaterial in the XML file.
 
 **Usage:**
 
 `python generate_expression.py [biomaterials xml] [fasta file]`
 
+=======
+Usage:
+
+`python generate_expression.py [biomaterials xml] [fasta file]`
+
+Creates a tab delimited expression dataset (with random values between 1 and 1000).
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
 
 
 ## minify_dataset
 
+<<<<<<< HEAD
 Minifies a dataset.
 
 **Usage:**
 
+=======
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
 `python minify_dataset.py [number of mRNA to use] [mrna FASTA file] [polypeptide FASTA] [polypeptide regexp] [GFF file]`
 
 

@@ -1,5 +1,9 @@
 Fexcelsior.blastx.sprot.xml
 Fexcelsior.blastx.trembl.xml
 .idea
+<<<<<<< HEAD
 create_seed/out/*
 create_seed/src_data/*
+=======
+create_new_data/src_data
+>>>>>>> a1d67450ede755fd16cd14e51b1914f4458195cd
