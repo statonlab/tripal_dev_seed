@@ -1,14 +1,13 @@
 from Bio import SeqIO
-import sys
+import sys, re, csv
 from os import path
-import csv
 import trim_polypeptide
 
 
 def main(argv):
-    usage = 'split_fasta.py [n] [mrna FASTA] [polypeptide FASTA] [polypeptide regexp] [GFF]'
+    usage = 'split_fasta.py [n] [mrna FASTA] [polypeptide FASTA] [polypeptide regexp] [GFF] [GFF key to link mRNA]'
     out_count = 1
-    if len(argv) < 4:
+    if len(argv) < 5:
         print usage
         sys.exit()
     n = argv[0]
@@ -16,7 +15,10 @@ def main(argv):
     polyp = argv[2]
     regexp = argv[3]
     gff = argv[4]
+    gff_mrna_key = argv[5]
     selected_mrna = []
+
+    gff_mrna_key = gff_mrna_key + "="
 
     mrna_path = path.relpath(mrna)
     polyp_path = path.relpath(polyp)
@@ -37,13 +39,13 @@ def main(argv):
     ofh.close()
 
     print ("trimming GFF file")
-    simple_gff_trimmer(gff_path, selected_mrna)
+    simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key)
 
     print ("trimming polypeptides")
 
     trim_polypeptide.main([mrna_path, polyp, regexp])
 
-def simple_gff_trimmer(gff_path, selected_mrna):
+def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
     with open(gff_path, 'rb') as tsvin, open('out/gff/filtered.gff', 'wb') as gffout:
         tsvin = csv.reader(tsvin, delimiter='\t')
         csvout = csv.writer(gffout, delimiter='\t')
@@ -58,11 +60,15 @@ def simple_gff_trimmer(gff_path, selected_mrna):
                 if type == 'mRNA':
                     write = False
                     info_split = info.split(';')
-                    id = info_split[0]
-                    id = id.replace('ID=', '')
+                    for item in info_split:
+                        id = None
+                        match = re.match(gff_mrna_key, item)
+                        if hasattr(match, 'group'):
+                            id = item.replace(gff_mrna_key, '')
                     if id in selected_mrna:
                         write = True
                         csvout.writerow(row)
+                        #we also need to go back and write out the gene.
                 else:
                     if write:
                         csvout.writerow(row)
