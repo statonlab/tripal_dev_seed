@@ -34,7 +34,7 @@ fi
 blastx \
 -query $MINI_MRNA_FASTA \
 -db "$DB_DIR/trembl.fasta"\
--out "/out/blast/$PREFIX.TREMBL.xml"  \
+-out out/blast/$PREFIX.TREMBL.xml  \
 -evalue 1e-5 \
 -outfmt 5
 #blast nucleotide against SPROT
@@ -42,7 +42,7 @@ blastx \
 blastx \
 -query $MINI_MRNA_FASTA \
 -db "$DB_DIR/uniprot_sprot.fasta" \
--out "/out/$PREFIX.SPROT.xml"  \
+-out out/$PREFIX.SPROT.xml  \
 -evalue 1e-5 \
 -outfmt 5
 
@@ -70,3 +70,10 @@ python ../bin/generate_biomaterials.py 20
 mkdir -p out/expression
 
 python ../bin/generate_expression.py out/biomaterials/biomaterials.xml $MINI_MRNA_FASTA
+
+#create tree
+mkdir -p out/tree
+
+mafft --retree 0 --treeout --quiet --clustalout $MINI_MRNA_FASTA  > out/tree/clustal.$MINI_MRNA_FASTA.clustal
+
+mv $MINI_MRNA_FASTA.tree out/tree
