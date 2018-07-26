@@ -20,7 +20,7 @@ def main(argv):
 
     with open('out/sequences/empty_landmarks.fasta', 'wb') as landmark_out:
         for contig in contigs:
-            print ">" +contig + "\n"
+             landmark_out.write( ">" +contig + "\n")
 
 
 if __name__ == "__main__":
