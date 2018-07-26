@@ -8,16 +8,19 @@ def main(argv):
         sys.exit()
 
     gff = argv[0]
+    gff_path = path.relpath(gff)
+
     contigs = {}
     with open(gff_path, 'rb') as tsvin:
         tsvin = csv.reader(tsvin, delimiter='\t')
-        if len(row) > 1:
-            contig = row[0]
-            contigs[contig] = contig
+        for row in tsvin:
+            if len(row) > 1:
+                contig = row[0]
+                contigs[contig] = contig
 
     with open('out/sequences/empty_landmarks.fasta', 'wb') as landmark_out:
         for contig in contigs:
-            print ">contig\n"
+            print ">" +contig + "\n"
 
 
 if __name__ == "__main__":
