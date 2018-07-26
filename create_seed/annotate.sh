@@ -1,5 +1,23 @@
 #!/bin/bash
 
+  # Usage info
+  # show_help() {
+  # cat << EOF
+  #  Usage: ${0##*/} [-h] [-f OUTFILE] [FILE]...
+  #  Do stuff with FILE and write the result to standard output. With no FILE
+  #  or when FILE is -, read standard input.
+   
+  #     -h          display this help and exit
+  #      -m 		 mRNA FASTA file  
+  #      -p 		 protein FASTA file
+
+  #  EOF
+  #  }
+
+
+
+
+
 MINI_MRNA_FASTA=$1
 MINI_PROTEIN_FASTA=$2
 DB_DIR=$3

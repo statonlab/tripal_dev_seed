@@ -70,7 +70,7 @@ A regular expression is sometimes used to link data back to the mRNA feature.  T
 ### Software versioning
 The dev seed dataset was generated using the following software and versions.
 
-* [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK279671/) 2.2.18+
+* [BLAST+](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/): 2.7.1
 * [InterproScan]()
 * [SWISSPROT database](https://www.uniprot.org/statistics/Swiss-Prot) June 2016
 * [TREMBL database, plant subset](https://www.uniprot.org/statistics/TrEMBL) June 2016
