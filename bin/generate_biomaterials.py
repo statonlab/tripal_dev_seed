@@ -17,7 +17,7 @@ def create_biomaterials(num_biomats):
         accession = fake.word()
         biosample = ET.SubElement(root, "BioSample", submission_date=fake.date(), id=fake.word(), accession=accession)
 
-        ET.SubElement(biosample, "IDs", db="BioSample", is_primary="1").text = accession
+        ET.SubElement(biosample, "Ids", db="BioSample", is_primary="1").text = accession
         ET.SubElement(biosample, "Description").text = fake.sentence()
         owner = ET.SubElement(biosample, "Owner")
         ET.SubElement(owner, "Name", ).text = fake.name()
