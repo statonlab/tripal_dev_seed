@@ -1,38 +1,43 @@
 [![DOI](https://zenodo.org/badge/107319541.svg)](https://zenodo.org/badge/latestdoi/107319541)
 
 
-![Tripal Dev Seed logo](/tripal_devseed.png)
+![Tripal DevSeed logo](/tripal_devseed.png)
 
-This dataset is the first 200 genes of the Fraxinus excelsior dataset.  Use it to quickly seed a Tripal site with data.
+Tripal DevSeed is a project for getting data loaded into Chado for your Tripal site quickly and easily.  It comes with a 200-gene dataset for Fraxinus excelsior, located in `/Fexcel_mini`.
+Additionally, it includes the scripts used to download, minify, and annotate this dataset, located in `create_seed`.  These scripts call programs written in `/bin`.  Use these scripts to quickly re-create the F. excelsior dataset, or to create your own.
 
 See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/content/European-Ash).
 # Files
-## sequences
-* FexcelsiorCDS.fasta - mRNA
-* FexcelsiorAA.minoas.fasta - predicted amino acids/polypeptides
+## sequences/
+* mrna_mini.fasta - 200 CDS sequences
+* polypeptide_mini.fasta - predicted amino acids/polypeptides
+* empty_landmarks.fasta - an empty FASTA file with landmark features (scaffolds) required for the GFF file.
+* mrna_mini.fasta.tree - MAFFT generated tree for CDS sequences.
+* clustal_mrna.clastal - clustal aligned sequences (created for tree).
 
-## blast_annotations
-* Fexcelsior.blastx.sprot.xml - swissprot annotations for these mRNA
-* Fexcelsior.blastx.trembl.xml - TREMBL annotations for these mRNA
+## gff/
 
-## interproscan_annotations
-* *.xml - interproscan annotations for the predicted amino acids, ~ one xml per entry.
+* filtered.gff - GFF3 file for just the landmarks containing the above 200 CDS.
+Format:
+`Contig0	FRAEX38873_v2	gene	16315	44054	.	+	.	ID=FRAEX38873_v2_000000010;Name=FRAEX38873_v2_000000010;biotype=protein_coding
+`
 
-## biosamples
-There are two sets of mock expression data provided.  Data was seeded from NCBI but attributes have been modified.
+## blast/
+* Fexcel.SPROT.xml - swissprot annotations for these mRNA
+* Fexcelsior.TREMBL.xml - TREMBL annotations for these mRNA
 
-## expression_data
-Expression data corresponding to biosample sets 1 and 2.
+## interproscan/
+* .xml - interproscan annotations for the predicted amino acids.
 
-Both sets include the matrix format file (`matrix_format.tsv`), which is easiest to load.
+## biosamples/
+20 biomaterials randomly generated with the python script `generate_biomaterials.py`.
 
-Set 1 also includes each individual biosample's expression data in column format: `LIBEST_026644`,  `ERS1887582`, and `ERS1887575`.
+## expression/
+Expression data corresponding to the above biosamples.  Included as matrix format files.  Created with the python script `generate_expression.py`.
 
 ## kegg_annotations
 
-KEGG annotations generated using the KEGG_
-
-tool, corresponding to the sequence features.
+KEGG annotations generated using the KEGG BLAST KOALA web tool.
 
 ## documentation
 	
@@ -41,7 +46,10 @@ tool, corresponding to the sequence features.
 Backup databases are available with most of this data loaded.  The current database 12-19-17 is a first stab at this.
 
 
-## Quick Set Up
+## Quick Set Up: Automatic
+Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://github.com/statonlab/TripalTestSuite#database-seeders).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
+
+## Quick Set Up: Manual
 
 * Create an organism for _Fraxinus excelsior_ (common name: European Ash)
 * Create analyses to associate the data with.  We currently suggest 1 analysis per content item.
@@ -67,8 +75,8 @@ Note that to load the polypeptides, you must link them with the regexp  `(FRA.*?
 
 A regular expression is sometimes used to link data back to the mRNA feature.  This is because we only create entities (publish) for mRNA, so analyses that are linked to the polypeptide sequences must be loaded onto the mRNA instead. The regular expression to link is `(FRA.*?)(?=:)`
 
-### Software versioning
-The dev seed dataset was generated using the following software and versions.
+### Annotation Software 
+The DevSeed dataset was generated using the following software and versions.
 
 * [BLAST+](ftp://ftp.ncbi.nlm.nih.gov/blast/executables/blast+/LATEST/): 2.7.1
 * [InterproScan]()
