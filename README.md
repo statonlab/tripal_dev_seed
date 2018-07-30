@@ -6,14 +6,14 @@
 Tripal DevSeed is a project for getting data loaded into Chado for your Tripal site quickly and easily.  It comes with a 200-gene dataset for Fraxinus excelsior, located in `/Fexcel_mini`.
 Additionally, it includes the scripts used to download, minify, and annotate this dataset, located in `create_seed`.  These scripts call programs written in `/bin`.  Use these scripts to quickly re-create the F. excelsior dataset, or to create your own.
 
-See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/content/European-Ash).
+See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/organism/Fraxinus/excelsior).
 # Files
 ## sequences/
 * mrna_mini.fasta - 200 CDS sequences
 * polypeptide_mini.fasta - predicted amino acids/polypeptides
 * empty_landmarks.fasta - an empty FASTA file with landmark features (scaffolds) required for the GFF file.
 * mrna_mini.fasta.tree - MAFFT generated tree for CDS sequences.
-* clustal_mrna.clastal - clustal aligned sequences (created for tree).
+* clustal_mrna.clustal - clustal aligned sequences (created for tree).
 
 ## gff/
 
@@ -40,16 +40,18 @@ Expression data corresponding to the above biosamples.  Included as matrix forma
 KEGG annotations generated using the KEGG BLAST KOALA web tool.
 
 ## documentation
-	
+
+A series of md files that will guide you through loading all the included data in this repository (described above) into Chado using Tripal.
+
 ## database_backups
 
 Backup databases are available with most of this data loaded.  The current database 12-19-17 is a first stab at this.
 
 
-## Quick Set Up: Automatic
+# Quick Set Up: Automatic
 Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://github.com/statonlab/TripalTestSuite#database-seeders).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
 
-## Quick Set Up: Manual
+# Quick Set Up: Manual
 
 * Create an organism for _Fraxinus excelsior_ (common name: European Ash)
 * Create analyses to associate the data with.  We currently suggest 1 analysis per content item.
