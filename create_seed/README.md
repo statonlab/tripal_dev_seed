@@ -28,6 +28,8 @@ To fully automate and document the creation of a devseed dataset.
 #### C sativus
 
 ```
+mkdir -p src_data/C_sativus
+
 curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff.gz
 
 curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_data/C_sativus/prot.fasta.gz
@@ -47,7 +49,7 @@ gunzip src_data/C_sativus/gff.gff.gz
 #### Hebr
 
 ```
-mkdir src_data/Hebr
+mkdir -p src_data/Hebr
 curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.cds.fa.gz > src_data/Hebr/Hebr_1.0_mrna.fasta.gz
 curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.gff.gz > src_data/Hebr/Hebr_1.0_gff.gff.gz
 curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.peptides.fa.gz > src_data/Hebr/Hebr_1.0_prot.fasta.gz
@@ -90,12 +92,15 @@ rm -r out
 
 
 
-#### F excelsior
+#### *F. excelsior*
+
+*[Fraxinus excelsior](https://www.hardwoodgenomics.org/organism/Fraxinus/excelsior)*, or the common ash tree, is a tree loaded on the HardwoodGenomics Tripal site.
+
 
 download data:
 
 ```
-mkdir src_data/Fexcel
+mkdir -p src_data/Fexcel
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.gz > src_data/Fexcel/Fexcel.gff3.gz
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.cds.fa.gz > src_data/Fexcel/Fexcelcds.fasta.gz
 curl http://ashgenome.org/sites/default/files/annotation_v5/Fraxinus_excelsior_38873_TGAC_v2.gff3.pep.fa.gz > src_data/Fexcel/Fexcelaa.fasta.gz
@@ -121,6 +126,7 @@ gunzip src_data/Fexcel/Fexcelaa.fasta.gz
 Then run the annotation script
 
  ```bash
+ 
  ./annotate.sh \
 out/sequences/mrna_mini.fasta \
 out/sequences/polypeptide_mini.fasta \

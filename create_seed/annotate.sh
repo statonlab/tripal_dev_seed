@@ -74,6 +74,5 @@ python ../bin/generate_expression.py out/biomaterials/biomaterials.xml $MINI_MRN
 #create tree
 mkdir -p out/tree
 
-mafft --retree 0 --treeout --quiet --clustalout $MINI_MRNA_FASTA  > out/tree/clustal.$MINI_MRNA_FASTA.clustal
-
+mafft --retree 0 --treeout --quiet --clustalout $MINI_MRNA_FASTA > $MINI_MRNA_FASTA.clustal
 mv $MINI_MRNA_FASTA.tree out/tree
