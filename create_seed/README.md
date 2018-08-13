@@ -25,72 +25,6 @@ To fully automate and document the creation of a devseed dataset.
 
 ### Data acquisition and setup
 
-#### C sativus
-
-```
-mkdir -p src_data/C_sativus
-
-curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/GFF/ref_ASM407v2_scaffolds.gff3.gz > src_data/C_sativus/gff.gff.gz
-
-curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/protein/protein.fa.gz > src_data/C_sativus/prot.fasta.gz
-
-curl ftp://ftp.ncbi.nih.gov/genomes/Cucumis_sativus/RNA/rna.fa.gz > src_data/C_sativus/mRNA.fasta.gz
-
-gunzip src_data/C_sativus/mRNA.fasta.gz
-gunzip src_data/C_sativus/prot.fasta.gz
-gunzip src_data/C_sativus/gff.gff.gz
-
-```
-
-```
-./minify.sh src_data/C_sativus/mRNA.fasta src_data/C_sativus/prot.fasta '(.*)' src_data/C_sativus/gff.gff 100 /db
-```
-
-#### Hebr
-
-```
-mkdir -p src_data/Hebr
-curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.cds.fa.gz > src_data/Hebr/Hebr_1.0_mrna.fasta.gz
-curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.gff.gz > src_data/Hebr/Hebr_1.0_gff.gff.gz
-curl https://treegenesdb.org/FTP/Genomes/Hebr/v1.0/annotation/Hebr.1_0.peptides.fa.gz > src_data/Hebr/Hebr_1.0_prot.fasta.gz
-
-
-gunzip src_data/Hebr/Hebr_1.0_mrna.fasta.gz
-gunzip src_data/Hebr/Hebr_1.0_prot.fasta.gz
-gunzip src_data/Hebr/Hebr_1.0_gff.gff.gz
-
-TransDecoder.LongOrfs -t src_data/Hebr/Hebr_1.0_mrna.fasta
-mv src_data/Hebr/Hebr_1.0_mrna.fasta.transdecoder_dir/longest_orfs.pep src_data/Hebr/Hebr_1.0_prot.fasta
-```
-We use transdecoder because otherwise we might not be able to get the mRNA name from the polypeptide name.
-This is problematic when loading in annotations, which must be linked to the parent feature via regular expression.
-
-```
-./minify.sh  \
- src_data/Hebr/Hebr_1.0_mrna.fasta \
- src_data/Hebr/Hebr_1.0_prot.fasta\
- '(.*?)\.p'  \
-  src_data/Hebr/Hebr_1.0_gff.gff\
-  Name\
-   200\
-    /db
-
-mv out Hebr_mini
- ```
-
-```bash
-./annotate.sh \
-Hebr_mini/sequences/mrna_mini.fasta \
-Hebr_mini/sequences/polypeptide_mini.fasta \
-/fake/db/path \
-Hebr
-
-mv out/* Hebr_mini/
-rm -r out
-
-```
-
-
 
 #### *F. excelsior*
 
@@ -135,3 +69,5 @@ Fexcel
 
 mv out Fexcel_mini
 ```
+
+
