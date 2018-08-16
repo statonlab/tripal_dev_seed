@@ -17,18 +17,17 @@ Contig0	FRAEX38873_v2	CDS	16558	16967	.	+	0	ID=FRAEX38873_v2_000000010.1.cds1;Pa
 
 The below table explains each column.   
 
-| column | ID         | example value                                                                  | explanation                                                                                                                                   |
-|--------|------------|--------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
-| 1      | seqid      | Contig0                                                                        | Name of the landmark chromosome or scaffold (not the feature itself).                                                                         |
-| 2      | source     | FRAEX38873_v2                                                                  | Program name, data source, etc                                                                                                                |
-| 3      | type       | gene                                                                           | Sequence ontology term for type_id of feature                                                                                                 |
-| 4      | start      | 16315                                                                          | start of the feature.                                                                                                                         |
-| 5      | end        | 44054                                                                          | end of the feature.                                                                                                                           |
-| 6      | score      | .                                                                              | Float value or . The score, because the feature was computationally predicted.  ignore.                                                       |
-| 7      | strand     | +                                                                              | Can be = or -.  Refers to the strand of DNA: ignore                                                                                           |
-| 8      | phase      | .                                                                              | Can be 0, 1, 2, or .  Refers to the open reading frame, you can ignore.                                                                       |
-| 9      | attributes | ID=FRAEX38873_v2_000000010;Name=FRAEX38873_v2_000000010;biotype=protein_coding | This includes the actual name for the feature that will be created (in this case FRAEX38873_v2_000000010).  It also includes the Parent= tag. |
-
+| column | ID         | explanation                                                                                                                                   | example value                                                                  |
+|--------|------------|-----------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| 1      | seqid      | Name of the landmark chromosome or scaffold (not the feature itself).                                                                         | Contig0                                                                        |
+| 2      | source     | Program name, data source, etc                                                                                                                | FRAEX38873_v2                                                                  |
+| 3      | type       | Sequence ontology term for type_id of feature                                                                                                 | gene                                                                           |
+| 4      | start      | start of the feature.                                                                                                                         | 16315                                                                          |
+| 5      | end        | end of the feature.                                                                                                                           | 44054                                                                          |
+| 6      | score      | Float value or . The score, because the feature was computationally predicted.  ignore.                                                       | .                                                                              |
+| 7      | strand     | Can be = or -.  Refers to the strand of DNA: ignore                                                                                           | +                                                                              |
+| 8      | phase      | Can be 0, 1, 2, or .  Refers to the open reading frame, you can ignore.                                                                       | .                                                                              |
+| 9      | attributes | This includes the actual name for the feature that will be created (in this case FRAEX38873_v2_000000010).  It also includes the Parent= tag. | ID=FRAEX38873_v2_000000010;Name=FRAEX38873_v2_000000010;biotype=protein_coding |
 
 ### Preprocessing
 
