@@ -43,7 +43,7 @@ The process for uploading the polypeptides is similar to above, but with some sl
 
 ![](img/fasta/loading_AA_pt1.png)
 
-In the additional options section, you have the option to extract the feature name with a regexp, link your sequences to an external database using a regexp, and to define relationships.  Because our polypeptides are derived from our mRNA CDS, we'll set the **relationship type** to _produced by_, and provide a regexp to link the terms.  If you're following this guide with the _F. excelsior_ miniature dataset, then `(FRA.*?)(?=:)` will work.  You may need to write your own regexp for your own data.
+In the additional options section, you have the option to extract the feature name with a regexp, link your sequences to an external database using a regexp, and to define relationships.  Because our polypeptides are derived from our mRNA CDS, we'll set the **relationship type** to _produced by_, and provide a regexp to link the terms.  If you're following this guide with the _F. excelsior_ miniature dataset, then the proteins and mRNA have the same name, and you won't need a regexp.
 
 ![](img/fasta/loading_AA_pt3.png)
 
