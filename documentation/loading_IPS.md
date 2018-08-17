@@ -23,7 +23,7 @@ Locate the InterProScan loader from the menu through **Tripal > Data Loaders > C
 
 * **XML File** - You will need to upload an entire directory of xml files, so enter a server path that will locate the directory containing the xml files of the InterProScan results.
 * **Analysis** - Select the newly created interpro analysis.
-* **Query Name RE** - You will need to use the same regexp you used to load in the polypeptides. For this dataset, the regexp is `(FRA.*?)(?=:)`.
+* **Query Name RE** - You will need to use the same regexp you used to load in the polypeptides. For this dataset, no regexp is needed.
 
 Other fields may be left at their default values or empty. Click **Import File** at the bottom of the page. You will need to run the job provided.
 
