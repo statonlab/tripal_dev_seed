@@ -28,8 +28,10 @@ Now that we have the ontology and an analysis that we can associate our data wit
 
 * **File Upload** - The KEGG file in the dataset is `f_excelsior_ko.txt`.
 * **Analysis** - Select the KEGG analysis created for this data (i.e. the one created above).
-* **Query Name RE** - You only need to fill out this field if the feature in the .txt file is not identical to a feature in the database. If they differ, you will need to create a regular expression to get them to match. If you used a regular expression to load the proteins in, you would use the regex.
-* **Query Type** - You only need to fill out this field if you two or more sequences have the same name. If so, you would need to specify which sequence you want the KEGG data to be linked with (e.g. polypeptide).
+* **Query Name RE** - A regular expression to match the names in the kegg output to features in the database.
+* **Query Type** - The feature type you'd like to associate the annotations with.  Can be left blank if the name is unique and that is the desired feature type.
+
+Users may choose to associate the KEGG annotations with the polypeptides themselves, **or** with the parent mRNA features in which case specifying a regular expression and/or type is necessary.
 
 ![](img/kegg/keggdoc_2.png)
 
