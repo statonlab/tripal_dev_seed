@@ -26,10 +26,10 @@ All other fields can be left blank or at their default values. Click save.
 
 Now that we have the ontology and an analysis that we can associate our data with, we can begin loading the KEGG data. Navigate to **Tripal > Data Loaders > Chado KEGG Loader** in the admin menu. 
 
-**File Upload** - The KEGG file in the dataset is `f_excelsior_ko.txt`.
-**Analysis** - Select the KEGG analysis created for this data (i.e. the one created above).
-**Query Name RE** - You only need to fill out this field if the feature in the .txt file is not identical to a feature in the database. If they differ, you will need to create a regular expression to get them to match. If you used a regular expression to load the proteins in, you would use the regex.
-**Query Type** - You only need to fill out this field if you two or more sequences have the same name. If so, you would need to specify which sequence you want the KEGG data to be linked with (e.g. polypeptide).
+* **File Upload** - The KEGG file in the dataset is `f_excelsior_ko.txt`.
+* **Analysis** - Select the KEGG analysis created for this data (i.e. the one created above).
+* **Query Name RE** - You only need to fill out this field if the feature in the .txt file is not identical to a feature in the database. If they differ, you will need to create a regular expression to get them to match. If you used a regular expression to load the proteins in, you would use the regex.
+* **Query Type** - You only need to fill out this field if you two or more sequences have the same name. If so, you would need to specify which sequence you want the KEGG data to be linked with (e.g. polypeptide).
 
 ![](img/kegg/keggdoc_2.png)
 
