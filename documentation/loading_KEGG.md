@@ -6,6 +6,8 @@ You will need to load the KEGG terms in before you can begin loading data. In th
 * **Remote URL** - You can use the OBO from the [Staton Lab repo](https://github.com/statonlab/tripal_analysis_kegg/blob/parent-fix/kegg.obo) or the [Tripal repo](https://github.com/tripal/tripal_analysis_kegg/blob/7.x-3.x/kegg.obo) by copy and pasting the URL into this field.
 * **Local File** - This field is an alternative to the Remote URL field. If you don't want to use a link, you can download the KEGG Ontology instead and simply specify the file path relative to your Drupal installation instead (e.g. sites/default/files/kegg.obo).
 
+![](img/kegg/keggdoc_3.png)
+
 ## Create an Analysis
 
 We will need to create an analysis with which to associate our KEGG data. Navigate to Content > Tripal Content. At the top of the page, click Add Tripal Content and select Analysis from the list of content types. Some sites may have custom analysis types for each type of analysis performed.
@@ -18,7 +20,7 @@ We will need to create an analysis with which to associate our KEGG data. Naviga
 
 All other fields can be left blank or at their default values. Click save.
 
-![](img/fasta/keggdoc_1.png)
+![](img/kegg/keggdoc_1.png)
 
 ## Loading KEGG Data
 
@@ -29,5 +31,6 @@ Now that we have the ontology and an analysis that we can associate our data wit
 **Query Name RE** - You only need to fill out this field if the feature in the .txt file is not identical to a feature in the database. If they differ, you will need to create a regular expression to get them to match. If you used a regular expression to load the proteins in, you would use the regex.
 **Query Type** - You only need to fill out this field if you two or more sequences have the same name. If so, you would need to specify which sequence you want the KEGG data to be linked with (e.g. polypeptide).
 
+![](img/kegg/keggdoc_2.png)
 
 Once the fields are filled out, you can click `Import KEGG File`. Run the job provided and you should be good to go.
