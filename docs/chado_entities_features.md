@@ -1,15 +1,9 @@
-This documentation will guide you through loading all the included data in this repository into Chado using Tripal.  For a better experience, [read on readthedocs](https://tripal-devseed.readthedocs.io/en/latest/index.html)!
+# Understanding linking records
 
-* [Loading Sequences](/documentation/loading_FASTA.md)
-* [Loading GFF](/documentation/loading_GFF.md)
-* [Loading BLAST annotations](/documentation/loading_BLAST.md)
-* [Loading Interpro Scan annotations](/documentation/loading_IPS.md)
-* [Publishing mRNA](/documentation/publishing_mRNA.md)
-* [Loading biosamples](/documentation/loading_biosamples.md)
-* [Loading expression data](/documentation/loading_expression_data.md)
+This section is provided to help users understand why we specify which records data is associated with when loading.
 
+Many of the load steps require you to specify **which Chado record** to associate something with, or **how to find a parent record**.  A polypeptide feature is derived from an mRNA (the "central dogma" in biology): the mRNA record in chado.feature is the **parent** record of the polypeptide record in chado.feature.  
 
-Some background information for understanding why things are loaded this way.
 
 ### Who is the Entity?
 

@@ -1,6 +1,6 @@
 # Loading InterProScan Annotations
 
-# Creating An Analysis
+## Creating An Analysis
 
 To load an interpro analysis, we first need an analysis to associate it withs. Navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Analysis** from the list of content types.  Some sites may have custom analysis types for each type of analysis performed.
 
@@ -17,7 +17,7 @@ Other fields may be left at their default values or empty. Click save.
 
 ![](img/ips/ipsdoc_1.png)
 
-# Loading InterProScan Results
+## Loading InterProScan Results
 
 The InterProScan loader is handled by the `tripal_analysis_interpro` module. The InterProScan loader can only load data from InterProScan results in the xml format.
 
@@ -31,7 +31,7 @@ Other fields may be left at their default values or empty. Click **Import File**
 
 ![](img/ips/ipsdoc_2.png)
 
-# Viewing InterProScan Results
+## Viewing InterProScan Results
 
 Unless specified otherwise, InterProScan results are hidden by default.
 
