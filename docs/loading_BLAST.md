@@ -1,6 +1,6 @@
 # Loading BLAST Annotations
 
-# Creating An Analysis
+## Creating An Analysis
 
 To load a blast analysis, navigate to **Content > Tripal Content**. At the top of the page, click **Add Tripal Content** and select **Analysis** from the list of content types.  Some sites may have custom analysis types for each type of analysis performed. For our dataset, we need to make two analyses: one for TrEMBL and one for Swiss-Prot.
 
@@ -20,7 +20,7 @@ Other fields may be left at their default values or empty. Click save.
 
 ![](img/blast/blastdoc_1.png)
 
-# Loading BLAST Results
+## Loading BLAST Results
 
 The BLAST loader is handled by the `tripal_analysis_blast` module. The BLAST loader can only load data from blast results in XML format.
 
@@ -36,7 +36,7 @@ Other fields may be left at their default values or empty. Click **Import File**
 
 ![](img/blast/blastdoc_2.png)
 
-# Viewing BLAST Results
+## Viewing BLAST Results
 
 Most fields are not enabled by default: this includes the BLAST results field.  In order for the BLAST results to show up on mRNA entities, we must enable the field.
 
