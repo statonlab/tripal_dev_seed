@@ -43,11 +43,6 @@ KEGG annotations generated using the KEGG BLAST KOALA web tool.
 
 A series of md files that will guide you through loading all the included data in this repository (described above) into Chado using Tripal.
 
-## database_backups
-
-Backup databases are available with most of this data loaded.  The current database 12-19-17 is a first stab at this.
-
-
 # Quick Set Up: Automatic
 Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://github.com/statonlab/TripalTestSuite#database-seeders).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
 
