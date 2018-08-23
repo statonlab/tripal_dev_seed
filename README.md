@@ -1,4 +1,6 @@
 [![DOI](https://zenodo.org/badge/107319541.svg)](https://zenodo.org/badge/latestdoi/107319541)
+[![Documentation Status](https://readthedocs.org/projects/tripal-devseed/badge/?version=latest)](https://tripal-devseed.readthedocs.io/en/latest/?badge=latest)
+
 
 
 ![Tripal DevSeed logo](/tripal_devseed.png)
