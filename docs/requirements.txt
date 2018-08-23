@@ -1,1 +1,2 @@
+markdown
 sphinx_markdown_tables
