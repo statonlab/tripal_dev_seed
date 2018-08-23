@@ -3,3 +3,4 @@ Fexcelsior.blastx.trembl.xml
 .idea
 create_seed/out/*
 create_seed/src_data/*
+docs/_build/
