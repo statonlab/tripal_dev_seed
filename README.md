@@ -3,7 +3,7 @@
 
 
 
-![Tripal DevSeed logo](/docs/image/tripal_devseed.png)
+![Tripal DevSeed logo](/docs/img/tripal_devseed.png)
 
 Tripal DevSeed is a project for getting data loaded into Chado for your Tripal site quickly and easily.  It comes with a 200-gene dataset for Fraxinus excelsior, located in `/Fexcel_mini`.
 Additionally, it includes the scripts used to download, minify, and annotate this dataset, located in `create_seed`.  These scripts call programs written in `/bin`.  Use these scripts to quickly re-create the F. excelsior dataset, or to create your own.
