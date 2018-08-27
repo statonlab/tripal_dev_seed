@@ -43,7 +43,7 @@ KEGG annotations generated using the KEGG BLAST KOALA web tool.
 ## documentation
 
 # Quick Set Up: Automatic
-Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://github.com/statonlab/TripalTestSuite#database-seeders).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
+Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://tripaltestsuite.readthedocs.io/en/latest/db-seeders.html#using-devseed-for-quick-biological-data-seeding).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
 
 # Quick Set Up: Manual
 
