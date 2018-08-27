@@ -10,29 +10,28 @@ Additionally, it includes the scripts used to download, minify, and annotate thi
 
 See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/organism/Fraxinus/excelsior).
 # Files
-## sequences/
-* mrna_mini.fasta - 200 CDS sequences
-* polypeptide_mini.fasta - predicted amino acids/polypeptides
-* empty_landmarks.fasta - an empty FASTA file with landmark features (scaffolds) required for the GFF file.
-* mrna_mini.fasta.tree - MAFFT generated tree for CDS sequences.
-* clustal_mrna.clustal - clustal aligned sequences (created for tree).
+
+## sequences
+
+landmark (scaffold), mRNA, and protein FASTA files.  An aligned Newick format tree of the mRNA (`mrna_mini.fasta.tree`)
 
 ## gff/
 
-* filtered.gff - GFF3 file for just the landmarks containing the above 200 CDS.
 Format:
 `Contig0	FRAEX38873_v2	gene	16315	44054	.	+	.	ID=FRAEX38873_v2_000000010;Name=FRAEX38873_v2_000000010;biotype=protein_coding
 `
 
 ## blast/
-* Fexcel.SPROT.xml - swissprot annotations for these mRNA
-* Fexcelsior.TREMBL.xml - TREMBL annotations for these mRNA
 
-## interproscan/
-* .xml - interproscan annotations for the predicted amino acids.
+BLAST annotation of mRNA against the SWISSPROT and TrEMBL databases.
 
-## biosamples/
-20 biomaterials randomly generated with the python script `generate_biomaterials.py`.
+## ips/
+
+Interproscan annotations using the protein files, in tsv and xml format.
+
+
+## biomaterials/
+20 biomaterials (biosamples) randomly generated with the python script `generate_biomaterials.py`.
 
 ## expression/
 Expression data corresponding to the above biosamples.  Included as matrix format files.  Created with the python script `generate_expression.py`.
@@ -42,8 +41,6 @@ Expression data corresponding to the above biosamples.  Included as matrix forma
 KEGG annotations generated using the KEGG BLAST KOALA web tool.
 
 ## documentation
-
-A series of md files that will guide you through loading all the included data in this repository (described above) into Chado using Tripal.
 
 # Quick Set Up: Automatic
 Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://github.com/statonlab/TripalTestSuite#database-seeders).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
@@ -60,21 +57,20 @@ Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://git
 * Load Biosamples/Biomaterials.
 * Load Expression data for Biosamples.
 
-Note that to load the polypeptides, you must link them with the regexp  `(FRA.*?)(?=:)`
 
 # Full Guide
-* [Loading Sequences](/documentation/loading_FASTA.md)
-* [Loading BLAST annotations](/documentation/loading_BLAST.md)
-* [Loading Interpro Scan annotations](/documentation/loading_IPS.md)
-* [Publishing mRNA](/documentation/publishing_mRNA.md)
-* [Loading biosamples](/documentation/loading_biosamples.md)
-* [Loading expression data](/documentation/loading_expression_data.md)
+* [Loading Sequences](/docs/loading_FASTA.md)
+* [Loading BLAST annotations](/docs/loading_BLAST.md)
+* [Loading Interpro Scan annotations](/docs/loading_IPS.md)
+* [Publishing mRNA](/docs/publishing_mRNA.md)
+* [Loading biosamples](/docs/loading_biosamples.md)
+* [Loading expression data](/docs/loading_expression_data.md)
 
 ### Special notes
 
 A regular expression is sometimes used to link data back to the mRNA feature.  This is because we only create entities (publish) for mRNA, so analyses that are linked to the polypeptide sequences must be loaded onto the mRNA instead. The regular expression to link is `(FRA.*?)(?=:)`
 
-### Annotation Software 
+### Annotation Software
 The DevSeed dataset was generated using the following software and versions.
 
 * [BLAST](https://www.ncbi.nlm.nih.gov/books/NBK279690/) 2.7.1
