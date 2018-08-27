@@ -59,12 +59,12 @@ Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://git
 
 
 # Full Guide
-* [Loading Sequences](/documentation/loading_FASTA.md)
-* [Loading BLAST annotations](/documentation/loading_BLAST.md)
-* [Loading Interpro Scan annotations](/documentation/loading_IPS.md)
-* [Publishing mRNA](/documentation/publishing_mRNA.md)
-* [Loading biosamples](/documentation/loading_biosamples.md)
-* [Loading expression data](/documentation/loading_expression_data.md)
+* [Loading Sequences](/docs/loading_FASTA.md)
+* [Loading BLAST annotations](/docs/loading_BLAST.md)
+* [Loading Interpro Scan annotations](/docs/loading_IPS.md)
+* [Publishing mRNA](/docs/publishing_mRNA.md)
+* [Loading biosamples](/docs/loading_biosamples.md)
+* [Loading expression data](/docs/loading_expression_data.md)
 
 ### Special notes
 
