@@ -6,10 +6,15 @@
 ![Tripal DevSeed logo](/docs/img/tripal_devseed.png)
 
 Tripal DevSeed is a project for getting data loaded into Chado for your Tripal site quickly and easily.  It comes with a 200-gene dataset for Fraxinus excelsior, located in `/Fexcel_mini`.
-Additionally, it includes the scripts used to download, minify, and annotate this dataset, located in `create_seed`.  These scripts call programs written in `/bin`.  Use these scripts to quickly re-create the F. excelsior dataset, or to create your own.
+Additionally, it includes the scripts used to download, minify, and annotate this dataset, located in `create_seed`.  Use these scripts to quickly re-create the F. excelsior dataset, or to create your own.
 
 See the description and credits for the full dataset on [Hardwoods Genomics Project](https://hardwoodgenomics.org/organism/Fraxinus/excelsior).
-# Files
+
+# Loading Data Guide
+
+[The full guide for loading DevSeed is available on ReadTheDocs!](https://tripal-devseed.readthedocs.io/en/latest).
+
+# File description
 
 ## sequences
 
@@ -40,35 +45,7 @@ Expression data corresponding to the above biosamples.  Included as matrix forma
 
 KEGG annotations generated using the KEGG BLAST KOALA web tool.
 
-## documentation
-
-# Quick Set Up: Automatic
-Tripal DevSeed is supported by [Tripal TestSuite's database seeders](https://tripaltestsuite.readthedocs.io/en/latest/db-seeders.html#using-devseed-for-quick-biological-data-seeding).  A default seeder is provided that will load in the files hosted on this repo.  To use it, uncomment the import statements for the data you would like to include, and run `./vendor/bin/tripaltest db:seed DevSeed`.
-
-# Quick Set Up: Manual
-
-* Create an organism for _Fraxinus excelsior_ (common name: European Ash)
-* Create analyses to associate the data with.  We currently suggest 1 analysis per content item.
-* Use the FASTA loader to load in the CDS first, then the polypeptides.
-* Use the `tripal_analysis_blast` blast XML loader to load the _F. excelsior data_.  This gets associated with the mRNA.
-* Publish the mRNA.
-* Use the `tripal_analyssi_interpro` to load the interproscan data.
-* Publish the proteins.
-* Load Biosamples/Biomaterials.
-* Load Expression data for Biosamples.
-
-
-# Full Guide
-* [Loading Sequences](/docs/loading_FASTA.md)
-* [Loading BLAST annotations](/docs/loading_BLAST.md)
-* [Loading Interpro Scan annotations](/docs/loading_IPS.md)
-* [Publishing mRNA](/docs/publishing_mRNA.md)
-* [Loading biosamples](/docs/loading_biosamples.md)
-* [Loading expression data](/docs/loading_expression_data.md)
-
-### Special notes
-
-A regular expression is sometimes used to link data back to the mRNA feature.  This is because we only create entities (publish) for mRNA, so analyses that are linked to the polypeptide sequences must be loaded onto the mRNA instead. The regular expression to link is `(FRA.*?)(?=:)`
+## 
 
 ### Annotation Software
 The DevSeed dataset was generated using the following software and versions.
