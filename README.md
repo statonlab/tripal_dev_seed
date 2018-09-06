@@ -2,6 +2,7 @@
 [![Documentation Status](https://readthedocs.org/projects/tripal-devseed/badge/?version=latest)](https://tripal-devseed.readthedocs.io/en/latest/?badge=latest)
 
 
+The [DevSeed loader User Guide](https://tripal-devseed.readthedocs.io/en/latest) is available [here](https://tripal-devseed.readthedocs.io/en/latest)
 
 ![Tripal DevSeed logo](/docs/img/tripal_devseed.png)
 
