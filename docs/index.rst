@@ -10,6 +10,9 @@ Welcome to the Tripal DevSeed documentation.  This site provides instructions fo
 
 https://github.com/statonlab/tripal_dev_seed
 
+Please note that the files referenced in this guide are available here:  https://github.com/statonlab/tripal_dev_seed/tree/master/Fexcel_mini
+
+
 .. image:: img/tripal_devseed.png
    :align: center
    :scale: 75%
