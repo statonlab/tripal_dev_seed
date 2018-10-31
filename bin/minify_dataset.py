@@ -6,7 +6,7 @@ import create_empty_landmarks
 
 
 def main(argv):
-    usage = 'split_fasta.py [n] [mrna FASTA] [polypeptide FASTA] [polypeptide regexp] [GFF] [GFF key to link mRNA]'
+    usage = 'minify_dataset.py [n] [mrna FASTA] [polypeptide FASTA] [polypeptide regexp] [GFF] [GFF key to link mRNA]'
     out_count = 1
     if len(argv) < 5:
         print usage
@@ -99,7 +99,7 @@ if __name__ == "__main__":
     main(sys.argv[1:])
 
     """
-    Take a mrna and GFF file.  
+    Take a mrna and GFF file.
     Pick N mRNA at random and trim everything down to that.
 
     """
