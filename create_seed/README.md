@@ -44,23 +44,28 @@ gunzip src_data/Fexcel/Fexcelcds.fasta.gz
 gunzip src_data/Fexcel/Fexcelaa.fasta.gz
 
 ```
-
- ```bash
-
- ./minify.sh  \
+```bash
+ ./minify.sh \
+ 200  \
  src_data/Fexcel/Fexcelcds.fasta \
  src_data/Fexcel/Fexcelaa.fasta\
- '(.*)'  \
+  '(.*)' \
   src_data/Fexcel/Fexcel.gff3\
-  ID \
-  200
-
+   ID
  ```
+Arguments, in order, are:
+
+- Number of sequences to use.
+- mRNA FASTA file.
+- protein FASTA file.
+- REGEXP to link protein to mRNA.
+- GFF file.
+- tag that will link mRNA in GFF to the mRNA names in the FASTA.
 
 Then run the annotation script
 
  ```bash
- 
+
  ./annotate.sh \
 out/sequences/mrna_mini.fasta \
 out/sequences/polypeptide_mini.fasta \
@@ -69,5 +74,3 @@ Fexcel
 
 mv out Fexcel_mini
 ```
-
-

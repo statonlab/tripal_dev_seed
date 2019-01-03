@@ -1,11 +1,10 @@
 #!/bin/bash
-
-MRNA_FASTA=$1
-PROTEIN_FASTA=$2
-PROTEIN_REGEXP=$3
-GFF=$4
-GFF_KEY=$5
-COUNT=$6
+COUNT=$1
+MRNA_FASTA=$2
+PROTEIN_FASTA=$3
+PROTEIN_REGEXP=$4
+GFF=$5
+GFF_KEY=$6
 
 #if output directory already exists, warn user and exit.
 if [ -d "out/sequences" ]; then
