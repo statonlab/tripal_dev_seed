@@ -19,6 +19,8 @@ def main(argv):
     gff_mrna_key = argv[5]
     selected_mrna = []
 
+    print argv
+
     gff_mrna_key = gff_mrna_key + "="
 
     mrna_path = path.relpath(mrna)
@@ -67,6 +69,7 @@ def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
                 if type == 'gene':  #Need to track parents
                     id = find_key(info, 'ID=')
                     stored_genes[id] = row
+                    write= False
 
                 if type == 'mRNA':
                     write = False
@@ -84,7 +87,6 @@ def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
                             csvout.writerow(row)
                             written_genes[parent] = "written"
                         else:
-
                             csvout.writerow(row)
                 else:
                     if write:
