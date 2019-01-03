@@ -19,6 +19,8 @@ def main(argv):
     gff_mrna_key = argv[5]
     selected_mrna = []
 
+    print argv
+
     gff_mrna_key = gff_mrna_key + "="
 
     mrna_path = path.relpath(mrna)
@@ -57,6 +59,7 @@ def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
         write = False
 
         stored_genes = {}
+        written_genes = {}
 
         for row in tsvin:
             if len(row) > 1:
@@ -66,6 +69,7 @@ def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
                 if type == 'gene':  #Need to track parents
                     id = find_key(info, 'ID=')
                     stored_genes[id] = row
+                    write= False
 
                 if type == 'mRNA':
                     write = False
@@ -74,12 +78,16 @@ def simple_gff_trimmer(gff_path, selected_mrna, gff_mrna_key):
                         write = True
                         #first write gene parent
                         parent = find_key(info, "Parent=")
-                        try:
-                            csvout.writerow(stored_genes[parent])
-                        except:
-                            print "Error!  Could not find parent " + parent + ".\n  Please check your GFF file."
-                            exit()
-                        csvout.writerow(row)
+                        if parent not in written_genes:
+                            try:
+                                csvout.writerow(stored_genes[parent])
+                            except:
+                                print "Error!  Could not find parent " + parent + ".\n  Please check your GFF file."
+                                exit()
+                            csvout.writerow(row)
+                            written_genes[parent] = "written"
+                        else:
+                            csvout.writerow(row)
                 else:
                     if write:
                         csvout.writerow(row)
